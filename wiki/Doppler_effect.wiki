@@ -1,0 +1,75 @@
+{{Short description|Change in wave frequency due to relative motion of source and observer}}
+{{Infobox physical law
+| name = Doppler effect
+| image = Dopplerfrequenz.gif
+| caption = A stationary source (top) vs. a moving source (bottom): wave fronts bunch up ahead of the moving source.
+| discovered_by = [[Christian Doppler]] (1842)
+}}
+
+The '''Doppler effect''' (also known as the '''Doppler shift''') is the change in [[frequency]] of a [[wave]] in relation to an observer who is moving relative to the wave source. It is named after Austrian physicist [[Christian Doppler]], who described the phenomenon in 1842.
+
+A common example is the change in pitch of a [[siren (alarm)|siren]] as an emergency vehicle approaches and then recedes. The effect applies to all types of waves, including [[sound]], [[light]], and [[water wave]]s.
+
+== Sound waves ==
+For sound waves in a medium, the observed frequency <math>f_{\text{obs}}</math> is:
+:<math>f_{\text{obs}} = f_{\text{src}}\frac{v \pm v_{\text{obs}}}{v \mp v_{\text{src}}}</math>
+
+where:
+* <math>f_{\text{src}}</math> = source frequency
+* <math>v</math> = speed of sound in the medium (≈343 m/s in air at 20°C)
+* <math>v_{\text{obs}}</math> = observer velocity (positive toward source)
+* <math>v_{\text{src}}</math> = source velocity (positive toward observer)
+
+'''Sign convention (numerator):''' + when moving toward source; − when moving away.
+'''Sign convention (denominator):''' − when source moves toward observer; + when source moves away.
+
+== Light (relativistic Doppler effect) ==
+{{Main|Relativistic Doppler effect}}
+For electromagnetic waves, only relative motion matters (no medium required). The relativistic longitudinal Doppler shift is:
+:<math>f_{\text{obs}} = f_{\text{src}}\sqrt{\frac{1 + \beta}{1 - \beta}}</math>
+where <math>\beta = v/c</math>.
+
+For <math>v \ll c</math>, this approximates to:
+:<math>f_{\text{obs}} \approx f_{\text{src}}\left(1 + \frac{v}{c}\right)</math>
+
+== Redshift and blueshift ==
+* '''[[Redshift]]:''' Frequency decreases (wavelength increases) — source receding
+* '''[[Blueshift]]:''' Frequency increases (wavelength decreases) — source approaching
+
+In astronomy, the redshift <math>z</math> is defined as:
+:<math>z = \frac{\lambda_{\text{obs}} - \lambda_{\text{src}}}{\lambda_{\text{src}}} = \sqrt{\frac{1 + \beta}{1 - \beta}} - 1</math>
+
+== Applications ==
+
+=== Astronomy ===
+* Measurement of [[radial velocity|radial velocities]] of stars and galaxies
+* Discovery of the [[expansion of the universe]] ([[Hubble's law]])
+* Detection of [[exoplanet]]s via the [[radial velocity method]]
+* [[Redshift]] surveys of galaxies
+
+=== Radar and sonar ===
+* [[Radar gun|Radar speed guns]] — measure vehicle speed from frequency shift
+* [[Doppler radar]] — weather tracking, wind speed measurement
+* [[Sonar]] — underwater object detection and speed measurement
+
+=== Medicine ===
+* [[Doppler echocardiography]] — blood flow measurement
+* [[Doppler ultrasound]] — fetal heart rate monitoring
+
+=== Other ===
+* [[Laser Doppler velocimetry]] — fluid flow measurement
+* [[Synthetic aperture radar]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Redshift]]
+* [[Blueshift]]
+* [[Relativistic Doppler effect]]
+* [[Hubble's law]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Doppler effect| ]]
+[[Category:Wave mechanics]]
+[[Category:Astronomical spectroscopy]]

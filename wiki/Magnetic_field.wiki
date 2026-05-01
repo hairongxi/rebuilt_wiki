@@ -1,0 +1,87 @@
+{{Short description|Vector field that describes magnetic influence on moving charges}}
+{{Infobox physical quantity
+| name = Magnetic field
+| image = VFPt cylindrical magnet.svg
+| caption = Magnetic field lines of a bar magnet, visualized by iron filings. Field lines go from north (N) to south (S) outside the magnet.
+| symbols = <math>\mathbf{B}</math>
+| SI_unit = [[tesla (unit)|tesla]] (T = N·A⁻¹·m⁻¹ = Wb/m²)
+}}
+
+A '''magnetic field''' (sometimes called the '''B-field''') is a [[vector field]] that describes the magnetic influence on moving [[electric charge]]s, [[electric current]]s, and magnetic materials. A moving charge in a magnetic field experiences a force perpendicular to its own velocity and to the magnetic field.
+
+Magnetic fields are produced by moving electric charges ([[electric current]]s) and by the intrinsic [[magnetic moment]]s of [[elementary particle]]s associated with their [[spin (physics)|spin]]. In [[Special relativity|special relativity]], electric and magnetic fields are two interrelated aspects of a single object, the [[electromagnetic tensor]].
+
+== The B-field ==
+The magnetic field <math>\mathbf{B}</math> is defined by the [[Lorentz force]] law:
+:<math>\mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})</math>
+
+The SI unit of magnetic field is the [[tesla (unit)|tesla]] (T). Another common unit is the [[Gauss (unit)|gauss]] (G): 1 T = 10,000 G. Earth's surface magnetic field is about 0.5 G (50 μT).
+
+== Sources of magnetic fields ==
+
+=== Moving charges and currents ===
+The magnetic field due to a moving point charge ([[Biot–Savart law]]):
+:<math>\mathbf{B}(\mathbf{r}) = \frac{\mu_0}{4\pi}\frac{q\mathbf{v} \times \hat{\mathbf{r}}}{r^2}</math>
+
+For a current element <math>I d\mathbf{l}</math>:
+:<math>d\mathbf{B} = \frac{\mu_0}{4\pi}\frac{I d\mathbf{l} \times \hat{\mathbf{r}}}{r^2}</math>
+
+=== Ampère's law ===
+{{Main|Ampère's circuital law}}
+For steady currents:
+:<math>\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{\text{enc}}</math>
+
+In differential form (with Maxwell's correction):
+:<math>\nabla \times \mathbf{B} = \mu_0\mathbf{J} + \mu_0\varepsilon_0\frac{\partial\mathbf{E}}{\partial t}</math>
+
+== Magnetic field of common configurations ==
+
+{| class="wikitable"
+|-
+! Configuration !! Field
+|-
+| Straight wire || <math>B = \frac{\mu_0 I}{2\pi r}</math> (distance <math>r</math>)
+|-
+| Circular loop (center) || <math>B = \frac{\mu_0 I}{2R}</math>
+|-
+| Solenoid (inside) || <math>B = \mu_0 n I</math> (<math>n</math> turns per unit length)
+|-
+| Toroid || <math>B = \frac{\mu_0 NI}{2\pi r}</math>
+|}
+
+== Gauss's law for magnetism ==
+{{Main|Gauss's law for magnetism}}
+Unlike electric fields, magnetic fields have no sources or sinks (no magnetic monopoles):
+:<math>\nabla \cdot \mathbf{B} = 0</math>
+:<math>\oiint \mathbf{B} \cdot d\mathbf{A} = 0</math>
+
+Magnetic field lines always form closed loops.
+
+== H-field ==
+{{Main|Magnetic field#The H-field}}
+In materials, the [[magnetization]] <math>\mathbf{M}</math> contributes to the total field. The auxiliary '''H-field''' is:
+:<math>\mathbf{H} = \frac{\mathbf{B}}{\mu_0} - \mathbf{M}</math>
+
+For linear magnetic materials, <math>\mathbf{B} = \mu \mathbf{H}</math> where <math>\mu = \mu_r \mu_0</math> is the [[permeability (electromagnetism)|permeability]].
+
+== Force on a current-carrying wire ==
+A straight wire of length <math>L</math> carrying current <math>I</math> in a magnetic field <math>\mathbf{B}</math> experiences:
+:<math>\mathbf{F} = I\mathbf{L} \times \mathbf{B}</math>
+
+== Energy in magnetic fields ==
+The energy density stored in a magnetic field is:
+:<math>u_m = \frac{1}{2\mu_0}B^2</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Electric field]]
+* [[Lorentz force]]
+* [[Electromagnetic induction]]
+* [[Magnetism]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Magnetic field| ]]
+[[Category:Magnetism]]
+[[Category:Electromagnetism]]

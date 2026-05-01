@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}Page not found{% endblock %}
+{% block content %}
+<h1>Page not found</h1>
+<p>The page <b>{{ title }}</b> does not exist.</p>
+<p><a href="/search?q={{ title|replace(' ', '+') }}">Search for "{{ title }}"</a></p>
+{% endblock %}

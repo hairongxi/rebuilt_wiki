@@ -1,0 +1,71 @@
+{{Short description="Spontaneous transformation of an unstable atomic nucleus into a different nucleus}}
+{{Infobox physics
+| name = Radioactive decay
+| image = Alpha Decay.svg
+| caption = [[Alpha decay]]: a heavy nucleus emits an [[alpha particle]] (helium-4 nucleus).
+| topics = [[Nuclear physics]], [[Atomic nucleus]], [[Alpha decay]], [[Beta decay]], [[Gamma ray]]
+}}
+
+'''Radioactive decay''' is the spontaneous transformation of an unstable [[atomic nucleus]] into a different nucleus, accompanied by the emission of [[particle]]s or [[electromagnetic radiation]]. This process changes the original atom (the "parent") into a different [[chemical element|element]] (the "daughter").
+
+== Types of decay ==
+
+=== Alpha decay ===
+{{Main|Alpha decay}}
+Emission of an [[alpha particle]] (<math>^4\text{He}^{2+}</math>):
+:<math>^{238}_{92}\text{U} \rightarrow ^{234}_{90}\text{Th} + ^4_2\text{He}</math>
+* Atomic number decreases by 2, mass number by 4
+* Common in heavy nuclei (Z > 82)
+
+=== Beta decay ===
+{{Main|Beta decay}}
+* '''β⁻''': neutron → proton + electron + antineutrino
+:<math>n \rightarrow p + e^- + \bar{\nu}_e</math>
+* '''β⁺''': proton → neutron + positron + neutrino
+:<math>p \rightarrow n + e^+ + \nu_e</math>
+* '''Electron capture''': proton + inner electron → neutron + neutrino
+
+=== Gamma decay ===
+Emission of high-energy [[photon]]s ([[gamma ray]]s) from an excited nucleus:
+:<math>^{60}_{27}\text{Co}^* \rightarrow ^{60}_{27}\text{Co} + \gamma</math>
+* No change in atomic or mass number
+* Often follows alpha or beta decay
+
+=== Spontaneous fission ===
+Heavy nucleus splits into two medium-mass nuclei without external trigger.
+
+== Decay law ==
+Radioactive decay is a statistical process governed by:
+
+:<math>N(t) = N_0 e^{-\lambda t}</math>
+
+where <math>\lambda</math> is the decay constant. The [[half-life]] is:
+
+:<math>t_{1/2} = \frac{\ln 2}{\lambda} = \frac{0.693}{\lambda}</math>
+
+== Activity ==
+The activity <math>A</math> is the number of decays per unit time:
+
+:<math>A = \lambda N</math>
+Measured in [[becquerel]] (Bq): 1 Bq = 1 decay per second.
+
+== Applications ==
+* [[Radiocarbon dating]] (<sup>14</sup>C, <math>t_{1/2} = 5,730</math> yr)
+* [[Nuclear medicine]] — diagnostic and therapeutic isotopes
+* [[Radiotherapy]] — cancer treatment
+* [[Smoke detector]]s — <sup>241</sup>Am alpha source
+* Geological dating — [[uranium–lead dating]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Alpha decay]]
+* [[Beta decay]]
+* [[Gamma ray]]
+* [[Half-life]]
+* [[Nuclear physics]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Radioactivity]]
+[[Category:Nuclear physics]]

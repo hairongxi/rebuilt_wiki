@@ -1,0 +1,62 @@
+{{Short description|Smallest unit of a chemical element}}
+{{Infobox physics
+| name = Atom
+| image = Helium atom QM.svg
+| caption = A helium atom: two [[proton]]s and two [[neutron]]s in the nucleus, surrounded by a [[probability density]] cloud of two [[electron]]s.
+| topics = [[Atomic physics]], [[Quantum mechanics]], [[Electric charge]], [[Atomic nucleus]]
+| components = [[Electron]]s, [[Proton]]s, [[Neutron]]s
+| size = ~10⁻¹⁰ m (1 Å)
+}}
+
+An '''atom''' is the smallest constituent unit of ordinary [[matter]] that constitutes a [[chemical element]]. Every [[solid]], [[liquid]], [[gas]], and [[plasma (physics)|plasma]] is composed of neutral or ionized atoms. Atoms are extremely small, typically around 100 [[picometre]]s across.
+
+Atoms consist of a dense central [[atomic nucleus]], made of [[proton]]s and [[neutron]]s, surrounded by a cloud of [[electron]]s. The number of protons ([[atomic number]] <math>Z</math>) determines the [[chemical element]], while the number of neutrons determines the [[isotope]].
+
+== History ==
+
+=== Early atomic theory ===
+The concept of atoms dates back to ancient Greek philosophers [[Democritus]] and [[Leucippus]] (~400 BCE), who proposed that matter is composed of indivisible particles called ''atomos'' (Greek: ἄτομος, "uncuttable").
+
+=== Modern atomic theory ===
+[[John Dalton]] proposed modern atomic theory in the early 19th century based on experimental evidence from chemical reactions. [[J. J. Thomson]] discovered the [[electron]] in 1897, showing atoms are divisible. [[Ernest Rutherford]] discovered the [[atomic nucleus]] in 1911 through his [[Rutherford scattering|gold foil experiment]].
+
+== Structure ==
+
+=== Nucleus ===
+{{Main|Atomic nucleus}}
+The nucleus contains >99.9% of the atom's mass but occupies only ~10⁻¹⁵ of its volume. Nuclear size: ~1–10 [[femtometre]]s (fm).
+
+=== Electron cloud ===
+{{Main|Atomic orbital}}
+Electrons occupy [[atomic orbital]]s — regions of space defined by [[quantum number]]s where the probability of finding an electron is high. The [[Pauli exclusion principle]] limits each orbital to two electrons with opposite [[spin (physics)|spins]].
+
+=== Bohr model ===
+{{Main|Bohr model}}
+In the [[Bohr model]] (1913), electrons orbit the nucleus in discrete energy levels:
+:<math>E_n = -\frac{13.6\ \text{eV}}{n^2}</math>
+where <math>n = 1, 2, 3, \ldots</math> is the [[principal quantum number]].
+
+== Quantum description ==
+{{Main|Quantum mechanics|Schrödinger equation}}
+Modern [[quantum mechanics]] describes electrons as [[wave function]]s rather than particles with definite positions. The [[Schrödinger equation]] determines the allowed energy states:
+:<math>\hat{H}\psi = E\psi</math>
+
+== Chemical properties ==
+The arrangement of electrons in [[electron shell]]s determines an atom's chemical properties. [[Valence electron]]s in the outermost shell participate in [[chemical bond]]s, giving rise to the periodic trends in the [[periodic table]].
+
+== See also ==
+{{Portal|Physics}}
+* [[Atomic nucleus]]
+* [[Atomic physics]]
+* [[Bohr model]]
+* [[Electron]]
+* [[Isotope]]
+* [[Quantum mechanics]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Atoms| ]]
+[[Category:Atomic physics]]
+[[Category:Chemistry]]
+[[Category:Matter]]

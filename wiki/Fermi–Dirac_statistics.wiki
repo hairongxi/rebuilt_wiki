@@ -1,0 +1,76 @@
+{{Short description|Statistical description of identical half-integer spin particles}}
+{{Infobox physics
+| name = Fermi–Dirac statistics
+| image = FD e mu.svg
+| caption = The Fermi–Dirac distribution for various temperatures. At <math>T = 0</math>, states below the [[Fermi energy]] are fully occupied.
+| topics = [[Statistical mechanics]], [[Quantum mechanics]], [[Pauli exclusion principle]], [[Fermion]], [[Spin (physics)]]
+}}
+
+'''Fermi–Dirac statistics''' ('''F–D statistics''') is a type of [[quantum statistics]] that applies to systems of [[identical particles|identical]] [[fermion]]s — particles with half-integer [[spin (physics)|spin]] that obey the [[Pauli exclusion principle]]. It was developed by [[Enrico Fermi]] and [[Paul Dirac]] in 1926.
+
+== Fermi–Dirac distribution ==
+The average occupation number of a single-particle state with energy <math>\varepsilon</math> is:
+
+:<math>\langle n(\varepsilon) \rangle = \frac{1}{e^{(\varepsilon - \mu)/k_B T} + 1}</math>
+
+where:
+* <math>\mu</math> is the [[chemical potential]] ([[Fermi energy]] at <math>T = 0</math>)
+* <math>k_B</math> is the [[Boltzmann constant]]
+* <math>T</math> is the [[temperature]]
+
+== Properties ==
+* At <math>T = 0</math>, all states with <math>\varepsilon < \mu</math> are occupied (<math>\langle n \rangle = 1</math>), all states with <math>\varepsilon > \mu</math> are empty (<math>\langle n \rangle = 0</math>)
+* At finite temperature, the distribution near the Fermi level broadens by ~<math>k_B T</math>
+* <math>0 \leq \langle n \rangle \leq 1</math> — at most one fermion per state (Pauli exclusion)
+
+== Fermi energy ==
+The [[Fermi energy]] <math>E_F</math> is the energy of the highest occupied state at <math>T = 0</math>. For a free [[electron gas]]:
+
+:<math>E_F = \frac{\hbar^2}{2m}(3\pi^2 n)^{2/3}</math>
+
+where <math>n = N/V</math> is the particle density.
+
+== Applications ==
+{| class="wikitable"
+|-
+! System !! Application of F–D statistics
+|-
+| [[Electron]]s in [[metal]]s || Electrical and thermal conductivity
+|-
+| [[White dwarf]]s || [[Electron degeneracy pressure]] supports against gravity
+|-
+| [[Neutron star]]s || Neutron degeneracy pressure
+|-
+| [[Semiconductor]]s || Carrier statistics, [[Fermi level]] pinning
+|-
+| [[Proton]]s and [[neutron]]s in nuclei || Nuclear shell model
+|}
+
+== Classical limit ==
+At high temperatures or low densities (<math>\mu \ll -k_B T</math>), F–D statistics reduces to [[Maxwell–Boltzmann statistics]], the classical limit where quantum effects become negligible.
+
+== Contrast with Bose–Einstein statistics ==
+{| class="wikitable"
+|-
+! !! Fermi–Dirac !! Bose–Einstein
+|-
+| Spin || Half-integer (fermions) || Integer (bosons)
+|-
+| Occupation || ≤1 per state || Unlimited per state
+|-
+| Low-T behaviour || Degeneracy pressure || Bose–Einstein condensation
+|}
+
+== See also ==
+{{Portal|Physics}}
+* [[Bose–Einstein statistics]]
+* [[Fermion]]
+* [[Pauli exclusion principle]]
+* [[Statistical mechanics]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Statistical mechanics]]
+[[Category:Quantum mechanics]]
+[[Category:Particle physics]]

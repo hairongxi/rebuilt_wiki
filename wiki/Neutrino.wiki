@@ -1,0 +1,63 @@
+{{Short description|Neutral elementary particle with extremely small mass}}
+{{Infobox physics
+| name = Neutrino
+| image = First neutrino observation.jpg
+| caption = First observation of a neutrino interaction in a [[bubble chamber]] (1970).
+| topics = [[Weak interaction]], [[Beta decay]], [[Lepton]], [[Particle physics]]
+| composition = [[Elementary particle]]
+| statistics = [[Fermion]]
+| symbol = ν
+| types = νₑ, ν_μ, ν_τ (electron, muon, tau)
+| mass = < 0.8 eV (electron neutrino)
+| charge = 0
+| spin = 1/2
+}}
+
+A '''neutrino''' (denoted by the Greek letter ν) is a [[fermion]] (an [[elementary particle]] with half-integer [[spin (physics)|spin]]) that interacts only via the [[weak interaction]] and [[gravity]]. The neutrino has a very small [[rest mass]] and no [[electric charge]]. It is one of the most abundant particles in the [[universe]], yet it rarely interacts with matter — trillions pass through your body every second without any effect.
+
+== History ==
+The neutrino was first postulated by [[Wolfgang Pauli]] in 1930 to explain the continuous energy spectrum of [[beta decay]] while preserving conservation of [[energy]], [[momentum]], and [[angular momentum]]. It was named by [[Enrico Fermi]] and first experimentally detected in 1956 by [[Clyde Cowan]] and [[Frederick Reines]].
+
+== Properties ==
+
+=== Weak interaction ===
+Neutrinos interact only through the [[weak interaction]] (and gravity), making them extremely difficult to detect. The [[cross section (physics)|cross section]] for neutrino–nucleon interaction is roughly 10⁻⁴³ cm², meaning a neutrino would need to travel through about one [[light-year]] of lead to have a 50% chance of interacting.
+
+=== Neutrino oscillation ===
+{{Main|Neutrino oscillation}}
+Neutrinos exist in three "flavours" (electron, muon, tau) that can transform into one another as they travel — a phenomenon called [[neutrino oscillation]]. This discovery proved that neutrinos have non-zero mass, a result awarded the [[Nobel Prize in Physics]] in 2015.
+
+=== Beta decay ===
+{{Main|Beta decay}}
+In [[beta decay]], a [[neutron]] transforms into a [[proton]], emitting an [[electron]] and an electron antineutrino:
+:<math>n \rightarrow p + e^- + \bar{\nu}_e</math>
+
+== Sources ==
+* [[Sun]] — solar neutrinos from [[nuclear fusion]]
+* [[Cosmic ray]] interactions in the atmosphere
+* [[Supernova]]e — 99% of the gravitational binding energy is released as neutrinos
+* [[Nuclear reactor]]s — beta decay of fission products
+* [[Particle accelerator]]s — neutrino beams
+* [[Big Bang]] — cosmic neutrino background
+
+== Detection ==
+Major neutrino observatories:
+* [[Super-Kamiokande]] (Japan) — water Cherenkov detector
+* [[IceCube Neutrino Observatory]] (Antarctica) — cubic-kilometre detector in ice
+* [[Sudbury Neutrino Observatory]] (Canada) — heavy water detector
+
+== See also ==
+{{Portal|Physics}}
+* [[Beta decay]]
+* [[Lepton]]
+* [[Neutrino oscillation]]
+* [[Particle physics]]
+* [[Weak interaction]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Neutrinos| ]]
+[[Category:Leptons]]
+[[Category:Weak interaction]]
+[[Category:Elementary particles]]

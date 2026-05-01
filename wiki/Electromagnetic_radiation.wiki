@@ -1,0 +1,57 @@
+{{Short description="Radiant energy emitted by charged particles undergoing acceleration}}
+{{Infobox physics
+| name = Electromagnetic radiation
+| image = Onde electromagnétique.png
+| caption = An [[electromagnetic wave]], showing oscillating perpendicular [[electric field|electric]] and [[magnetic field]]s.
+| topics = [[Electromagnetic wave]], [[Photon]], [[Electromagnetic spectrum]], [[Maxwell's equations]]
+| speed = [[Speed of light]] (c) in vacuum
+}}
+
+'''Electromagnetic radiation''' ('''EM radiation''' or '''EMR''') is [[radiant energy]] released by certain electromagnetic processes. It consists of [[electromagnetic wave]]s, which are synchronized oscillations of [[electric field|electric]] and [[magnetic field]]s that propagate at the [[speed of light]] through vacuum.
+
+Classically, EM radiation consists of electromagnetic waves. Quantum mechanically, it consists of discrete packets of energy called [[photon]]s, with energy proportional to [[frequency]]: <math>E = h\nu</math>.
+
+== Maxwell's equations ==
+{{Main|Maxwell's equations}}
+EM radiation is predicted by [[Maxwell's equations]]. The wave equation for the electric field in vacuum is:
+
+:<math>\nabla^2\mathbf{E} = \mu_0\varepsilon_0\frac{\partial^2\mathbf{E}}{\partial t^2}</math>
+
+This reveals that <math>c = 1/\sqrt{\mu_0\varepsilon_0}</math> — the speed of light emerges from the constants of electromagnetism.
+
+== Wave properties ==
+EM waves are [[transverse wave]]s: the <math>\mathbf{E}</math> and <math>\mathbf{B}</math> fields are perpendicular to each other and to the direction of propagation. For a plane wave travelling in the +z-direction:
+
+:<math>\mathbf{E} = E_0\cos(kz - \omega t)\hat{\mathbf{x}}</math>
+:<math>\mathbf{B} = B_0\cos(kz - \omega t)\hat{\mathbf{y}}</math>
+:<math>B_0 = E_0/c</math>
+
+== Emission mechanisms ==
+EM radiation is generated when [[electric charge|charged particles]] are accelerated:
+* '''[[Bremsstrahlung]]''' — deceleration of charged particles in matter
+* '''[[Black-body radiation]]''' — thermal motion of charges in matter
+* '''[[Synchrotron radiation]]''' — relativistic charged particles in magnetic fields
+* '''[[Cherenkov radiation]]''' — particles exceeding the local speed of light in a medium
+* '''[[Atomic transition]]s''' — electrons transitioning between energy levels
+* '''[[Nuclear transition]]s''' — gamma ray emission from excited nuclei
+* '''[[Annihilation]]''' — particle–antiparticle collision
+
+== Interactions with matter ==
+* [[Photoelectric effect]]
+* [[Compton scattering]]
+* [[Pair production]]
+* [[Rayleigh scattering]]
+* [[Absorption (electromagnetic radiation)|Absorption]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Electromagnetic spectrum]]
+* [[Electromagnetic wave]]
+* [[Photon]]
+* [[Polarization (waves)]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electromagnetic radiation| ]]
+[[Category:Electromagnetism]]

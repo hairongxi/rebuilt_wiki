@@ -1,0 +1,59 @@
+{{Short description|Physical property of matter that causes it to experience a force in an electromagnetic field}}
+{{Infobox physical quantity
+| name = Electric charge
+| image = Static slide.jpg
+| caption = [[Static electricity]] — an accumulation of electric charge on a child's hair
+| symbols = <math>q</math>, <math>Q</math>
+| SI_unit = [[coulomb]] (C = A·s)
+| conserved = Yes
+}}
+
+'''Electric charge''' is a fundamental [[physical property]] of [[matter]] that causes it to experience a [[force]] when placed in an [[electromagnetic field]]. There are two types of electric charge: '''positive''' and '''negative'''. Like charges repel each other; opposite charges attract.
+
+The [[International System of Units|SI]] unit of electric charge is the [[coulomb]] (C). The most familiar carriers of electric charge are the [[proton]] (positive) and the [[electron]] (negative).
+
+== Quantization ==
+{{Main|Elementary charge}}
+Electric charge is quantized: any observable charge is an integer multiple of the [[elementary charge]]:
+:<math>q = ne, \quad n = 0, \pm 1, \pm 2, \ldots</math>
+where <math>e = 1.602\,176\,634 \times 10^{-19}\,\text{C}</math> (exact, since [[2019 redefinition of the SI base units|2019]]).
+
+== Conservation of charge ==
+{{Main|Charge conservation}}
+The total electric charge in an isolated system is conserved. This is a fundamental law of physics. Mathematically, it is expressed by the [[continuity equation]]:
+:<math>\frac{\partial \rho}{\partial t} + \nabla \cdot \mathbf{J} = 0</math>
+where <math>\rho</math> is the charge density and <math>\mathbf{J}</math> is the current density.
+
+== Coulomb's law ==
+{{Main|Coulomb's law}}
+The force between two point charges <math>q_1</math> and <math>q_2</math> separated by distance <math>r</math> is:
+:<math>\mathbf{F} = k_e\frac{q_1 q_2}{r^2}\hat{\mathbf{r}}</math>
+where <math>k_e = \frac{1}{4\pi\varepsilon_0} \approx 8.988 \times 10^9\,\text{N·m}^2/\text{C}^2</math>.
+
+The force is attractive for opposite charges and repulsive for like charges.
+
+== Electric field ==
+{{Main|Electric field}}
+A charge creates an [[electric field]] <math>\mathbf{E}</math> in the surrounding space. The force on a test charge <math>q</math> is <math>\mathbf{F} = q\mathbf{E}</math>.
+
+== Properties ==
+* '''Additivity:''' Total charge is the algebraic sum of constituent charges.
+* '''Relativistic invariance:''' Charge is a [[Lorentz scalar]] — the same in all [[inertial frame]]s.
+* '''Two types:''' Positive (proton) and negative (electron). This binary nature is not fully explained by theory.
+
+== Historical discovery ==
+The ancient Greeks observed that rubbing [[amber]] (Greek: ἤλεκτρον, ''ēlektron'') attracted small objects. [[Charles-Augustin de Coulomb]] formulated the quantitative force law in 1785 using a [[torsion balance]]. [[J. J. Thomson]] discovered the electron in 1897, identifying it as the carrier of negative charge. [[Robert Andrews Millikan|Robert Millikan]]'s [[oil drop experiment]] (1909) measured the elementary charge.
+
+== See also ==
+{{Portal|Physics}}
+* [[Coulomb's law]]
+* [[Electric field]]
+* [[Electric current]]
+* [[Electrostatics]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electric charge| ]]
+[[Category:Electrostatics]]
+[[Category:Physical quantities]]

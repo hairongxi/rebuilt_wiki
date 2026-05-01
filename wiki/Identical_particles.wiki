@@ -1,0 +1,57 @@
+{{Short description|Particles that cannot be distinguished from one another in quantum mechanics}}
+{{Infobox physics
+| name = Identical particles
+| image = 
+| caption = 
+| topics = [[Quantum mechanics]], [[Spin (physics)]], [[Pauli exclusion principle]], [[Statistical mechanics]]
+}}
+
+In [[quantum mechanics]], '''identical particles''' (also called '''indistinguishable particles''') are particles that cannot be distinguished from each other, even in principle. This is a fundamental quantum effect: two [[electron]]s, [[proton]]s, or [[photon]]s are absolutely identical and cannot be labelled or tracked individually.
+
+== Exchange symmetry ==
+The [[wave function]] of a system of identical particles must be either symmetric or antisymmetric under particle exchange.
+
+=== Bosons ===
+[[Boson]]s (integer [[spin (physics)|spin]]: 0, 1, 2, …) have symmetric wave functions:
+:<math>\Psi(\ldots, \mathbf{r}_i, \ldots, \mathbf{r}_j, \ldots) = +\Psi(\ldots, \mathbf{r}_j, \ldots, \mathbf{r}_i, \ldots)</math>
+
+Multiple bosons can occupy the same quantum state. Examples: [[photon]]s, [[gluon]]s, [[W and Z bosons]], [[helium-4]] atoms.
+
+=== Fermions ===
+[[Fermion]]s (half-integer spin: 1/2, 3/2, …) have antisymmetric wave functions:
+:<math>\Psi(\ldots, \mathbf{r}_i, \ldots, \mathbf{r}_j, \ldots) = -\Psi(\ldots, \mathbf{r}_j, \ldots, \mathbf{r}_i, \ldots)</math>
+
+This antisymmetry leads directly to the [[Pauli exclusion principle]]: no two fermions can occupy the same quantum state. Examples: [[electron]]s, [[proton]]s, [[neutron]]s, [[quark]]s, [[neutrino]]s.
+
+== Spin–statistics theorem ==
+The [[spin–statistics theorem]] (proved by [[Wolfgang Pauli]]) connects spin to statistics: integer-spin particles are bosons; half-integer-spin particles are fermions. This theorem is a fundamental consequence of [[relativistic quantum field theory]].
+
+== Statistical consequences ==
+{| class="wikitable"
+|-
+! Statistics !! Distribution !! Examples
+|-
+| [[Bose–Einstein statistics]] || Bosons || Photons, liquid helium
+|-
+| [[Fermi–Dirac statistics]] || Fermions || Electrons in metals, white dwarfs
+|}
+
+== Exchange interaction ==
+The [[exchange interaction]] between identical particles is a purely quantum effect with no classical analog. It is responsible for:
+* [[Ferromagnetism]] and [[antiferromagnetism]]
+* [[Chemical bond]]ing in molecules
+* The stability of [[white dwarf]]s and [[neutron star]]s (via [[degeneracy pressure]])
+
+== See also ==
+{{Portal|Physics}}
+* [[Boson]]
+* [[Fermion]]
+* [[Pauli exclusion principle]]
+* [[Statistical mechanics]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Quantum mechanics]]
+[[Category:Particle physics]]
+[[Category:Statistical mechanics]]

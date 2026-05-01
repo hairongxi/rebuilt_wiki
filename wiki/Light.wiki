@@ -1,0 +1,73 @@
+{{Short description|Electromagnetic radiation visible to the human eye}}
+{{Infobox physics
+| name = Light
+| image = Prism-rainbow.svg
+| caption = White light [[dispersion (optics)|dispersed]] by a [[prism (optics)|prism]] into the [[visible spectrum]].
+| topics = [[Electromagnetic wave]], [[Optics]], [[Photon]], [[Speed of light]]
+| speed = 299,792,458 m/s (in vacuum)
+| wavelength_range = ~380–750 nm (visible)
+}}
+
+'''Light''' or '''visible light''' is [[electromagnetic radiation]] within the portion of the [[electromagnetic spectrum]] that is perceived by the [[human eye]]. Light exhibits both wave-like and particle-like properties ([[wave–particle duality]]). As a wave, light is characterized by its [[wavelength]] <math>\lambda</math>, [[frequency]] <math>\nu</math>, and [[amplitude]]. As a particle, light consists of discrete quanta called [[photon]]s.
+
+The primary properties of light are [[intensity (physics)|intensity]], propagation direction, [[frequency]] or wavelength [[electromagnetic spectrum|spectrum]], and [[polarization (waves)|polarization]]. Its [[speed of light|speed]] in vacuum, exactly 299,792,458 m/s, is one of the fundamental constants of nature.
+
+== Electromagnetic spectrum ==
+{{Main|Electromagnetic spectrum}}
+Visible light occupies a narrow band of the [[electromagnetic spectrum]], with wavelengths roughly 380–750 nm (frequencies ~400–790 THz). This corresponds to colours from violet (shortest wavelength) through blue, green, yellow, orange, to red (longest wavelength).
+
+{| class="wikitable"
+|-
+! Colour !! Wavelength (nm) !! Frequency (THz)
+|-
+| Violet || 380–450 || 670–790
+|-
+| Blue || 450–485 || 620–670
+|-
+| Cyan || 485–500 || 600–620
+|-
+| Green || 500–565 || 530–600
+|-
+| Yellow || 565–590 || 510–530
+|-
+| Orange || 590–625 || 480–510
+|-
+| Red || 625–750 || 400–480
+|}
+
+== Speed of light ==
+{{Main|Speed of light}}
+In vacuum, light travels at exactly 299,792,458 m/s, denoted <math>c</math>. In transparent matter, light travels more slowly, at speed <math>v = c/n</math>, where <math>n</math> is the [[refractive index]] of the medium. The ratio of <math>c</math> to <math>v</math> determines the angle of [[refraction]] by [[Snell's law]].
+
+== Optics ==
+{{Main|Optics}}
+The study of light is called [[optics]]. Key phenomena include:
+* '''[[Reflection (physics)|Reflection]]''' — light bounces off a surface
+* '''[[Refraction]]''' — light bends when entering a different medium
+* '''[[Diffraction]]''' — light bends around obstacles and spreads through apertures
+* '''[[Interference (wave propagation)|Interference]]''' — superposition of light waves producing bright and dark fringes
+* '''[[Polarization (waves)|Polarization]]''' — orientation of the electric field oscillations
+* '''[[Dispersion (optics)|Dispersion]]''' — different wavelengths refract at different angles (e.g., rainbow formation)
+
+== Light sources ==
+* [[Thermal radiation]] — [[black-body radiation]], e.g., [[incandescent light bulb]]s, the [[Sun]]
+* [[Luminescence]] — [[fluorescence]], [[phosphorescence]], [[chemiluminescence]]
+* [[Laser]] — coherent, monochromatic, directional light
+* [[Gas discharge]] — [[neon sign]]s, [[fluorescent lamp]]s
+* [[Light-emitting diode]] (LED) — semiconductor light sources
+
+== See also ==
+{{Portal|Physics}}
+* [[Electromagnetic wave]]
+* [[Optics]]
+* [[Photon]]
+* [[Photoelectric effect]]
+* [[Speed of light]]
+* [[Wave–particle duality]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Light| ]]
+[[Category:Electromagnetic radiation]]
+[[Category:Optics]]

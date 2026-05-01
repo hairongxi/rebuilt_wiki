@@ -1,0 +1,63 @@
+{{Short description="Massive scalar boson responsible for the mass of elementary particles}}
+{{Infobox physics
+| name = Higgs boson
+| image = Candidate Higgs Events in ATLAS and CMS.png
+| caption = Candidate Higgs boson events from [[ATLAS experiment|ATLAS]] (left) and [[CMS experiment|CMS]] (right) at the [[Large Hadron Collider]].
+| topics = [[Standard Model]], [[Boson]], [[Elementary particle]], [[W and Z bosons]], [[Fundamental interaction]]
+| composition = [[Elementary particle]]
+| statistics = [[Boson]]
+| mass = 125.11 ± 0.11 GeV/c²
+| charge = 0
+| spin = 0
+| discovered = 2012, [[Large Hadron Collider]]
+}}
+
+The '''Higgs boson''' is an [[elementary particle]] in the [[Standard Model]] of [[particle physics]]. It is the quantum excitation of the [[Higgs field]] — a fundamental field that permeates all of [[spacetime]]. The Higgs boson has [[spin (physics)|spin]] 0 (a scalar boson), no [[electric charge]], and a [[mass]] of approximately 125 GeV/c².
+
+The discovery of the Higgs boson at [[CERN]]'s [[Large Hadron Collider]] (LHC) on 4 July 2012 was a landmark event in physics, leading to the [[Nobel Prize in Physics]] in 2013 for [[François Englert]] and [[Peter Higgs]].
+
+== The Higgs mechanism ==
+{{Main|Higgs mechanism}}
+In the Standard Model, the [[Higgs field]] spontaneously breaks the [[electroweak theory|electroweak symmetry]] via the [[Brout–Englert–Higgs mechanism]]:
+
+* Before symmetry breaking: massless W and Z bosons, massless fermions
+* After symmetry breaking: W⁺, W⁻, Z⁰ acquire mass (~80–91 GeV/c²); fermions acquire mass through [[Yukawa interaction|Yukawa couplings]] to the Higgs field
+
+The photon remains massless because it couples only to the unbroken part of the symmetry.
+
+== Analogy ==
+A common analogy: the Higgs field is like a room full of people. A celebrity (a massive particle) entering the room attracts a cluster and moves slowly — acquiring "mass." A less-known person (a low-mass particle) moves through easily. The Higgs boson is like a rumour passing through the room — the clustering itself propagates.
+
+== Properties ==
+* Mass: 125.11 ± 0.11 GeV/c² (~133× proton mass)
+* Mean lifetime: ~1.6×10⁻²² s
+* Decay modes: <math>H \rightarrow b\bar{b}</math> (58%), <math>H \rightarrow WW^*</math> (21%), <math>H \rightarrow \gamma\gamma</math> (0.2%), etc.
+* Self-coupling predicted but not yet directly measured
+
+== Production at the LHC ==
+Higgs bosons are produced primarily through:
+* [[Gluon fusion]] (<math>gg \rightarrow H</math>) — dominant
+* Vector boson fusion
+* Associated production with W/Z bosons or top quarks
+
+== Significance ==
+* Completes the Standard Model's particle content
+* Explains why some particles have mass while others don't
+* The [[hierarchy problem]] — why the Higgs mass is so light (125 GeV) rather than at the Planck scale — motivates theories beyond the Standard Model ([[supersymmetry]], [[compositeness]])
+
+== See also ==
+{{Portal|Physics}}
+* [[Boson]]
+* [[Electroweak theory]]
+* [[Higgs mechanism]]
+* [[Large Hadron Collider]]
+* [[Standard Model]]
+* [[W and Z bosons]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Higgs boson| ]]
+[[Category:Bosons]]
+[[Category:Elementary particles]]
+[[Category:Standard Model]]

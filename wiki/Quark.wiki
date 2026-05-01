@@ -1,0 +1,71 @@
+{{Short description="Elementary particle; fundamental constituent of matter}}
+{{Infobox physics
+| name = Quark
+| image = Quark structure proton.svg
+| caption = The [[proton]] consists of two [[up quark]]s and one [[down quark]] held together by the [[strong interaction]].
+| topics = [[Elementary particle]], [[Strong interaction]], [[Proton]], [[Neutron]], [[Gluon]]
+| composition = [[Elementary particle]]
+| statistics = [[Fermion]]
+| types = up, down, charm, strange, top, bottom
+| charge = +2/3 e (u, c, t); −1/3 e (d, s, b)
+| spin = 1/2
+}}
+
+A '''quark''' is a type of [[elementary particle]] and a fundamental constituent of [[matter]]. Quarks combine to form [[composite particle]]s called [[hadron]]s, the most stable of which are [[proton]]s and [[neutron]]s, the components of [[atomic nucleus|atomic nuclei]]. Quarks are the only elementary particles in the [[Standard Model]] to experience all four [[fundamental interaction]]s.
+
+== Properties ==
+
+=== Flavours ===
+There are six types ("flavours") of quarks, grouped into three generations:
+{| class="wikitable"
+|-
+! Generation !! Quark !! Charge !! Mass
+|-
+| 1st || [[Up quark]] (u) || +2/3 e || ~2.2 MeV/c²
+|-
+| 1st || [[Down quark]] (d) || −1/3 e || ~4.7 MeV/c²
+|-
+| 2nd || [[Charm quark]] (c) || +2/3 e || ~1.28 GeV/c²
+|-
+| 2nd || [[Strange quark]] (s) || −1/3 e || ~96 MeV/c²
+|-
+| 3rd || [[Top quark]] (t) || +2/3 e || ~173 GeV/c²
+|-
+| 3rd || [[Bottom quark]] (b) || −1/3 e || ~4.18 GeV/c²
+|}
+
+=== Colour charge ===
+Quarks carry a [[colour charge]] (red, green, or blue), which is the source of the [[strong interaction]]. Gluons mediate the force between quarks.
+
+=== Confinement ===
+Quarks have never been observed in isolation. Due to [[colour confinement]], they are always bound within [[hadron]]s. Attempting to separate quarks creates new quark–antiquark pairs from the vacuum.
+
+== Hadrons ==
+=== Baryons ===
+Three-quark combinations:
+* [[Proton]] (<math>uud</math>) — stable
+* [[Neutron]] (<math>udd</math>) — stable in nuclei; free neutron decays via beta decay
+
+=== Mesons ===
+Quark–antiquark pairs (<math>q\bar{q}</math>):
+* [[Pion]]s (<math>\pi^+, \pi^0, \pi^-</math>) — mediators of the nuclear force
+
+== Asymptotic freedom ==
+At extremely short distances (high energies), the strong interaction between quarks becomes weak — a property called [[asymptotic freedom]], discovered by [[David Gross]], [[Frank Wilczek]], and [[David Politzer]] ([[Nobel Prize in Physics|Nobel Prize]] 2004).
+
+== See also ==
+{{Portal|Physics}}
+* [[Down quark]]
+* [[Elementary particle]]
+* [[Gluon]]
+* [[Hadron]]
+* [[Proton]]
+* [[Strong interaction]]
+* [[Up quark]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Quarks| ]]
+[[Category:Elementary particles]]
+[[Category:Particle physics]]

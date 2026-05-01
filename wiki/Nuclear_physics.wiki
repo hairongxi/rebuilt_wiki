@@ -1,0 +1,144 @@
+{{Short description|Field of physics that studies atomic nuclei}}
+{{Infobox physics
+| name = Nuclear physics
+| image = Nuclear fission.svg
+| caption = Schematic diagram of [[nuclear fission]]: a heavy nucleus splits into two lighter nuclei, releasing energy and neutrons
+| topics = [[Radioactive decay]], [[Nuclear fission]], [[Nuclear fusion]], [[Nuclear force]], [[Nuclear structure]], [[Nuclear reaction]]
+}}
+
+'''Nuclear physics''' is the field of [[physics]] that studies [[atomic nucleus|atomic nuclei]], their constituents, and interactions. The most commonly known applications of nuclear physics are [[nuclear power]] generation and [[nuclear weapon]]s technology, but the field has also given rise to applications in many fields, including [[nuclear medicine]] and [[magnetic resonance imaging]], [[ion implantation]] in [[materials engineering]], and [[radiocarbon dating]] in geology and archaeology.
+
+== History ==
+{{Main|History of nuclear physics}}
+
+=== Discovery of the nucleus ===
+In 1911, [[Ernest Rutherford]]'s [[Geiger–Marsden experiment]] demonstrated that atoms contain a small, dense, positively charged nucleus. In 1919, Rutherford performed the first artificially induced [[nuclear reaction]], transmuting nitrogen into oxygen by bombarding it with alpha particles.
+
+=== Discovery of the neutron ===
+In 1932, [[James Chadwick]] discovered the [[neutron]], completing the basic picture of the nucleus as composed of [[proton]]s and neutrons (collectively called [[nucleon]]s). The same year, [[John Cockcroft]] and [[Ernest Walton]] achieved the first nuclear transmutation using artificially accelerated particles.
+
+=== Nuclear fission and fusion ===
+In 1938, [[Otto Hahn]] and [[Fritz Strassmann]] discovered [[nuclear fission]], with [[Lise Meitner]] and [[Otto Frisch]] providing the theoretical explanation. This led to the development of the first [[nuclear reactor]] ([[Chicago Pile-1]], 1942) and [[nuclear weapon]]s (the [[Manhattan Project]]).
+
+[[Nuclear fusion]] in stars was explained by [[Hans Bethe]] in 1939 through the [[CNO cycle]] and [[proton–proton chain]].
+
+== Nuclear structure ==
+{{Main|Nuclear structure}}
+
+=== Nucleons ===
+The atomic nucleus consists of [[proton]]s and [[neutron]]s (collectively [[nucleon]]s). A nucleus is characterized by:
+* [[Atomic number]] <math>Z</math> — number of protons
+* [[Mass number]] <math>A = Z + N</math> — total number of nucleons
+* [[Neutron number]] <math>N</math>
+
+=== Nuclear force ===
+{{Main|Nuclear force}}
+The [[nuclear force]] (or strong interaction) binds protons and neutrons together in the nucleus. It is:
+* Attractive at distances of about 1–3 [[femtometer|fm]]
+* Repulsive at very short distances (< 0.7 fm)
+* Charge-independent (acts equally on protons and neutrons)
+* [[Saturation (physics)|Saturating]] (nucleons interact only with nearest neighbors)
+* Has a [[tensor]] and [[spin–orbit coupling|spin–orbit]] component
+
+=== Nuclear models ===
+{{Main|Nuclear model}}
+
+==== Liquid drop model ====
+{{Main|Semi-empirical mass formula}}
+The [[liquid drop model]] treats the nucleus as an incompressible liquid drop. The [[semi-empirical mass formula]] (Bethe–Weizsäcker formula) gives the binding energy:
+:<math>B = a_V A - a_S A^{2/3} - a_C \frac{Z(Z-1)}{A^{1/3}} - a_A \frac{(A-2Z)^2}{A} \pm \delta(A,Z)</math>
+where the terms represent volume, surface, Coulomb, asymmetry, and pairing energies.
+
+==== Shell model ====
+{{Main|Nuclear shell model}}
+The [[nuclear shell model]] explains nuclear stability in terms of quantized energy levels, analogous to electron shells in atoms. [[Magic number (physics)|Magic numbers]] (2, 8, 20, 28, 50, 82, 126) correspond to filled nuclear shells and denote particularly stable nuclei.
+
+=== Nuclear size and density ===
+Nuclear radii follow the empirical relation:
+:<math>R = R_0 A^{1/3}</math>
+where <math>R_0 \approx 1.2</math> fm. Nuclear density is approximately constant at <math>\rho \approx 2.3 \times 10^{17}\,\text{kg/m}^3</math>.
+
+== Radioactive decay ==
+{{Main|Radioactive decay}}
+
+=== Types of decay ===
+
+{| class="wikitable"
+|-
+! Decay type !! Emission !! Effect on nucleus
+|-
+| [[Alpha decay]] || [[Alpha particle|α particle]] (<math>^4\text{He}^{2+}</math>) || <math>{}^{A}_{Z}X \to {}^{A-4}_{Z-2}Y + \alpha</math>
+|-
+| [[Beta decay|Beta-minus decay]] || [[Electron]] (<math>e^-</math>) + [[antineutrino]] || <math>{}^{A}_{Z}X \to {}^{A}_{Z+1}Y + e^- + \bar{\nu}_e</math>
+|-
+| [[Beta decay|Beta-plus decay]] || [[Positron]] (<math>e^+</math>) + [[neutrino]] || <math>{}^{A}_{Z}X \to {}^{A}_{Z-1}Y + e^+ + \nu_e</math>
+|-
+| [[Gamma decay]] || [[Gamma ray|γ photon]] || Nucleus transitions to lower energy state
+|-
+| [[Electron capture]] || Absorbs orbital electron || <math>{}^{A}_{Z}X + e^- \to {}^{A}_{Z-1}Y + \nu_e</math>
+|}
+
+=== Decay law ===
+The number of radioactive nuclei decreases exponentially:
+:<math>N(t) = N_0 e^{-\lambda t}</math>
+where <math>\lambda</math> is the [[decay constant]].
+
+The [[half-life]] <math>t_{1/2}</math> is:
+:<math>t_{1/2} = \frac{\ln 2}{\lambda}</math>
+
+The activity <math>A = \lambda N</math> is measured in [[becquerel]]s (Bq).
+
+== Nuclear reactions ==
+{{Main|Nuclear reaction}}
+
+=== Fission ===
+{{Main|Nuclear fission}}
+[[Nuclear fission]] is the splitting of a heavy nucleus into two or more lighter nuclei, accompanied by the release of energy and neutrons. It can be induced by neutron capture or occur spontaneously. The energy released per fission event is approximately 200 MeV.
+
+=== Fusion ===
+{{Main|Nuclear fusion}}
+[[Nuclear fusion]] is the combining of light nuclei to form heavier ones, releasing energy. The sun's energy comes from the [[proton–proton chain]]:
+:<math>4 {}^1\text{H} \to {}^4\text{He} + 2 e^+ + 2 \nu_e + 26.73\,\text{MeV}</math>
+
+Controlled fusion on Earth remains a major research goal (e.g., [[ITER]], [[tokamak]]s).
+
+=== Cross section ===
+The [[nuclear cross section]] <math>\sigma</math> measures the probability of a nuclear reaction. The reaction rate is:
+:<math>R = \sigma \Phi N</math>
+where <math>\Phi</math> is the incident particle flux and <math>N</math> is the number of target nuclei.
+
+== Applications ==
+
+=== Nuclear power ===
+[[Nuclear reactor]]s use controlled fission to generate electricity. Common types include [[pressurized water reactor]]s (PWRs), [[boiling water reactor]]s (BWRs), and [[fast breeder reactor]]s.
+
+=== Nuclear medicine ===
+* [[PET scan|Positron emission tomography]] (PET)
+* [[Radiation therapy]] for cancer treatment
+* [[Radioisotope]]s for diagnostic imaging (e.g., technetium-99m)
+
+=== Radiometric dating ===
+{{Main|Radiometric dating}}
+[[Carbon-14 dating]] is used for archaeological and geological samples. Other isotopic systems (U–Pb, K–Ar, Rb–Sr) date older rocks.
+
+=== Nuclear weapons ===
+[[Nuclear weapon]]s release enormous energy through uncontrolled fission ([[atomic bomb]]s) or fusion ([[hydrogen bomb]]s).
+
+== See also ==
+{{Portal|Physics}}
+* [[Particle physics]]
+* [[Quantum chromodynamics]]
+* [[Standard Model]]
+* [[Nuclear astrophysics]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Kenneth S. Krane|Krane, K. S.]] (1988). ''Introductory Nuclear Physics''. Wiley.
+* [[Samuel S. M. Wong|Wong, S. S. M.]] (1998). ''Introductory Nuclear Physics'' (2nd ed.). Wiley.
+* [[Ashot G. Sitenko|Sitenko, A.]], Tartakovskii, V. (1997). ''Theory of Nucleus''. Springer.
+
+[[Category:Nuclear physics| ]]
+[[Category:Physics]]
+[[Category:Nuclear chemistry]]

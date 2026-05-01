@@ -1,0 +1,58 @@
+{{Short description="SI base unit of length}}
+{{Infobox physics
+| name = Metre
+| image = 
+| caption = 
+| topics = [[International System of Units]], [[Speed of light]], [[Length]]
+| unit_system = [[SI base unit]]
+| unit_of = [[Length]]
+| symbol = m
+}}
+
+The '''metre''' (symbol: '''m''') is the [[SI base unit]] of [[length]]. Since 1983, it has been defined as the length of the path travelled by [[light]] in vacuum during a time interval of 1/299,792,458 of a [[second]]:
+
+:<math>1\ \text{m} = c \times \frac{1}{299,792,458}\ \text{s}</math>
+
+where <math>c = 299,792,458\ \text{m/s}</math> is the exact defined value of the [[speed of light]].
+
+== Historical definitions ==
+* 1793 — one ten-millionth of the distance from the [[North Pole]] to the [[equator]] along the [[Paris meridian]]
+* 1799 — ''Mètre des Archives'', a platinum bar
+* 1889 — International Prototype Metre, a platinum–iridium bar
+* 1960 — 1,650,763.73 wavelengths of the orange-red line of [[krypton-86]]
+* 1983 — defined via the speed of light (current definition)
+
+== Multiples and conversions ==
+{| class="wikitable"
+|-
+! Submultiples !! Multiples
+|-
+| millimetre (mm) = 10⁻³ m || kilometre (km) = 10³ m
+|-
+| micrometre (μm) = 10⁻⁶ m || megametre (Mm) = 10⁶ m
+|-
+| nanometre (nm) = 10⁻⁹ m || gigametre (Gm) = 10⁹ m
+|}
+
+* 1 metre ≈ 3.28084 [[foot (unit)|feet]]
+* 1 metre ≈ 39.3701 [[inch]]es
+
+== Metre in physics equations ==
+* [[Speed]]: <math>v = d/t</math> → measured in m/s
+* [[Acceleration]]: <math>a = \Delta v/\Delta t</math> → m/s²
+* [[Force]]: <math>F = ma</math> → kg·m/s² = N
+* [[Energy]]: <math>E = F\cdot d</math> → kg·m²/s² = J
+
+== See also ==
+{{Portal|Physics}}
+* [[International System of Units]]
+* [[Kilogram]]
+* [[Second]]
+* [[Speed of light]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Metre| ]]
+[[Category:SI base units]]
+[[Category:Units of length]]

@@ -1,0 +1,158 @@
+{{Short description|Branch of physics concerning electricity and magnetism}}
+{{Infobox physics
+| name = Electromagnetism
+| image = Electromagnetism.svg
+| caption = [[Electricity]] and [[magnetism]] are two aspects of electromagnetism
+| topics = [[Electric charge]], [[Electric field]], [[Magnetic field]], [[Electromagnetic induction]], [[Maxwell's equations]], [[Electromagnetic wave]]s
+}}
+
+'''Electromagnetism''' is a branch of [[physics]] that studies the [[electromagnetic force]], a type of [[fundamental interaction]] that occurs between [[electric charge|electrically charged]] particles. The electromagnetic force is carried by [[photon]]s and is responsible for practically all phenomena encountered in daily life, with the exception of [[gravity]]. Electromagnetism manifests as both [[electric field]]s and [[magnetic field]]s, which are two aspects of the same phenomenon.
+
+The theory of electromagnetism, known as '''classical electromagnetism''', was developed by various physicists during the 19th century, most prominently by [[James Clerk Maxwell]], whose [[Maxwell's equations]] unified electricity, magnetism, and [[light]] as manifestations of the same phenomenon. The later development of [[quantum electrodynamics]] (QED) incorporated [[quantum mechanics]] into the description of electromagnetic interactions.
+
+== History ==
+{{Main|History of electromagnetism}}
+
+=== Ancient and medieval observations ===
+The phenomenon of static electricity was known to the ancient Greeks, who observed that rubbing [[amber]] (<nowiki>''</nowiki>ēlektron<nowiki>''</nowiki>) attracted small objects. The [[lodestone]], a naturally magnetized mineral, was used in ancient China for the [[compass]] by the 11th century.
+
+=== 18th and 19th century discoveries ===
+In the 18th century, [[Charles-Augustin de Coulomb]] formulated [[Coulomb's law]], describing the force between electric charges. In 1800, [[Alessandro Volta]] invented the [[voltaic pile]], the first chemical battery.
+
+The relationship between electricity and magnetism was discovered by [[Hans Christian Ørsted]] in 1820, who observed that an electric current deflects a compass needle. [[André-Marie Ampère]] developed a mathematical theory of electromagnetism, and [[Michael Faraday]] discovered [[electromagnetic induction]] in 1831.
+
+=== Maxwell's unification ===
+{{Main|Maxwell's equations}}
+In the 1860s, [[James Clerk Maxwell]] unified all previous knowledge of electricity and magnetism into a set of four [[partial differential equation]]s known as [[Maxwell's equations]]. He predicted the existence of [[electromagnetic wave]]s traveling at the [[speed of light]], leading to the understanding that light is an electromagnetic phenomenon.
+
+In 1887, [[Heinrich Hertz]] experimentally confirmed Maxwell's predictions by generating and detecting radio waves.
+
+== Fundamental concepts ==
+
+=== Electric charge ===
+{{Main|Electric charge}}
+Electric charge is a fundamental property of matter, carried by [[subatomic particle]]s such as [[electron]]s and [[proton]]s. Charge is [[quantization (physics)|quantized]] in units of the [[elementary charge]] <math>e = 1.602 \times 10^{-19}\,\text{C}</math>. The total charge in an isolated system is conserved.
+
+Like charges repel, and opposite charges attract, as described by [[Coulomb's law]]:
+:<math>F = k_e \frac{|q_1 q_2|}{r^2}</math>
+where <math>k_e = \frac{1}{4\pi\varepsilon_0} \approx 8.99 \times 10^9\,\text{N·m}^2/\text{C}^2</math> is the [[Coulomb constant]].
+
+=== Electric field ===
+{{Main|Electric field}}
+The electric field <math>\mathbf{E}</math> is a [[vector field]] that describes the force experienced by a unit positive test charge at each point in space. The force on a charge <math>q</math> in an electric field is:
+:<math>\mathbf{F} = q\mathbf{E}</math>
+
+The electric field due to a point charge <math>Q</math> is:
+:<math>\mathbf{E} = k_e \frac{Q}{r^2} \hat{\mathbf{r}}</math>
+
+=== Electric potential ===
+{{Main|Electric potential}}
+The [[electric potential]] <math>V</math> (or voltage) is a [[scalar field]] related to the electric field by:
+:<math>\mathbf{E} = -\nabla V</math>
+
+The potential difference between two points represents the work per unit charge required to move a charge between them.
+
+=== Magnetic field ===
+{{Main|Magnetic field}}
+The magnetic field <math>\mathbf{B}</math> is a [[vector field]] that exerts a force on moving charges. The [[Lorentz force]] on a particle with charge <math>q</math> and velocity <math>\mathbf{v}</math> is:
+:<math>\mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})</math>
+
+Magnetic fields are produced by moving charges ([[electric current]]s) and by magnetic [[dipole moment]]s of elementary particles.
+
+=== Electromagnetic induction ===
+{{Main|Electromagnetic induction}}
+Electromagnetic induction, discovered by [[Michael Faraday]], is the production of an [[electromotive force]] (EMF) across a conductor when it is exposed to a varying magnetic field. [[Faraday's law of induction]] states:
+:<math>\mathcal{E} = -\frac{d\Phi_B}{dt}</math>
+
+where <math>\Phi_B</math> is the [[magnetic flux]] and the negative sign represents [[Lenz's law]].
+
+== Maxwell's equations ==
+{{Main|Maxwell's equations}}
+
+Maxwell's equations in their differential form are:
+
+{| class="wikitable"
+|-
+! Name !! Integral form !! Differential form
+|-
+| [[Gauss's law]]
+| <math>\oiint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}</math>
+| <math>\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}</math>
+|-
+| [[Gauss's law for magnetism]]
+| <math>\oiint \mathbf{B} \cdot d\mathbf{A} = 0</math>
+| <math>\nabla \cdot \mathbf{B} = 0</math>
+|-
+| [[Faraday's law of induction]]
+| <math>\oint \mathbf{E} \cdot d\mathbf{l} = -\frac{d}{dt}\iint \mathbf{B} \cdot d\mathbf{A}</math>
+| <math>\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}</math>
+|-
+| [[Ampère's circuital law]] (with Maxwell's correction)
+| <math>\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{\text{enc}} + \mu_0\varepsilon_0 \frac{d}{dt}\iint \mathbf{E} \cdot d\mathbf{A}</math>
+| <math>\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0\varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}</math>
+|}
+
+== Electromagnetic waves ==
+{{Main|Electromagnetic radiation}}
+In a vacuum, Maxwell's equations predict that the electric and magnetic fields satisfy the [[wave equation]]:
+:<math>\nabla^2 \mathbf{E} = \mu_0\varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}</math>
+
+The wave speed is:
+:<math>c = \frac{1}{\sqrt{\mu_0\varepsilon_0}} \approx 3.00 \times 10^8\,\text{m/s}</math>
+which is the [[speed of light]] in vacuum.
+
+The [[electromagnetic spectrum]] includes (in order of increasing frequency): [[radio waves]], [[microwave]]s, [[infrared]], [[visible light]], [[ultraviolet]], [[X-rays]], and [[gamma rays]].
+
+== Circuits and electronics ==
+{{Main|Electrical circuit|Electronics}}
+
+=== Ohm's law ===
+{{Main|Ohm's law}}
+[[Ohm's law]] states that the current through a conductor between two points is directly proportional to the voltage across the two points:
+:<math>V = IR</math>
+where <math>R</math> is the [[electrical resistance]].
+
+=== Kirchhoff's circuit laws ===
+{{Main|Kirchhoff's circuit laws}}
+* '''Kirchhoff's current law (KCL):''' The sum of currents entering a node equals the sum leaving it.
+* '''Kirchhoff's voltage law (KVL):''' The sum of EMFs around any closed loop equals the sum of potential drops.
+
+=== Capacitance and inductance ===
+* '''[[Capacitance]]''' <math>C</math>: ability to store electric charge, with energy <math>U = \frac{1}{2}CV^2</math>
+* '''[[Inductance]]''' <math>L</math>: opposition to changes in current, with energy <math>U = \frac{1}{2}LI^2</math>
+
+== Relativistic electrodynamics ==
+{{Main|Relativistic electromagnetism}}
+Electromagnetism is inherently consistent with [[special relativity]]. The electric and magnetic fields transform into each other under a [[Lorentz transformation]]. The [[electromagnetic field tensor]] <math>F_{\mu\nu}</math> provides a covariant formulation:
+:<math>F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu</math>
+where <math>A_\mu = (\phi/c, \mathbf{A})</math> is the [[electromagnetic four-potential]].
+
+== Quantum electrodynamics ==
+{{Main|Quantum electrodynamics}}
+[[Quantum electrodynamics]] (QED) is the relativistic quantum field theory of electromagnetism. It describes electromagnetic interactions as the exchange of virtual [[photon]]s. QED has produced some of the most precise predictions in physics, such as the [[anomalous magnetic dipole moment]] of the electron.
+
+== Applications ==
+* [[Electrical engineering]] — power generation, transmission, and electronics
+* [[Telecommunications]] — radio, television, [[fiber optics]]
+* [[Medical imaging]] — [[MRI]], [[X-ray imaging]]
+* [[Particle accelerators]] — [[Large Hadron Collider]]
+* [[Electromagnetic compatibility]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Electricity]]
+* [[Magnetism]]
+* [[Lorentz force]]
+* [[Electromagnetic spectrum]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[David J. Griffiths|Griffiths, D. J.]] (2017). ''Introduction to Electrodynamics'' (4th ed.). Cambridge University Press.
+* [[John David Jackson (physicist)|Jackson, J. D.]] (1998). ''Classical Electrodynamics'' (3rd ed.). Wiley.
+* [[Richard Feynman|Feynman, R. P.]] (1964). ''[[The Feynman Lectures on Physics]]'', Vol. 2. Addison-Wesley.
+
+[[Category:Electromagnetism| ]]
+[[Category:Fundamental interactions]]
+[[Category:Physics]]

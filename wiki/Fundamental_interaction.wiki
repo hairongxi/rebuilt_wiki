@@ -1,0 +1,55 @@
+{{Short description="Basic forces of nature from which all other forces can be derived}}
+{{Infobox physics
+| name = Fundamental interaction
+| image = 
+| caption = 
+| topics = [[Force]], [[Particle physics]], [[Standard Model]], [[Gravity]]
+}}
+
+In [[physics]], the '''fundamental interactions''' (also called '''fundamental forces''') are the most basic forces from which all other interactions can be derived. There are four conventionally accepted fundamental interactions:
+
+# '''[[Strong interaction]]''' — binds [[quark]]s into [[hadron]]s; holds [[atomic nucleus|nuclei]] together
+# '''[[Electromagnetism]]''' — acts between [[electric charge|electrically charged particles]]
+# '''[[Weak interaction]]''' — responsible for [[beta decay]] and [[neutrino]] interactions
+# '''[[Gravity]]''' — attraction between masses; described by [[general relativity]]
+
+== Comparison ==
+{| class="wikitable"
+|-
+! Interaction !! Relative strength !! Range (m) !! Mediator !! Acts on
+|-
+| [[Strong interaction|Strong]] || 1 || ~10⁻¹⁵ || [[Gluon]]s || [[Quark]]s, [[gluon]]s
+|-
+| [[Electromagnetism|Electromagnetic]] || ~10⁻² || Infinite || [[Photon]] || [[Electric charge|Charged particles]]
+|-
+| [[Weak interaction|Weak]] || ~10⁻⁶ || ~10⁻¹⁸ || [[W and Z bosons]] || [[Quark]]s, [[lepton]]s
+|-
+| [[Gravity|Gravitational]] || ~10⁻³⁸ || Infinite || [[Graviton]] (hypothetical) || [[Mass]]/[[Energy]]
+|}
+
+== Unification ==
+A major goal of theoretical physics is to unify all fundamental interactions:
+
+* '''[[Electroweak theory]]''' — unified description of [[electromagnetism]] and [[weak interaction]] (confirmed by discovery of [[W and Z bosons]], 1983)
+* '''[[Grand Unified Theory]] (GUT)''' — unifies strong, weak, and electromagnetic interactions (theoretical, unconfirmed)
+* '''[[Theory of everything]] (TOE)''' — would additionally include [[gravity]]; [[string theory]] is a leading candidate
+
+== Historical unification ==
+* [[Isaac Newton]] unified terrestrial and celestial gravity (1687)
+* [[James Clerk Maxwell]] unified electricity, magnetism, and light (1861)
+* [[Sheldon Glashow]], [[Abdus Salam]], [[Steven Weinberg]] unified electromagnetic and weak interactions (1960s)
+
+== See also ==
+{{Portal|Physics}}
+* [[Electromagnetism]]
+* [[Gravity]]
+* [[Standard Model]]
+* [[Strong interaction]]
+* [[Weak interaction]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Fundamental interactions| ]]
+[[Category:Concepts in physics]]
+[[Category:Particle physics]]

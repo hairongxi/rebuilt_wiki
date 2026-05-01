@@ -1,0 +1,147 @@
+{{Short description|Description of physical properties at the atomic and subatomic scale}}
+{{Infobox physics
+| name = Quantum mechanics
+| image = Hydrogen Density Plots.png
+| caption = [[Wave function]]s of the [[electron]] in a [[hydrogen atom]] at different energy levels. Brighter areas indicate a higher probability of finding the electron.
+| topics = [[Wave–particle duality]], [[Uncertainty principle]], [[Quantum superposition]], [[Quantum entanglement]], [[Wave function]], [[Schrödinger equation]]
+}}
+
+'''Quantum mechanics''' is a fundamental [[theory]] in [[physics]] that provides a description of the physical properties of [[nature]] at the scale of [[atom]]s and [[subatomic particle]]s. It is the foundation of all [[quantum physics]], including [[quantum chemistry]], [[quantum field theory]], [[quantum technology]], and [[quantum information science]].
+
+Quantum mechanics differs from [[classical physics]] in many ways: energy, momentum, angular momentum, and other quantities are often restricted to [[quantization (physics)|discrete values]] (quantization); objects have characteristics of both [[wave–particle duality|particles and waves]]; and there are limits to how accurately the value of a physical quantity can be predicted prior to its measurement, given a complete set of initial conditions (the [[uncertainty principle]]).
+
+== History ==
+{{Main|History of quantum mechanics}}
+
+=== Origin of quantum theory ===
+The foundations of quantum mechanics were laid in the early 20th century, prompted by the failure of [[classical physics]] to explain certain phenomena:
+
+* '''[[Black-body radiation]]''': In 1900, [[Max Planck]] introduced the hypothesis that electromagnetic energy could be emitted only in quantized form, <math>E = h\nu</math>, where <math>h = 6.626 \times 10^{-34}\,\text{J·s}</math> is the [[Planck constant]].
+* '''[[Photoelectric effect]]''': In 1905, [[Albert Einstein]] proposed that light consists of discrete quanta, later called [[photon]]s, explaining the photoelectric effect and earning him the [[Nobel Prize in Physics]] in 1921.
+* '''[[Atomic spectra]]''': In 1913, [[Niels Bohr]] introduced the [[Bohr model]] of the atom, which successfully explained the spectral lines of hydrogen using quantized energy levels.
+
+=== Development of quantum mechanics ===
+In the 1920s, a complete theoretical framework emerged:
+* [[Werner Heisenberg]] formulated [[matrix mechanics]] (1925)
+* [[Erwin Schrödinger]] developed [[wave equation|wave mechanics]] and the [[Schrödinger equation]] (1926)
+* [[Max Born]] provided the [[probability amplitude|probabilistic interpretation]] of the wave function (1926)
+* [[Werner Heisenberg]] formulated the [[uncertainty principle]] (1927)
+* [[Paul Dirac]] unified quantum mechanics with [[special relativity]] through the [[Dirac equation]] (1928)
+
+=== Foundational debates ===
+The interpretation of quantum mechanics sparked intense debate. [[Albert Einstein]], [[Boris Podolsky]], and [[Nathan Rosen]] published the [[EPR paradox]] in 1935, challenging the completeness of quantum mechanics. [[Niels Bohr]] defended the [[Copenhagen interpretation]]. The debate culminated in [[John Stewart Bell]]'s [[Bell's theorem]] (1964), which showed that no [[local hidden-variable theory]] can reproduce all the predictions of quantum mechanics.
+
+== Mathematical formulation ==
+{{Main|Mathematical formulation of quantum mechanics}}
+
+=== Wave function ===
+{{Main|Wave function}}
+The state of a quantum system is described by a [[wave function]] <math>\Psi(\mathbf{r}, t)</math> (or more generally, a [[quantum state|state vector]] <math>|\psi\rangle</math> in [[Dirac notation]]). The physical interpretation is probabilistic: the probability of finding a particle in a volume element <math>d^3r</math> is:
+:<math>|\Psi(\mathbf{r}, t)|^2 \, d^3r</math>
+
+The wave function must satisfy the [[normalisable wave function|normalization condition]]:
+:<math>\int |\Psi|^2 \, d^3r = 1</math>
+
+=== Schrödinger equation ===
+{{Main|Schrödinger equation}}
+The time evolution of a quantum system is governed by the [[Schrödinger equation]]:
+:<math>i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r}, t) = \hat{H}\Psi(\mathbf{r}, t)</math>
+where <math>\hbar = h/2\pi</math> is the [[reduced Planck constant]] and <math>\hat{H}</math> is the [[Hamiltonian (quantum mechanics)|Hamiltonian operator]].
+
+For a single non-relativistic particle in a potential <math>V(\mathbf{r})</math>:
+:<math>\hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})</math>
+
+The [[time-independent Schrödinger equation]] for [[stationary state]]s is:
+:<math>\hat{H}\psi(\mathbf{r}) = E\psi(\mathbf{r})</math>
+
+=== Operators and observables ===
+{{Main|Operator (physics)}}
+Physical observables are represented by [[Hermitian operator]]s acting on the wave function. When a measurement is made, the result is one of the [[eigenvalue]]s of the corresponding operator. The [[expectation value (quantum mechanics)|expectation value]] of an observable <math>\hat{A}</math> is:
+:<math>\langle A \rangle = \langle\psi|\hat{A}|\psi\rangle = \int \psi^* \hat{A} \psi \, d^3r</math>
+
+=== Uncertainty principle ===
+{{Main|Uncertainty principle}}
+The [[Heisenberg uncertainty principle]] states that certain pairs of observables, such as position <math>x</math> and momentum <math>p_x</math>, cannot be simultaneously known with arbitrary precision:
+:<math>\Delta x \, \Delta p_x \geq \frac{\hbar}{2}</math>
+
+Similarly for energy and time:
+:<math>\Delta E \, \Delta t \geq \frac{\hbar}{2}</math>
+
+== Fundamental principles ==
+
+=== Wave–particle duality ===
+{{Main|Wave–particle duality}}
+All quantum objects exhibit both particle-like and wave-like behavior. Light, traditionally considered a wave, shows particle behavior in the [[photoelectric effect]]. Electrons, traditionally considered particles, show wave behavior in [[electron diffraction]]. This is demonstrated most strikingly in the [[double-slit experiment]].
+
+=== Superposition ===
+{{Main|Quantum superposition}}
+A quantum system can exist in a [[quantum superposition|superposition]] of multiple states simultaneously. If <math>|\psi_1\rangle</math> and <math>|\psi_2\rangle</math> are possible states, then the linear combination:
+:<math>|\psi\rangle = \alpha|\psi_1\rangle + \beta|\psi_2\rangle</math>
+is also a valid state. Measurement causes the wave function to [[wave function collapse|collapse]] into one of the eigenstates.
+
+=== Entanglement ===
+{{Main|Quantum entanglement}}
+[[Quantum entanglement]] is a phenomenon in which the quantum states of two or more particles are correlated such that the state of each particle cannot be described independently. Measurement of one particle instantaneously influences the state of the other, regardless of distance. This feature is central to [[quantum information science]], [[quantum cryptography]], and [[quantum computing]].
+
+== Important quantum systems ==
+
+=== Particle in a box ===
+{{Main|Particle in a box}}
+A particle confined to a one-dimensional box of length <math>L</math> with infinite potential walls has quantized energy levels:
+:<math>E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}, \quad n = 1, 2, 3, \ldots</math>
+
+=== Quantum harmonic oscillator ===
+{{Main|Quantum harmonic oscillator}}
+The energy levels of a quantum harmonic oscillator are equally spaced:
+:<math>E_n = \hbar\omega\left(n + \frac{1}{2}\right), \quad n = 0, 1, 2, \ldots</math>
+The non-zero [[zero-point energy]] <math>E_0 = \frac{1}{2}\hbar\omega</math> is a consequence of the uncertainty principle.
+
+=== Hydrogen atom ===
+{{Main|Hydrogen atom#Quantum mechanical description}}
+The [[hydrogen atom]] is one of the few quantum systems with an exact analytical solution. The energy levels are:
+:<math>E_n = -\frac{me^4}{8\varepsilon_0^2 h^2}\frac{1}{n^2} = -\frac{13.6\,\text{eV}}{n^2}, \quad n = 1, 2, 3, \ldots</math>
+
+The wave functions are characterized by three [[quantum number]]s: the principal quantum number <math>n</math>, the azimuthal quantum number <math>\ell</math>, and the magnetic quantum number <math>m_\ell</math>.
+
+=== Spin ===
+{{Main|Spin (physics)}}
+[[Spin (physics)|Spin]] is an intrinsic form of angular momentum carried by elementary particles. Unlike orbital angular momentum, spin has no classical analog. Electrons have spin <math>s = 1/2</math>, with projections <math>m_s = \pm 1/2</math>.
+
+== Interpretations of quantum mechanics ==
+{{Main|Interpretations of quantum mechanics}}
+Major interpretations include:
+* '''[[Copenhagen interpretation]]''' — the most widely taught interpretation; measurement causes wave function collapse
+* '''[[Many-worlds interpretation]]''' — all possible outcomes are realized in separate branches of reality
+* '''[[De Broglie–Bohm theory]]''' — a deterministic hidden-variable interpretation with non-local pilot waves
+* '''[[Quantum Bayesianism]]''' (QBism) — quantum states represent an agent's degrees of belief
+
+== Applications ==
+* [[Semiconductor]] physics and [[transistor]]s — basis of modern electronics
+* [[Laser]]s — stimulated emission of radiation
+* [[Quantum computing]] — exponential speedup for certain computations
+* [[Quantum cryptography]] — unconditionally secure communication
+* [[Magnetic resonance imaging]] (MRI) — medical imaging
+* [[Quantum chemistry]] — molecular modeling
+* [[Scanning tunneling microscope]] — atomic-scale imaging
+* [[Nuclear magnetic resonance]] — chemical analysis
+
+== See also ==
+{{Portal|Physics}}
+* [[Quantum field theory]]
+* [[Quantum electrodynamics]]
+* [[Quantum chromodynamics]]
+* [[Quantum optics]]
+* [[Condensed matter physics]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Richard Feynman|Feynman, R. P.]], [[Robert B. Leighton|Leighton, R. B.]], [[Matthew Sands|Sands, M.]] (1965). ''[[The Feynman Lectures on Physics]]'', Vol. 3. Addison-Wesley.
+* [[David J. Griffiths|Griffiths, D. J.]] (2018). ''Introduction to Quantum Mechanics'' (3rd ed.). Cambridge University Press.
+* [[Jun John Sakurai|Sakurai, J. J.]], Napolitano, J. (2020). ''Modern Quantum Mechanics'' (3rd ed.). Cambridge University Press.
+* [[Lev Landau|Landau, L. D.]], Lifshitz, E. M. (1977). ''Quantum Mechanics: Non-Relativistic Theory'' (3rd ed.). Pergamon Press.
+
+[[Category:Quantum mechanics| ]]
+[[Category:Physics]]
+[[Category:Fundamental physics concepts]]

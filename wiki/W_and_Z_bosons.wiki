@@ -1,0 +1,73 @@
+{{Short description="Gauge bosons mediating the weak interaction}}
+{{Infobox physics
+| name = W and Z bosons
+| image = 
+| caption = 
+| topics = [[Weak interaction]], [[Standard Model]], [[Elementary particle]], [[Boson]], [[Fundamental interaction]]
+| composition = [[Elementary particle]]
+| statistics = [[Boson]]
+| types = W⁺, W⁻, Z⁰
+| mass_W = 80.377 ± 0.012 GeV/c²
+| mass_Z = 91.1876 ± 0.0021 GeV/c²
+| charge = W⁺: +1 e, W⁻: −1 e, Z⁰: 0
+| spin = 1
+}}
+
+The '''W and Z bosons''' are the [[gauge boson]]s that mediate the [[weak interaction]], one of the four [[fundamental interaction]]s of nature. They were discovered in 1983 at [[CERN]] by the [[UA1 experiment|UA1]] and [[UA2 experiment|UA2]] collaborations, led by [[Carlo Rubbia]] and [[Simon van der Meer]] ([[Nobel Prize in Physics|Nobel Prize]] 1984).
+
+== Types ==
+{| class="wikitable"
+|-
+! Boson !! Symbol !! Charge !! Mass !! Interaction
+|-
+| W⁺ || W⁺ || +1 e || 80.4 GeV/c² || Charged current
+|-
+| W⁻ || W⁻ || −1 e || 80.4 GeV/c² || Charged current
+|-
+| Z⁰ || Z⁰ || 0 || 91.2 GeV/c² || Neutral current
+|}
+
+== Role in the weak interaction ==
+
+=== W bosons (charged current) ===
+W bosons mediate processes that change [[electric charge]] and [[flavour (particle physics)|flavour]]:
+* [[Beta decay]]: <math>d \rightarrow u + W^- \rightarrow u + e^- + \bar{\nu}_e</math>
+* [[Muon decay]]: <math>\mu^- \rightarrow \nu_\mu + W^- \rightarrow \nu_\mu + e^- + \bar{\nu}_e</math>
+
+=== Z boson (neutral current) ===
+The Z boson mediates interactions where particles do not change charge. First observed at CERN in 1973, this discovery confirmed the [[electroweak theory]].
+
+== Electroweak theory ==
+{{Main|Electroweak theory}}
+At high energies (~100 GeV), the [[electromagnetic force|electromagnetic]] and [[weak interaction]]s unify into a single [[electroweak force]]. At lower energies, the [[Higgs mechanism]] breaks the symmetry:
+
+* The photon (<math>\gamma</math>) remains massless (infinite range)
+* The W⁺, W⁻, and Z⁰ acquire mass (~80–91 GeV/c²), giving the weak force its short range (~10⁻¹⁸ m)
+
+The [[Weinberg angle]] <math>\theta_W</math> relates the masses:
+:<math>M_W = M_Z \cos\theta_W</math>
+
+== Properties ==
+* Extremely massive — among the heaviest known elementary particles (Z⁰ is ~97× proton mass)
+* Short lifetime — ~10⁻²⁵ s (decay rapidly into lighter particles)
+* Couple to all [[fermion]]s (quarks and leptons)
+* Self-interaction — W and Z bosons interact with each other (predicted by non-abelian gauge theory)
+
+== Discovery ==
+The W and Z bosons were discovered at the [[Super Proton Synchrotron]] (SPS) at [[CERN]] in 1983. The discovery was a major triumph of the [[Standard Model]], confirming the [[electroweak theory]].
+
+== See also ==
+{{Portal|Physics}}
+* [[Boson]]
+* [[Electroweak theory]]
+* [[Higgs mechanism]]
+* [[Standard Model]]
+* [[Weak interaction]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:W and Z bosons| ]]
+[[Category:Bosons]]
+[[Category:Elementary particles]]
+[[Category:Weak interaction]]

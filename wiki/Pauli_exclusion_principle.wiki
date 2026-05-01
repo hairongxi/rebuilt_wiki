@@ -1,0 +1,60 @@
+{{Short description|Quantum mechanical principle: two identical fermions cannot occupy the same quantum state}}
+{{Infobox physical law
+| name = Pauli exclusion principle
+| image = Wolfgang Pauli.jpg
+| caption = [[Wolfgang Pauli]], who formulated the principle in 1925
+| formula = <math>\Psi(\ldots, \mathbf{r}_i, s_i, \ldots, \mathbf{r}_j, s_j, \ldots) = -\Psi(\ldots, \mathbf{r}_j, s_j, \ldots, \mathbf{r}_i, s_i, \ldots)</math>
+| discovered_by = [[Wolfgang Pauli]] (1925)
+}}
+
+The '''Pauli exclusion principle''' is the [[quantum mechanics|quantum mechanical]] principle which states that two or more [[identical particles|identical]] [[fermion]]s (particles with half-integer [[Spin (physics)|spin]]) cannot occupy the same [[quantum state]] within a quantum system simultaneously. This principle was formulated by Austrian physicist [[Wolfgang Pauli]] in 1925.
+
+The principle applies to all [[fermion]]s, which include [[electron]]s, [[proton]]s, [[neutron]]s, [[neutrino]]s, and [[quark]]s.
+
+== Mathematical formulation ==
+For a system of identical fermions, the total wave function must be [[antisymmetric]] with respect to exchange of any two particles:
+:<math>\Psi(\mathbf{r}_1, s_1, \ldots, \mathbf{r}_i, s_i, \ldots, \mathbf{r}_j, s_j, \ldots) = -\Psi(\mathbf{r}_1, s_1, \ldots, \mathbf{r}_j, s_j, \ldots, \mathbf{r}_i, s_i, \ldots)</math>
+
+This antisymmetry implies that if two fermions occupy the same state (same spatial orbital AND same spin), the wave function vanishes identically.
+
+In the [[Slater determinant]] formalism, this is automatically enforced: the determinant of a matrix with two identical rows is zero.
+
+== Spin–statistics theorem ==
+{{Main|Spin–statistics theorem}}
+The exclusion principle is a consequence of the [[spin–statistics theorem]]:
+* '''Fermions''' (half-integer spin): antisymmetric wave function → obey exclusion principle
+* '''Bosons''' (integer spin): symmetric wave function → can occupy the same state (e.g., [[Bose–Einstein condensate]]s)
+
+== Applications ==
+
+=== Electronic structure of atoms ===
+The exclusion principle explains the [[periodic table]]. No two electrons in an atom can have the same four quantum numbers (<math>n, \ell, m_\ell, m_s</math>). This forces electrons to fill successive [[atomic orbital|orbitals]], creating the shell structure of atoms.
+
+=== Stability of matter ===
+The exclusion principle prevents electrons from collapsing into the [[atomic nucleus]]. Without it, all matter would collapse into an ultra-dense state. As [[Freeman Dyson]] and others showed, the stability of bulk matter is fundamentally a consequence of the exclusion principle.
+
+=== Degeneracy pressure ===
+{{Main|Degenerate matter}}
+In [[white dwarf]]s and [[neutron star]]s, gravitational collapse is resisted by:
+* '''Electron degeneracy pressure''' — supports white dwarfs ([[Chandrasekhar limit]]: <math>M \leq 1.4 M_\odot</math>)
+* '''Neutron degeneracy pressure''' — supports neutron stars
+
+=== Solid-state physics ===
+The exclusion principle underlies the [[electronic band structure]] of solids:
+* [[Conduction band]] and [[valence band]] formation
+* Distinction between [[metal]]s, [[semiconductor]]s, and [[insulator (electricity)|insulator]]s
+* [[Fermi energy]] <math>E_F</math> — the highest occupied energy level at <math>T = 0</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Fermion]]
+* [[Spin–statistics theorem]]
+* [[Quantum number]]
+* [[Hund's rules]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Pauli exclusion principle| ]]
+[[Category:Quantum mechanics]]
+[[Category:Wolfgang Pauli]]

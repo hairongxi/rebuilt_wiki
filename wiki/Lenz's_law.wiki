@@ -1,0 +1,64 @@
+{{Short description="Law that the direction of an induced current opposes the change causing it"}}
+{{Infobox physical law
+| name = Lenz's law
+| image = Lenzs-law-inductor.jpg
+| caption = A magnet falling through a copper tube falls slower than gravity alone, as eddy currents induced according to Lenz's law oppose the motion.
+| formula = The negative sign in <math>\mathcal{E} = -\frac{d\Phi_B}{dt}</math>
+| discovered_by = [[Heinrich Lenz]] (1834)
+}}
+
+'''Lenz's law''', named after the physicist [[Heinrich Lenz]] who formulated it in 1834, states that the direction of an [[electric current|induced current]] in a conductor by a changing [[magnetic field]] is such that the [[magnetic field]] created by the induced current opposes the initial changing magnetic field. It is a qualitative law that specifies the direction of induced current, but states nothing about its magnitude.
+
+Lenz's law is encapsulated in the negative sign in [[Faraday's law of induction]]:
+:<math>\mathcal{E} = -\frac{d\Phi_B}{dt}</math>
+
+== Statement ==
+:''The current induced in a circuit due to a change in magnetic flux is so directed as to oppose the change in flux that produces it.''
+
+== Physical basis ==
+Lenz's law is a consequence of the [[conservation of energy]]. If the induced current reinforced the change (rather than opposed it), a small change would trigger a positive feedback loop, creating unlimited energy — a violation of the [[first law of thermodynamics]].
+
+== Examples ==
+
+=== Magnet and coil ===
+When the north pole of a magnet is pushed into a coil:
+* Magnetic flux through the coil increases
+* Induced current flows to create a magnetic field opposing the increase
+* The induced field repels the approaching magnet
+
+When the magnet is pulled out:
+* Flux decreases
+* Induced current reverses to create a field supporting the decreasing flux
+* The induced field attracts the receding magnet
+
+=== Falling magnet in a copper tube ===
+A magnet dropped through a vertical copper tube falls slower than in free fall. The changing flux induces [[eddy current]]s in the tube, which create magnetic fields opposing the magnet's motion (magnetic braking).
+
+=== Eddy current braking ===
+{{Main|Eddy current brake}}
+Eddy current brakes use Lenz's law for contactless braking in:
+* Roller coasters
+* High-speed trains
+* Exercise equipment
+
+== Applications ==
+* [[Induction heating]] — induced eddy currents generate heat
+* [[Electromagnetic braking]]
+* [[Metal detector]]s
+* [[Induction motor]]s
+* [[Magnetic levitation]]
+* [[Transformer]] operation — induced secondary current opposes the flux change
+
+== See also ==
+{{Portal|Physics}}
+* [[Faraday's law of induction]]
+* [[Eddy current]]
+* [[Electromagnetic induction]]
+* [[Right-hand rule]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Lenz's law| ]]
+[[Category:Electromagnetism]]
+[[Category:Scientific laws]]

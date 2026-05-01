@@ -1,0 +1,57 @@
+{{Short description|Subatomic particle with positive electric charge found in atomic nuclei}}
+{{Infobox physics
+| name = Proton
+| image = Quark structure proton.svg
+| caption = A proton is composed of two [[up quark]]s and one [[down quark]], held together by the [[strong interaction]].
+| topics = [[Atomic nucleus]], [[Electric charge]], [[Quark]], [[Strong interaction]]
+| composition = 2 [[up quark]]s, 1 [[down quark]]
+| statistics = [[Fermion]]
+| symbol = p, p⁺
+| antiparticle = [[Antiproton]]
+| mass = 1.67262192369×10⁻²⁷ kg (938.272 MeV/c²)
+| charge = +1 e (+1.602176634×10⁻¹⁹ C)
+| spin = 1/2
+}}
+
+The '''proton''' is a [[subatomic particle]] with a positive [[electric charge]] of +1 [[elementary charge]]. It is a [[baryon]], consisting of two [[up quark]]s and one [[down quark]] held together by the [[strong interaction]] mediated by [[gluon]]s. Protons and [[neutron]]s are collectively called [[nucleon]]s and form the [[atomic nucleus]].
+
+== History ==
+The proton was discovered by [[Ernest Rutherford]] in 1919 through the [[nuclear reaction]]:
+:<math>^{14}\text{N} + \alpha \rightarrow ^{17}\text{O} + p</math>
+Rutherford identified the hydrogen nucleus as an elementary particle and named it the proton (from Greek ''protos'', "first").
+
+== Properties ==
+
+=== Mass and stability ===
+The proton is a [[stable particle]], with a half-life of at least 10³⁴ years (experimental lower bound). Its rest mass is approximately 938.272 MeV/c² or 1.6726×10⁻²⁷ kg, about 1836 times the [[electron]] mass.
+
+=== Charge and magnetic moment ===
+The proton's electric charge is exactly +1 [[elementary charge]], equal in magnitude and opposite in sign to the electron's charge. Its [[magnetic moment]] is:
+:<math>\mu_p = 2.793\,\mu_N</math>
+where <math>\mu_N = e\hbar/2m_p</math> is the [[nuclear magneton]].
+
+=== Internal structure ===
+The proton is not elementary but is a composite particle. It contains two [[up quark]]s (<math>+2/3\,e</math> each) and one [[down quark]] (<math>-1/3\,e</math>), giving a net charge of <math>+1\,e</math>. These valence quarks are surrounded by a sea of virtual [[quark]]–[[antiquark]] pairs and [[gluon]]s.
+
+== Role in nature ==
+* The number of protons in an atom's nucleus ([[atomic number]] <math>Z</math>) defines the [[chemical element]]
+* [[Nuclear fusion]] of protons powers the [[Sun]] and other [[star]]s via the [[proton–proton chain reaction]]
+* In [[acid–base chemistry]], a proton (H⁺) is transferred between molecules ([[Brønsted–Lowry acid–base theory]])
+* Proton beams are used in [[particle accelerator]]s (e.g., [[Large Hadron Collider]]) and [[proton therapy]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Atomic nucleus]]
+* [[Electron]]
+* [[Neutron]]
+* [[Nuclear physics]]
+* [[Quark]]
+* [[Strong interaction]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Proton| ]]
+[[Category:Baryons]]
+[[Category:Nucleons]]
+[[Category:Nuclear physics]]

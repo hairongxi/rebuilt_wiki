@@ -1,0 +1,64 @@
+{{Short description|Particle with no known substructure; fundamental constituent of matter}}
+{{Infobox physics
+| name = Elementary particle
+| image = Standard Model of Elementary Particles.svg
+| caption = The [[Standard Model]] of elementary particles.
+| topics = [[Particle physics]], [[Standard Model]], [[Quantum mechanics]], [[Fermion]], [[Boson]]
+}}
+
+In [[particle physics]], an '''elementary particle''' (or '''fundamental particle''') is a [[subatomic particle]] that is not composed of other particles. Elementary particles are the fundamental building blocks of the [[universe]]; all other particles and [[matter]] are composed of combinations of these particles.
+
+== Classification ==
+Elementary particles fall into two main classes:
+
+=== Fermions (matter particles) ===
+{{Main|Fermion}}
+Particles with half-integer [[spin (physics)|spin]] that make up matter:
+
+'''[[Quark]]s''' (6 flavours):
+* Up (<math>u</math>), Down (<math>d</math>) — constituents of [[proton]]s and [[neutron]]s
+* Charm (<math>c</math>), Strange (<math>s</math>)
+* Top (<math>t</math>), Bottom (<math>b</math>)
+
+'''[[Lepton]]s''' (6 flavours):
+* [[Electron]] (<math>e</math>), [[Muon]] (<math>\mu</math>), [[Tau (particle)|Tau]] (<math>\tau</math>)
+* Electron neutrino (<math>\nu_e</math>), Muon neutrino (<math>\nu_\mu</math>), Tau neutrino (<math>\nu_\tau</math>)
+
+=== Bosons (force carriers) ===
+{{Main|Boson}}
+Particles with integer spin that mediate [[fundamental interaction]]s:
+* [[Photon]] (<math>\gamma</math>) — [[electromagnetism]]
+* [[W and Z bosons]] — [[weak interaction]]
+* [[Gluon]] (<math>g</math>) — [[strong interaction]]
+* [[Graviton]] (hypothetical) — [[gravity]]
+* [[Higgs boson]] (<math>H</math>) — mass generation mechanism
+
+== Standard Model ==
+{{Main|Standard Model}}
+The [[Standard Model]] of particle physics describes 17 known elementary particles and their interactions. It has been experimentally verified to extraordinary precision but does not include [[gravity]] or [[dark matter]].
+
+== Properties ==
+Elementary particles are characterised by:
+* [[Mass]]
+* [[Electric charge]]
+* [[Spin (physics)|Spin]]
+* [[Colour charge]] (for quarks and gluons)
+* [[Lepton number]] (for leptons)
+* [[Baryon number]] (for quarks)
+
+== See also ==
+{{Portal|Physics}}
+* [[Boson]]
+* [[Fermion]]
+* [[Lepton]]
+* [[Neutrino]]
+* [[Quark]]
+* [[Standard Model]]
+* [[Subatomic particle]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Elementary particles| ]]
+[[Category:Particle physics]]
+[[Category:Concepts in physics]]

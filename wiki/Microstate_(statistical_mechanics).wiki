@@ -1,0 +1,42 @@
+{{Short description|Specific configuration of a thermodynamic system at the microscopic level}}
+{{Infobox physics
+| name = Microstate (statistical mechanics)
+| image = 
+| caption = 
+| topics = [[Statistical mechanics]], [[Entropy]], [[Thermodynamics]]
+}}
+
+In [[statistical mechanics]], a '''microstate''' (or '''microscopic state''') is a specific detailed configuration of a thermodynamic system at the microscopic level. For a [[classical mechanics|classical]] system of <math>N</math> particles, a microstate is specified by the positions and momenta of all particles: <math>(\mathbf{r}_1, \ldots, \mathbf{r}_N, \mathbf{p}_1, \ldots, \mathbf{p}_N)</math> in the <math>6N</math>-dimensional [[phase space]].
+
+In [[quantum mechanics]], a microstate is defined by a specific set of [[quantum number]]s for all particles in the system.
+
+== Relation to macrostates ==
+A [[macrostate]] (characterised by macroscopic variables such as [[temperature]], [[pressure]], and [[volume]]) corresponds to a vast number of possible microstates. The number of microstates <math>\Omega</math> corresponding to a given macrostate determines the system's [[entropy]] via [[Boltzmann's entropy formula]]:
+
+:<math>S = k_B \ln \Omega</math>
+
+where <math>k_B</math> is the [[Boltzmann constant]].
+
+== Fundamental postulate ==
+The [[fundamental postulate of statistical mechanics]] (also called the [[equal a priori probability postulate]]) states that for an isolated system in equilibrium, all accessible microstates are equally probable. This is the foundation for deriving all thermodynamic properties from statistical considerations.
+
+== Examples ==
+* For <math>N</math> spins in a [[paramagnet]], each spin can be up or down: <math>\Omega = 2^N</math>
+* For an [[ideal gas]] of <math>N</math> particles in volume <math>V</math>: <math>\Omega \propto V^N</math>
+* In the [[Einstein solid]] model, each oscillator has quantized energy levels
+
+== Counting microstates ==
+The number of microstates determines the thermodynamic probability of a macrostate. Systems evolve towards macrostates with maximum <math>\Omega</math> (maximum entropy), consistent with the [[second law of thermodynamics]].
+
+== See also ==
+{{Portal|Physics}}
+* [[Entropy]]
+* [[Phase space]]
+* [[Statistical mechanics]]
+* [[Thermodynamics]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Statistical mechanics]]
+[[Category:Thermodynamics]]

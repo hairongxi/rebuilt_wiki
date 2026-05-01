@@ -1,0 +1,58 @@
+{{Short description|Natural phenomenon by which all things with mass or energy are brought toward one another}}
+{{Infobox physics
+| name = Gravity
+| image = Apollo 15 feather and hammer drop.ogv
+| caption = On the Moon, [[David Scott]] simultaneously dropped a hammer and a feather. Without air resistance, both hit the ground at the same time, demonstrating that gravitational acceleration is independent of mass ([[equivalence principle]]).
+| topics = [[Gravitation]], [[Newton's law of universal gravitation]], [[General relativity]], [[Spacetime]]
+}}
+
+'''Gravity''' (from Latin ''gravitas'' 'weight'), or '''gravitation''', is a natural phenomenon by which all objects with [[mass]] or [[energy]] — including [[planet]]s, [[star]]s, [[galaxy|galaxies]], and even [[light]] — are brought toward one another. On [[Earth]], gravity gives [[weight]] to physical objects; the [[Moon]]'s gravity causes the ocean [[tide]]s; and the Sun's gravity holds the [[Solar System]] together.
+
+Gravity is the weakest of the four [[fundamental interaction]]s, yet it is the dominant force at macroscopic scales and determines the large-scale structure of the [[universe]].
+
+== History of gravitational theory ==
+
+=== Newton's law ===
+{{Main|Newton's law of universal gravitation}}
+[[Isaac Newton]] formulated the first mathematical description of gravity (1687):
+:<math>F = G\frac{m_1 m_2}{r^2}</math>
+
+=== Einstein's general relativity ===
+{{Main|General relativity}}
+[[Albert Einstein]]'s [[general relativity]] (1915) reconceptualized gravity not as a [[force]] but as a consequence of the curvature of [[spacetime]] caused by mass and energy:
+
+:<math>R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}</math>
+
+== Properties ==
+* Always attractive (in all known cases)
+* Infinite range
+* Cannot be shielded or neutralized
+* Weakest fundamental force (10⁻³⁸ times the strength of the strong interaction)
+* Affects all forms of mass and energy, including [[light]]
+* Obeys the [[equivalence principle]]: gravitational mass = inertial mass
+
+== Gravitational field ==
+The [[gravitational field]] <math>\mathbf{g}</math> at a point is the force per unit mass:
+:<math>\mathbf{g} = \frac{\mathbf{F}}{m}</math>
+
+Near Earth's surface: <math>g \approx 9.81\ \text{m/s}^2</math>.
+
+== Gravitational waves ==
+{{Main|Gravitational wave}}
+In general relativity, accelerating masses produce [[gravitational wave]]s — ripples in spacetime travelling at the [[speed of light]]. First directly detected by [[LIGO]] in 2015 from a binary [[black hole]] merger.
+
+== See also ==
+{{Portal|Physics}}
+* [[General relativity]]
+* [[Gravitation]]
+* [[Gravitational wave]]
+* [[Newton's law of universal gravitation]]
+* [[Spacetime]]
+* [[Weight]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Gravity| ]]
+[[Category:Gravitation]]
+[[Category:Fundamental interactions]]

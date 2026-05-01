@@ -1,0 +1,60 @@
+{{Short description="Integral of a force over a time interval, equal to the change in momentum}}
+{{Infobox physics
+| name = Impulse (physics)
+| image = 
+| caption = 
+| topics = [[Force]], [[Momentum]], [[Newton's laws of motion]]
+| symbol = J
+| SI_unit = [[newton second]] (N·s)
+| dimension = M L T⁻¹
+}}
+
+In [[classical mechanics]], '''impulse''' (symbol <math>\mathbf{J}</math> or <math>\mathbf{I}</math>) is the [[integral]] of a [[force]] <math>\mathbf{F}</math> over the time interval <math>\Delta t</math> during which it acts:
+
+:<math>\mathbf{J} = \int_{t_1}^{t_2} \mathbf{F} \, dt</math>
+
+For a constant force:
+:<math>\mathbf{J} = \mathbf{F} \Delta t</math>
+
+The [[SI unit]] of impulse is the [[newton second]] (N·s), which is dimensionally equivalent to [[kilogram]]-metre per second (kg·m/s).
+
+== Impulse–momentum theorem ==
+Impulse is equal to the change in [[momentum]] of the object on which the force acts:
+
+:<math>\mathbf{J} = \Delta\mathbf{p} = \mathbf{p}_f - \mathbf{p}_i = m\mathbf{v}_f - m\mathbf{v}_i</math>
+
+This is derived from [[Newton's second law]]:
+:<math>\mathbf{F} = \frac{d\mathbf{p}}{dt} \implies \int\mathbf{F}\,dt = \Delta\mathbf{p}</math>
+
+== Significance ==
+The impulse concept is especially useful when:
+* The force varies with time in a complex way (only the integral matters)
+* Forces act over very short time intervals (collisions, impacts)
+* The exact force profile is unknown, but the total change in momentum is known
+
+== Impulsive forces ==
+Large forces acting over very short time intervals are called ''impulsive forces''. Examples:
+* Bat hitting a baseball (~0.001 s)
+* Car crash impact
+* Rocket engine ignition
+* Hammer striking a nail
+
+During an impulsive interaction, non-impulsive forces (such as [[gravity]]) can often be neglected due to their relatively small magnitude.
+
+== Variable mass systems ==
+For systems with variable mass (e.g., a [[rocket]] expelling fuel), the impulse is related to the [[thrust]] and exhaust velocity:
+:<math>T = v_e \frac{dm}{dt}</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Force]]
+* [[Momentum]]
+* [[Newton's laws of motion]]
+* [[Work (physics)]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Classical mechanics]]
+[[Category:Force]]
+[[Category:Physical quantities]]

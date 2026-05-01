@@ -1,0 +1,126 @@
+{{Short description|Physics of large ensembles of particles}}
+{{Infobox physics
+| name = Statistical mechanics
+| image = Maxwell-Boltzmann distribution 1.png
+| caption = [[Maxwell–Boltzmann distribution]] of molecular speeds in an ideal gas
+| topics = [[Ensemble (physics)|Ensembles]], [[Partition function (statistical mechanics)|Partition function]], [[Phase space]], [[Entropy]], [[Boltzmann distribution]], [[Quantum statistics]]
+}}
+
+'''Statistical mechanics''' is a branch of [[physics]] that uses [[probability theory]] and [[statistics]] to study the behavior of systems composed of a large number of particles. It provides a microscopic foundation for [[thermodynamics]] by connecting macroscopic thermodynamic quantities — such as [[temperature]], [[pressure]], [[entropy]], and [[heat capacity]] — to the statistical behavior of individual atoms and molecules.
+
+Statistical mechanics is essential for understanding phenomena that cannot be explained by thermodynamics alone, such as [[Brownian motion]], [[phase transition]]s, and the [[equation of state]] of real gases.
+
+== History ==
+
+The foundations of statistical mechanics were laid in the 19th century. [[James Clerk Maxwell]] and [[Ludwig Boltzmann]] developed the [[kinetic theory of gases]]. Boltzmann introduced the famous [[Boltzmann entropy formula]] in the 1870s: <math>S = k_B \ln \Omega</math>, where <math>S</math> is entropy, <math>k_B</math> is the [[Boltzmann constant]], and <math>\Omega</math> is the number of [[microstate (statistical mechanics)|microstates]].
+
+[[Josiah Willard Gibbs]] provided a more general framework in his 1902 book ''Elementary Principles in Statistical Mechanics'', introducing the concept of statistical [[ensemble (physics)|ensembles]].
+
+In the early 20th century, quantum statistical mechanics was developed to account for the [[identical particles|indistinguishability]] of quantum particles, leading to [[Bose–Einstein statistics]] (for [[boson]]s) and [[Fermi–Dirac statistics]] (for [[fermion]]s).
+
+== Fundamental concepts ==
+
+=== Microstates and macrostates ===
+{{Main|Microstate (statistical mechanics)}}
+A '''microstate''' specifies all microscopic details of a system (positions and momenta of all particles). A '''macrostate''' is defined by macroscopic thermodynamic variables. The fundamental postulate of statistical mechanics asserts that all accessible microstates of an isolated system are equally probable.
+
+=== Boltzmann entropy formula ===
+The connection between microscopic multiplicity <math>\Omega</math> and macroscopic entropy <math>S</math> is given by:
+:<math>S = k_B \ln \Omega</math>
+where <math>k_B = 1.381 \times 10^{-23}\,\text{J/K}</math> is the [[Boltzmann constant]]. This equation is carved on Boltzmann's tombstone.
+
+=== Ensembles ===
+{{Main|Ensemble (statistical mechanics)}}
+
+{| class="wikitable"
+|-
+! Ensemble !! Fixed quantities !! Key function
+|-
+| [[Microcanonical ensemble|Microcanonical]] || <math>N, V, E</math> || <math>S = k_B \ln \Omega(N,V,E)</math>
+|-
+| [[Canonical ensemble|Canonical]] || <math>N, V, T</math> || [[Helmholtz free energy]] <math>F = -k_B T \ln Z</math>
+|-
+| [[Grand canonical ensemble|Grand canonical]] || <math>\mu, V, T</math> || [[Grand potential]] <math>\Omega = -k_B T \ln \Xi</math>
+|}
+
+where <math>N</math> is particle number, <math>V</math> volume, <math>E</math> energy, <math>T</math> temperature, <math>\mu</math> [[chemical potential]], <math>Z</math> the [[canonical partition function]], and <math>\Xi</math> the [[grand partition function]].
+
+=== Partition function ===
+{{Main|Partition function (statistical mechanics)}}
+The canonical [[partition function (statistical mechanics)|partition function]] is the sum over all microstates:
+:<math>Z = \sum_i e^{-\beta E_i} = \sum_i e^{-E_i/(k_B T)}</math>
+where <math>\beta = 1/(k_B T)</math>. All thermodynamic quantities can be derived from <math>Z</math>:
+* <math>U = \langle E \rangle = -\frac{\partial \ln Z}{\partial \beta}</math>
+* <math>F = -k_B T \ln Z</math>
+* <math>S = k_B \ln Z + \frac{U}{T}</math>
+
+=== Boltzmann distribution ===
+{{Main|Maxwell–Boltzmann statistics}}
+For a system at temperature <math>T</math>, the probability of finding it in a microstate with energy <math>E_i</math> is proportional to the [[Boltzmann factor]]:
+:<math>P_i = \frac{e^{-\beta E_i}}{Z}</math>
+
+== Classical statistical mechanics ==
+
+=== Equipartition theorem ===
+{{Main|Equipartition theorem}}
+The [[equipartition theorem]] states that each quadratic degree of freedom contributes <math>\frac{1}{2}k_B T</math> to the average energy. For an ideal monatomic gas with three translational degrees of freedom:
+:<math>\langle E \rangle = \frac{3}{2} N k_B T</math>
+
+=== Maxwell–Boltzmann distribution ===
+{{Main|Maxwell–Boltzmann distribution}}
+The distribution of molecular speeds in an ideal gas at temperature <math>T</math> is:
+:<math>f(v) = 4\pi \left(\frac{m}{2\pi k_B T}\right)^{3/2} v^2 e^{-mv^2/(2k_B T)}</math>
+
+The most probable speed is <math>v_p = \sqrt{2k_B T/m}</math>, the mean speed is <math>\langle v \rangle = \sqrt{8k_B T/(\pi m)}</math>, and the root-mean-square speed is <math>v_{\text{rms}} = \sqrt{3k_B T/m}</math>.
+
+== Quantum statistical mechanics ==
+
+=== Indistinguishability ===
+In quantum mechanics, [[identical particles]] are fundamentally indistinguishable. This leads to two types of quantum statistics:
+* '''[[Bose–Einstein statistics]]''' for particles with integer spin ([[boson]]s), which can occupy the same quantum state
+* '''[[Fermi–Dirac statistics]]''' for particles with half-integer spin ([[fermion]]s), which obey the [[Pauli exclusion principle]]
+
+=== Bose–Einstein distribution ===
+:<math>\langle n_i \rangle = \frac{1}{e^{\beta(\epsilon_i - \mu)} - 1}</math>
+
+=== Fermi–Dirac distribution ===
+:<math>\langle n_i \rangle = \frac{1}{e^{\beta(\epsilon_i - \mu)} + 1}</math>
+
+At <math>T = 0</math>, the Fermi–Dirac distribution becomes a step function, filling all states up to the [[Fermi energy]] <math>E_F</math>.
+
+=== Bose–Einstein condensation ===
+{{Main|Bose–Einstein condensate}}
+Below a critical temperature, a macroscopic fraction of non-interacting bosons occupies the lowest quantum state. This phenomenon was predicted by [[Satyendra Nath Bose]] and [[Albert Einstein]] in 1924–25 and experimentally observed in 1995.
+
+== Phase transitions and critical phenomena ==
+{{Main|Phase transition|Critical phenomena}}
+Statistical mechanics provides the framework for understanding [[phase transition]]s and [[critical phenomena]]. Near the [[critical point (thermodynamics)|critical point]], systems exhibit [[universality (dynamical systems)|universality]]: different physical systems show the same [[critical exponent]]s when they belong to the same [[universality class]].
+
+The [[Ising model]] is a paradigmatic model for studying phase transitions, particularly [[ferromagnetism]].
+
+== Applications ==
+* [[Condensed matter physics]] — electronic properties, magnetism
+* [[Chemical physics]] — reaction rates, molecular dynamics
+* [[Biophysics]] — protein folding, ion channel dynamics
+* [[Astrophysics]] — stellar structure, [[white dwarf]] stability
+* [[Quantum computing]] — quantum statistical effects in qubits
+
+== See also ==
+{{Portal|Physics}}
+* [[Kinetic theory of gases]]
+* [[Fluctuation theorem]]
+* [[Information theory]]
+* [[Non-equilibrium thermodynamics]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Lev Landau|Landau, L. D.]], Lifshitz, E. M. (1980). ''Statistical Physics'' (3rd ed.). Butterworth-Heinemann.
+* [[Kerson Huang|Huang, K.]] (1987). ''Statistical Mechanics'' (2nd ed.). Wiley.
+* [[Roger Penrose|Penrose, O.]] (1970). ''Foundations of Statistical Mechanics''. Oxford University Press.
+* [[Frederick Reif|Reif, F.]] (1965). ''Fundamentals of Statistical and Thermal Physics''. McGraw-Hill.
+
+[[Category:Statistical mechanics| ]]
+[[Category:Physics]]
+[[Category:Thermodynamics]]

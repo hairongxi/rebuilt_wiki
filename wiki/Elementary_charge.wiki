@@ -1,0 +1,49 @@
+{{Short description="SI unit of electric charge; magnitude of charge of a proton}}
+{{Infobox physics
+| name = Elementary charge
+| image = 
+| caption = 
+| topics = [[Electric charge]], [[Electron]], [[Proton]], [[International System of Units]]
+| symbol = e
+| value = 1.602176634×10⁻¹⁹ C (exact by definition)
+| unit = [[Coulomb]]
+}}
+
+The '''elementary charge''', usually denoted <math>e</math>, is the [[electric charge]] carried by a single [[proton]] or, equivalently, the magnitude of the negative electric charge carried by a single [[electron]]. It is a fundamental [[physical constant]] and the quantum of electric charge.
+
+:<math>e = 1.602176634 \times 10^{-19}\ \text{C}</math>
+
+Since 2019, the elementary charge has been fixed at this exact value in the [[International System of Units]], defining the [[ampere]] and [[coulomb]].
+
+== Charge quantization ==
+All observed electric charges are integer multiples of <math>e</math>. [[Quark]]s have fractional charges (<math>\pm 1/3\,e</math> and <math>\pm 2/3\,e</math>), but due to [[colour confinement]], they are never observed in isolation — all free particles have integer multiples of <math>e</math>.
+
+== Role in fundamental constants ==
+
+=== Fine-structure constant ===
+The dimensionless [[fine-structure constant]] <math>\alpha</math> is built from <math>e</math>:
+:<math>\alpha = \frac{e^2}{4\pi\varepsilon_0 \hbar c} \approx \frac{1}{137}</math>
+
+=== Coulomb's law ===
+:<math>F = k_e\frac{q_1 q_2}{r^2}</math> where <math>k_e = \frac{1}{4\pi\varepsilon_0}</math>
+
+=== Bohr model ===
+The [[Bohr radius]] and [[Rydberg constant]] depend on <math>e</math>.
+
+== Experimental determination ==
+The elementary charge was first measured by [[Robert Millikan]] and [[Harvey Fletcher]] in the [[oil drop experiment]] (1909), measuring the charge on individual oil droplets. They found that charges were always integer multiples of a fundamental value, establishing the quantization of charge.
+
+== See also ==
+{{Portal|Physics}}
+* [[Coulomb]]
+* [[Electric charge]]
+* [[Electron]]
+* [[Proton]]
+* [[Quark]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Physical constants]]
+[[Category:Electromagnetism]]
+[[Category:Electric charge]]

@@ -1,0 +1,62 @@
+{{Short description|Physical constant relating temperature to energy at the particle level}}
+{{Infobox physics
+| name = Boltzmann constant
+| image = 
+| caption = 
+| topics = [[Statistical mechanics]], [[Thermodynamics]], [[Kinetic theory of gases]], [[Entropy]]
+| symbol = k, k_B
+| value = 1.380649×10⁻²³ J/K (exact by definition)
+| dimension = [Energy] / [Temperature]
+}}
+
+The '''Boltzmann constant''' (<math>k</math> or <math>k_B</math>) is a fundamental [[physical constant]] that relates the average relative [[kinetic energy]] of particles in a [[gas]] to the [[thermodynamic temperature]] of the gas. It is named after the Austrian physicist [[Ludwig Boltzmann]], who made foundational contributions to [[statistical mechanics]].
+
+Since 2019, the Boltzmann constant has an exact defined value:
+:<math>k_B = 1.380649 \times 10^{-23}\ \text{J/K}</math>
+
+== Fundamental role ==
+
+=== Kinetic theory ===
+{{Main|Kinetic theory of gases}}
+In the [[kinetic theory of gases]], the average translational kinetic energy of a gas molecule is directly proportional to the absolute temperature:
+:<math>\langle E_k \rangle = \frac{3}{2}k_B T</math>
+
+=== Ideal gas law ===
+The [[ideal gas law]] can be expressed microscopically:
+:<math>PV = Nk_B T</math>
+
+The macroscopic [[molar gas constant]] <math>R</math> is related to the Boltzmann constant by:
+:<math>R = N_A k_B</math>
+where <math>N_A</math> is the [[Avogadro constant]].
+
+=== Statistical mechanics ===
+{{Main|Statistical mechanics}}
+In statistical mechanics, the Boltzmann constant appears in the [[Boltzmann factor]]:
+:<math>P_i \propto e^{-E_i / k_B T}</math>
+
+And in the definition of [[entropy]]:
+:<math>S = k_B \ln \Omega</math>
+where <math>\Omega</math> is the number of [[microstate (statistical mechanics)|microstates]]. This formula, engraved on Boltzmann's tombstone, bridges the microscopic and macroscopic worlds.
+
+=== Equipartition theorem ===
+The [[equipartition theorem]] states that each quadratic degree of freedom in a system at thermal equilibrium has an average energy of <math>\frac{1}{2}k_B T</math>.
+
+== Historical definition (2019 redefinition) ==
+Before 2019, the Boltzmann constant was measured experimentally. In the [[2019 redefinition of the SI base units]], it was given an exact fixed value, which defined the [[kelvin]] in terms of energy.
+
+== See also ==
+{{Portal|Physics}}
+* [[Entropy]]
+* [[Ideal gas law]]
+* [[Kinetic theory of gases]]
+* [[Laws of thermodynamics]]
+* [[Statistical mechanics]]
+* [[Temperature]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Physical constants]]
+[[Category:Statistical mechanics]]
+[[Category:Thermodynamics]]
+[[Category:Ludwig Boltzmann]]

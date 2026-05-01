@@ -1,0 +1,128 @@
+{{Short description|Branch of physics that studies the behavior and properties of light}}
+{{Infobox physics
+| name = Optics
+| image = Light dispersion of a mercury-vapor lamp with a flint glass prism IPNr°0125.jpg
+| caption = Dispersion of light by a [[triangular prism (optics)|prism]]
+| topics = [[Reflection (physics)|Reflection]], [[Refraction]], [[Diffraction]], [[Interference (wave propagation)|Interference]], [[Polarization (waves)|Polarization]], [[Dispersion (optics)|Dispersion]]
+}}
+
+'''Optics''' is the branch of [[physics]] that studies the behavior and properties of [[light]], including its interactions with [[matter]] and the construction of [[optical instruments|instruments]] that use or detect it. Optics usually describes the behavior of [[visible light|visible]], [[ultraviolet]], and [[infrared]] light.
+
+Most optical phenomena can be accounted for using the [[classical electromagnetism|classical electromagnetic]] description of light, but complete electromagnetic descriptions of light are often difficult to apply in practice. Practical optics is usually done using simplified models. The most common of these, [[geometrical optics]], treats light as a collection of [[ray (optics)|rays]] that travel in straight lines and bend when they pass through or reflect from surfaces. [[Physical optics]] is a more comprehensive model of light, which includes wave effects such as [[diffraction]] and [[Interference (wave propagation)|interference]] that cannot be accounted for in geometric optics.
+
+== History ==
+{{Main|History of optics}}
+
+Optics began with the development of [[lens (optics)|lenses]] by the [[ancient Egypt]]ians and [[Mesopotamia]]ns, followed by theories on light and vision developed by ancient [[Greek philosophy|Greek philosophers]]. The word ''optics'' comes from the [[Greek language|Greek]] <nowiki>''</nowiki>ta optika<nowiki>''</nowiki>, meaning "appearance, look".
+
+[[Ibn al-Haytham]] (Alhazen), in his ''[[Book of Optics]]'' (1021), correctly explained that vision occurs when light reflects from objects and enters the eye. He also studied [[refraction]], [[reflection]], and the [[camera obscura]].
+
+In the 17th century, [[Isaac Newton]] investigated the [[refraction]] of light, demonstrating that a prism could decompose [[white light]] into a spectrum of colors. [[Christiaan Huygens]] proposed the [[wave theory of light]] in his ''[[Treatise on Light]]'' (1690). [[Thomas Young (scientist)|Thomas Young]]'s [[Young's interference experiment|double-slit experiment]] (1801) provided strong evidence for the wave nature of light. [[James Clerk Maxwell]]'s electromagnetic theory (1865) identified light as an [[electromagnetic wave]].
+
+== Geometrical optics ==
+{{Main|Geometrical optics}}
+
+Geometrical optics models light as rays that travel in straight lines in homogeneous media and bend at interfaces between different media. It is valid when the [[wavelength]] of light is much smaller than the size of the optical elements.
+
+=== Reflection ===
+{{Main|Reflection (physics)}}
+The law of reflection states that the angle of incidence equals the angle of reflection:
+:<math>\theta_i = \theta_r</math>
+
+=== Refraction ===
+{{Main|Refraction}}
+[[Snell's law]] describes the bending of light at the interface between two media with [[refractive index|refractive indices]] <math>n_1</math> and <math>n_2</math>:
+:<math>n_1 \sin\theta_1 = n_2 \sin\theta_2</math>
+
+=== Total internal reflection ===
+{{Main|Total internal reflection}}
+When light travels from a medium with higher refractive index to one with lower refractive index, there is a critical angle <math>\theta_c</math> beyond which all light is reflected:
+:<math>\theta_c = \arcsin\left(\frac{n_2}{n_1}\right)</math>
+
+=== Lenses and mirrors ===
+{{Main|Lens (optics)|Curved mirror}}
+The [[thin lens equation]] relates the focal length <math>f</math>, object distance <math>s_o</math>, and image distance <math>s_i</math>:
+:<math>\frac{1}{f} = \frac{1}{s_o} + \frac{1}{s_i}</math>
+
+The [[magnification]] <math>M</math> is:
+:<math>M = -\frac{s_i}{s_o}</math>
+
+== Physical optics ==
+{{Main|Physical optics}}
+
+=== Interference ===
+{{Main|Interference (wave propagation)}}
+[[Interference (wave propagation)|Interference]] occurs when two or more waves superpose to form a resultant wave of greater or lower amplitude. In [[Young's double-slit experiment]], bright fringes occur at angles <math>\theta</math> satisfying:
+:<math>d\sin\theta = m\lambda, \quad m = 0, \pm 1, \pm 2, \ldots</math>
+where <math>d</math> is the slit separation and <math>\lambda</math> is the wavelength.
+
+=== Diffraction ===
+{{Main|Diffraction}}
+[[Diffraction]] refers to the bending of waves around obstacles and the spreading of waves through apertures. For a single slit of width <math>a</math>, minima occur at:
+:<math>a\sin\theta = m\lambda, \quad m = \pm 1, \pm 2, \ldots</math>
+
+The [[Rayleigh criterion]] for the resolution limit of an optical instrument is:
+:<math>\theta_{\text{min}} = 1.22\frac{\lambda}{D}</math>
+where <math>D</math> is the aperture diameter.
+
+=== Polarization ===
+{{Main|Polarization (waves)}}
+[[Polarization (waves)|Polarization]] describes the orientation of the electric field oscillations in an electromagnetic wave. [[Brewster's angle]] <math>\theta_B</math> is the angle at which reflected light is completely polarized:
+:<math>\tan\theta_B = \frac{n_2}{n_1}</math>
+
+== Dispersion and scattering ==
+
+=== Dispersion ===
+{{Main|Dispersion (optics)}}
+[[Dispersion (optics)|Dispersion]] is the dependence of the refractive index on wavelength, which causes white light to separate into its constituent colors. [[Cauchy's equation]] approximates the relationship:
+:<math>n(\lambda) = A + \frac{B}{\lambda^2} + \frac{C}{\lambda^4}</math>
+
+=== Scattering ===
+{{Main|Scattering}}
+[[Rayleigh scattering]] (<math>\propto 1/\lambda^4</math>) explains why the sky is blue: shorter wavelengths are scattered more efficiently. [[Mie scattering]] applies to particles comparable in size to the wavelength.
+
+== Modern optics ==
+
+=== Laser ===
+{{Main|Laser}}
+The [[laser]] (Light Amplification by Stimulated Emission of Radiation) produces coherent, monochromatic, and highly directional light. Key principles include [[population inversion]], [[stimulated emission]], and [[optical cavity|optical resonance]].
+
+=== Holography ===
+{{Main|Holography}}
+[[Holography]] records and reconstructs the full wavefront of light, including both amplitude and phase information, producing three-dimensional images.
+
+=== Fiber optics ===
+{{Main|Fiber optics}}
+[[Optical fiber]]s transmit light via total internal reflection, enabling high-speed [[optical communication]] over long distances.
+
+=== Quantum optics ===
+{{Main|Quantum optics}}
+[[Quantum optics]] studies the behavior of light in the quantum regime, including phenomena such as [[photon antibunching]], [[squeezed light]], and [[quantum entanglement]] of photons.
+
+== Applications ==
+* [[Corrective lens]]es — eyeglasses, contact lenses
+* [[Microscope]]s and [[telescope]]s
+* [[Optical fiber]] communication
+* [[Laser surgery]], [[laser cutting]], and [[laser printing]]
+* [[Photography]] and [[cinematography]]
+* [[Spectroscopy]] for chemical analysis
+* [[Holography]] for data storage and security
+
+== See also ==
+{{Portal|Physics}}
+* [[Electromagnetic spectrum]]
+* [[Nonlinear optics]]
+* [[Photonics]]
+* [[Optical engineering]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Eugene Hecht|Hecht, E.]] (2017). ''Optics'' (5th ed.). Pearson.
+* [[Max Born|Born, M.]], Wolf, E. (1999). ''Principles of Optics'' (7th ed.). Cambridge University Press.
+* [[Grant R. Fowles|Fowles, G. R.]] (1989). ''Introduction to Modern Optics'' (2nd ed.). Dover.
+
+[[Category:Optics| ]]
+[[Category:Physics]]
+[[Category:Electromagnetic radiation]]

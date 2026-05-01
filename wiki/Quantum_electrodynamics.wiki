@@ -1,0 +1,58 @@
+{{Short description|Quantum field theory of the electromagnetic interaction}}
+{{Infobox physics
+| name = Quantum electrodynamics
+| image = Feynman diagram - Moller scattering 01.svg
+| caption = [[Feynman diagram]] for electron–electron scattering via photon exchange.
+| topics = [[Quantum mechanics]], [[Electromagnetism]], [[Photon]], [[Special relativity]]
+| key_equation = [[Dirac equation]], [[Quantization (physics)|quantized]] [[electromagnetic field]]
+}}
+
+'''Quantum electrodynamics''' ('''QED''') is the [[relativistic]] [[quantum field theory]] of the [[electromagnetic interaction]]. It describes how [[light]] and [[matter]] interact and is the first theory to achieve full agreement between [[quantum mechanics]] and [[special relativity]]. QED mathematically describes all phenomena involving electrically charged particles interacting by means of [[photon]] exchange.
+
+The theory was developed in the late 1940s by [[Richard Feynman]], [[Julian Schwinger]], [[Shin'ichirō Tomonaga]], and [[Freeman Dyson]], who received the [[Nobel Prize in Physics]] in 1965 for their work.
+
+== Fundamental interaction ==
+In QED, the electromagnetic force between two charged particles (such as [[electron]]s) is mediated by the exchange of virtual [[photon]]s. The fundamental vertex describes an electron emitting or absorbing a photon:
+
+:<math>e^- \leftrightarrow e^- + \gamma</math>
+
+The strength of the interaction is governed by the [[fine-structure constant]]:
+:<math>\alpha = \frac{e^2}{4\pi\varepsilon_0 \hbar c} \approx \frac{1}{137}</math>
+
+== Lagrangian ==
+The QED [[Lagrangian (field theory)|Lagrangian]] density for a spin-1/2 field <math>\psi</math> (electron) interacting with the electromagnetic field <math>A_\mu</math> is:
+:<math>\mathcal{L} = \bar{\psi}(i\gamma^\mu\partial_\mu - m)\psi - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} - e\bar{\psi}\gamma^\mu\psi A_\mu</math>
+
+== Feynman diagrams ==
+{{Main|Feynman diagram}}
+[[Richard Feynman]] introduced a pictorial method for calculating scattering amplitudes. Key QED processes include:
+* Electron–electron (Møller) scattering
+* Electron–positron (Bhabha) scattering
+* [[Compton scattering]] (<math>e^- + \gamma \rightarrow e^- + \gamma</math>)
+* [[Pair production]] (<math>\gamma \rightarrow e^- + e^+</math>)
+* [[Bremsstrahlung]] (braking radiation)
+
+== Renormalization ==
+QED achieves finite predictions through [[renormalization]] — absorbing infinite quantities into physical constants (mass, charge). This was a major theoretical breakthrough that made QED a predictive theory.
+
+== Precision tests ==
+QED is the most precisely tested theory in physics:
+* [[Anomalous magnetic dipole moment]] of the electron: theory matches experiment to 1 part in 10¹²
+* [[Lamb shift]] in the hydrogen spectrum
+* Hyperfine splitting in [[positronium]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Electromagnetism]]
+* [[Photon]]
+* [[Quantum chromodynamics]]
+* [[Quantum field theory]]
+* [[Standard model]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Quantum electrodynamics| ]]
+[[Category:Quantum field theory]]
+[[Category:Electromagnetism]]
+[[Category:Concepts in physics]]

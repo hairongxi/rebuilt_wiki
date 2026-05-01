@@ -1,0 +1,61 @@
+{{Short description="Spatial period of a periodic wave}}
+{{Infobox physics
+| name = Wavelength
+| image = Sine wavelength.svg
+| caption = Wavelength <math>\lambda</math> of a sinusoidal wave: the distance over which the wave's shape repeats.
+| topics = [[Wave]], [[Frequency]], [[Electromagnetic wave]], [[Electromagnetic spectrum]]
+| symbol = λ
+| SI_unit = [[metre]] (m)
+}}
+
+In [[physics]], the '''wavelength''' is the spatial period of a periodic [[wave]] — the distance over which the wave's shape repeats. It is the distance between consecutive corresponding points of the same phase, such as crests, troughs, or [[zero crossing]]s.
+
+For a sinusoidal wave:
+:<math>y(x,t) = A\sin(kx - \omega t)</math>
+
+where <math>k = 2\pi/\lambda</math> is the [[wavenumber]] and <math>\lambda</math> is the wavelength.
+
+== Relationship to frequency ==
+Wavelength <math>\lambda</math> is related to [[frequency]] <math>f</math> (or <math>\nu</math>) and wave speed <math>v</math> by:
+
+:<math>v = \lambda f = \frac{\lambda}{T}</math>
+
+where <math>T = 1/f</math> is the [[period (physics)|period]].
+
+== Electromagnetic waves ==
+{{Main|Electromagnetic wave}}
+For [[electromagnetic wave]]s in vacuum:
+:<math>c = \lambda\nu</math>
+
+The [[visible spectrum]] ranges from ~380 nm (violet) to ~750 nm (red).
+
+== De Broglie wavelength ==
+{{Main|De Broglie wavelength}}
+In [[quantum mechanics]], all particles have an associated wavelength:
+:<math>\lambda = \frac{h}{p}</math>
+where <math>h</math> is the [[Planck constant]] and <math>p</math> is [[momentum]].
+
+== Matter waves ==
+* [[Sound wave]]s in air: <math>\lambda = v_s / f</math>, where <math>v_s \approx 343</math> m/s
+* Waves on a string: <math>\lambda = 2L/n</math> for standing waves (<math>n = 1, 2, 3, \ldots</math>)
+
+== Angular wavenumber ==
+The [[wavenumber]] <math>k</math> is related to wavelength by:
+:<math>k = \frac{2\pi}{\lambda}</math>
+
+This is commonly used in wave equations and [[quantum mechanics]].
+
+== See also ==
+{{Portal|Physics}}
+* [[De Broglie wavelength]]
+* [[Electromagnetic spectrum]]
+* [[Frequency]]
+* [[Wave]]
+* [[Wavenumber]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Wavelength| ]]
+[[Category:Wave mechanics]]
+[[Category:Physical quantities]]

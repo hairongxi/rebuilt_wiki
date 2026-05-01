@@ -1,0 +1,67 @@
+{{Short description="Branch of mechanics concerned with forces and their effect on motion}}
+{{Infobox physics
+| name = Dynamics (mechanics)
+| image = 
+| caption = 
+| topics = [[Classical mechanics]], [[Newton's laws of motion]], [[Force]], [[Momentum]], [[Kinematics]]
+}}
+
+'''Dynamics''' is the branch of [[classical mechanics]] concerned with the study of [[force]]s and their effects on [[motion]]. It is distinguished from [[kinematics]], which describes motion without reference to its causes, and [[statics]], which concerns forces in equilibrium resulting in no motion.
+
+== Newton's laws of motion ==
+{{Main|Newton's laws of motion}}
+The foundation of classical dynamics is [[Newton's three laws]]:
+
+# A body remains at rest or in uniform motion unless acted upon by a net force ([[inertia]])
+# <math>\mathbf{F} = \frac{d\mathbf{p}}{dt}</math> — force equals rate of change of momentum
+# For every action, there is an equal and opposite reaction
+
+=== Conservation of momentum ===
+From Newton's second and third laws, the total [[momentum]] of an isolated system is conserved:
+:<math>\sum \mathbf{p}_i = \text{constant}</math>
+
+== Types of dynamics ==
+
+=== Particle dynamics ===
+For a single particle: <math>m\mathbf{a} = \mathbf{F}_{\text{net}}</math>
+
+=== Rigid body dynamics ===
+Considers both translation and rotation:
+* Translation: <math>\mathbf{F}_{\text{net}} = m\mathbf{a}_{\text{CM}}</math>
+* Rotation: <math>\boldsymbol{\tau}_{\text{net}} = I\boldsymbol{\alpha}</math>
+
+=== Continuum dynamics ===
+* [[Fluid dynamics]] — Navier–Stokes equations
+* [[Elasticity (physics)|Elasticity]]
+* [[Plasma (physics)|Plasma dynamics]]
+
+== Analytical formulations ==
+
+=== Lagrangian dynamics ===
+{{Main|Lagrangian mechanics}}
+:<math>\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_i}\right) - \frac{\partial L}{\partial q_i} = 0</math>
+
+=== Hamiltonian dynamics ===
+{{Main|Hamiltonian mechanics}}
+:<math>\dot{q}_i = \frac{\partial H}{\partial p_i}, \quad \dot{p}_i = -\frac{\partial H}{\partial q_i}</math>
+
+== Applications ==
+* [[Orbital mechanics]] — spacecraft trajectories
+* [[Vehicle dynamics]] — automotive and aerospace engineering
+* [[Robotics]] — control of manipulators and mobile robots
+* [[Structural dynamics]] — building and bridge response to loads
+* [[Vibration analysis]] — machine and structural vibrations
+
+== See also ==
+{{Portal|Physics}}
+* [[Classical mechanics]]
+* [[Force]]
+* [[Kinematics]]
+* [[Lagrangian mechanics]]
+* [[Newton's laws of motion]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Dynamics (mechanics)| ]]
+[[Category:Classical mechanics]]

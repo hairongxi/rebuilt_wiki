@@ -1,0 +1,78 @@
+{{Short description="Equation of state of a hypothetical ideal gas"}}
+{{Infobox physical law
+| name = Ideal gas law
+| image = Boyle's law final.png
+| caption = [[Boyle's law]]: at constant temperature, <math>P \propto 1/V</math>.
+| formula = <math>PV = nRT = Nk_B T</math>
+| discovered_by = [[Benoît Paul Émile Clapeyron|Émile Clapeyron]] (1834)
+}}
+
+The '''ideal gas law''', also called the '''general gas equation''', is the [[equation of state]] of a hypothetical [[ideal gas]]. It is a good approximation of the behavior of many [[gas]]es under many conditions, although it has several limitations. It was first stated by [[Benoît Paul Émile Clapeyron|Émile Clapeyron]] in 1834 as a combination of the empirical [[Boyle's law]], [[Charles's law]], [[Avogadro's law]], and [[Gay-Lussac's law]].
+
+== Statement ==
+:<math>PV = nRT</math>
+
+where:
+* <math>P</math> = absolute [[pressure]] (Pa)
+* <math>V</math> = [[volume]] (m³)
+* <math>n</math> = amount of substance (mol)
+* <math>R = 8.314\,462\,618\,\text{J/(mol·K)}</math> = [[gas constant|universal gas constant]]
+* <math>T</math> = absolute [[temperature]] (K)
+
+In terms of the number of molecules <math>N</math>:
+:<math>PV = Nk_B T</math>
+where <math>k_B = 1.380\,649 \times 10^{-23}\,\text{J/K}</math> is the [[Boltzmann constant]].
+
+== Historical development ==
+The ideal gas law unified four empirical gas laws:
+
+{| class="wikitable"
+|-
+! Law !! Discoverer !! Relationship
+|-
+| [[Boyle's law]] || 1662 || <math>P \propto 1/V</math> (constant <math>T, n</math>)
+|-
+| [[Charles's law]] || 1787 || <math>V \propto T</math> (constant <math>P, n</math>)
+|-
+| [[Gay-Lussac's law]] || 1809 || <math>P \propto T</math> (constant <math>V, n</math>)
+|-
+| [[Avogadro's law]] || 1811 || <math>V \propto n</math> (constant <math>P, T</math>)
+|}
+
+== Microscopic derivation ==
+From the [[kinetic theory of gases]], the pressure exerted by an ideal gas is:
+:<math>P = \frac{1}{3}\frac{Nm\langle v^2 \rangle}{V} = \frac{2}{3}\frac{N}{V}\langle K \rangle</math>
+
+With the [[equipartition theorem]], <math>\langle K \rangle = \frac{3}{2}k_B T</math>, yielding <math>PV = Nk_B T</math>.
+
+== Deviations from ideality ==
+{{Main|Real gas}}
+Real gases deviate from ideal behavior at:
+* High pressure (intermolecular forces become significant)
+* Low temperature (molecular volume not negligible)
+
+The [[van der Waals equation]] corrects for these effects:
+:<math>\left(P + a\frac{n^2}{V^2}\right)(V - nb) = nRT</math>
+where <math>a</math> accounts for attraction and <math>b</math> for finite molecular volume.
+
+The [[compressibility factor]] <math>Z = PV/(nRT)</math> measures deviation from ideality: <math>Z = 1</math> for an ideal gas.
+
+== Applications ==
+* Calculation of gas density: <math>\rho = \frac{PM}{RT}</math>
+* [[Molar mass]] determination
+* [[Stoichiometry]] of gaseous reactions
+* [[Atmospheric pressure]] modeling
+
+== See also ==
+{{Portal|Physics}}
+* [[Kinetic theory of gases]]
+* [[Van der Waals equation]]
+* [[Boyle's law]]
+* [[Gas constant]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Ideal gas law| ]]
+[[Category:Gas laws]]
+[[Category:Equations of state]]

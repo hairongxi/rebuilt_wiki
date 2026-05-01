@@ -1,0 +1,74 @@
+{{Short description="Thermal electromagnetic radiation emitted by a body in thermodynamic equilibrium"}}
+{{Infobox physics
+| name = Black-body radiation
+| image = Planck law log log.png
+| caption = [[Planck's law]]: spectral radiance of a black body at various temperatures. The peak shifts to shorter wavelengths at higher temperatures ([[Wien's displacement law]]).
+| discovered_by = [[Gustav Kirchhoff]] (1860, concept), [[Max Planck]] (1900, formula)
+}}
+
+'''Black-body radiation''' is the [[thermal radiation|thermal electromagnetic radiation]] within or surrounding a body in [[thermodynamic equilibrium]] with its environment, emitted by a [[black body]] (an idealized opaque, non-reflective body). It has a specific continuous [[electromagnetic spectrum|spectrum]] of wavelengths, inversely related to intensity, that depend only on the body's [[temperature]], which is assumed for the sake of calculations and theory to be uniform and constant.
+
+The study of black-body radiation was pivotal in the development of [[quantum mechanics]]. The failure of [[classical physics]] to explain the observed spectrum — the [[ultraviolet catastrophe]] — led [[Max Planck]] to introduce the concept of [[quantization (physics)|energy quantization]] in 1900.
+
+== Planck's law ==
+{{Main|Planck's law}}
+[[Max Planck]] derived the correct formula by postulating that electromagnetic energy is emitted and absorbed in discrete quanta <math>E = h\nu</math>:
+
+The spectral radiance (power per unit area per unit solid angle per unit wavelength) is:
+:<math>B_\lambda(\lambda, T) = \frac{2hc^2}{\lambda^5}\frac{1}{e^{hc/(\lambda k_B T)} - 1}</math>
+
+In terms of frequency:
+:<math>B_\nu(\nu, T) = \frac{2h\nu^3}{c^2}\frac{1}{e^{h\nu/(k_B T)} - 1}</math>
+
+== Wein's displacement law ==
+{{Main|Wien's displacement law}}
+The wavelength at which the spectral radiance peaks is inversely proportional to temperature:
+:<math>\lambda_{\text{max}} = \frac{b}{T}</math>
+where <math>b \approx 2.898 \times 10^{-3}\,\text{m·K}</math> is [[Wien's displacement constant]].
+
+Examples:
+* Sun (5778 K): <math>\lambda_{\text{max}} \approx 500\,\text{nm}</math> (green-yellow)
+* Human body (310 K): <math>\lambda_{\text{max}} \approx 9.3\,\mu\text{m}</math> (infrared)
+* Cosmic microwave background (2.725 K): <math>\lambda_{\text{max}} \approx 1.06\,\text{mm}</math> (microwave)
+
+== Stefan–Boltzmann law ==
+{{Main|Stefan–Boltzmann law}}
+The total power radiated per unit area of a black body is:
+:<math>j = \sigma T^4</math>
+where <math>\sigma = 5.670\,374 \times 10^{-8}\,\text{W·m}^{-2}\text{·K}^{-4}</math> is the [[Stefan–Boltzmann constant]].
+
+== Rayleigh–Jeans law and ultraviolet catastrophe ==
+{{Main|Ultraviolet catastrophe}}
+The classical [[Rayleigh–Jeans law]] predicted:
+:<math>B_\lambda(\lambda, T) = \frac{2ck_B T}{\lambda^4}</math>
+
+This diverges at short wavelengths (ultraviolet), predicting infinite radiated energy — the ''ultraviolet catastrophe''. Planck's quantization resolved this.
+
+== Historical significance ==
+* 1859: [[Gustav Kirchhoff]] defines the black body and posits the universality of its spectrum
+* 1879: [[Josef Stefan]] discovers the <math>T^4</math> law; [[Ludwig Boltzmann]] derives it in 1884
+* 1893: [[Wilhelm Wien]] derives the displacement law
+* 1900: [[Max Planck]] presents his formula, introducing energy quantization — the birth of quantum mechanics
+* 1905: [[Albert Einstein]] quantizes the radiation field (photons) to explain the [[photoelectric effect]]
+
+== Applications ==
+* [[Astronomy]] — determining stellar surface temperatures
+* [[Cosmic microwave background]] — remnant of the Big Bang at 2.725 K
+* [[Thermography]] — infrared cameras
+* [[Incandescent light bulbs]]
+* [[Climate science]] — Earth's energy balance
+* [[Pyrometer]]s for temperature measurement
+
+== See also ==
+{{Portal|Physics}}
+* [[Planck's law]]
+* [[Ultraviolet catastrophe]]
+* [[Wien's displacement law]]
+* [[Stefan–Boltzmann law]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Black-body radiation| ]]
+[[Category:Quantum mechanics]]
+[[Category:Thermodynamics]]

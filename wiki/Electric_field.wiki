@@ -1,0 +1,75 @@
+{{Short description|Vector field surrounding electric charges}}
+{{Infobox physical quantity
+| name = Electric field
+| image = VFPt charges plus minus.svg
+| caption = Electric field lines emanating from positive and negative point charges.
+| symbols = <math>\mathbf{E}</math>
+| SI_unit = [[volt]] per [[metre|meter]] (V/m), or equivalently [[newton (unit)|newton]] per [[coulomb]] (N/C)
+}}
+
+An '''electric field''' (sometimes called the '''electrostatic field''' or '''E-field''') is the [[vector field]] that surrounds [[electric charge]]s. It represents the force per unit charge that a stationary point charge would experience at any given point in space. The electric field is mathematically defined as:
+:<math>\mathbf{E} = \frac{\mathbf{F}}{q}</math>
+
+where <math>\mathbf{F}</math> is the [[Coulomb's law|Coulomb force]] on a test charge <math>q</math>.
+
+Electric fields originate from electric charges and time-varying [[magnetic field]]s. Together with the [[magnetic field]], the electric field constitutes the [[electromagnetic field]].
+
+== Mathematical description ==
+
+=== Field of a point charge ===
+From [[Coulomb's law]], the electric field due to a point charge <math>Q</math> at position <math>\mathbf{r}'</math> is:
+:<math>\mathbf{E}(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0}\frac{Q}{|\mathbf{r} - \mathbf{r}'|^3}(\mathbf{r} - \mathbf{r}')</math>
+
+or in terms of the unit vector <math>\hat{\mathbf{r}}</math> from the source:
+:<math>\mathbf{E} = k_e\frac{Q}{r^2}\hat{\mathbf{r}}</math>
+
+=== Superposition principle ===
+For multiple charges, the total field is the vector sum:
+:<math>\mathbf{E}(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0}\sum_i \frac{q_i}{|\mathbf{r} - \mathbf{r}_i|^3}(\mathbf{r} - \mathbf{r}_i)</math>
+
+For continuous charge distributions:
+:<math>\mathbf{E}(\mathbf{r}) = \frac{1}{4\pi\varepsilon_0}\int \frac{\rho(\mathbf{r}')(\mathbf{r} - \mathbf{r}')}{|\mathbf{r} - \mathbf{r}'|^3}\, d^3r'</math>
+
+== Gauss's law ==
+{{Main|Gauss's law}}
+[[Gauss's law]] relates the electric flux through a closed surface to the enclosed charge:
+:<math>\oiint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}</math>
+
+In differential form:
+:<math>\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}</math>
+
+== Relation to electric potential ==
+{{Main|Electric potential}}
+For [[electrostatics|electrostatic]] fields (no time-varying magnetic fields), the electric field is the negative gradient of the [[electric potential]] <math>V</math>:
+:<math>\mathbf{E} = -\nabla V</math>
+
+This implies <math>\nabla \times \mathbf{E} = 0</math> for electrostatics — the electric field is conservative.
+
+== Electric field in matter ==
+In a [[dielectric]] material, the applied electric field induces polarization. The [[electric displacement field]] <math>\mathbf{D}</math> is:
+:<math>\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P} = \varepsilon \mathbf{E}</math>
+where <math>\mathbf{P}</math> is the polarization and <math>\varepsilon = \varepsilon_r\varepsilon_0</math> is the [[permittivity]].
+
+== Time-varying fields ==
+When magnetic fields vary with time, an additional contribution arises from [[Faraday's law of induction|Faraday's law]]:
+:<math>\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}</math>
+
+This non-conservative component is responsible for [[electromagnetic induction]].
+
+== Energy in the electric field ==
+The energy density stored in an electric field is:
+:<math>u_e = \frac{1}{2}\varepsilon_0 E^2</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Magnetic field]]
+* [[Maxwell's equations]]
+* [[Coulomb's law]]
+* [[Electromagnetic field]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electric field| ]]
+[[Category:Electrostatics]]
+[[Category:Electromagnetism]]

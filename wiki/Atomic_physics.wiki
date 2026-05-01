@@ -1,0 +1,141 @@
+{{Short description|Field of physics studying atoms as isolated systems}}
+{{Infobox physics
+| name = Atomic physics
+| image = Bohr atom model.svg
+| caption = The [[Bohr model]] of the atom, showing electrons orbiting the nucleus in discrete energy levels
+| topics = [[Atomic orbital]], [[Energy level]], [[Atomic spectra]], [[Fine structure]], [[Hyperfine structure]], [[Zeeman effect]], [[Stark effect]]
+}}
+
+'''Atomic physics''' is the field of [[physics]] that studies [[atom]]s as an isolated system of [[electron]]s and an [[atomic nucleus]]. It is primarily concerned with the arrangement of electrons around the nucleus and the processes by which these arrangements change. This includes atoms in isolation, as well as [[ion]]s.
+
+Atomic physics also involves the treatment of the atomic nucleus, but a clear distinction exists: atomic physics deals with the atom as a whole (nucleus + electrons), while [[nuclear physics]] focuses on the nucleus alone.
+
+== History ==
+{{Main|History of atomic theory}}
+
+=== Early atomic theory ===
+The concept of the atom — as the smallest indivisible unit of matter — dates back to ancient Greece. [[Democritus]] (c. 460–370 BCE) proposed that all matter consists of tiny, indivisible particles called ''atomos''.
+
+In 1808, [[John Dalton]] proposed the first modern atomic theory, suggesting that each [[chemical element]] consists of a unique type of atom and that atoms combine in fixed ratios to form [[chemical compound]]s.
+
+=== Discovery of atomic structure ===
+* 1897: [[J. J. Thomson]] discovered the [[electron]], demonstrating that atoms are divisible and contain smaller particles.
+* 1911: [[Ernest Rutherford]]'s [[Geiger–Marsden experiment|gold foil experiment]] revealed the existence of a dense, positively charged [[atomic nucleus]], leading to the [[Rutherford model]].
+* 1913: [[Niels Bohr]] introduced the [[Bohr model]], incorporating [[quantization (physics)|quantization]] to explain the stability of atoms and their discrete [[emission spectrum|emission spectra]].
+* 1926: [[Erwin Schrödinger]] developed the quantum mechanical model of the atom using the [[Schrödinger equation]].
+
+== Quantum mechanical model ==
+
+=== Schrödinger equation for hydrogen ===
+The hydrogen atom is the simplest atom and one of the few quantum systems with an exact analytical solution. The time-independent Schrödinger equation in spherical coordinates is:
+:<math>-\frac{\hbar^2}{2\mu}\nabla^2\psi - \frac{e^2}{4\pi\varepsilon_0 r}\psi = E\psi</math>
+where <math>\mu</math> is the [[reduced mass]] of the electron–proton system.
+
+The energy eigenvalues are:
+:<math>E_n = -\frac{\mu e^4}{8\varepsilon_0^2 h^2}\frac{1}{n^2} = -\frac{13.6\,\text{eV}}{n^2}</math>
+where <math>n = 1, 2, 3, \ldots</math> is the [[principal quantum number]].
+
+=== Quantum numbers ===
+{{Main|Quantum number}}
+The state of an electron in an atom is described by four quantum numbers:
+
+{| class="wikitable"
+|-
+! Quantum number !! Symbol !! Values !! Description
+|-
+| Principal || <math>n</math> || <math>1, 2, 3, \ldots</math> || Energy level (shell)
+|-
+| Azimuthal (orbital angular momentum) || <math>\ell</math> || <math>0, 1, \ldots, n-1</math> || Orbital shape (subshell)
+|-
+| Magnetic || <math>m_\ell</math> || <math>-\ell, \ldots, 0, \ldots, +\ell</math> || Orbital orientation
+|-
+| Spin || <math>m_s</math> || <math>\pm 1/2</math> || Electron spin orientation
+|}
+
+The [[Pauli exclusion principle]] states that no two electrons in an atom can have the same set of four quantum numbers.
+
+=== Atomic orbitals ===
+{{Main|Atomic orbital}}
+The [[atomic orbital]]s have characteristic shapes:
+* '''s-orbitals''' (<math>\ell = 0</math>): spherical symmetry
+* '''p-orbitals''' (<math>\ell = 1</math>): dumbbell-shaped, three orientations (<math>m_\ell = -1, 0, +1</math>)
+* '''d-orbitals''' (<math>\ell = 2</math>): cloverleaf-shaped, five orientations
+* '''f-orbitals''' (<math>\ell = 3</math>): complex shapes, seven orientations
+
+=== Electron configuration ===
+{{Main|Electron configuration}}
+The arrangement of electrons in atomic orbitals follows the [[Aufbau principle]], [[Hund's rule]]s, and the [[Pauli exclusion principle]]. The filling order is:
+:1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → 5s → 4d → 5p → 6s → 4f → 5d → 6p → 7s → 5f → 6d → 7p
+
+== Atomic spectra ==
+{{Main|Atomic spectroscopy}}
+When electrons transition between energy levels, atoms emit or absorb [[photon]]s with energy:
+:<math>\Delta E = h\nu = E_{n_i} - E_{n_f}</math>
+
+For hydrogen, the [[Rydberg formula]] gives the wavelengths of spectral lines:
+:<math>\frac{1}{\lambda} = R_\infty\left(\frac{1}{n_f^2} - \frac{1}{n_i^2}\right)</math>
+where <math>R_\infty = 1.097 \times 10^7\,\text{m}^{-1}</math> is the [[Rydberg constant]].
+
+Spectral series of hydrogen:
+* [[Lyman series]]: <math>n_f = 1</math> (ultraviolet)
+* [[Balmer series]]: <math>n_f = 2</math> (visible)
+* [[Paschen series]]: <math>n_f = 3</math> (infrared)
+
+== Fine and hyperfine structure ==
+
+=== Fine structure ===
+{{Main|Fine structure}}
+Fine structure arises from [[relativistic correction]]s and [[spin–orbit coupling]], splitting energy levels by small amounts characterized by the [[fine-structure constant]]:
+:<math>\alpha = \frac{e^2}{4\pi\varepsilon_0 \hbar c} \approx \frac{1}{137}</math>
+
+=== Hyperfine structure ===
+{{Main|Hyperfine structure}}
+[[Hyperfine structure]] results from the interaction between the electron's magnetic moment and the nuclear magnetic moment, producing even smaller energy splittings. The 21 cm hydrogen line is a famous example.
+
+== External field effects ==
+
+=== Zeeman effect ===
+{{Main|Zeeman effect}}
+The [[Zeeman effect]] is the splitting of spectral lines in the presence of a static [[magnetic field]] <math>B</math>:
+:<math>\Delta E = \mu_B g_J m_J B</math>
+where <math>\mu_B = e\hbar/(2m_e)</math> is the [[Bohr magneton]] and <math>g_J</math> is the [[Landé g-factor]].
+
+=== Stark effect ===
+{{Main|Stark effect}}
+The [[Stark effect]] is the splitting of spectral lines in an external [[electric field]].
+
+== Multi-electron atoms ==
+For atoms with more than one electron, the Schrödinger equation cannot be solved exactly due to electron–electron interactions. Approximation methods include:
+* [[Hartree–Fock method]]
+* [[Density functional theory]] (DFT)
+* [[Configuration interaction]]
+* [[Perturbation theory (quantum mechanics)|Perturbation theory]]
+
+The [[Hund's rules]] determine the ground state term symbol of multi-electron atoms.
+
+== Applications ==
+* [[Spectroscopy]] — elemental analysis, astrophysics
+* [[Atomic clock]]s — the most precise timekeeping devices
+* [[Laser]] technology — [[helium–neon laser]], [[ruby laser]]
+* [[Atomic force microscopy]]
+* [[Quantum computing]] with trapped ions
+* [[Magnetic resonance imaging]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Molecular physics]]
+* [[Quantum mechanics]]
+* [[Nuclear physics]]
+* [[Periodic table]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Gordon K. Woodgate|Woodgate, G. K.]] (1980). ''Elementary Atomic Structure'' (2nd ed.). Oxford University Press.
+* [[Hans A. Bethe|Bethe, H. A.]], Salpeter, E. E. (1977). ''Quantum Mechanics of One- and Two-Electron Atoms''. Plenum.
+* [[Christopher J. Foot|Foot, C. J.]] (2005). ''Atomic Physics''. Oxford University Press.
+
+[[Category:Atomic physics| ]]
+[[Category:Physics]]
+[[Category:Atoms]]

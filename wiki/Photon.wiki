@@ -1,0 +1,74 @@
+{{Short description|Quantum of the electromagnetic field, including light, radio waves, and other electromagnetic radiation}}
+{{Infobox physics
+| name = Photon
+| image = Light-wave.svg
+| caption = A [[electromagnetic wave]] representation of light, the quanta of which are photons.
+| topics = [[Electromagnetic wave]], [[Quantum mechanics]], [[Wave–particle duality]], [[Photoelectric effect]]
+| composition = [[Elementary particle]]
+| statistics = [[Boson]]
+| symbol = γ
+| mass = 0 (theoretical)
+| charge = 0
+| spin = 1
+}}
+
+The '''photon''' (from Greek φῶς, ''phōs'', "light") is a type of [[elementary particle]] that constitutes the quantum of the [[electromagnetic field]], including [[electromagnetic radiation]] such as [[light]], [[radio wave]]s, and [[X-ray]]s. Photons are massless, stable, and always move at the [[speed of light]] in vacuum, <math>c</math>.
+
+Photons are the [[force carrier]]s (gauge bosons) of the [[electromagnetic interaction]] in [[quantum electrodynamics]] (QED). Like all [[elementary particle]]s, photons exhibit [[wave–particle duality]] — they display both wave-like properties ([[interference (wave propagation)|interference]], [[diffraction]]) and particle-like properties (discrete energy and momentum, quantized interactions with matter).
+
+== History ==
+
+=== Einstein's light quanta ===
+The concept of the photon was developed by [[Albert Einstein]] in 1905 to explain the [[photoelectric effect]], in which light shining on certain materials ejects electrons. Einstein proposed that light consists of discrete quantized packets of energy (later called photons), each with energy:
+:<math>E = h\nu = \frac{hc}{\lambda}</math>
+where <math>h</math> is the [[Planck constant]], <math>\nu</math> is the [[frequency]], and <math>\lambda</math> is the [[wavelength]].
+
+This explanation earned Einstein the [[Nobel Prize in Physics]] in 1921 and helped establish [[quantum mechanics]].
+
+=== Naming ===
+The term "photon" was coined in 1926 by physical chemist [[Gilbert N. Lewis]].
+
+== Physical properties ==
+
+=== Energy and momentum ===
+A photon's energy <math>E</math> and momentum <math>p</math> are related to its frequency and wavelength:
+:<math>E = h\nu = \hbar\omega</math>
+:<math>p = \frac{E}{c} = \frac{h}{\lambda} = \hbar k</math>
+where <math>\hbar = h/2\pi</math> is the [[reduced Planck constant]], <math>\omega</math> is the [[angular frequency]], and <math>k = 2\pi/\lambda</math> is the [[wave number|wavenumber]].
+
+=== Polarization and spin ===
+Photons have [[spin (physics)|spin]] 1 and are [[boson]]s, meaning they can occupy the same quantum state. The two possible spin projections (±1) correspond to left- and right-handed [[circular polarization]].
+
+=== Wave–particle duality ===
+{{Main|Wave–particle duality}}
+In [[double-slit experiment]]s, single photons show [[interference (wave propagation)|interference]] patterns over time, demonstrating wave behavior. Yet each photon is detected at a single point, showing particle behavior.
+
+== Quantum electrodynamics ==
+{{Main|Quantum electrodynamics}}
+In QED, photons are the gauge bosons mediating the [[electromagnetic interaction]] between charged particles. The theory is described by a [[U(1) gauge theory]] and has been tested to extraordinary precision, including the [[anomalous magnetic dipole moment]] of the electron.
+
+== Technological applications ==
+* [[Laser]] — coherent photon sources
+* [[Photonics]] — using photons for information processing
+* [[Solar cell]]s — photovoltaic conversion of photons to electricity
+* [[Quantum cryptography]] — single-photon communication
+* [[Medical imaging]] — [[X-ray]], [[PET scan]]s
+* [[Spectroscopy]] — photon-based chemical analysis
+
+== See also ==
+{{Portal|Physics}}
+* [[Black-body radiation]]
+* [[Electromagnetic wave]]
+* [[Photoelectric effect]]
+* [[Quantum electrodynamics]]
+* [[Speed of light]]
+* [[Wave–particle duality]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Photons| ]]
+[[Category:Bosons]]
+[[Category:Electromagnetic radiation]]
+[[Category:Quantum mechanics]]
+[[Category:Quantum electrodynamics]]

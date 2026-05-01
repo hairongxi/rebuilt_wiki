@@ -1,0 +1,83 @@
+{{Short description="Natural laws that define fundamental physical quantities of thermodynamic systems"}}
+{{Infobox physical law
+| name = Laws of thermodynamics
+| image = Carnot engine diagram.svg
+| caption = Diagram of a Carnot heat engine, illustrating the fundamental limits imposed by the laws of thermodynamics.
+| discovered_by = Various ([[Sadi Carnot|Carnot]], [[Rudolf Clausius|Clausius]], [[Lord Kelvin|Kelvin]], [[Max Planck|Planck]] et al.)
+}}
+
+The '''laws of thermodynamics''' are a set of four fundamental laws that define how physical quantities such as [[temperature]], [[energy]], and [[entropy]] behave under various circumstances. They form the foundation of [[thermodynamics]] and apply to all natural processes.
+
+== Zeroth law ==
+{{Main|Zeroth law of thermodynamics}}
+:''If two thermodynamic systems are each in [[thermal equilibrium]] with a third, then they are in thermal equilibrium with each other.''
+
+This law provides the basis for temperature measurement and establishes [[temperature]] as a fundamental and measurable property of matter. It justifies the use of [[thermometer]]s.
+
+== First law ==
+{{Main|First law of thermodynamics}}
+:''Energy cannot be created or destroyed in an isolated system.''
+
+Mathematically:
+:<math>\Delta U = Q - W</math>
+where <math>\Delta U</math> is the change in [[internal energy]], <math>Q</math> is heat added to the system, and <math>W</math> is work done by the system.
+
+This is the thermodynamic statement of the [[conservation of energy]]. Key consequences:
+* The internal energy <math>U</math> is a [[state function]]
+* A [[perpetual motion machine of the first kind]] is impossible
+* [[Joule's experiment]] confirmed the equivalence of heat and work
+
+== Second law ==
+{{Main|Second law of thermodynamics}}
+:''The total [[entropy]] of an isolated system can never decrease over time.''
+
+:<math>\Delta S_{\text{total}} \geq 0</math>
+
+Equivalent formulations:
+* '''Clausius statement:''' Heat cannot spontaneously flow from a colder body to a hotter body.
+* '''Kelvin–Planck statement:''' No process is possible whose sole result is the complete conversion of heat into work.
+* '''Carnot's theorem:''' The efficiency of any heat engine cannot exceed the [[Carnot efficiency]]: <math>\eta_{\text{max}} = 1 - T_C/T_H</math>.
+
+The second law defines the [[arrow of time]] and explains why certain processes are [[irreversible process|irreversible]].
+
+== Third law ==
+{{Main|Third law of thermodynamics}}
+:''The entropy of a perfect crystal at [[absolute zero]] is exactly zero.''
+
+As temperature approaches absolute zero, the entropy approaches a minimum. Mathematically:
+:<math>\lim_{T \to 0} S = S_0</math>
+where <math>S_0 = 0</math> for a perfect crystal.
+
+Consequences:
+* It is impossible to reach absolute zero in a finite number of steps ([[unattainability principle]])
+* [[Heat capacity|Heat capacities]] approach zero as <math>T \to 0</math>
+* The [[thermal expansion coefficient]] approaches zero
+
+== Summary table ==
+
+{| class="wikitable"
+|-
+! Law !! Statement !! Consequence
+|-
+| Zeroth || Thermal equilibrium is transitive || Temperature is well-defined
+|-
+| First || <math>\Delta U = Q - W</math> || Energy conservation
+|-
+| Second || <math>\Delta S \geq 0</math> || Entropy increases; heat engines have limited efficiency
+|-
+| Third || <math>S \to 0</math> as <math>T \to 0</math> || Absolute zero is unattainable
+|}
+
+== See also ==
+{{Portal|Physics}}
+* [[Thermodynamics]]
+* [[Entropy]]
+* [[First law of thermodynamics]]
+* [[Second law of thermodynamics]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Laws of thermodynamics| ]]
+[[Category:Thermodynamics]]
+[[Category:Scientific laws]]

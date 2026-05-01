@@ -1,0 +1,57 @@
+{{Short description|Process of constraining a physical quantity to discrete values}}
+{{Infobox physics
+| name = Quantization (physics)
+| image = 
+| caption = 
+| topics = [[Quantum mechanics]], [[Energy]], [[Wave–particle duality]]
+}}
+
+In [[physics]], '''quantization''' is the process of transition from a classical understanding of physical phenomena to a newer understanding known as [[quantum mechanics]]. It is the procedure for constructing a quantum theory from a classical theory. More generally, quantization refers to the fact that certain physical quantities can take only certain discrete values rather than a continuous spectrum.
+
+The concept dates to [[Max Planck]]'s 1900 resolution of the [[ultraviolet catastrophe]] in [[black-body radiation]], where he proposed that [[electromagnetic radiation|electromagnetic energy]] is emitted and absorbed in discrete quanta of energy <math>E = h\nu</math>.
+
+== Canonical quantization ==
+In the canonical approach, classical [[Poisson bracket]]s are replaced by [[commutator]]s:
+:<math>\{A, B\} \rightarrow \frac{1}{i\hbar}[\hat{A}, \hat{B}]</math>
+
+For position and momentum, this leads to the fundamental commutation relation:
+:<math>[\hat{x}, \hat{p}] = i\hbar</math>
+
+This commutation relation directly implies the [[Heisenberg uncertainty principle]]:
+:<math>\Delta x \, \Delta p \geq \frac{\hbar}{2}</math>
+
+== Path integral quantization ==
+Developed by [[Richard Feynman]], the [[path integral formulation]] expresses the quantum amplitude as a sum over all possible classical paths:
+:<math>\langle x_f | e^{-iHt/\hbar} | x_i \rangle = \int \mathcal{D}x(t) \, e^{iS[x]/\hbar}</math>
+
+== Examples of quantized systems ==
+
+=== Energy quantization ===
+* [[Particle in a box]]: <math>E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}</math>
+* [[Quantum harmonic oscillator]]: <math>E_n = \hbar\omega(n + \frac{1}{2})</math>
+* [[Hydrogen atom]]: <math>E_n = -\frac{13.6\ \text{eV}}{n^2}</math>
+
+=== Angular momentum quantization ===
+The magnitude and one component of [[angular momentum]] are quantized:
+:<math>L^2 = \ell(\ell+1)\hbar^2</math>
+:<math>L_z = m_\ell\hbar</math>
+
+=== Charge quantization ===
+[[Electric charge]] appears only in integer multiples of the [[elementary charge]] <math>e</math>.
+
+== Second quantization ==
+In [[quantum field theory]], not only physical quantities but also the fields themselves are promoted to operators, allowing the description of particle creation and annihilation.
+
+== See also ==
+{{Portal|Physics}}
+* [[Energy level]]
+* [[Quantum mechanics]]
+* [[Quantum number]]
+* [[Uncertainty principle]]
+* [[Wave function]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Quantum mechanics]]
+[[Category:Mathematical quantization]]

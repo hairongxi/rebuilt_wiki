@@ -1,0 +1,81 @@
+{{Short description|Subatomic particle with negative electric charge}}
+{{Infobox physics
+| name = Electron
+| image = Cyclotron motion wider view.jpg
+| caption = A beam of electrons deflected in a circle by a [[magnetic field]].
+| topics = [[Electric charge]], [[Spin (physics)]], [[Quantum mechanics]], [[Pauli exclusion principle]]
+| composition = [[Elementary particle]]
+| statistics = [[Fermion]]
+| symbol = e⁻, β⁻
+| antiparticle = [[Positron]]
+| mass = 9.1093837015×10⁻³¹ kg
+| charge = −1 e (−1.602176634×10⁻¹⁹ C)
+| spin = 1/2
+}}
+
+The '''electron''' is a [[subatomic particle]] with a negative [[electric charge]]. Electrons belong to the first generation of the [[lepton]] particle family and are generally thought to be [[elementary particle]]s because they have no known components or substructure. The electron has a mass that is approximately 1/1836 that of the [[proton]].
+
+Electrons play an essential role in numerous physical phenomena, such as [[electricity]], [[magnetism]], [[chemical bonds]], and [[thermal conductivity]]. They also participate in the [[weak interaction]] and [[electromagnetism|electromagnetic]] interactions. An electron spontaneously decays into two [[neutrino]]s only if there is long-lived discrepancy in mass with its [[antiparticle]], the [[positron]], which has identical mass but positive charge; no such decay has been observed.
+
+== History ==
+
+=== Discovery ===
+The electron was discovered in 1897 by [[J. J. Thomson]], who showed that [[cathode ray]]s were composed of previously unknown negatively charged particles. Thomson calculated these particles must have bodies much smaller than [[atom]]s and a very large [[charge-to-mass ratio]]. The name "electron" was coined in 1891 by [[George Johnstone Stoney]] to denote the fundamental unit of electric charge.
+
+=== Quantum mechanics ===
+The electron was the first particle for which [[wave–particle duality]] was demonstrated. In 1924, [[Louis de Broglie]] hypothesized that the electron had wave properties. This was confirmed in 1927 by the [[Davisson–Germer experiment]], which observed [[electron diffraction]]. In 1928, [[Paul Dirac]] published the [[Dirac equation]], which combined quantum mechanics with [[special relativity]] and predicted the existence of the [[positron]] and electron [[spin (physics)|spin]].
+
+== Properties ==
+
+=== Wave–particle duality ===
+{{Main|Wave–particle duality}}
+Like all quantum particles, electrons exhibit both particle and wave behavior. The [[de Broglie wavelength]] of an electron with momentum <math>p</math> is:
+:<math>\lambda = \frac{h}{p}</math>
+where <math>h</math> is the [[Planck constant]].
+
+=== Spin ===
+{{Main|Spin (physics)}}
+The electron has an intrinsic [[angular momentum]] ([[Spin (physics)|spin]]) of <math>\hbar/2</math>, making it a [[fermion]] that obeys the [[Pauli exclusion principle]]. The electron's [[magnetic moment]] is approximately:
+:<math>\boldsymbol{\mu} = -g_s \frac{e}{2m_e} \mathbf{S}</math>
+where <math>g_s \approx 2.0023</math> is the electron [[spin g-factor]].
+
+=== Quantum numbers ===
+In [[atom]]s, electrons are described by four [[quantum number]]s:
+# Principal quantum number <math>n</math> — determines energy
+# Azimuthal quantum number <math>\ell</math> — determines orbital angular momentum
+# Magnetic quantum number <math>m_\ell</math> — determines orbital orientation
+# Spin quantum number <math>m_s</math> — determines spin orientation
+
+== Role in atoms ==
+{{Main|Atomic physics}}
+Electrons in atoms are bound to the [[atomic nucleus]] by the [[electromagnetic force]]. They occupy discrete [[energy level]]s called [[electron shell]]s, governed by the [[Schrödinger equation]] for the atomic potential. The arrangement of electrons determines the chemical properties of [[chemical element|elements]].
+
+=== Chemical bonding ===
+Electrons in the outermost shells ([[valence electron]]s) are responsible for [[chemical bond]]s. [[Covalent bond]]s result from sharing of electrons; [[ionic bond]]s from electron transfer; and [[metallic bond]]s from a sea of delocalized electrons.
+
+== Applications ==
+* [[Electron microscope]] — using electron waves for atomic-scale imaging
+* [[Cathode ray tube]] — display technology
+* [[Electronics]] and [[semiconductor]]s — basis of modern computing
+* [[Particle accelerator]]s — high-energy electron beams
+* [[Electron beam welding]] and [[electron beam lithography|lithography]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Atomic nucleus]]
+* [[Electric charge]]
+* [[Fermion]]
+* [[Lepton]]
+* [[Photon]]
+* [[Positron]]
+* [[Proton]]
+* [[Quantum mechanics]]
+* [[Spin (physics)]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrons| ]]
+[[Category:Leptons]]
+[[Category:Atomic physics]]
+[[Category:Quantum mechanics]]

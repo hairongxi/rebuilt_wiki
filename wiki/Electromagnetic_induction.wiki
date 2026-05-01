@@ -1,0 +1,62 @@
+{{Short description|Production of an electromotive force across a conductor in a changing magnetic field}}
+{{Infobox physics
+| name = Electromagnetic induction
+| image = Solenoid-1.png
+| caption = A changing [[magnetic field]] through a coil induces an [[electromotive force]].
+| topics = [[Faraday's law of induction]], [[Magnetic field]], [[Electric field]], [[Maxwell's equations]], [[Lenz's law]]
+}}
+
+'''Electromagnetic induction''' (also known as '''Faraday's law of induction''') is the production of an [[electromotive force]] (EMF) across an electrical conductor in a changing [[magnetic field]]. It was discovered by [[Michael Faraday]] in 1831 and mathematically described by [[James Clerk Maxwell]] as [[Faraday's law of induction]], one of [[Maxwell's equations]].
+
+== Faraday's law ==
+{{Main|Faraday's law of induction}}
+The induced EMF in a closed circuit equals the negative rate of change of [[magnetic flux]] <math>\Phi_B</math> through the circuit:
+
+:<math>\mathcal{E} = -\frac{d\Phi_B}{dt}</math>
+
+where the magnetic flux is <math>\Phi_B = \int \mathbf{B} \cdot d\mathbf{A}</math>.
+
+In differential form (Maxwell–Faraday equation):
+:<math>\nabla \times \mathbf{E} = -\frac{\partial\mathbf{B}}{\partial t}</math>
+
+== Lenz's law ==
+{{Main|Lenz's law}}
+The negative sign in Faraday's law encodes [[Lenz's law]]: the induced current flows in a direction such that its magnetic field opposes the change in flux that produced it. This is a consequence of [[conservation of energy]].
+
+== Methods of induction ==
+An EMF can be induced by:
+# Changing the magnetic field strength (e.g., varying current in a nearby coil)
+# Moving a conductor through a magnetic field
+# Changing the area of a circuit loop in a magnetic field
+# Changing the orientation of a coil relative to the field
+
+== Motional EMF ==
+For a conductor of length <math>L</math> moving with velocity <math>\mathbf{v}</math> through a uniform magnetic field <math>\mathbf{B}</math>:
+:<math>\mathcal{E} = BLv</math> (when <math>\mathbf{v} \perp \mathbf{B}</math>)
+
+== Applications ==
+* [[Electrical generator]] — converts mechanical energy to electrical energy
+* [[Transformer]] — changes AC voltage levels using mutual induction
+* [[Induction motor]] — electric motor using induced currents
+* [[Induction heating]] — heating metals via eddy currents
+* [[Wireless charging]] — power transfer through inductive coupling
+* [[Induction coil]] ([[Tesla coil]]) — high-voltage generation
+* [[Metal detector]]s — detecting metal via induced eddy currents
+
+== Eddy currents ==
+Changing magnetic fields induce circulating currents ([[eddy current]]s) in conductors, causing energy loss (eddy current heating) and magnetic damping. Laminated transformer cores reduce these losses.
+
+== See also ==
+{{Portal|Physics}}
+* [[Faraday's law of induction]]
+* [[Lenz's law]]
+* [[Magnetic field]]
+* [[Maxwell's equations]]
+* [[Transformer]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electromagnetic induction| ]]
+[[Category:Electromagnetism]]
+[[Category:Michael Faraday]]

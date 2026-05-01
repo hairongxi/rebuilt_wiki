@@ -1,0 +1,51 @@
+{{Short description="Fundamental quantum of the strong interaction, analogous to the photon for electromagnetism}}
+{{Infobox physics
+| name = Gluon
+| image = 
+| caption = 
+| topics = [[Strong interaction]], [[Quark]], [[Elementary particle]], [[Quantum chromodynamics]]
+| composition = [[Elementary particle]]
+| statistics = [[Boson]]
+| symbol = g
+| mass = 0 (theoretical)
+| charge = 0 (colour charge: octet)
+| spin = 1
+}}
+
+A '''gluon''' is an [[elementary particle]] that acts as the force carrier ([[gauge boson]]) for the [[strong interaction]] between [[quark]]s, analogous to the [[photon]] for the [[electromagnetic force]] in [[quantum electrodynamics]]. Gluons bind quarks together to form [[hadron]]s such as [[proton]]s and [[neutron]]s.
+
+== Properties ==
+* [[Spin (physics)|Spin]]: 1 ([[boson]])
+* Mass: 0 (massless, like the photon)
+* Carries [[colour charge]], unlike the photon which is electrically neutral
+* There are '''eight''' different gluon types, corresponding to the eight generators of the [[SU(3)]] gauge group
+
+== Colour charge ==
+Gluons carry combinations of colour and anti-colour (e.g., red–antigreen). This is a crucial difference from photons: gluons themselves carry the charge of the interaction they mediate, leading to gluon self-interactions. This gives QCD its characteristic [[confinement (physics)|confinement]] and [[asymptotic freedom]].
+
+== Confinement ==
+Due to the self-interaction of gluons, the strong force does not weaken with distance; instead, the colour field forms a flux tube between colour charges. The energy stored in the flux tube increases linearly with distance:
+:<math>V(r) \sim \sigma r</math>
+where <math>\sigma \approx 1\ \text{GeV/fm}</math> is the [[string tension]].
+
+When enough energy accumulates, new quark–antiquark pairs are created from the vacuum ([[hadronization]]), preventing isolated quarks or gluons from existing.
+
+== Gluons in hadrons ==
+In a [[proton]], the three [[valence quark]]s are surrounded by a sea of virtual gluons and quark–antiquark pairs. Gluons carry approximately 50% of the proton's momentum at high energy. The proton's mass (~938 MeV/c²) arises predominantly from gluon field energy, not from the rest masses of its three quarks (~9 MeV/c² total).
+
+== See also ==
+{{Portal|Physics}}
+* [[Colour charge]]
+* [[Elementary particle]]
+* [[Photon]]
+* [[Quantum chromodynamics]]
+* [[Quark]]
+* [[Strong interaction]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Gluons| ]]
+[[Category:Bosons]]
+[[Category:Elementary particles]]
+[[Category:Quantum chromodynamics]]

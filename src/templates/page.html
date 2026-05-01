@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+<article class="wiki-page">
+    {{ content|safe }}
+</article>
+<div class="page-footer">
+    <p><a href="/wiki/{{ title|replace(' ', '_') }}">Permalink</a></p>
+</div>
+{% endblock %}

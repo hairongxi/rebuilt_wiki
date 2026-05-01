@@ -1,0 +1,59 @@
+{{Short description="Composite particle made of quarks held together by the strong interaction}}
+{{Infobox physics
+| name = Hadron
+| image = 
+| caption = 
+| topics = [[Quark]], [[Strong interaction]], [[Proton]], [[Neutron]], [[Elementary particle]]
+| types = [[Baryon]]s (3 quarks), [[Meson]]s (quark–antiquark)
+}}
+
+In [[particle physics]], a '''hadron''' is a [[composite particle]] made of two or more [[quark]]s held together by the [[strong interaction]], analogous to how [[molecule]]s are held together by the [[electromagnetic force]]. The name "hadron" comes from the Greek ἁδρός (''hadros''), meaning "stout" or "thick."
+
+== Classification ==
+
+=== Baryons ===
+{{Main|Baryon}}
+Fermionic hadrons composed of three quarks:
+* [[Proton]] (<math>uud</math>) — stable, charge +1
+* [[Neutron]] (<math>udd</math>) — stable in nuclei, charge 0
+* [[Lambda baryon]], [[Sigma baryon]], [[Xi baryon]], [[Omega baryon]] — heavier, unstable
+* [[Antiproton]] (<math>\bar{u}\bar{u}\bar{d}</math>)
+
+=== Mesons ===
+{{Main|Meson}}
+Bosonic hadrons composed of one quark and one antiquark (<math>q\bar{q}</math>):
+* [[Pion]]s (<math>\pi^+, \pi^0, \pi^-</math>) — lightest mesons; mediate nuclear force
+* [[Kaon]]s (<math>K^+, K^0, \bar{K}^0, K^-</math>) — contain strange quarks
+* J/ψ meson (<math>c\bar{c}</math>) — charm–anticharm; discovery confirmed the [[charm quark]] (1974)
+
+=== Exotic hadrons ===
+* [[Tetraquark]]s — four quarks (<math>qq\bar{q}\bar{q}</math>)
+* [[Pentaquark]]s — five quarks (<math>qqqq\bar{q}</math>)
+* [[Glueball]]s — bound states of [[gluon]]s (predicted, not definitively observed)
+
+== Properties ==
+* Held together by the [[strong interaction]]
+* Colour-neutral overall (white: no net [[colour charge]])
+* Mass arises mainly from QCD binding energy, not quark rest masses (~99% of proton mass)
+* Sizes: ~0.8 fm (proton radius)
+* Most are unstable; only protons are stable (neutrons stable in nuclei)
+
+== Hadronization ==
+When quarks are produced in high-energy collisions, they cannot exist in isolation. They undergo [[hadronization]] — forming [[jet (particle physics)|jets]] of hadrons — due to [[colour confinement]].
+
+== See also ==
+{{Portal|Physics}}
+* [[Baryon]]
+* [[Gluon]]
+* [[Meson]]
+* [[Neutron]]
+* [[Proton]]
+* [[Quark]]
+* [[Strong interaction]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Hadrons| ]]
+[[Category:Particle physics]]
+[[Category:Quantum chromodynamics]]

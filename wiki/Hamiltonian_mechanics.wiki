@@ -1,0 +1,57 @@
+{{Short description|Reformulation of classical mechanics using Hamiltonian formalism}}
+{{Infobox physics
+| name = Hamiltonian mechanics
+| image = 
+| caption = 
+| topics = [[Classical mechanics]], [[Lagrangian mechanics]], [[Phase space]], [[Conservation of energy]]
+| key_equations = [[Hamilton's equations]]
+}}
+
+'''Hamiltonian mechanics''' is a mathematically sophisticated reformulation of [[classical mechanics]], introduced by the Irish mathematician [[William Rowan Hamilton]] in 1833. It describes a physical system in terms of [[generalized coordinate]]s <math>q_i</math> and their [[conjugate momentum|conjugate momenta]] <math>p_i</math>, together with a [[Hamiltonian (mechanics)|Hamiltonian function]] <math>H</math> that represents the total energy of the system.
+
+== Hamilton's equations ==
+The time evolution of the system is governed by [[Hamilton's equations]]:
+:<math>\dot{q}_i = \frac{\partial H}{\partial p_i}, \qquad \dot{p}_i = -\frac{\partial H}{\partial q_i}</math>
+
+These are <math>2n</math> first-order differential equations (compared to <math>n</math> second-order equations in Lagrangian mechanics), where <math>n</math> is the number of degrees of freedom.
+
+== The Hamiltonian ==
+For a conservative system, the Hamiltonian equals the total energy:
+:<math>H(q, p) = T + V = \frac{p^2}{2m} + V(q)</math>
+
+The time derivative of the Hamiltonian is:
+:<math>\frac{dH}{dt} = \frac{\partial H}{\partial t}</math>
+
+If the Hamiltonian has no explicit time dependence, energy is conserved.
+
+== Phase space and symplectic geometry ==
+{{Main|Phase space}}
+The state of a system is represented as a point in the <math>2n</math>-dimensional [[phase space]] with coordinates <math>(q_1, \ldots, q_n, p_1, \ldots, p_n)</math>. The evolution of the system traces a trajectory in phase space. [[Liouville's theorem (Hamiltonian)|Liouville's theorem]] states that phase-space volume is conserved under Hamiltonian flow.
+
+== Poisson brackets ==
+The [[Poisson bracket]] of two functions <math>A(q,p)</math> and <math>B(q,p)</math> is:
+:<math>\{A, B\} = \sum_i \left(\frac{\partial A}{\partial q_i}\frac{\partial B}{\partial p_i} - \frac{\partial A}{\partial p_i}\frac{\partial B}{\partial q_i}\right)</math>
+
+The time evolution of any observable is given by:
+:<math>\frac{dA}{dt} = \{A, H\} + \frac{\partial A}{\partial t}</math>
+
+== Bridge to quantum mechanics ==
+Hamiltonian mechanics provides the natural framework for transition to [[quantum mechanics]]:
+* Poisson brackets → quantum commutators: <math>\{A, B\} \rightarrow \frac{1}{i\hbar}[\hat{A}, \hat{B}]</math>
+* The [[Hamiltonian operator]] governs time evolution in the [[Schrödinger equation]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Classical mechanics]]
+* [[Hamiltonian (quantum mechanics)]]
+* [[Lagrangian mechanics]]
+* [[Liouville's theorem (Hamiltonian)]]
+* [[Noether's theorem]]
+* [[Phase space]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Hamiltonian mechanics| ]]
+[[Category:Classical mechanics]]
+[[Category:Symplectic geometry]]

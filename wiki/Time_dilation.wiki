@@ -1,0 +1,57 @@
+{{Short description="Difference in elapsed time measured by two clocks due to relative velocity or gravity}}
+{{Infobox physics
+| name = Time dilation
+| image = Time dilation.svg
+| caption = A moving clock runs slower relative to a stationary observer.
+| topics = [[Special relativity]], [[General relativity]], [[Lorentz factor]], [[Spacetime]], [[Speed of light]]
+| formula = <math>\Delta t' = \gamma\Delta t</math> (special relativity)
+}}
+
+'''Time dilation''' is a difference in the elapsed [[time]] measured by two [[clocks]], either due to a relative [[velocity]] between them ([[special relativity|special relativistic]] time dilation) or a difference in [[gravitational potential]] ([[general relativity|general relativistic]] time dilation).
+
+== Special relativistic time dilation ==
+For an observer moving at constant velocity <math>v</math> relative to a stationary clock:
+
+:<math>\Delta t' = \gamma \Delta t = \frac{\Delta t}{\sqrt{1 - v^2/c^2}}</math>
+
+where <math>\Delta t</math> is the [[proper time]] (measured in the clock's rest frame) and <math>\Delta t'</math> is the dilated time observed from the stationary frame. The moving clock runs slower.
+
+* <math>v = 0</math>: <math>\gamma = 1</math>, no dilation
+* <math>v/c = 0.866</math>: <math>\gamma = 2</math>, the clock runs at half speed
+* <math>v \to c</math>: <math>\gamma \to \infty</math>, time effectively stops
+
+== Gravitational time dilation ==
+In [[general relativity]], clocks run slower in stronger gravitational fields:
+
+:<math>\Delta t' = \Delta t\sqrt{1 - \frac{2GM}{rc^2}}</math>
+
+Near a [[black hole]]'s [[event horizon]] (<math>r \to R_S = 2GM/c^2</math>), time dilation approaches infinity — to a distant observer, an object appears to take infinite time to cross the horizon.
+
+== Experimental confirmation ==
+
+=== Particle lifetime ===
+Muons produced by [[cosmic ray]]s in the upper atmosphere reach the Earth's surface despite their short 2.2 μs lifetime — time dilation extends their effective lifetime in the Earth's frame.
+
+=== Hafele–Keating experiment (1971) ===
+Atomic clocks flown around the world on commercial aircraft confirmed both special and general relativistic time dilation. Eastbound clocks lost ~59 ns; westbound clocks gained ~273 ns.
+
+=== GPS ===
+[[Global Positioning System|GPS]] satellites must correct for both special relativity (~−7 μs/day due to orbital velocity) and general relativity (~+45 μs/day due to weaker gravity), a net correction of ~+38 μs/day.
+
+== Twin paradox ===
+{{Main|Twin paradox}}
+A famous thought experiment: one twin travels at relativistic speed, returns younger than the stay-at-home twin. The asymmetry arises because the travelling twin undergoes [[acceleration]] to turn around.
+
+== See also ==
+{{Portal|Physics}}
+* [[General relativity]]
+* [[Length contraction]]
+* [[Lorentz factor]]
+* [[Proper time]]
+* [[Special relativity]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Special relativity]]
+[[Category:Time]]

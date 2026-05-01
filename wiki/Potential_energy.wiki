@@ -1,0 +1,78 @@
+{{Short description|Energy stored in an object due to its position or configuration}}
+{{Infobox physical quantity
+| name = Potential energy
+| image = Mediaeval archery reenactment.jpg
+| caption = A drawn bow stores elastic potential energy that is converted to kinetic energy upon release.
+| symbols = <math>U</math>, <math>V</math>, <math>E_p</math>
+| SI_unit = [[joule]] (J)
+}}
+
+In [[physics]], '''potential energy''' is the [[energy]] held by an object because of its position relative to other objects, stresses within itself, its electric charge, or other factors. The term ''potential energy'' was introduced by [[William John Macquorn Rankine]] in the 19th century.
+
+Potential energy is associated with [[force]]s that depend on the position or configuration of an object. If the [[Work (physics)|work]] done by a force on a body that moves from an initial to a final position is determined only by these two positions and does not depend on the path taken, then the force is called [[conservative force|conservative]].
+
+== Relation to conservative forces ==
+For a conservative force <math>\mathbf{F}</math>, the potential energy function <math>U(\mathbf{r})</math> is defined such that:
+:<math>\mathbf{F} = -\nabla U</math>
+
+In one dimension:
+:<math>F(x) = -\frac{dU}{dx}</math>
+
+The work done by a conservative force equals the negative change in potential energy:
+:<math>W_{\text{cons}} = -\Delta U = U_i - U_f</math>
+
+== Types of potential energy ==
+
+=== Gravitational potential energy ===
+{{Main|Gravitational energy}}
+Near Earth's surface (uniform field):
+:<math>U_g = mgh</math>
+
+General form (Newtonian gravity) between two point masses:
+:<math>U_g = -G\frac{m_1 m_2}{r}</math>
+where <math>G = 6.674 \times 10^{-11}\,\text{N·m}^2/\text{kg}^2</math>.
+
+=== Elastic potential energy ===
+{{Main|Elastic energy}}
+For an ideal spring obeying [[Hooke's law]] (<math>F = -kx</math>):
+:<math>U_s = \frac{1}{2}kx^2</math>
+
+=== Electrostatic potential energy ===
+{{Main|Electric potential energy}}
+Between two point charges:
+:<math>U_e = k_e\frac{q_1 q_2}{r}</math>
+where <math>k_e = \frac{1}{4\pi\varepsilon_0}</math> is the [[Coulomb constant]].
+
+=== Chemical potential energy ===
+The potential energy stored in the arrangement of atoms within molecules; released or absorbed during [[chemical reaction]]s.
+
+=== Nuclear potential energy ===
+The energy stored in the [[atomic nucleus]]; released in [[nuclear fission]] and [[nuclear fusion]].
+
+== Conservation of mechanical energy ==
+{{Main|Conservation of energy}}
+In a system with only conservative forces, the total [[mechanical energy]] is conserved:
+:<math>E = K + U = \text{constant}</math>
+
+When non-conservative forces (e.g., friction) are present:
+:<math>W_{\text{nc}} = \Delta K + \Delta U = \Delta E</math>
+
+== Equilibrium and stability ==
+For a potential energy function <math>U(x)</math>:
+* '''Stable equilibrium''' — <math>\frac{dU}{dx} = 0</math> and <math>\frac{d^2U}{dx^2} > 0</math> (potential minimum)
+* '''Unstable equilibrium''' — <math>\frac{dU}{dx} = 0</math> and <math>\frac{d^2U}{dx^2} < 0</math> (potential maximum)
+* '''Neutral equilibrium''' — <math>\frac{dU}{dx} = 0</math> and <math>\frac{d^2U}{dx^2} = 0</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Kinetic energy]]
+* [[Work (physics)]]
+* [[Conservative force]]
+* [[Energy]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Potential energy| ]]
+[[Category:Energy]]
+[[Category:Classical mechanics]]

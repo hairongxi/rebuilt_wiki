@@ -1,0 +1,65 @@
+{{Short description="Fundamental force responsible for beta decay and neutrino interactions}}
+{{Infobox physics
+| name = Weak interaction
+| image = Beta-minus Decay.svg
+| caption = [[Beta decay]] is mediated by the weak interaction: a [[neutron]] decays into a [[proton]], [[electron]], and [[antineutrino]].
+| topics = [[Fundamental interaction]], [[Beta decay]], [[Neutrino]], [[W and Z bosons]], [[Standard Model]]
+| mediated_by = [[W and Z bosons]]
+| range = ~10⁻¹⁸ m
+| strength = ~10⁻⁶ (relative to strong)
+}}
+
+The '''weak interaction''' (or '''weak nuclear force''') is one of the four [[fundamental interaction]]s of nature. It is responsible for [[radioactive decay]] (particularly [[beta decay]]) and [[neutrino]] interactions. The weak interaction acts on all [[fermion]]s — [[quark]]s and [[lepton]]s — and is mediated by the [[W and Z bosons]].
+
+== Properties ==
+* Extremely short range: ~10⁻¹⁸ m (0.1% of a proton diameter)
+* Strength: ~10⁻⁶ times the [[strong interaction]]
+* Violates [[parity (physics)|parity]] maximally — the only force to distinguish left from right
+* Violates [[CP symmetry]] (responsible for matter–antimatter asymmetry)
+* Mediated by massive W⁺, W⁻, and Z⁰ bosons (~80–91 GeV/c²)
+
+== Electroweak theory ==
+{{Main|Electroweak theory}}
+The weak interaction and [[electromagnetism]] are unified in the [[electroweak theory]] ([[SU(2) × U(1)]] gauge symmetry), developed by [[Sheldon Glashow]], [[Abdus Salam]], and [[Steven Weinberg]] ([[Nobel Prize in Physics|Nobel Prize]] 1979).
+
+=== Higgs mechanism ===
+{{Main|Higgs mechanism}}
+The W and Z bosons acquire mass through the [[Higgs mechanism]] via spontaneous symmetry breaking. This explains why the weak force has such short range (massive mediators) while electromagnetism has infinite range (massless photon).
+
+== Processes mediated by the weak interaction ==
+
+=== Beta decay ===
+{{Main|Beta decay}}
+* β⁻: <math>n \rightarrow p + e^- + \bar{\nu}_e</math>
+* β⁺: <math>p \rightarrow n + e^+ + \nu_e</math>
+
+=== Charged current ===
+Mediated by W⁺ and W⁻ bosons. Changes [[electric charge]] and [[flavour (particle physics)|flavour]] of particles.
+
+=== Neutral current ===
+Mediated by the Z⁰ boson. Preserves charge. First observed at [[CERN]] in 1973, confirming electroweak theory.
+
+=== Neutrino scattering ===
+Neutrinos interact with matter only through the weak interaction, making them extraordinarily difficult to detect.
+
+== Selection rules ==
+The weak interaction is unique in allowing flavour change:
+* [[Strange quark]] → [[up quark]] (strangeness violation)
+* Quark mixing described by the [[Cabibbo–Kobayashi–Maskawa matrix]] (CKM matrix)
+
+== See also ==
+{{Portal|Physics}}
+* [[Beta decay]]
+* [[Electroweak theory]]
+* [[Fundamental interaction]]
+* [[Neutrino]]
+* [[Standard Model]]
+* [[W and Z bosons]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Weak interaction| ]]
+[[Category:Fundamental interactions]]
+[[Category:Nuclear physics]]
+[[Category:Particle physics]]

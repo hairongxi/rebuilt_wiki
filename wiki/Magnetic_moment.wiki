@@ -1,0 +1,63 @@
+{{Short description="Vector quantity determining the torque on a magnetic dipole in a magnetic field}}
+{{Infobox physics
+| name = Magnetic moment
+| image = Magnetic moment.svg
+| caption = A current loop generates a magnetic dipole — the source of a magnetic moment.
+| topics = [[Magnetic field]], [[Spin (physics)]], [[Electric current]], [[Electromagnetism]]
+| symbol = μ, m
+| SI_unit = J/T or A·m²
+}}
+
+The '''magnetic moment''' (or '''magnetic dipole moment''') is a [[vector (physics)|vector]] quantity that determines the [[torque]] a magnetic dipole experiences in an external [[magnetic field]], and the strength of the magnetic field the dipole itself produces.
+
+== Definition ==
+For a planar current loop carrying current <math>I</math> and enclosing area <math>A</math>:
+:<math>\boldsymbol{\mu} = I\mathbf{A}</math>
+
+where <math>\mathbf{A}</math> is the vector area (direction given by right-hand rule).
+
+== Torque on a magnetic dipole ==
+A magnetic dipole in an external field <math>\mathbf{B}</math> experiences a torque:
+:<math>\boldsymbol{\tau} = \boldsymbol{\mu} \times \mathbf{B}</math>
+
+Potential energy:
+:<math>U = -\boldsymbol{\mu} \cdot \mathbf{B}</math>
+
+== Orbital magnetic moment ==
+For a charged particle in a circular orbit:
+:<math>\boldsymbol{\mu}_L = -\frac{e}{2m_e}\mathbf{L}</math>
+where <math>\mathbf{L}</math> is the orbital [[angular momentum]].
+
+== Spin magnetic moment ==
+The intrinsic magnetic moment associated with [[spin (physics)|spin]]:
+:<math>\boldsymbol{\mu}_S = -g\frac{e}{2m_e}\mathbf{S}</math>
+
+where <math>g \approx 2.0023</math> is the electron [[g-factor|spin g-factor]]. The [[anomalous magnetic dipole moment]] (deviation from <math>g=2</math>) is one of the most precisely verified predictions of [[quantum electrodynamics]].
+
+=== Bohr magneton ===
+The [[Bohr magneton]] is the natural unit of magnetic moment for electrons:
+:<math>\mu_B = \frac{e\hbar}{2m_e} = 9.274 \times 10^{-24}\ \text{J/T}</math>
+
+=== Nuclear magneton ===
+For nucleons:
+:<math>\mu_N = \frac{e\hbar}{2m_p} = 5.051 \times 10^{-27}\ \text{J/T}</math>
+
+== Applications ==
+* [[MRI]] — detection of proton magnetic moments in tissues
+* [[NMR spectroscopy]] — chemical structure determination
+* [[Data storage]] — magnetic hard drives
+* [[Ferromagnetism]] — alignment of atomic magnetic moments
+* [[Magnetic nanoparticle]]s — biomedical applications
+
+== See also ==
+{{Portal|Physics}}
+* [[Angular momentum]]
+* [[Magnetic field]]
+* [[Spin (physics)]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Magnetic moment| ]]
+[[Category:Electromagnetism]]
+[[Category:Magnetism]]

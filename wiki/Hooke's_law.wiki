@@ -1,0 +1,73 @@
+{{Short description="Law of elasticity: force needed to extend or compress a spring by some distance"}}
+{{Infobox physical law
+| name = Hooke's law
+| image = Hookes law spring.png
+| caption = Extension of a coiled spring is proportional to the applied force.
+| formula = <math>F = -kx</math>
+| discovered_by = [[Robert Hooke]] (1660)
+}}
+
+'''Hooke's law''' is a law of [[physics]] that states that the [[force]] (<math>F</math>) needed to extend or compress a [[spring (device)|spring]] by some distance (<math>x</math>) scales linearly with respect to that distance — that is, <math>F = kx</math>, where <math>k</math> is a constant factor characteristic of the spring (its stiffness), and <math>x</math> is small compared to the total possible deformation of the spring.
+
+The law is named after 17th-century British physicist [[Robert Hooke]], who first stated it in 1660 as a Latin anagram ''ceiiinosssttuv'', which he revealed in 1678 as ''Ut tensio, sic vis'' ("As the extension, so the force").
+
+== Mathematical statement ==
+:<math>F = -kx</math>
+
+where:
+* <math>F</math> is the restoring force exerted by the spring (N)
+* <math>k</math> is the [[Hooke's law#Formal definition|spring constant]] or force constant (N/m)
+* <math>x</math> is the displacement from equilibrium (m)
+
+The negative sign indicates that the restoring force is opposite to the displacement. This is a [[restoring force]]: it always acts to return the spring to its equilibrium position.
+
+== Spring constant ==
+The spring constant <math>k</math> is a measure of the spring's stiffness:
+* Large <math>k</math> → stiff spring
+* Small <math>k</math> → soft spring
+
+For identical springs in series: <math>\frac{1}{k_{\text{eff}}} = \frac{1}{k_1} + \frac{1}{k_2} + \cdots</math>
+For identical springs in parallel: <math>k_{\text{eff}} = k_1 + k_2 + \cdots</math>
+
+== Elastic potential energy ==
+The [[potential energy]] stored in a deformed spring is:
+:<math>U = \frac{1}{2}kx^2</math>
+
+This energy is released when the spring returns to equilibrium.
+
+== Stress–strain form (generalized Hooke's law) ==
+{{Main|Linear elasticity}}
+For a three-dimensional elastic material, Hooke's law generalizes to:
+:<math>\sigma_{ij} = \sum_{k,l} C_{ijkl}\,\varepsilon_{kl}</math>
+where <math>\sigma_{ij}</math> is the [[Cauchy stress tensor|stress tensor]], <math>\varepsilon_{kl}</math> is the [[strain tensor]], and <math>C_{ijkl}</math> is the stiffness (or elasticity) tensor.
+
+For [[isotropy|isotropic]] materials, this reduces to two independent elastic constants:
+* [[Young's modulus]] <math>E</math>
+* [[Poisson's ratio]] <math>\nu</math>
+* [[Shear modulus]] <math>G = E/[2(1+\nu)]</math>
+* [[Bulk modulus]] <math>K = E/[3(1-2\nu)]</math>
+
+== Elastic limit ==
+Hooke's law is valid only within the '''[[elastic limit]]''' — the maximum stress beyond which permanent (plastic) deformation occurs. Beyond the elastic limit:
+* [[Yield point|Yielding]] occurs
+* [[Plasticity (physics)|Plastic deformation]] is permanent
+* The linear relationship <math>F \propto x</math> no longer holds
+
+== Simple harmonic motion ==
+{{Main|Simple harmonic motion}}
+Hooke's law is the foundation of simple harmonic motion. A mass <math>m</math> on a spring oscillates with:
+:<math>\omega = \sqrt{\frac{k}{m}}, \quad T = 2\pi\sqrt{\frac{m}{k}}</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Elasticity (physics)]]
+* [[Young's modulus]]
+* [[Simple harmonic motion]]
+* [[Stress–strain curve]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Hooke's law| ]]
+[[Category:Elasticity (physics)]]
+[[Category:Classical mechanics]]

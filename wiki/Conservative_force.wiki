@@ -1,0 +1,59 @@
+{{Short description|Force with path-independent work}}
+{{Infobox physics
+| name = Conservative force
+| image = Conservative Force Gravity Example.svg
+| caption = Work done by [[gravity]] on an object depends only on the change in height, not the path taken.
+| topics = [[Force]], [[Potential energy]], [[Work (physics)]], [[Conservation of energy]]
+}}
+
+In [[physics]], a '''conservative force''' is a [[force]] with the property that the total [[Work (physics)|work]] done in moving a particle between two points is independent of the path taken. Equivalently, if a particle travels in a closed loop, the total work done by a conservative force is zero:
+
+:<math>\oint \mathbf{F} \cdot d\mathbf{r} = 0</math>
+
+Conservative forces derive from a [[scalar potential]] energy function <math>U(\mathbf{r})</math>:
+:<math>\mathbf{F} = -\nabla U</math>
+
+== Equivalent conditions ==
+A force <math>\mathbf{F}</math> is conservative if and only if any of the following equivalent conditions holds:
+# <math>\nabla \times \mathbf{F} = 0</math> (the curl is zero everywhere)
+# <math>\mathbf{F} = -\nabla U</math> for some scalar potential <math>U</math>
+# The work around any closed path is zero: <math>\oint\mathbf{F}\cdot d\mathbf{r} = 0</math>
+
+== Examples ==
+'''Conservative forces:'''
+* [[Gravity|Gravitational force]]: <math>U = -G\frac{m_1 m_2}{r}</math>
+* [[Coulomb's law|Electrostatic force]]: <math>U = k_e\frac{q_1 q_2}{r}</math>
+* [[Hooke's law|Ideal spring force]]: <math>U = \frac{1}{2}kx^2</math>
+
+'''Non-conservative forces:'''
+* [[Friction]] — depends on path length, dissipates energy as heat
+* [[Drag (physics)|Air resistance]] — velocity-dependent
+* [[Magnetic force on a moving charge]] — depends on velocity direction
+* Tension in inelastic materials
+
+== Conservation of energy ==
+{{Main|Conservation of energy}}
+For a particle subject only to conservative forces, the total [[mechanical energy]] is conserved:
+:<math>E = T + U = \frac{1}{2}mv^2 + U(\mathbf{r}) = \text{constant}</math>
+
+This is because the work done equals the negative change in potential energy:
+:<math>W = \int \mathbf{F} \cdot d\mathbf{r} = -\Delta U = \Delta T</math>
+
+== Mathematical properties ==
+* Conservative vector fields are [[irrotational vector field|irrotational]]: <math>\nabla \times \mathbf{F} = 0</math>
+* In [[simply connected space]]s, irrotational fields are conservative
+* The [[gradient theorem]] relates line integrals to potential differences
+
+== See also ==
+{{Portal|Physics}}
+* [[Conservation of energy]]
+* [[Force]]
+* [[Potential energy]]
+* [[Work (physics)]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Force]]
+[[Category:Classical mechanics]]
+[[Category:Potential theory]]

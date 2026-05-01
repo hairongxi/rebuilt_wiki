@@ -1,0 +1,72 @@
+{{Short description|Physical quantity that expresses hot and cold}}
+{{Infobox physics
+| name = Temperature
+| image = Thermometer CF.svg
+| caption = A [[thermometer]] calibrated in degrees [[Celsius]] (left) and [[Fahrenheit]] (right).
+| topics = [[Laws of thermodynamics]], [[Entropy]], [[Kinetic theory of gases]], [[Statistical mechanics]]
+| SI_unit = [[kelvin]] (K)
+| other_units = [[Celsius]] (°C), [[Fahrenheit]] (°F)
+}}
+
+'''Temperature''' is a physical quantity that expresses the subjective perceptions of hot and cold. Scientifically, it is proportional to the average [[kinetic energy]] of the random microscopic motions of the constituent particles of a system. Temperature is a fundamental parameter in [[thermodynamics]] and [[statistical mechanics]].
+
+Temperature is measured with a [[thermometer]], which may be calibrated in various [[temperature scale]]s. The most common scales are the [[Celsius]] scale (denoted °C), the [[Fahrenheit]] scale (°F), and the [[Kelvin]] scale (K), with Kelvin being the [[SI base unit]].
+
+== Thermodynamic definition ==
+{{Main|Thermodynamic temperature}}
+From the [[second law of thermodynamics]], temperature is defined via the efficiency of an ideal [[Carnot heat engine]]:
+:<math>\frac{T_C}{T_H} = 1 - \eta</math>
+where <math>\eta</math> is the maximum possible efficiency between temperatures <math>T_C</math> (cold) and <math>T_H</math> (hot).
+
+=== Absolute zero ===
+The lowest theoretical temperature is [[absolute zero]] (0 K or −273.15°C), at which the particles of a substance have minimal kinetic energy. The [[third law of thermodynamics]] states that absolute zero cannot be reached through any finite number of processes.
+
+== Kinetic theory ==
+{{Main|Kinetic theory of gases}}
+In the kinetic theory of [[ideal gas|gases]], temperature is directly proportional to the average translational kinetic energy of molecules:
+:<math>\frac{1}{2}m\langle v^2 \rangle = \frac{3}{2}k_B T</math>
+where <math>k_B</math> is the [[Boltzmann constant]] and <math>m</math> is the molecular mass.
+
+== Statistical mechanics definition ==
+{{Main|Statistical mechanics}}
+From statistical mechanics, temperature is related to the rate of change of [[entropy]] <math>S</math> with respect to [[internal energy]] <math>U</math>:
+:<math>\frac{1}{T} = \left(\frac{\partial S}{\partial U}\right)_{V, N}</math>
+
+This definition gives temperature as the reciprocal of the derivative of entropy with respect to energy, linking macroscopic thermodynamics to microscopic statistical behavior.
+
+== Temperature scales ==
+{| class="wikitable"
+|-
+! Scale !! Freezing water !! Boiling water
+|-
+| Kelvin || 273.15 K || 373.15 K
+|-
+| Celsius || 0°C || 100°C
+|-
+| Fahrenheit || 32°F || 212°F
+|}
+
+== Effects of temperature ==
+* [[Thermal expansion]] — most materials expand when heated
+* Change of [[electrical resistivity|electrical resistance]] — typically increases with temperature in metals
+* Phase transitions — [[melting]], [[boiling]], [[sublimation]]
+* Speed of [[sound]] — increases with temperature in gases
+* [[Black-body radiation]] — spectrum shifts with temperature ([[Wien's displacement law]])
+
+== See also ==
+{{Portal|Physics}}
+* [[Entropy]]
+* [[Heat]]
+* [[Ideal gas law]]
+* [[Kinetic theory of gases]]
+* [[Laws of thermodynamics]]
+* [[Statistical mechanics]]
+* [[Thermodynamics]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Temperature| ]]
+[[Category:Thermodynamics]]
+[[Category:Physical quantities]]
+[[Category:Heat transfer]]

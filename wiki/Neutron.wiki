@@ -1,0 +1,69 @@
+{{Short description|Subatomic particle with no electric charge found in atomic nuclei}}
+{{Infobox physics
+| name = Neutron
+| image = Quark structure neutron.svg
+| caption = A neutron is composed of one [[up quark]] and two [[down quark]]s, held together by the [[strong interaction]].
+| topics = [[Atomic nucleus]], [[Nuclear physics]], [[Proton]], [[Strong interaction]], [[Beta decay]]
+| composition = 1 [[up quark]], 2 [[down quark]]s
+| statistics = [[Fermion]]
+| symbol = n, n⁰
+| antiparticle = [[Antineutron]]
+| mass = 1.67492749804×10⁻²⁷ kg (939.565 MeV/c²)
+| charge = 0
+| spin = 1/2
+}}
+
+The '''neutron''' is a [[subatomic particle]] with no net [[electric charge]] and a mass slightly larger than that of a [[proton]]. Protons and neutrons constitute the [[atomic nucleus|nuclei]] of [[atom]]s; they are collectively called [[nucleon]]s. The neutron has a mean lifetime of approximately 14 minutes and 39 seconds when free; it decays via the [[weak interaction]] into a proton, an [[electron]], and an [[antineutrino]] ([[beta decay]]).
+
+== Discovery ==
+The neutron was discovered in 1932 by [[James Chadwick]], for which he received the [[Nobel Prize in Physics]] in 1935. Chadwick bombarded [[beryllium]] with [[alpha particle]]s from [[polonium]] decay and observed a neutral, penetrating radiation that he identified as neutrons.
+
+== Properties ==
+
+=== Mass and stability ===
+The neutron rest mass is 939.565 MeV/c², about 0.14% heavier than the proton (938.272 MeV/c²). This mass difference is the reason free neutrons undergo beta decay:
+:<math>n \rightarrow p + e^- + \bar{\nu}_e</math>
+
+The half-life of a free neutron is approximately 10 minutes, but neutrons bound in stable nuclei are stable.
+
+=== Internal structure ===
+The neutron is a [[baryon]] composed of one [[up quark]] (charge +2/3e) and two [[down quark]]s (charge −1/3e each), resulting in net zero charge. These [[valence quark]]s are surrounded by a sea of virtual quark–antiquark pairs and [[gluon]]s.
+
+=== Magnetic moment ===
+Despite having zero net charge, the neutron has a non-zero [[magnetic moment]]:
+:<math>\mu_n = -1.913\,\mu_N</math>
+indicating complex internal charge distributions.
+
+== Role in nuclei ==
+
+=== Nuclear stability ===
+Neutrons provide the "glue" that holds nuclei together via the [[strong interaction]], contributing nuclear binding without adding to [[electric field|electrostatic repulsion]]. The ratio of neutrons to protons increases with atomic number for stable nuclei.
+
+=== Nuclear reactions ===
+* '''[[Nuclear fission]]''' — neutrons induce fission in heavy nuclei
+* '''[[Nuclear fusion]]''' — neutrons are released in fusion reactions
+* '''[[Neutron activation]]''' — production of radioactive isotopes
+* '''[[Nuclear chain reaction]]''' — neutrons sustain reactions in reactors and weapons
+
+== Applications ==
+* [[Neutron diffraction]] — studying crystal and molecular structures
+* [[Neutron activation analysis]] — elemental analysis
+* [[Neutron therapy]] — cancer treatment
+* [[Nuclear reactor]]s — energy production
+
+== See also ==
+{{Portal|Physics}}
+* [[Atomic nucleus]]
+* [[Beta decay]]
+* [[Nuclear fission]]
+* [[Nuclear physics]]
+* [[Proton]]
+* [[Quark]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Neutron| ]]
+[[Category:Baryons]]
+[[Category:Nucleons]]
+[[Category:Nuclear physics]]

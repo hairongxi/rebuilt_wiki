@@ -1,0 +1,53 @@
+{{Short description|Substance of which physical objects are composed}}
+{{Infobox physics
+| name = Matter
+| image = 
+| caption = 
+| topics = [[Atom]], [[Mass]], [[Energy]], [[Quantum mechanics]], [[Particle physics]]
+}}
+
+In [[physics]], '''matter''' is any substance that has [[mass]] and occupies [[volume|space]] by having [[volume]]. All everyday objects that can be touched are ultimately composed of [[atom]]s, which are themselves composed of interacting [[subatomic particle]]s. In both classical and modern physics, matter includes any entity that possesses [[mass]] (including [[rest mass]]) and volume.
+
+== Definition ==
+
+=== Based on atoms ===
+Historically, matter was defined as anything composed of [[atom]]s — the smallest units of [[chemical element]]s that retain chemical properties.
+
+=== Based on mass and volume ===
+A common definition: matter is anything that has mass and occupies space (has volume).
+
+=== Based on quarks and leptons ===
+In [[particle physics]], ordinary matter is composed of [[fermion]]s — specifically [[quark]]s and [[lepton]]s — held together by [[fundamental interaction]]s.
+
+== States of matter ==
+{{Main|State of matter}}
+Matter exists in several states (phases):
+* '''[[Solid]]''' — fixed shape and volume; atoms closely packed
+* '''[[Liquid]]''' — fixed volume, variable shape; atoms close but mobile
+* '''[[Gas]]''' — variable shape and volume; atoms far apart, free movement
+* '''[[Plasma (physics)|Plasma]]''' — ionised gas; most common state in the [[universe]]
+* '''[[Bose–Einstein condensate]]''' — ultra-cold quantum state of bosons
+* '''[[Fermionic condensate]]''' — ultra-cold quantum state of fermions
+
+== Matter vs. energy ==
+[[Mass–energy equivalence]] (<math>E = mc^2</math>) blurs the classical distinction between matter and [[energy]]. Matter can be converted to energy in [[nuclear reaction]]s, and energy can create matter ([[pair production]]).
+
+== Dark matter ==
+{{Main|Dark matter}}
+Approximately 85% of the matter in the universe is [[dark matter]] — matter that does not interact with [[electromagnetic radiation]] and is detected only through its gravitational effects. Its composition remains one of the greatest unsolved problems in physics.
+
+== See also ==
+{{Portal|Physics}}
+* [[Antimatter]]
+* [[Atom]]
+* [[Dark matter]]
+* [[Mass]]
+* [[Mass–energy equivalence]]
+* [[State of matter]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Matter| ]]
+[[Category:Concepts in physics]]
+[[Category:Physical sciences]]

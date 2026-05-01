@@ -1,0 +1,63 @@
+{{Short description="Constituent particle of atomic nuclei; proton or neutron}}
+{{Infobox physics
+| name = Nucleon
+| image = 
+| caption = 
+| topics = [[Atomic nucleus]], [[Proton]], [[Neutron]], [[Nuclear physics]], [[Strong interaction]]
+| types = [[Proton]], [[Neutron]]
+}}
+
+In [[physics]] and [[chemistry]], a '''nucleon''' is a constituent particle of the [[atomic nucleus]] — either a [[proton]] or a [[neutron]]. Both are [[baryon]]s composed of three [[quark]]s and are held together by the [[strong interaction]].
+
+== Properties ==
+{| class="wikitable"
+|-
+! Property !! Proton !! Neutron
+|-
+| Charge || +1 e || 0
+|-
+| Mass || 938.272 MeV/c² || 939.565 MeV/c²
+|-
+| [[Spin (physics)|Spin]] || 1/2 || 1/2
+|-
+| Quark composition || uud || udd
+|-
+| Mean lifetime || Stable (>10³⁴ yr) || ~14 min 39 s (free)
+|-
+| [[Isospin]] <math>I_3</math> || +1/2 || −1/2
+|}
+
+== Nuclear force between nucleons ==
+Nucleons interact via the [[nuclear force]] (residual [[strong interaction]]), which is:
+* Strongly attractive at ~1 fm
+* Repulsive at very short distances (<0.7 fm) — prevents nuclear collapse
+* Negligible beyond ~2.5 fm
+* Largely independent of charge (proton–proton ≈ neutron–neutron ≈ proton–neutron)
+
+The interaction is mediated by [[meson]]s (primarily [[pion]]s) and described by the [[Yukawa potential]]:
+:<math>V(r) = -\frac{g^2}{4\pi}\frac{e^{-m_\pi c r/\hbar}}{r}</math>
+
+== Nuclear shell model ==
+{{Main|Nuclear shell model}}
+Nucleons occupy quantised energy levels within the nucleus, analogous to electrons in atoms. Nuclear "magic numbers" (2, 8, 20, 28, 50, 82, 126) correspond to filled nucleon shells and exceptional stability.
+
+== Nucleon number (Mass number) ==
+The total number of nucleons is the [[mass number]] <math>A</math>:
+:<math>A = Z + N</math>
+where <math>Z</math> is the number of protons ([[atomic number]]) and <math>N</math> is the number of neutrons.
+
+== See also ==
+{{Portal|Physics}}
+* [[Atomic nucleus]]
+* [[Baryon]]
+* [[Neutron]]
+* [[Nuclear force]]
+* [[Nuclear physics]]
+* [[Proton]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Nucleons| ]]
+[[Category:Nuclear physics]]
+[[Category:Baryons]]

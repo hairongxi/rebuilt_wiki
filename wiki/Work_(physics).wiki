@@ -1,0 +1,85 @@
+{{Short description|Process of energy transfer to an object via force}}
+{{Infobox physical quantity
+| name = Work
+| image = Work done by a constant force.png
+| caption = Work done by a constant force; only the component parallel to displacement contributes.
+| symbols = <math>W</math>
+| SI_unit = [[joule]] (J = N·m)
+}}
+
+In [[physics]], '''work''' is the [[energy]] transferred to or from an object via the application of [[force]] along a [[displacement (vector)|displacement]]. In its simplest form, for a constant force aligned with the direction of motion, the work equals the product of the force magnitude and the distance traveled. More generally, work is the [[line integral]] of the force along the path.
+
+A force does '''positive work''' when it has a vector component in the same direction as the displacement; it does '''negative work''' when it has a component opposite to the displacement; and it does '''zero work''' when it has no component along the displacement.
+
+== Mathematical definition ==
+
+=== Constant force ===
+For a constant force <math>\mathbf{F}</math> and a straight-line displacement <math>\mathbf{d}</math>:
+:<math>W = \mathbf{F} \cdot \mathbf{d} = Fd\cos\theta</math>
+where <math>\theta</math> is the angle between the force and displacement vectors.
+
+=== Variable force ===
+For a variable force along a curved path <math>C</math>:
+:<math>W = \int_C \mathbf{F} \cdot d\mathbf{r}</math>
+
+In one dimension:
+:<math>W = \int_{x_1}^{x_2} F(x)\, dx</math>
+
+== Work–energy theorem ==
+{{Main|Work–energy theorem}}
+The net work done on a particle equals the change in its [[kinetic energy]]:
+:<math>W_{\text{net}} = \Delta K = \frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2</math>
+
+This theorem is valid for both conservative and non-conservative forces.
+
+== Work done by specific forces ==
+
+=== Work by gravity ===
+Near Earth's surface (constant <math>g</math>):
+:<math>W_g = -mg\Delta h</math>
+where <math>\Delta h</math> is the vertical displacement (work independent of path).
+
+=== Work by a spring (Hooke's law) ===
+:<math>W_s = \int_{x_1}^{x_2} (-kx)\,dx = \frac{1}{2}kx_1^2 - \frac{1}{2}kx_2^2</math>
+
+=== Work by friction ===
+For [[kinetic friction]] <math>f_k = \mu_k N</math> over distance <math>d</math>:
+:<math>W_f = -f_k d = -\mu_k N d</math>
+Friction always does negative work (dissipates energy).
+
+== Work and potential energy ==
+For [[conservative force]]s, the work done is independent of the path and equals the negative change in [[potential energy]]:
+:<math>W_{\text{cons}} = -\Delta U</math>
+
+== Thermodynamic work ==
+{{Main|Work (thermodynamics)}}
+In [[thermodynamics]], work is a broader concept. For a gas expanding against an external pressure <math>P</math>:
+:<math>W = \int P\, dV</math>
+
+The sign convention differs: <math>W > 0</math> often denotes work done by the system (in engineering) or on the system (in physics).
+
+== Units ==
+The SI unit of work is the [[joule]] (J):
+:1 J = 1 N·m = 1 kg·m²/s²
+
+Other units include the [[erg]] (1 erg = 10⁻⁷ J), the [[foot-pound]], and the [[calorie]].
+
+== Power ==
+{{Main|Power (physics)}}
+[[Power (physics)|Power]] is the rate of doing work:
+:<math>P = \frac{dW}{dt} = \mathbf{F} \cdot \mathbf{v}</math>
+The SI unit is the [[watt]] (W = J/s).
+
+== See also ==
+{{Portal|Physics}}
+* [[Energy]]
+* [[Kinetic energy]]
+* [[Potential energy]]
+* [[Conservation of energy]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Work (physics)| ]]
+[[Category:Energy]]
+[[Category:Classical mechanics]]

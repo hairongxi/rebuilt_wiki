@@ -1,0 +1,54 @@
+{{Short description|First successful model of the hydrogen atom incorporating quantum theory}}
+{{Infobox physics
+| name = Bohr model
+| image = Bohr atom model.svg
+| caption = The Bohr model: electrons orbit the nucleus in discrete circular orbits with quantized angular momentum.
+| topics = [[Atomic physics]], [[Quantum mechanics]], [[Hydrogen atom]], [[Atomic nucleus]]
+| proposed_by = [[Niels Bohr]], 1913
+}}
+
+The '''Bohr model''' (or '''Rutherford–Bohr model''') is a planetary model of the [[atom]] proposed by [[Niels Bohr]] in 1913. It was the first model to successfully incorporate [[quantum mechanics|quantum theory]] into atomic structure, explaining the spectral lines of [[hydrogen]] and [[hydrogen-like atom]]s.
+
+== Postulates ==
+# Electrons orbit the [[atomic nucleus|nucleus]] in stable, circular orbits without radiating energy (contrary to classical electrodynamics)
+# Only orbits with quantized [[angular momentum]] are allowed: <math>L = n\hbar</math>, where <math>n = 1, 2, 3, \ldots</math>
+# Electrons emit or absorb [[photon]]s when transitioning between orbits: <math>\Delta E = h\nu = E_i - E_f</math>
+
+== Energy levels ==
+The allowed energy levels for the hydrogen atom:
+:<math>E_n = -\frac{m_e e^4}{8\varepsilon_0^2 h^2}\frac{1}{n^2} = -\frac{13.6\ \text{eV}}{n^2}</math>
+
+The ground state (<math>n = 1</math>) energy is −13.6 eV, the ionization energy of hydrogen.
+
+== Bohr radius ==
+The radius of the lowest orbit ([[Bohr radius]]) is:
+:<math>a_0 = \frac{4\pi\varepsilon_0 \hbar^2}{m_e e^2} = 5.29 \times 10^{-11}\ \text{m} = 0.529\ \text{Å}</math>
+
+== Spectral series ==
+Transitions to specific levels produce named [[spectral series]]:
+* [[Lyman series]] — transitions to <math>n = 1</math> (ultraviolet)
+* [[Balmer series]] — transitions to <math>n = 2</math> (visible)
+* [[Paschen series]] — transitions to <math>n = 3</math> (infrared)
+
+== Limitations ==
+* Cannot explain spectra of multi-electron atoms
+* Cannot explain [[fine structure]] or [[hyperfine structure]]
+* Does not account for [[electron spin]]
+* Contradicts the [[uncertainty principle]] (simultaneous position and momentum)
+* Replaced by the [[Schrödinger equation|wave mechanical model]] in 1926
+
+Despite its limitations, the Bohr model remains pedagogically valuable for introducing quantum concepts.
+
+== See also ==
+{{Portal|Physics}}
+* [[Atomic physics]]
+* [[Hydrogen atom]]
+* [[Quantum mechanics]]
+* [[Schrödinger equation]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Atomic physics]]
+[[Category:Quantum mechanics]]
+[[Category:Obsolete theories in physics]]

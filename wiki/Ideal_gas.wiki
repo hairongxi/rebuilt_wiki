@@ -1,0 +1,66 @@
+{{Short description="Theoretical gas composed of randomly moving, non-interacting point particles}}
+{{Infobox physics
+| name = Ideal gas
+| image = Gas molecules.gif
+| caption = Simulation of ideal gas molecules undergoing elastic collisions in a container.
+| topics = [[Thermodynamics]], [[Kinetic theory of gases]], [[Ideal gas law]], [[Statistical mechanics]]
+}}
+
+An '''ideal gas''' is a theoretical [[gas]] composed of many randomly moving point particles whose only interactions are perfectly [[elastic collision]]s. The ideal gas concept is useful because it obeys a simplified [[equation of state]], the [[ideal gas law]], and is amenable to analysis under [[statistical mechanics]].
+
+== Ideal gas law ==
+{{Main|Ideal gas law}}
+:<math>PV = nRT = Nk_B T</math>
+
+where:
+* <math>P</math> is [[pressure]]
+* <math>V</math> is [[volume]]
+* <math>n</math> is number of moles
+* <math>R</math> is the [[molar gas constant]]
+* <math>N</math> is number of molecules
+* <math>k_B</math> is the [[Boltzmann constant]]
+* <math>T</math> is [[temperature]]
+
+== Assumptions ==
+The ideal gas model assumes:
+# Gas molecules are point particles with zero volume
+# No intermolecular forces except during elastic collisions
+# Collisions are perfectly elastic (kinetic energy conserved)
+# Random motion in all directions
+# Large number of particles (statistical treatment valid)
+
+== Kinetic theory derivation ==
+{{Main|Kinetic theory of gases}}
+From the kinetic theory, the pressure arises from molecular impacts on container walls:
+:<math>P = \frac{1}{3}\frac{Nm\langle v^2 \rangle}{V}</math>
+
+Combining with <math>\langle E_k \rangle = \frac{3}{2}k_B T</math>:
+:<math>PV = Nk_B T</math>
+
+== Key results ==
+* [[Kinetic energy]] per molecule: <math>\frac{3}{2}k_B T</math>
+* [[Root mean square speed]]: <math>v_{\text{rms}} = \sqrt{\frac{3k_B T}{m}} = \sqrt{\frac{3RT}{M}}</math>
+* [[Internal energy]] depends only on temperature: <math>U = \frac{3}{2}nRT</math> (monatomic)
+* [[Heat capacity]] at constant volume: <math>C_V = \frac{3}{2}R</math> (monatomic)
+
+== Deviations from ideality ==
+Real gases deviate from ideal behaviour due to:
+* Finite molecular volume (significant at high pressure)
+* [[Intermolecular force]]s (significant at low temperature)
+
+The [[van der Waals equation]] corrects for these:
+:<math>(P + a\frac{n^2}{V^2})(V - nb) = nRT</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Boyle's law]]
+* [[Ideal gas law]]
+* [[Kinetic theory of gases]]
+* [[Thermodynamics]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Ideal gas| ]]
+[[Category:Thermodynamics]]
+[[Category:Statistical mechanics]]

@@ -1,0 +1,78 @@
+{{Short description|Speed at which all massless particles and associated fields travel in vacuum}}
+{{Infobox physics
+| name = Speed of light
+| image = Michelson-Morley experiment (en).svg
+| caption = The [[Michelson–Morley experiment]] showed that the speed of light is independent of the motion of the observer.
+| topics = [[Special relativity]], [[Electromagnetic wave]], [[Maxwell's equations]]
+| SI_unit = [[metre per second]] (m/s)
+| value = 299,792,458 m/s (exact, by definition)
+}}
+
+The '''speed of light''' in vacuum, commonly denoted <math>c</math>, is a universal [[physical constant]] exactly equal to 299,792,458 [[metre per second|metres per second]] (approximately 3.00×10⁸ m/s, or about 186,282 miles per second). According to [[special relativity]], <math>c</math> is the upper limit for the speed at which conventional [[matter]], [[energy]], or any [[signal]] carrying information can travel through [[spacetime]].
+
+All [[electromagnetic radiation]], including [[light|visible light]], [[radio wave]]s, [[X-ray]]s, and [[gamma ray]]s, travels at the speed of light in vacuum. So do [[gravitational wave]]s. [[Particle]]s with nonzero [[rest mass]] can approach <math>c</math> but can never reach it.
+
+== History ==
+
+=== Early measurements ===
+The first quantitative estimate of the speed of light was made in 1676 by [[Ole Rømer]], who studied the apparent motion of [[Jupiter]]'s moon [[Io (moon)|Io]]. By noticing discrepancies in the predicted times of Io's eclipses, Rømer concluded that light takes time to travel—a revolutionary idea at the time. He estimated the speed to be about 220,000 km/s.
+
+In 1728, [[James Bradley]] discovered the [[aberration of light]] while studying stars, providing an independent measurement.
+
+=== Terrestrial measurements ===
+In 1849, [[Hippolyte Fizeau]] made the first terrestrial measurement using a rotating toothed wheel. [[Léon Foucault]] improved upon this with a rotating mirror method (1850), measuring <math>c \approx 298,000</math> km/s.
+
+=== Michelson and precision ===
+[[Albert Abraham Michelson|Albert A. Michelson]] devoted much of his career to measuring the speed of light with increasing precision. His 1926 measurement of 299,796 ± 4 km/s remained the standard for decades. The [[Michelson–Morley experiment]] (1887), which attempted to detect the [[luminiferous aether]], found no variation in the speed of light with Earth's motion, laying groundwork for Einstein's [[special relativity]].
+
+== Role in special relativity ==
+{{Main|Special relativity}}
+[[Albert Einstein]]'s 1905 theory of [[special relativity]] postulates that the speed of light in vacuum is constant for all inertial observers, regardless of the motion of the light source. This leads to profound consequences:
+
+=== Mass–energy equivalence ===
+The famous equation <math>E = mc^2</math> expresses that [[mass]] and [[energy]] are equivalent; the [[conversion factor]] is <math>c^2</math>.
+
+=== Lorentz factor ===
+The [[Lorentz factor]] <math>\gamma = 1/\sqrt{1 - v^2/c^2}</math> describes how time [[time dilation|dilates]], lengths [[length contraction|contract]], and mass [[relativistic mass|increases]] with velocity.
+
+=== Causality ===
+Because nothing can travel faster than <math>c</math>, the speed of light defines the [[light cone]] structure of spacetime and imposes a fundamental [[causality]] constraint.
+
+== Speed of light in media ==
+In a transparent medium such as glass, water, or air, light travels at a speed <math>v = c/n</math>, where <math>n</math> is the [[refractive index]] of the medium (<math>n \geq 1</math>). For [[visible light]] in water, <math>n \approx 1.33</math>, so <math>v \approx 2.25 \times 10^8</math> m/s.
+
+=== Cherenkov radiation ===
+When a charged particle (such as an [[electron]]) travels through a dielectric medium faster than the local speed of light in that medium, it emits [[Cherenkov radiation]]—an optical analogue of a [[sonic boom]].
+
+== Fundamental role in physics ==
+
+=== Definition of the metre ===
+Since 1983, the [[metre]] has been defined in the [[International System of Units]] (SI) as the distance light travels in vacuum in 1/299,792,458 of a second. This effectively sets the speed of light to an exact value by definition.
+
+=== Electromagnetism ===
+In classical [[electromagnetism]], the speed of light emerges naturally from [[Maxwell's equations]]:
+:<math>c = \frac{1}{\sqrt{\mu_0 \varepsilon_0}}</math>
+where <math>\mu_0</math> is the [[vacuum permeability]] and <math>\varepsilon_0</math> is the [[vacuum permittivity]].
+
+=== Quantum field theory ===
+In [[quantum electrodynamics]], the [[photon]]—the mediator of the electromagnetic interaction—is massless, and its speed is exactly <math>c</math>.
+
+== See also ==
+{{Portal|Physics}}
+* [[Electromagnetic wave]]
+* [[General relativity]]
+* [[Light]]
+* [[Lorentz transformation]]
+* [[Mass–energy equivalence]]
+* [[Maxwell's equations]]
+* [[Photon]]
+* [[Planck constant]]
+* [[Special relativity]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Special relativity]]
+[[Category:Electromagnetic radiation]]
+[[Category:Physical constants]]
+[[Category:Light]]

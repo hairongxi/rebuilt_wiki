@@ -1,0 +1,93 @@
+{{Short description="Theory describing three fundamental forces and classifying all known elementary particles}}
+{{Infobox physics
+| name = Standard Model
+| image = Standard Model of Elementary Particles.svg
+| caption = The Standard Model: 12 [[fermion]]s (6 [[quark]]s + 6 [[lepton]]s), 4 [[gauge boson]]s, and the [[Higgs boson]].
+| topics = [[Particle physics]], [[Elementary particle]], [[Fundamental interaction]], [[Quantum field theory]]
+}}
+
+The '''Standard Model''' of [[particle physics]] is the theory describing three of the four known [[fundamental interaction]]s ([[electromagnetism]], the [[weak interaction]], and the [[strong interaction]]) and classifying all known [[elementary particle]]s. It was developed throughout the latter half of the 20th century through the collaborative efforts of scientists worldwide.
+
+The Standard Model is a [[quantum field theory]] that combines [[quantum chromodynamics]] (QCD), the [[electroweak theory]], and the [[Higgs mechanism]] into a single consistent framework with [[SU(3) × SU(2) × U(1)]] gauge symmetry.
+
+== Particle content ==
+
+=== Fermions (matter particles) ===
+{{Main|Fermion}}
+{| class="wikitable"
+|-
+! colspan="3" | Quarks !! colspan="3" | Leptons
+|-
+! Flavour !! Charge !! Mass !! Flavour !! Charge !! Mass
+|-
+| [[Up quark]] (u) || +2/3 || ~2.2 MeV || [[Electron]] (e) || −1 || 0.511 MeV
+|-
+| [[Down quark]] (d) || −1/3 || ~4.7 MeV || νₑ (e neutrino) || 0 || <2 eV
+|-
+| [[Charm quark]] (c) || +2/3 || ~1.28 GeV || [[Muon]] (μ) || −1 || 105.7 MeV
+|-
+| [[Strange quark]] (s) || −1/3 || ~96 MeV || ν_μ (μ neutrino) || 0 || <0.19 MeV
+|-
+| [[Top quark]] (t) || +2/3 || ~173 GeV || [[Tau (particle)|Tau]] (τ) || −1 || 1.777 GeV
+|-
+| [[Bottom quark]] (b) || −1/3 || ~4.18 GeV || ν_τ (τ neutrino) || 0 || <18.2 MeV
+|}
+
+=== Gauge bosons (force carriers) ===
+{| class="wikitable"
+|-
+! Boson !! Force !! Mass !! Spin
+|-
+| [[Photon]] (γ) || [[Electromagnetism]] || 0 || 1
+|-
+| [[Gluon]] (g) × 8 || [[Strong interaction]] || 0 || 1
+|-
+| [[W and Z bosons|W⁺, W⁻]] || [[Weak interaction]] || 80.4 GeV || 1
+|-
+| [[W and Z bosons|Z⁰]] || [[Weak interaction]] || 91.2 GeV || 1
+|-
+| [[Higgs boson]] (H) || Mass generation || 125 GeV || 0
+|}
+
+== Fundamental forces in the Standard Model ==
+
+=== Electromagnetism ===
+Described by [[quantum electrodynamics]] (QED), a U(1) gauge theory. Mediated by the [[photon]].
+
+=== Weak interaction ===
+Unified with electromagnetism in the [[electroweak theory]] (SU(2)×U(1)). Mediated by [[W and Z bosons]]. Responsible for [[beta decay]] and [[neutrino]] interactions.
+
+=== Strong interaction ===
+Described by [[quantum chromodynamics]] (QCD), a SU(3) gauge theory. Mediated by [[gluon]]s. Responsible for binding [[quark]]s into [[hadron]]s.
+
+== Successes ==
+* Predicted the existence of [[W and Z bosons]] before their discovery (1983)
+* Predicted the [[Higgs boson]], discovered at the [[Large Hadron Collider]] (2012)
+* Explains the [[anomalous magnetic moment]] of the electron to 1 part in 10¹²
+* Unifies electromagnetic and weak forces at high energies
+
+== Limitations ==
+* Does not include [[gravity]] (no quantum theory of gravity)
+* Does not explain [[dark matter]] or [[dark energy]]
+* [[Hierarchy problem]] — why the [[Higgs boson]] mass is so light
+* 19 free parameters that must be measured experimentally
+* No explanation for three generations of fermions
+* [[Neutrino oscillation|Neutrino masses]] not naturally accommodated
+
+== See also ==
+{{Portal|Physics}}
+* [[Elementary particle]]
+* [[Fundamental interaction]]
+* [[Higgs boson]]
+* [[Particle physics]]
+* [[Quantum chromodynamics]]
+* [[Quantum electrodynamics]]
+* [[Quark]]
+* [[W and Z bosons]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Standard Model| ]]
+[[Category:Particle physics]]
+[[Category:Quantum field theory]]

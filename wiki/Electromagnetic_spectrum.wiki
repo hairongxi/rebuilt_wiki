@@ -1,0 +1,72 @@
+{{Short description="Range of all types of electromagnetic radiation}}
+{{Infobox physics
+| name = Electromagnetic spectrum
+| image = EM spectrum.svg
+| caption = The electromagnetic spectrum, from low-frequency [[radio wave]]s to high-frequency [[gamma ray]]s.
+| topics = [[Electromagnetic wave]], [[Photon]], [[Frequency]], [[Wavelength]], [[Speed of light]]
+}}
+
+The '''electromagnetic spectrum''' is the range of all possible [[frequency|frequencies]] of [[electromagnetic radiation]]. It extends from low frequencies (long [[wavelength]]s) such as [[radio wave]]s to high frequencies (short wavelengths) such as [[gamma ray]]s. All electromagnetic waves travel at the [[speed of light]] in vacuum and are related by:
+
+:<math>c = \lambda\nu</math>
+
+where <math>c = 299,792,458</math> m/s, <math>\lambda</math> is the wavelength, and <math>\nu</math> is the frequency.
+
+== Regions of the spectrum ==
+{| class="wikitable"
+|-
+! Region !! Wavelength !! Frequency !! Photon energy
+|-
+| [[Radio wave]]s || > 10 cm || < 3 GHz || < 10⁻⁵ eV
+|-
+| [[Microwave]]s || 1 mm – 10 cm || 3 GHz – 300 GHz || 10⁻⁵ – 10⁻³ eV
+|-
+| [[Infrared]] || 750 nm – 1 mm || 300 GHz – 400 THz || 10⁻³ – 1.7 eV
+|-
+| [[Visible light]] || 380–750 nm || 400–790 THz || 1.7–3.3 eV
+|-
+| [[Ultraviolet]] || 10 nm – 380 nm || 790 THz – 30 PHz || 3.3–124 eV
+|-
+| [[X-ray]]s || 0.01–10 nm || 30 PHz – 30 EHz || 100 eV – 100 keV
+|-
+| [[Gamma ray]]s || < 0.01 nm || > 30 EHz || > 100 keV
+|}
+
+== Photon energy ==
+The energy of a [[photon]] is proportional to its frequency:
+:<math>E = h\nu = \frac{hc}{\lambda}</math>
+
+where <math>h</math> is the [[Planck constant]]. Higher frequency corresponds to higher photon energy and more energetic interactions with matter.
+
+== Propagation ==
+All electromagnetic waves:
+* Travel at <math>c</math> in vacuum
+* Do not require a medium to propagate
+* Are [[transverse wave]]s (<math>\mathbf{E} \perp \mathbf{B} \perp \hat{\mathbf{k}}</math>)
+* Can exhibit [[reflection (physics)|reflection]], [[refraction]], [[diffraction]], [[interference (wave propagation)|interference]], and [[polarization (waves)|polarization]]
+
+== Atmospheric windows ==
+The [[Earth's atmosphere]] blocks much of the electromagnetic spectrum. Only two major "windows" reach the surface:
+* '''Optical window''' — visible and near-infrared
+* '''Radio window''' — radio waves from ~1 cm to ~10 m
+
+This is why [[radio telescope]]s and [[optical telescope]]s are ground-based, while X-ray and gamma-ray astronomy requires space-based observatories.
+
+== See also ==
+{{Portal|Physics}}
+* [[Electromagnetic wave]]
+* [[Frequency]]
+* [[Gamma ray]]
+* [[Infrared]]
+* [[Microwave]]
+* [[Radio wave]]
+* [[Ultraviolet]]
+* [[Visible light]]
+* [[X-ray]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electromagnetic spectrum| ]]
+[[Category:Electromagnetic radiation]]
+[[Category:Waves]]

@@ -1,0 +1,159 @@
+{{Short description|Branch of physics concerned with heat, work, and temperature}}
+{{Infobox physics
+| name = Thermodynamics
+| image = Thermodynamic system01b.png
+| caption = A [[thermodynamic system]] exchanging heat and work with its surroundings
+| topics = [[Heat]], [[Work (thermodynamics)|Work]], [[Temperature]], [[Entropy]], [[Internal energy]], [[Laws of thermodynamics]]
+}}
+
+'''Thermodynamics''' is a branch of [[physics]] that deals with [[heat]], [[Work (thermodynamics)|work]], and [[temperature]], and their relation to [[energy]], [[entropy]], and the physical properties of matter and [[radiation]]. The behavior of these quantities is governed by the four [[laws of thermodynamics]], which convey a quantitative description using measurable macroscopic physical quantities.
+
+Thermodynamics applies to a wide variety of topics in science and engineering, especially [[physical chemistry]], [[biochemistry]], [[chemical engineering]], and [[mechanical engineering]], as well as other complex fields such as [[meteorology]].
+
+== History ==
+{{Main|History of thermodynamics}}
+
+The history of thermodynamics traces back to [[Otto von Guericke]] in 1650, who designed and built the world's first [[vacuum pump]]. In 1662, [[Robert Boyle]] discovered [[Boyle's law]], relating the pressure and volume of a gas at constant temperature.
+
+The development of the [[steam engine]] spurred interest in the efficiency of heat engines. In 1824, [[Nicolas Léonard Sadi Carnot|Sadi Carnot]] published ''[[Reflections on the Motive Power of Fire]]'', establishing the theoretical maximum efficiency of a heat engine, now known as the [[Carnot efficiency]].
+
+In the 1840s, [[James Prescott Joule]] demonstrated the [[mechanical equivalent of heat]], establishing that heat is a form of energy. [[William Thomson, 1st Baron Kelvin|Lord Kelvin]] and [[Rudolf Clausius]] formalized the first and second laws of thermodynamics. Clausius introduced the concept of [[entropy]] in 1865.
+
+[[Josiah Willard Gibbs]] made fundamental advances in the 1870s with his work on [[chemical thermodynamics]], and [[Ludwig Boltzmann]] provided a statistical interpretation of entropy.
+
+== Laws of thermodynamics ==
+{{Main|Laws of thermodynamics}}
+
+=== Zeroth law ===
+{{Main|Zeroth law of thermodynamics}}
+If two thermodynamic systems are each in [[thermal equilibrium]] with a third, then they are in thermal equilibrium with each other. This law provides the basis for temperature measurement and the definition of a [[thermometer]].
+
+=== First law ===
+{{Main|First law of thermodynamics}}
+The first law is a statement of the [[conservation of energy]] for thermodynamic systems. The change in the [[internal energy]] <math>\Delta U</math> of a system equals the net heat <math>Q</math> added to the system minus the net work <math>W</math> done by the system:
+:<math>\Delta U = Q - W</math>
+
+In differential form:
+:<math>dU = \delta Q - \delta W</math>
+
+The first law implies that a [[perpetual motion machine of the first kind]] is impossible.
+
+=== Second law ===
+{{Main|Second law of thermodynamics}}
+The second law states that the total [[entropy]] of an isolated system can never decrease over time:
+:<math>\Delta S_{\text{total}} \geq 0</math>
+
+Equivalent formulations include:
+* '''Clausius statement:''' Heat cannot spontaneously flow from a colder body to a hotter body.
+* '''Kelvin–Planck statement:''' It is impossible to convert heat completely into work in a cyclic process.
+* '''Carnot's theorem:''' No heat engine can be more efficient than a [[Carnot heat engine|Carnot engine]] operating between the same temperatures.
+
+=== Third law ===
+{{Main|Third law of thermodynamics}}
+As the temperature of a system approaches [[absolute zero]], the entropy approaches a minimum value. For a perfect crystal at absolute zero, the entropy is exactly zero.
+
+== Thermodynamic systems ==
+{{Main|Thermodynamic system}}
+
+A thermodynamic system is a precisely defined region of the universe under study. Everything outside the system is the surroundings or environment. Systems are classified as:
+* '''Open system''' — exchanges both energy and matter with surroundings
+* '''Closed system''' — exchanges energy but not matter
+* '''Isolated system''' — exchanges neither energy nor matter
+
+== Thermodynamic processes ==
+{{Main|Thermodynamic process}}
+
+Common thermodynamic processes include:
+
+{| class="wikitable"
+|-
+! Process !! Constant quantity
+|-
+| [[Isothermal process|Isothermal]] || Temperature <math>T</math>
+|-
+| [[Isobaric process|Isobaric]] || Pressure <math>P</math>
+|-
+| [[Isochoric process|Isochoric]] (isovolumetric) || Volume <math>V</math>
+|-
+| [[Adiabatic process|Adiabatic]] || No heat exchange (<math>Q = 0</math>)
+|-
+| [[Reversible process (thermodynamics)|Reversible]] || System and surroundings can return to initial state
+|-
+| [[Quasistatic process|Quasistatic]] || Infinitely slow, system remains in equilibrium
+|}
+
+== Thermodynamic variables ==
+
+=== State functions ===
+[[State function]]s depend only on the current state of the system, not on the path taken to reach it:
+* '''[[Internal energy]]''' (<math>U</math>) — total energy contained within the system
+* '''[[Enthalpy]]''' (<math>H = U + PV</math>) — useful for constant-pressure processes
+* '''[[Entropy]]''' (<math>S</math>) — measure of disorder or randomness
+* '''[[Helmholtz free energy]]''' (<math>F = U - TS</math>) — useful for constant-temperature, constant-volume processes
+* '''[[Gibbs free energy]]''' (<math>G = H - TS</math>) — useful for constant-temperature, constant-pressure processes
+
+=== Thermodynamic potentials ===
+The four [[thermodynamic potential]]s are related by [[Legendre transformation]]s:
+:<math>dU = T\,dS - P\,dV + \mu\,dN</math>
+:<math>dH = T\,dS + V\,dP + \mu\,dN</math>
+:<math>dF = -S\,dT - P\,dV + \mu\,dN</math>
+:<math>dG = -S\,dT + V\,dP + \mu\,dN</math>
+
+=== Maxwell relations ===
+{{Main|Maxwell relations}}
+From the exact differentials of the thermodynamic potentials, the [[Maxwell relations]] provide connections between partial derivatives, such as:
+:<math>\left(\frac{\partial T}{\partial V}\right)_S = -\left(\frac{\partial P}{\partial S}\right)_V</math>
+
+== Ideal gas law ==
+{{Main|Ideal gas law}}
+The [[ideal gas law]] relates pressure, volume, temperature, and the amount of gas:
+:<math>PV = nRT</math>
+where <math>R = 8.314\,\text{J/(mol·K)}</math> is the [[gas constant|universal gas constant]].
+
+Equivalently, in terms of the number of molecules <math>N</math>:
+:<math>PV = Nk_B T</math>
+where <math>k_B = 1.381 \times 10^{-23}\,\text{J/K}</math> is the [[Boltzmann constant]].
+
+== Heat engines and refrigerators ==
+{{Main|Heat engine}}
+
+The efficiency <math>\eta</math> of a heat engine is:
+:<math>\eta = \frac{W_{\text{out}}}{Q_{\text{in}}} = 1 - \frac{Q_{\text{out}}}{Q_{\text{in}}}</math>
+
+The maximum theoretical efficiency is the [[Carnot efficiency]]:
+:<math>\eta_{\text{Carnot}} = 1 - \frac{T_C}{T_H}</math>
+where <math>T_C</math> and <math>T_H</math> are the cold and hot reservoir temperatures (in [[kelvin]]s).
+
+For [[refrigerator]]s and [[heat pump]]s, the figure of merit is the [[coefficient of performance]] (COP).
+
+== Statistical mechanics ==
+{{Main|Statistical mechanics}}
+Statistical mechanics provides a microscopic foundation for thermodynamics by expressing macroscopic thermodynamic quantities in terms of the statistical behavior of microscopic constituents. The [[Boltzmann entropy formula]] connects entropy to the number of [[microstate (statistical mechanics)|microstates]]:
+:<math>S = k_B \ln \Omega</math>
+
+== Applications ==
+* [[Power generation]] — [[steam turbine]]s, [[internal combustion engine]]s
+* [[HVAC|Heating, ventilation, and air conditioning]]
+* [[Chemical engineering]] — reaction equilibria, phase transitions
+* [[Meteorology]] — atmospheric thermodynamics
+* [[Astrophysics]] — stellar structure, [[black hole thermodynamics]]
+* [[Materials science]] — phase diagrams, alloy design
+
+== See also ==
+{{Portal|Physics}}
+* [[Heat transfer]]
+* [[Phase transition]]
+* [[Kinetic theory of gases]]
+* [[Non-equilibrium thermodynamics]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Enrico Fermi|Fermi, E.]] (1956). ''Thermodynamics''. Dover Publications.
+* [[Herbert Callen|Callen, H. B.]] (1985). ''Thermodynamics and an Introduction to Thermostatistics'' (2nd ed.). Wiley.
+* [[Lev Landau|Landau, L. D.]], Lifshitz, E. M. (1980). ''Statistical Physics'', Part 1 (3rd ed.). Butterworth-Heinemann.
+
+[[Category:Thermodynamics| ]]
+[[Category:Heat transfer]]
+[[Category:Physics]]

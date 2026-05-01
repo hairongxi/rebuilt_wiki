@@ -1,0 +1,76 @@
+{{Short description|SI unit of energy}}
+{{Infobox physics
+| name = Joule
+| image = 
+| caption = 
+| topics = [[Energy]], [[Work (physics)]], [[International System of Units]]
+| unit_system = [[SI derived unit]]
+| unit_of = [[Energy]]
+| symbol = J
+| named_after = [[James Prescott Joule]]
+| conversion = 1 J = 1 kg·m²/s² = 1 N·m = 1 W·s = 1 C·V
+}}
+
+The '''joule''' (symbol: '''J''') is the [[SI derived unit]] of [[energy]], [[Work (physics)|work]], and [[heat]]. It is named after the English physicist [[James Prescott Joule]] (1818–1889). One joule is defined as the amount of work done when a force of one [[newton (unit)|newton]] displaces a mass through a distance of one [[metre]] in the direction of the force:
+
+:<math>1\ \text{J} = 1\ \text{N} \cdot \text{m} = 1\ \text{kg} \cdot \text{m}^2 / \text{s}^2</math>
+
+In electrical terms, one joule is the energy dissipated as heat when an [[electric current]] of one [[ampere]] passes through a [[electrical resistance|resistance]] of one [[ohm]] for one [[second]]. In [[thermodynamics]], one joule is equivalent to the work required to produce one [[watt]] of [[power (physics)|power]] for one second: 1 J = 1 W·s.
+
+== Multiples and conversions ==
+{| class="wikitable"
+|-
+! Submultiples !! Multiples
+|-
+| 1 microjoule (μJ) = 10⁻⁶ J || 1 kilojoule (kJ) = 10³ J
+|-
+| 1 millijoule (mJ) = 10⁻³ J || 1 megajoule (MJ) = 10⁶ J
+|-
+| || 1 gigajoule (GJ) = 10⁹ J
+|}
+
+=== Common conversions ===
+* 1 [[calorie]] (thermochemical) ≈ 4.184 J
+* 1 [[electronvolt]] (eV) ≈ 1.602×10⁻¹⁹ J
+* 1 [[kilowatt-hour]] (kWh) = 3.6×10⁶ J = 3.6 MJ
+* 1 [[British thermal unit]] (BTU) ≈ 1,055 J
+* 1 [[erg]] = 10⁻⁷ J
+
+== Relation to other physical quantities ==
+
+=== Work ===
+{{Main|Work (physics)}}
+The work <math>W</math> done by a constant force <math>\mathbf{F}</math> over displacement <math>\Delta\mathbf{r}</math>:
+:<math>W = \mathbf{F} \cdot \Delta\mathbf{r} = F\,\Delta r\cos\theta</math>
+
+=== Kinetic energy ===
+{{Main|Kinetic energy}}
+:<math>E_k = \frac{1}{2}mv^2</math>
+A 1 kg mass moving at √2 m/s has a kinetic energy of 1 J.
+
+=== Heat ===
+{{Main|Thermodynamics}}
+The mechanical equivalent of heat, as measured by Joule: approximately 4.18 J raises 1 g of water by 1°C.
+
+== Practical examples ==
+* Energy required to lift a 100 g apple 1 m vertically: ~1 J
+* Energy of a typical [[AA battery]]: ~10⁴ J
+* Daily food energy intake (adult): ~8–12 MJ (8,000–12,000 kJ)
+* Energy released in the [[Hiroshima bomb]]: ~6.3×10¹³ J
+
+== See also ==
+{{Portal|Physics}}
+* [[Energy]]
+* [[International System of Units]]
+* [[Kinetic energy]]
+* [[Newton (unit)]]
+* [[Power (physics)]]
+* [[Watt]]
+* [[Work (physics)]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Units of energy]]
+[[Category:SI derived units]]
+[[Category:James Prescott Joule]]

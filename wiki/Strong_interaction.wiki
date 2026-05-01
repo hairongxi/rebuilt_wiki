@@ -1,0 +1,65 @@
+{{Short description="Fundamental force binding quarks into protons, neutrons, and other hadrons}}
+{{Infobox physics
+| name = Strong interaction
+| image = 
+| caption = 
+| topics = [[Fundamental interaction]], [[Quark]], [[Gluon]], [[Atomic nucleus]], [[Quantum chromodynamics]]
+| mediated_by = [[Gluon]]s
+| range = ~10⁻¹⁵ m
+| strength = 1 (reference, strongest force)
+}}
+
+The '''strong interaction''' (or '''strong nuclear force''') is the strongest of the four [[fundamental interaction]]s of nature. It is the force that holds [[quark]]s together to form [[proton]]s, [[neutron]]s, and other [[hadron]]s, and also binds protons and neutrons to form [[atomic nucleus|atomic nuclei]] (the [[nuclear force]]). The strong interaction is described by the theory of [[quantum chromodynamics]] (QCD).
+
+== Properties ==
+* Mediated by massless [[gluon]]s
+* Acts on particles with [[colour charge]] (quarks and gluons)
+* Extremely short range: ~10⁻¹⁵ m (1 femtometre)
+* Strength: approximately 137 times the [[electromagnetic force]], 10⁶ times the [[weak interaction]], 10³⁸ times [[gravity]]
+* Exhibits [[colour confinement]] — quarks and gluons cannot exist in isolation
+
+== Quantum chromodynamics ==
+{{Main|Quantum chromodynamics}}
+QCD is a [[non-abelian gauge theory]] with [[SU(3)]] symmetry. The Lagrangian is:
+
+:<math>\mathcal{L}_{\text{QCD}} = \bar{\psi}_i(i\gamma^\mu (D_\mu)_{ij} - m\delta_{ij})\psi_j - \frac{1}{4}G^a_{\mu\nu}G^{\mu\nu}_a</math>
+
+where <math>G^a_{\mu\nu}</math> is the gluon field strength tensor.
+
+=== Key features ===
+* '''Colour confinement''' — colour-charged particles cannot be isolated
+* '''Asymptotic freedom''' — at high energies/short distances, quarks behave as free particles
+* '''Eight gluons''' — corresponding to the generators of SU(3)
+
+== Nuclear force ==
+{{Main|Nuclear force}}
+The residual strong interaction (analogous to [[van der Waals force]]s between neutral atoms) binds nucleons in nuclei. It is mediated by [[meson]]s (primarily [[pion]]s) rather than gluons.
+
+[[Yukawa potential]]:
+:<math>V(r) = -g^2\frac{e^{-r/r_0}}{r}</math>
+where <math>r_0 \approx 1.4\ \text{fm}</math> is the range.
+
+== Role in nature ==
+* Holds [[atomic nucleus|nuclei]] together against [[Coulomb's law|electrostatic repulsion]]
+* Responsible for ~99% of the mass of [[proton]]s and [[neutron]]s (via [[mass–energy equivalence]] of QCD binding energy)
+* Governs [[hadron]] production in [[particle accelerator]]s
+* Forms [[quark–gluon plasma]] at extreme temperatures (early universe, heavy-ion collisions)
+
+== See also ==
+{{Portal|Physics}}
+* [[Fundamental interaction]]
+* [[Gluon]]
+* [[Hadron]]
+* [[Neutron]]
+* [[Nuclear physics]]
+* [[Proton]]
+* [[Quantum chromodynamics]]
+* [[Quark]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Strong interaction| ]]
+[[Category:Fundamental interactions]]
+[[Category:Nuclear physics]]
+[[Category:Quantum chromodynamics]]

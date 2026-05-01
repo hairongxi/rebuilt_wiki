@@ -1,0 +1,70 @@
+{{Short description="Particle with integer spin that obeys Bose–Einstein statistics}}
+{{Infobox physics
+| name = Boson
+| image = 
+| caption = 
+| topics = [[Quantum mechanics]], [[Spin (physics)]], [[Identical particles]], [[Bose–Einstein statistics]]
+| spin = Integer (0, 1, 2, …)
+| statistics = [[Bose–Einstein statistics]]
+| examples = [[Photon]], [[Gluon]], [[W and Z bosons]], [[Higgs boson]]
+}}
+
+In [[particle physics]], a '''boson''' is a [[subatomic particle]] that obeys [[Bose–Einstein statistics]] and has integer [[spin (physics)|spin]] (<math>0, 1, 2, \ldots</math>). Bosons are named after [[Satyendra Nath Bose]], who (with [[Albert Einstein]]) developed the statistical description for such particles.
+
+Unlike [[fermion]]s, multiple bosons can occupy the same [[quantum state]]. This property leads to phenomena such as [[Bose–Einstein condensation]] and [[laser]] emission.
+
+== Types ==
+
+=== Gauge bosons (force carriers) ===
+Spin-1 bosons that mediate [[fundamental interaction]]s:
+{| class="wikitable"
+|-
+! Boson !! Force !! Mass
+|-
+| [[Photon]] (γ) || [[Electromagnetism]] || 0
+|-
+| [[Gluon]] (g) × 8 || [[Strong interaction]] || 0
+|-
+| [[W and Z bosons|W⁺, W⁻, Z⁰]] || [[Weak interaction]] || 80.4, 91.2 GeV/c²
+|}
+
+=== Scalar bosons ===
+Spin-0 bosons:
+* [[Higgs boson]] (<math>H^0</math>) — responsible for mass generation via the [[Higgs mechanism]]; mass ~125 GeV/c²; discovered in 2012 at the [[Large Hadron Collider]]
+
+=== Hypothetical bosons ===
+* [[Graviton]] — hypothetical spin-2 boson mediating [[gravity]]
+* [[Axion]] — hypothetical particle solving the strong CP problem
+
+=== Composite bosons ===
+Bound states with integer total spin:
+* [[Meson]]s — quark–antiquark pairs (pions, kaons)
+* [[Helium-4]] atoms
+* [[Cooper pair]]s — electron pairs in [[superconductor]]s
+
+== Bose–Einstein condensation ==
+{{Main|Bose–Einstein condensate}}
+At very low temperatures, a macroscopic number of bosons occupy the ground state, forming a [[Bose–Einstein condensate]] — a novel state of matter with macroscopic quantum coherence.
+
+== Bose–Einstein statistics ==
+{{Main|Bose–Einstein statistics}}
+The average occupation number for bosons:
+:<math>\langle n \rangle = \frac{1}{e^{(E - \mu)/k_B T} - 1}</math>
+
+There is no limit on occupation — bosons "like" to be in the same state.
+
+== See also ==
+{{Portal|Physics}}
+* [[Bose–Einstein statistics]]
+* [[Fermion]]
+* [[Higgs boson]]
+* [[Identical particles]]
+* [[Spin (physics)]]
+* [[Standard Model]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Bosons| ]]
+[[Category:Particle physics]]
+[[Category:Quantum field theory]]

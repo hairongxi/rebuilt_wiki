@@ -1,0 +1,75 @@
+{{Short description|Factor by which time, length, and relativistic mass change at high velocities}}
+{{Infobox physics
+| name = Lorentz factor
+| image = Lorentz factor.svg
+| caption = The Lorentz factor <math>\gamma</math> as a function of velocity. It diverges as <math>v \to c</math>.
+| topics = [[Special relativity]], [[Speed of light]], [[Time dilation]], [[Length contraction]], [[Mass–energy equivalence]]
+| formula = <math>\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}</math>
+}}
+
+The '''Lorentz factor''' (or '''Lorentz term''') is a quantity that expresses how much measurements of [[time]], [[length]], and other physical properties change for an object while it moves. It appears in the equations of [[special relativity]] and is named after the Dutch physicist [[Hendrik Lorentz]].
+
+:<math>\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}</math>
+
+where:
+* <math>v</math> is the relative velocity between inertial reference frames
+* <math>c</math> is the [[speed of light]] in vacuum
+
+== Properties ==
+* <math>\gamma \geq 1</math> for all <math>v < c</math>
+* <math>\gamma = 1</math> when <math>v = 0</math> (rest frame)
+* <math>\gamma \to \infty</math> as <math>v \to c</math>
+* For low velocities: <math>\gamma \approx 1 + \frac{v^2}{2c^2}</math> (second-order approximation)
+
+== Key relativistic effects using <math>\gamma</math> ==
+
+=== Time dilation ===
+:<math>\Delta t' = \gamma \Delta t</math>
+A moving clock runs slower by factor <math>\gamma</math>.
+
+=== Length contraction ===
+:<math>L = \frac{L_0}{\gamma}</math>
+A moving object is contracted in the direction of motion.
+
+=== Relativistic mass ===
+:<math>m = \gamma m_0</math>
+The [[relativistic mass]] increases with velocity.
+
+=== Relativistic energy and momentum ===
+:<math>E = \gamma m_0 c^2</math>
+:<math>p = \gamma m_0 v</math>
+
+The [[energy–momentum relation]]:
+:<math>E^2 = (pc)^2 + (m_0 c^2)^2</math>
+
+== Values at common speeds ==
+{| class="wikitable"
+|-
+! <math>v/c</math> !! <math>\gamma</math> !! Application
+|-
+| 0 || 1.000 || At rest
+|-
+| 0.1 || 1.005 || Chemical reactions (~1% of c)
+|-
+| 0.866 || 2.000 || Significant time dilation
+|-
+| 0.99 || 7.09 || Cosmic ray muons
+|-
+| 0.9999 || 70.7 || [[Large Hadron Collider]] protons
+|-
+| 0.999999991 || ~7,500 || [[Oh-My-God particle]]
+|}
+
+== See also ==
+{{Portal|Physics}}
+* [[Length contraction]]
+* [[Lorentz transformation]]
+* [[Special relativity]]
+* [[Speed of light]]
+* [[Time dilation]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Special relativity]]
+[[Category:Equations of physics]]

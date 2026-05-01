@@ -1,0 +1,57 @@
+{{Short description|Nuclear reaction splitting a heavy nucleus into lighter nuclei}}
+{{Infobox physics
+| name = Nuclear fission
+| image = Nuclear fission.svg
+| caption = A [[uranium-235]] nucleus absorbs a [[neutron]] and splits into lighter nuclei, releasing energy and more neutrons.
+| topics = [[Nuclear physics]], [[Atomic nucleus]], [[Neutron]], [[Binding energy]], [[Mass–energy equivalence]]
+}}
+
+'''Nuclear fission''' is a [[nuclear reaction]] in which the [[atomic nucleus|nucleus]] of an [[atom]] splits into two or more smaller, lighter nuclei, along with the release of [[energy]], [[gamma ray]]s, and free [[neutron]]s. The process can occur spontaneously ([[spontaneous fission]]) or be induced by bombarding a heavy nucleus with neutrons or other particles.
+
+Fission of heavy elements is an [[exothermic reaction]] that releases millions of times more energy per reaction than [[chemical reaction]]s such as burning.
+
+== Mechanism ==
+When a heavy nucleus like [[uranium-235]] or [[plutonium-239]] absorbs a [[neutron]], it becomes an excited [[compound nucleus]]. This excitation deforms the nucleus; the [[strong interaction|nuclear force]] (short-range attractive) and [[electric field|Coulomb repulsion]] (long-range, between protons) compete. If the deformation overcomes the fission barrier, the nucleus splits.
+
+For <sup>235</sup>U:
+:<math>^{235}\text{U} + n \rightarrow ^{236}\text{U}^* \rightarrow \text{fission products} + (2-3)n + \sim200\ \text{MeV}</math>
+
+== Energy release ==
+The energy release comes from the difference in [[binding energy per nucleon]] between heavy and medium-mass nuclei (peak at [[iron-56]]). Typical fission releases about 200 MeV per event.
+
+Distribution of energy (typical):
+* Kinetic energy of fission products: ~170 MeV
+* Prompt neutrons: ~5 MeV
+* Prompt gamma rays: ~7 MeV
+* Beta and gamma decay of fission products: ~18 MeV
+
+== Chain reaction ==
+{{Main|Nuclear chain reaction}}
+Fission releases 2–3 [[neutron]]s, which can induce further fissions in a [[nuclear chain reaction]]:
+* Subcritical: <math>k < 1</math> — reaction dies out
+* Critical: <math>k = 1</math> — steady state ([[nuclear reactor]])
+* Supercritical: <math>k > 1</math> — exponential growth ([[nuclear weapon]])
+
+== Applications ==
+* [[Nuclear power]] — electricity generation via controlled fission chain reactions
+* [[Nuclear weapon]]s — uncontrolled supercritical chain reaction
+* [[Nuclear marine propulsion]] — submarines, aircraft carriers
+* [[Research reactor]]s — neutron sources for science
+* [[Nuclear medicine]] — production of [[radioisotope]]s
+
+== See also ==
+{{Portal|Physics}}
+* [[Atomic nucleus]]
+* [[Binding energy]]
+* [[Mass–energy equivalence]]
+* [[Neutron]]
+* [[Nuclear fusion]]
+* [[Nuclear physics]]
+* [[Nuclear reactor]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Nuclear fission]]
+[[Category:Nuclear physics]]
+[[Category:Nuclear technology]]

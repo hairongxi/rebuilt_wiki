@@ -1,0 +1,66 @@
+{{Short description="Energy flux vector of an electromagnetic field}}
+{{Infobox physics
+| name = Poynting vector
+| image = Poynting vector.svg
+| caption = The Poynting vector <math>\mathbf{S}</math> represents the directional energy flux of an electromagnetic field.
+| topics = [[Electromagnetic wave]], [[Electric field]], [[Magnetic field]], [[Maxwell's equations]]
+| symbol = S
+| SI_unit = W/m²
+| formula = <math>\mathbf{S} = \frac{1}{\mu_0}\mathbf{E} \times \mathbf{B}</math>
+}}
+
+In [[electromagnetism]], the '''Poynting vector''' (named after [[John Henry Poynting]]) represents the directional [[energy flux]] (the energy transfer per unit area per unit time) of an [[electromagnetic field]]. It is defined as:
+
+:<math>\mathbf{S} = \frac{1}{\mu_0}\mathbf{E} \times \mathbf{B}</math>
+
+where:
+* <math>\mathbf{S}</math> is the Poynting vector (W/m²)
+* <math>\mathbf{E}</math> is the [[electric field]]
+* <math>\mathbf{B}</math> is the [[magnetic field]]
+* <math>\mu_0</math> is the [[vacuum permeability]]
+
+In [[dielectric]] media, the expression generalises to:
+:<math>\mathbf{S} = \mathbf{E} \times \mathbf{H}</math>
+where <math>\mathbf{H}</math> is the auxiliary magnetic field.
+
+== Poynting's theorem ==
+[[Poynting's theorem]] expresses conservation of electromagnetic energy:
+
+:<math>-\frac{\partial u}{\partial t} = \nabla \cdot \mathbf{S} + \mathbf{J} \cdot \mathbf{E}</math>
+
+where <math>u = \frac{1}{2}(\varepsilon_0 E^2 + \frac{1}{\mu_0}B^2)</math> is the electromagnetic energy density.
+
+The theorem states that the decrease in electromagnetic energy in a volume equals the energy flux out of the surface plus the work done on charges.
+
+== Plane waves ==
+For a sinusoidal [[electromagnetic wave]] travelling in vacuum:
+:<math>\langle S \rangle = \frac{1}{2\mu_0 c}E_0^2</math>
+
+The time-averaged Poynting vector gives the [[intensity (physics)|intensity]] (irradiance) of the wave:
+:<math>I = \langle S \rangle = \frac{1}{2}c\varepsilon_0 E_0^2</math>
+
+== Momentum of electromagnetic field ==
+The Poynting vector relates to the momentum density of the field:
+:<math>\mathbf{p}_{\text{EM}} = \frac{1}{c^2}\mathbf{S}</math>
+
+This gives rise to [[radiation pressure]].
+
+== Applications ==
+* Calculating power radiated by [[antenna (radio)|antennas]]
+* Energy flow in [[transmission line]]s and [[waveguide]]s
+* [[Solar irradiance]] — the solar constant (~1361 W/m²)
+* [[Radiation pressure]] on spacecraft and particles
+* Power transfer in [[transformer]]s (Poynting vector flows through the core, not the wires)
+
+== See also ==
+{{Portal|Physics}}
+* [[Electric field]]
+* [[Electromagnetic wave]]
+* [[Magnetic field]]
+* [[Maxwell's equations]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electromagnetism]]
+[[Category:Electromagnetic radiation]]

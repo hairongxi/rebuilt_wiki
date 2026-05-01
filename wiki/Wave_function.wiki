@@ -1,0 +1,69 @@
+{{Short description|Mathematical description of the quantum state of an isolated system}}
+{{Infobox physical quantity
+| name = Wave function
+| image = Hydrogen eigenfunctions.png
+| caption = Probability density <math>|\psi|^2</math> for hydrogen atomic orbitals.
+| symbols = <math>\Psi</math>, <math>\psi</math>
+| dimension = L<sup>−3/2</sup> (3D)
+}}
+
+A '''wave function''' in [[quantum mechanics]] is a mathematical description of the [[quantum state]] of an isolated system. The wave function is a [[complex number|complex]]-valued [[probability amplitude]], and the probabilities for the possible results of measurements made on the system can be derived from it. The most common symbols for a wave function are the Greek letters <math>\psi</math> and <math>\Psi</math> (lowercase and capital psi, respectively).
+
+The wave function is a function of the degrees of freedom of the system and of time. If the system is a single particle, the wave function <math>\Psi(\mathbf{r}, t)</math> gives the probability amplitude at position <math>\mathbf{r}</math> and time <math>t</math>.
+
+== Physical interpretation (Born rule) ==
+{{Main|Born rule}}
+The [[Born rule]] provides the physical interpretation: <math>|\Psi(\mathbf{r}, t)|^2 d^3r</math> is the probability of finding the particle in the infinitesimal volume <math>d^3r</math> about <math>\mathbf{r}</math> at time <math>t</math>.
+
+The normalization condition ensures the total probability is 1:
+:<math>\int_{\text{all space}} |\Psi(\mathbf{r}, t)|^2 \, d^3r = 1</math>
+
+== Mathematical properties ==
+A valid wave function must be:
+* '''Square-integrable''' (normalizable)
+* '''Continuous''' everywhere
+* '''Single-valued''' at every point
+* Its first spatial derivative must be '''continuous''' (except at infinite potential discontinuities)
+* '''Satisfies boundary conditions''' appropriate to the problem
+
+== Hilbert space formalism ==
+{{Main|Hilbert space}}
+In Dirac's [[bra–ket notation]], the wave function is the position representation of the state vector <math>|\Psi\rangle</math>:
+:<math>\Psi(\mathbf{r}, t) = \langle \mathbf{r} | \Psi(t) \rangle</math>
+
+The state vector lives in a [[Hilbert space]]. The [[inner product]] of two states gives the probability amplitude:
+:<math>\langle \Phi | \Psi \rangle = \int \Phi^*(\mathbf{r})\Psi(\mathbf{r})\, d^3r</math>
+
+== Expectation values ==
+The [[Expectation value (quantum mechanics)|expectation value]] of an observable <math>\hat{A}</math> is:
+:<math>\langle A \rangle = \langle \Psi | \hat{A} | \Psi \rangle = \int \Psi^* \hat{A} \Psi \, d^3r</math>
+
+== Time evolution ==
+The wave function evolves according to the [[Schrödinger equation]]:
+:<math>i\hbar\frac{\partial \Psi}{\partial t} = \hat{H}\Psi</math>
+
+== Wave function collapse ==
+{{Main|Wave function collapse}}
+Upon measurement, the wave function is said to "collapse" to an eigenstate of the measured observable. The probability of a particular outcome equals the squared modulus of the projection onto the corresponding eigenstate.
+
+== Many-particle wave functions ==
+For <math>N</math> particles, the wave function depends on <math>3N</math> spatial coordinates:
+:<math>\Psi(\mathbf{r}_1, \mathbf{r}_2, \ldots, \mathbf{r}_N, t)</math>
+
+For [[identical particles]]:
+* [[Boson]]s: symmetric under exchange
+* [[Fermion]]s: antisymmetric under exchange ([[Pauli exclusion principle]])
+
+== See also ==
+{{Portal|Physics}}
+* [[Schrödinger equation]]
+* [[Quantum state]]
+* [[Born rule]]
+* [[Wave function collapse]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Wave functions| ]]
+[[Category:Quantum mechanics]]
+[[Category:Quantum states]]

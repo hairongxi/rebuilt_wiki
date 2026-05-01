@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Search: {{ query }}{% endblock %}
+{% block content %}
+<h1>Search</h1>
+<form action="/search" method="get" class="search-box">
+    <input type="text" name="q" value="{{ query }}" placeholder="Search wiki..." autofocus>
+    <button type="submit">Search</button>
+</form>
+
+{% if query %}
+    {% if results %}
+    <p>Found {{ results|length }} result(s) for "<b>{{ query }}</b>":</p>
+    <ul class="search-results">
+        {% for r in results %}
+        <li class="search-result">
+            <a href="/wiki/{{ r.title|replace(' ', '_') }}">{{ r.title }}</a>
+            <p class="snippet">{{ r.snippet|safe }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No results found for "<b>{{ query }}</b>".</p>
+    <p>Try different keywords or browse the <a href="/index">page index</a>.</p>
+    {% endif %}
+{% endif %}
+{% endblock %}

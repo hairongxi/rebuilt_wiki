@@ -1,0 +1,55 @@
+{{Short description="Contraction of an object's length along the direction of motion at relativistic speeds}}
+{{Infobox physics
+| name = Length contraction
+| image = 
+| caption = 
+| topics = [[Special relativity]], [[Lorentz factor]], [[Lorentz transformation]], [[Time dilation]], [[Spacetime]]
+| formula = <math>L = L_0/\gamma</math>
+}}
+
+'''Length contraction''' (or '''Lorentz contraction''' or '''Lorentz–FitzGerald contraction''') is the phenomenon that a moving object's [[length]] is measured to be shorter than its proper length (the length measured in the object's rest frame). Along with [[time dilation]], it is one of the primary consequences of [[special relativity]].
+
+:<math>L = \frac{L_0}{\gamma} = L_0\sqrt{1 - \frac{v^2}{c^2}}</math>
+
+where:
+* <math>L_0</math> is the [[proper length]] (length in the object's rest frame)
+* <math>L</math> is the contracted length observed from a frame moving at velocity <math>v</math>
+* <math>\gamma</math> is the [[Lorentz factor]]
+
+== Key points ==
+* Contraction occurs only along the direction of motion
+* Dimensions perpendicular to motion are unaffected
+* The effect is symmetric: each observer measures the other's lengths as contracted
+* At everyday speeds (<math>v \ll c</math>), the effect is negligible (<math>\gamma \approx 1</math>)
+* As <math>v \to c</math>, <math>L \to 0</math> — extreme contraction
+
+== History ==
+The idea was first proposed by [[George Francis FitzGerald|George FitzGerald]] (1889) and independently by [[Hendrik Lorentz]] (1892) to explain the null result of the [[Michelson–Morley experiment]]. They proposed that the interferometer arm contracted along the direction of motion through the [[luminiferous aether]].
+
+[[Albert Einstein]] later derived length contraction from the principles of special relativity (1905) without reference to an aether.
+
+== Experimental evidence ==
+* [[Michelson–Morley experiment]] — null result consistent with length contraction
+* Muon lifetime — atmospheric muons reach Earth's surface due to length contraction of the atmosphere in the muon's frame
+* [[Particle accelerator]] experiments — relativistic particles exhibit predicted behaviour
+
+== Proper length vs. observed length ==
+| <math>v/c</math> | <math>\gamma</math> | <math>L/L_0</math> |
+| 0 || 1.000 || 1.000 |
+| 0.1 || 1.005 || 0.995 |
+| 0.866 || 2.000 || 0.500 |
+| 0.99 || 7.09 || 0.141 |
+| 0.9999 || 70.7 || 0.0141 |
+
+== See also ==
+{{Portal|Physics}}
+* [[Lorentz factor]]
+* [[Lorentz transformation]]
+* [[Special relativity]]
+* [[Time dilation]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Special relativity]]
+[[Category:Length]]

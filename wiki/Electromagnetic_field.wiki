@@ -1,0 +1,52 @@
+{{Short description|Physical field produced by electrically charged objects}}
+{{Infobox physics
+| name = Electromagnetic field
+| image = Onde electromagnétique.png
+| caption = An [[electromagnetic wave]] propagating through space: the [[electric field]] (red) and [[magnetic field]] (blue) oscillate perpendicular to each other and to the direction of propagation.
+| topics = [[Electric field]], [[Magnetic field]], [[Maxwell's equations]], [[Electromagnetic wave]]
+}}
+
+An '''electromagnetic field''' ('''EM field''' or '''EMF''') is a physical [[field (physics)|field]] produced by electrically charged objects. It affects the behaviour of charged objects in the vicinity of the field. The electromagnetic field extends infinitely throughout [[space]] and consists of two inseparable components: the [[electric field]] <math>\mathbf{E}</math> and the [[magnetic field]] <math>\mathbf{B}</math>.
+
+== Mathematical description ==
+The electromagnetic field is fully described by [[Maxwell's equations]]:
+
+:<math>\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}</math>
+:<math>\nabla \cdot \mathbf{B} = 0</math>
+:<math>\nabla \times \mathbf{E} = -\frac{\partial\mathbf{B}}{\partial t}</math>
+:<math>\nabla \times \mathbf{B} = \mu_0\mathbf{J} + \mu_0\varepsilon_0\frac{\partial\mathbf{E}}{\partial t}</math>
+
+== Field tensor ==
+In [[special relativity]], the electric and magnetic fields unify into the [[electromagnetic field tensor]] <math>F^{\mu\nu}</math>:
+
+:<math>F^{\mu\nu} = \begin{pmatrix}
+0 & -E_x/c & -E_y/c & -E_z/c \\
+E_x/c & 0 & -B_z & B_y \\
+E_y/c & B_z & 0 & -B_x \\
+E_z/c & -B_y & B_x & 0
+\end{pmatrix}</math>
+
+== Energy and momentum ==
+The [[energy density]] of the electromagnetic field is:
+:<math>u = \frac{1}{2}\left(\varepsilon_0 E^2 + \frac{1}{\mu_0}B^2\right)</math>
+
+The [[Poynting vector]] describes the energy flux:
+:<math>\mathbf{S} = \frac{1}{\mu_0}\mathbf{E} \times \mathbf{B}</math>
+
+== Quantum description ==
+In [[quantum electrodynamics]], the electromagnetic field is quantized, and its excitations correspond to [[photon]]s. Forces between charged particles are mediated by virtual photon exchange.
+
+== See also ==
+{{Portal|Physics}}
+* [[Electric field]]
+* [[Electromagnetic wave]]
+* [[Magnetic field]]
+* [[Maxwell's equations]]
+* [[Poynting vector]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electromagnetic field| ]]
+[[Category:Electromagnetism]]
+[[Category:Concepts in physics]]

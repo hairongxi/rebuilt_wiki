@@ -1,0 +1,59 @@
+{{Short description="Principle that gravitational mass and inertial mass are equivalent}}
+{{Infobox physics
+| name = Equivalence principle
+| image = Equivalence principle.svg
+| caption = An observer cannot locally distinguish between acceleration and a uniform gravitational field.
+| topics = [[General relativity]], [[Gravity]], [[Mass]], [[Acceleration]]
+| proposed_by = [[Albert Einstein]], 1907
+}}
+
+The '''equivalence principle''' is the fundamental postulate of [[general relativity]] stating that the effects of [[gravity]] are locally indistinguishable from those of [[acceleration]]. It was described by [[Albert Einstein]] as the "happiest thought of my life" (1907) and forms the conceptual foundation of general relativity.
+
+== Weak equivalence principle (WEP) ==
+All objects fall at the same rate in a gravitational field, regardless of their [[mass]] or composition — the universality of free fall.
+
+For any two bodies:
+:<math>\frac{m_i}{m_g} = \text{constant} = 1</math>
+
+where <math>m_i</math> is [[inertial mass]] and <math>m_g</math> is [[gravitational mass]].
+
+== Einstein equivalence principle (EEP) ==
+In a freely falling reference frame, the laws of physics reduce to those of [[special relativity]] (no gravity). Equivalently:
+
+"An observer in a windowless room cannot distinguish between being stationary on Earth and being in a rocket accelerating at <math>g = 9.81\ \text{m/s}^2</math> in deep space."
+
+== Strong equivalence principle (SEP) ==
+All laws of physics — not just mechanics — are the same in all freely falling frames. This implies that [[gravitational self-energy]] falls at the same rate as other mass.
+
+== Consequences ==
+* '''Gravitational redshift''' — light loses energy climbing out of gravity wells
+* '''Gravitational time dilation''' — clocks run slower in stronger gravity
+* '''Bending of light''' — light follows curved paths in gravity (confirmed by [[Eddington experiment]], 1919)
+* '''Universality of free fall''' — Apollo 15: hammer and feather dropped simultaneously on the Moon
+
+== Experimental tests ==
+{| class="wikitable"
+|-
+! Experiment !! Precision
+|-
+| [[Eötvös experiment]] || 10⁻⁹
+|-
+| Lunar laser ranging || 10⁻¹³
+|-
+| [[MICROSCOPE]] satellite (2017) || 10⁻¹⁵
+|-
+| Proposed [[STEP (satellite)|STEP]] || 10⁻¹⁸
+|}
+
+== See also ==
+{{Portal|Physics}}
+* [[General relativity]]
+* [[Gravity]]
+* [[Mass]]
+* [[Spacetime]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:General relativity]]
+[[Category:Gravity]]

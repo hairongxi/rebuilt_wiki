@@ -1,0 +1,59 @@
+{{Short description="Integer or half-integer that describes quantized properties of particles and systems}}
+{{Infobox physics
+| name = Quantum number
+| image = 
+| caption = 
+| topics = [[Quantum mechanics]], [[Atomic physics]], [[Schrödinger equation]], [[Wave function]]
+}}
+
+In [[quantum mechanics]], '''quantum numbers''' are discrete ([[quantization (physics)|quantized]]) values that characterise the state of a quantum system. They arise as [[eigenvalue]]s of [[operator (physics)|operators]] associated with conserved quantities and physical [[observable]]s.
+
+== Atomic quantum numbers ==
+For an [[electron]] in an [[atom]], four quantum numbers describe the complete state:
+
+=== Principal quantum number (<math>n</math>) ===
+:<math>n = 1, 2, 3, \ldots</math>
+Determines the energy and size of the orbital. For [[hydrogen]]:
+:<math>E_n = -\frac{13.6\ \text{eV}}{n^2}</math>
+
+=== Azimuthal (orbital) quantum number (<math>\ell</math>) ===
+:<math>\ell = 0, 1, 2, \ldots, n-1</math>
+Determines the orbital angular momentum:
+:<math>L^2 = \ell(\ell+1)\hbar^2</math>
+Notation: s (ℓ=0), p (ℓ=1), d (ℓ=2), f (ℓ=3)
+
+=== Magnetic quantum number (<math>m_\ell</math>) ===
+:<math>m_\ell = -\ell, -\ell+1, \ldots, +\ell</math>
+Determines the z-component of orbital angular momentum:
+:<math>L_z = m_\ell\hbar</math>
+
+=== Spin quantum number (<math>m_s</math>) ===
+:<math>m_s = \pm \frac{1}{2}</math> (for electrons)
+Determines the z-component of spin angular momentum:
+:<math>S_z = m_s\hbar</math>
+
+== Other quantum numbers ==
+* '''Isospin''' — related to the [[strong interaction]] symmetry between protons and neutrons
+* '''[[Strangeness]]''' — quantum number for strange quarks
+* '''[[Charm (quantum number)|Charm]], [[Bottomness]], [[Topness]]''' — for heavier quarks
+* '''[[Baryon number]]''' — conserved in the Standard Model
+* '''[[Lepton number]]''' — conserved separately for each lepton generation
+* '''[[Colour charge]]''' — red, green, blue for quarks
+
+== Pauli exclusion principle ==
+{{Main|Pauli exclusion principle}}
+No two [[fermion]]s can occupy the same quantum state. For electrons in atoms, this means no two electrons can have the same set of four quantum numbers <math>(n, \ell, m_\ell, m_s)</math>.
+
+== See also ==
+{{Portal|Physics}}
+* [[Atomic orbital]]
+* [[Atomic physics]]
+* [[Energy level]]
+* [[Pauli exclusion principle]]
+* [[Quantization (physics)]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Quantum mechanics]]
+[[Category:Atomic physics]]

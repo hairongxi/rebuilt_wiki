@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}All Pages — Physics Wiki{% endblock %}
+{% block content %}
+<h1>All Pages</h1>
+<p>{{ total }} articles in the wiki.</p>
+
+{% for letter, titles in groups %}
+<h2 id="{{ letter }}">{{ letter }}</h2>
+<ul class="page-list">
+    {% for t in titles %}
+    <li><a href="/wiki/{{ t|replace(' ', '_') }}">{{ t }}</a></li>
+    {% endfor %}
+</ul>
+{% endfor %}
+{% endblock %}

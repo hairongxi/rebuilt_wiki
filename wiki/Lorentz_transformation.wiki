@@ -1,0 +1,69 @@
+{{Short description|Transformation of space and time coordinates between inertial frames}}
+{{Infobox physics
+| name = Lorentz transformation
+| image = Lorentz transform of world line.gif
+| caption = Animation showing how coordinates change under a Lorentz boost along the x-axis.
+| topics = [[Special relativity]], [[Spacetime]], [[Speed of light]], [[Time dilation]], [[Length contraction]]
+| formula = <math>t' = \gamma(t - vx/c^2), x' = \gamma(x - vt)</math>
+}}
+
+In [[special relativity]], the '''Lorentz transformation''' describes how measurements of [[space]] and [[time]] by two observers in different [[inertial reference frame]]s are related. Named after the Dutch physicist [[Hendrik Lorentz]], these transformations replace the [[Galilean transformation]] of [[classical mechanics]] when velocities approach the [[speed of light]].
+
+== Standard configuration ==
+For two frames in standard configuration (origin coincides at <math>t = t' = 0</math>, relative velocity <math>v</math> along the <math>x</math>-axis):
+
+:<math>t' = \gamma\left(t - \frac{vx}{c^2}\right)</math>
+:<math>x' = \gamma(x - vt)</math>
+:<math>y' = y</math>
+:<math>z' = z</math>
+
+where <math>\gamma = 1/\sqrt{1 - v^2/c^2}</math> is the [[Lorentz factor]].
+
+== Inverse transformation ==
+The inverse transformation is obtained by replacing <math>v</math> with <math>-v</math>:
+:<math>t = \gamma\left(t' + \frac{vx'}{c^2}\right), \quad x = \gamma(x' + vt')</math>
+
+== Properties ==
+
+=== Invariance of spacetime interval ===
+The [[spacetime interval]] is invariant under Lorentz transformations:
+:<math>c^2 t^2 - x^2 - y^2 - z^2 = c^2 t'^2 - x'^2 - y'^2 - z'^2</math>
+
+=== Velocity addition ===
+The relativistic velocity addition formula:
+:<math>u' = \frac{u - v}{1 - uv/c^2}</math>
+This ensures no object exceeds the speed of light.
+
+=== Invariance of the speed of light ===
+If <math>u = c</math>, then <math>u' = c</math> regardless of <math>v</math> — the [[speed of light]] is the same in all inertial frames.
+
+== Consequences ==
+* [[Time dilation]]: <math>\Delta t' = \gamma\Delta t</math>
+* [[Length contraction]]: <math>L = L_0/\gamma</math>
+* [[Relativity of simultaneity]] — events simultaneous in one frame are not simultaneous in another
+
+== Matrix form ==
+A Lorentz boost in the x-direction can be written as:
+:<math>\begin{pmatrix} ct' \\ x' \\ y' \\ z' \end{pmatrix} = \begin{pmatrix}
+\gamma & -\gamma\beta & 0 & 0 \\
+-\gamma\beta & \gamma & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1
+\end{pmatrix} \begin{pmatrix} ct \\ x \\ y \\ z \end{pmatrix}</math>
+where <math>\beta = v/c</math>.
+
+== See also ==
+{{Portal|Physics}}
+* [[Length contraction]]
+* [[Lorentz factor]]
+* [[Minkowski space]]
+* [[Spacetime]]
+* [[Special relativity]]
+* [[Time dilation]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Special relativity]]
+[[Category:Equations of physics]]
+[[Category:Hendrik Lorentz]]

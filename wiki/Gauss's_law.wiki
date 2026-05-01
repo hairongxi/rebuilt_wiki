@@ -1,0 +1,69 @@
+{{Short description="Law relating the distribution of electric charge to the resulting electric field"}}
+{{Infobox physical law
+| name = Gauss's law
+| image = Karl Friedrich Gauss.jpg
+| caption = [[Carl Friedrich Gauss]], after whom the law is named
+| formula = <math>\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}</math>
+| discovered_by = [[Joseph-Louis Lagrange]] (1773), [[Carl Friedrich Gauss]] (1813)
+}}
+
+'''Gauss's law''', also known as '''Gauss's flux theorem''', is a law in [[electrostatics]] relating the distribution of [[electric charge]] to the resulting [[electric field]]. In its integral form, it states that the total [[electric flux]] through any closed surface is proportional to the total electric charge enclosed within that surface:
+:<math>\oiint_{\partial V} \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}</math>
+
+In differential form:
+:<math>\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}</math>
+
+Gauss's law is one of the four [[Maxwell's equations]] that form the foundation of [[classical electromagnetism]].
+
+== Physical interpretation ==
+Electric charges are sources or sinks of the electric field:
+* Positive charges are sources (<math>\nabla \cdot \mathbf{E} > 0</math>)
+* Negative charges are sinks (<math>\nabla \cdot \mathbf{E} < 0</math>)
+* In charge-free regions, field lines are continuous (<math>\nabla \cdot \mathbf{E} = 0</math>)
+
+== Applications ==
+Gauss's law is most useful for calculating electric fields when the charge distribution has high symmetry.
+
+=== Spherical symmetry ===
+For a point charge or spherically symmetric charge distribution:
+:<math>E = \frac{1}{4\pi\varepsilon_0}\frac{Q_{\text{enc}}}{r^2}</math>
+which recovers [[Coulomb's law]].
+
+=== Cylindrical symmetry ===
+For an infinite line charge with linear charge density <math>\lambda</math>:
+:<math>E = \frac{\lambda}{2\pi\varepsilon_0 r}</math>
+
+=== Planar symmetry ===
+For an infinite sheet of charge with surface charge density <math>\sigma</math>:
+:<math>E = \frac{\sigma}{2\varepsilon_0}</math>
+
+For two oppositely charged parallel plates ([[capacitor]]):
+:<math>E = \frac{\sigma}{\varepsilon_0}</math> (between plates)
+:<math>E = 0</math> (outside plates)
+
+=== Uniformly charged sphere ===
+For a uniformly charged insulating sphere of radius <math>R</math>:
+* Outside (<math>r > R</math>): <math>E = \frac{1}{4\pi\varepsilon_0}\frac{Q}{r^2}</math>
+* Inside (<math>r < R</math>): <math>E = \frac{1}{4\pi\varepsilon_0}\frac{Qr}{R^3}</math>
+
+== Gauss's law in matter ==
+In a [[dielectric]] medium, the law takes the form:
+:<math>\nabla \cdot \mathbf{D} = \rho_f</math>
+where <math>\mathbf{D} = \varepsilon_0\mathbf{E} + \mathbf{P}</math> is the [[electric displacement field]], and <math>\rho_f</math> is the free charge density.
+
+== Equivalence to Coulomb's law ==
+Gauss's law and [[Coulomb's law]] are mathematically equivalent for electrostatics. Gauss's law is more fundamental because it holds for time-varying fields as well.
+
+== See also ==
+{{Portal|Physics}}
+* [[Gauss's law for magnetism]]
+* [[Maxwell's equations]]
+* [[Electric flux]]
+* [[Divergence theorem]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Gauss's law| ]]
+[[Category:Electrostatics]]
+[[Category:Maxwell's equations]]

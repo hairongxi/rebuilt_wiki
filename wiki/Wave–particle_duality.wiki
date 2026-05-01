@@ -1,0 +1,61 @@
+{{Short description|Concept that every quantum entity exhibits both particle and wave properties}}
+{{Infobox physics
+| name = Wave–particle duality
+| image = Doubleslitexperiment_results_Tanamura_1.gif
+| caption = Single electrons build up an interference pattern in a [[double-slit experiment]], demonstrating wave–particle duality.
+| topics = [[Young's interference experiment|Double-slit experiment]], [[Photoelectric effect]], [[Compton scattering]], [[de Broglie wavelength]]
+}}
+
+'''Wave–particle duality''' is the concept in [[quantum mechanics]] that every [[particle]] or [[quantum]] entity may be described as either a particle or a [[wave]]. It expresses the inability of the classical concepts "particle" or "wave" to fully describe the behavior of quantum-scale objects.
+
+As [[Albert Einstein]] wrote:
+{{Blockquote|It seems as though we must use sometimes the one theory and sometimes the other, while at times we may use either. We are faced with a new kind of difficulty. We have two contradictory pictures of reality; separately neither of them fully explains the phenomena of light, but together they do.}}
+
+== Historical development ==
+
+=== Wave theory of light ===
+In the 17th century, [[Christiaan Huygens]] proposed the wave theory of light, while [[Isaac Newton]] favored the corpuscular (particle) theory. [[Thomas Young (scientist)|Thomas Young]]'s [[double-slit experiment]] (1801) and [[Augustin-Jean Fresnel]]'s work on [[diffraction]] strongly supported the wave theory.
+
+=== Particle nature of light ===
+In 1905, Einstein explained the [[photoelectric effect]] by proposing that light consists of discrete quanta ([[photon]]s) with energy <math>E = h\nu</math>. [[Arthur Compton]]'s [[Compton scattering|X-ray scattering experiments]] (1923) further confirmed the particle nature of light.
+
+=== Wave nature of matter ===
+In 1924, [[Louis de Broglie]] proposed that matter also has wave properties. The [[de Broglie wavelength]] is:
+:<math>\lambda = \frac{h}{p} = \frac{h}{mv}</math>
+where <math>h</math> is the [[Planck constant]] and <math>p</math> is the momentum.
+
+[[Electron diffraction]] was experimentally confirmed by [[Davisson–Germer experiment|Davisson and Germer]] (1927) and [[George Paget Thomson|G. P. Thomson]] (1927).
+
+== The double-slit experiment ==
+{{Main|Double-slit experiment}}
+The double-slit experiment is the canonical demonstration of wave–particle duality:
+* When both slits are open, individual particles (photons, electrons, even large molecules) build up an [[interference pattern]] over time — a wave phenomenon
+* If one attempts to determine which slit the particle passed through, the interference pattern disappears — a particle phenomenon
+* This "which-path" observation causes [[wave function collapse]]
+
+== Complementarity ==
+{{Main|Complementarity (physics)}}
+[[Niels Bohr]]'s [[complementarity (physics)|complementarity principle]] states that quantum objects have complementary properties that cannot be observed or measured simultaneously. The wave and particle aspects are complementary: a full description requires both, but they cannot be observed in a single experiment.
+
+== de Broglie relation ==
+{{Main|Matter wave}}
+The de Broglie relations unify the wave and particle descriptions:
+:<math>E = h\nu = \hbar\omega</math>
+:<math>p = \frac{h}{\lambda} = \hbar k</math>
+
+== Macroscopic objects ==
+For macroscopic objects, the de Broglie wavelength is so small that wave effects are unobservable. A 1 kg object moving at 1 m/s has <math>\lambda \approx 6.6 \times 10^{-34}</math> m — far smaller than any measurable length scale.
+
+== See also ==
+{{Portal|Physics}}
+* [[Double-slit experiment]]
+* [[Matter wave]]
+* [[Complementarity (physics)]]
+* [[Uncertainty principle]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Wave–particle duality| ]]
+[[Category:Quantum mechanics]]
+[[Category:Fundamental physics concepts]]

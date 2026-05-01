@@ -1,0 +1,66 @@
+{{Short description|Fundamental law of electrostatics describing the force between charged particles}}
+{{Infobox physical law
+| name = Coulomb's law
+| image = CoulombsLaw.svg
+| caption = The magnitude of the electrostatic force <math>F</math> between two point charges <math>q_1</math> and <math>q_2</math> is proportional to the product of the charges and inversely proportional to the square of the distance <math>r</math>.
+| formula = <math>F = k_e\frac{|q_1 q_2|}{r^2}</math>
+| discovered_by = [[Charles-Augustin de Coulomb]] (1785)
+}}
+
+'''Coulomb's law''', or '''Coulomb's inverse-square law''', is a fundamental law of [[electrostatics]] that quantifies the amount of [[force]] between two stationary, [[electric charge|electrically charged]] particles. The law was first published in 1785 by French physicist [[Charles-Augustin de Coulomb]] using a [[torsion balance]].
+
+== Statement ==
+The [[electrostatic force]] of attraction or repulsion between two point charges is directly proportional to the product of the magnitudes of the charges and inversely proportional to the square of the distance between them:
+:<math>|\mathbf{F}| = k_e\frac{|q_1 q_2|}{r^2}</math>
+
+In vector form:
+:<math>\mathbf{F}_{12} = k_e\frac{q_1 q_2}{r^2}\hat{\mathbf{r}}_{12}</math>
+where <math>\mathbf{F}_{12}</math> is the force on charge 1 due to charge 2, and <math>\hat{\mathbf{r}}_{12}</math> is the unit vector from 2 to 1.
+
+== Coulomb constant ==
+The [[Coulomb constant]] <math>k_e</math> (also written <math>k</math> or <math>k_C</math>) is:
+:<math>k_e = \frac{1}{4\pi\varepsilon_0} \approx 8.987\,551\,787 \times 10^9\,\text{N·m}^2/\text{C}^2</math>
+where <math>\varepsilon_0 \approx 8.854 \times 10^{-12}\,\text{F/m}</math> is the [[vacuum permittivity]].
+
+== Key properties ==
+* '''Inverse-square:''' The force diminishes as <math>1/r^2</math>
+* '''Superposition:''' Forces from multiple charges add as vectors
+* '''Action-at-a-distance:''' The force acts instantaneously in the classical picture (in the full electromagnetic theory, changes propagate at <math>c</math>)
+* '''Sign:''' Like charges repel (<math>F > 0</math>), opposite charges attract (<math>F < 0</math>)
+
+== Electric field formulation ==
+Coulomb's law can be restated in terms of the [[electric field]]:
+:<math>\mathbf{E}(\mathbf{r}) = k_e\frac{Q}{r^2}\hat{\mathbf{r}}</math>
+
+Then the force on test charge <math>q</math> is <math>\mathbf{F} = q\mathbf{E}</math>.
+
+== Relation to Gauss's law ==
+{{Main|Gauss's law}}
+Coulomb's law is equivalent to [[Gauss's law]] for electrostatics (and vice versa). Gauss's law in integral form:
+:<math>\oiint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}</math>
+is a direct consequence of the inverse-square nature of Coulomb's law.
+
+== Comparison with Newton's gravitation ==
+Coulomb's law has the same [[inverse-square law|inverse-square]] form as [[Newton's law of universal gravitation]]:
+:<math>F_g = G\frac{m_1 m_2}{r^2}, \quad F_e = k_e\frac{q_1 q_2}{r^2}</math>
+
+However:
+* Gravity is always attractive; electrostatic force can be attractive or repulsive
+* Gravity is much weaker: for two protons, <math>F_e/F_g \approx 10^{36}</math>
+
+== Quantum field theory description ==
+In [[quantum electrodynamics]] (QED), the Coulomb force arises from the exchange of virtual [[photon]]s between charged particles. The <math>1/r^2</math> dependence corresponds to the masslessness of the photon.
+
+== See also ==
+{{Portal|Physics}}
+* [[Electric charge]]
+* [[Electric field]]
+* [[Gauss's law]]
+* [[Biot–Savart law]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Coulomb's law| ]]
+[[Category:Electrostatics]]
+[[Category:Scientific laws]]

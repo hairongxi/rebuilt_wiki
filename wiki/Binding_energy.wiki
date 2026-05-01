@@ -1,0 +1,57 @@
+{{Short description="Energy required to disassemble a bound system into its constituent parts}}
+{{Infobox physics
+| name = Binding energy
+| image = Binding energy curve.svg
+| caption = Binding energy per nucleon vs. mass number. [[Iron-56]] has the highest binding energy per nucleon.
+| topics = [[Nuclear physics]], [[Atomic nucleus]], [[Mass–energy equivalence]], [[Strong interaction]]
+| SI_unit = [[Joule]] or [[electronvolt]]
+}}
+
+In [[physics]], '''binding energy''' is the minimum [[energy]] required to disassemble a system of particles into separate parts. A bound system typically has a lower [[potential energy]] than its constituent parts — this is what keeps the system together. The binding energy equals the [[mass defect]] via [[mass–energy equivalence]]:
+
+:<math>E_B = \Delta m \cdot c^2</math>
+
+where <math>\Delta m = \sum m_{\text{constituents}} - m_{\text{system}}</math> is the mass defect.
+
+== Nuclear binding energy ==
+{{Main|Nuclear binding energy}}
+The energy that holds [[atomic nucleus|nuclei]] together. The [[semi-empirical mass formula]] ([[Bethe–Weizsäcker formula]]) approximates it:
+
+:<math>E_B = a_V A - a_S A^{2/3} - a_C\frac{Z(Z-1)}{A^{1/3}} - a_A\frac{(A-2Z)^2}{A} + \delta(A,Z)</math>
+
+The five terms represent volume, surface, Coulomb, asymmetry, and pairing contributions.
+
+=== Binding energy per nucleon ===
+Dividing by <math>A</math> gives the average binding energy per nucleon. This peaks at [[iron-56]] (~8.8 MeV/nucleon), making it the most stable nucleus.
+
+== Implications ==
+
+=== Nuclear fission ===
+Heavy nuclei (beyond iron) release energy by splitting into lighter nuclei with higher binding energy per nucleon.
+
+=== Nuclear fusion ===
+Light nuclei (below iron) release energy by fusing into heavier nuclei with higher binding energy per nucleon.
+
+== Atomic binding energy ==
+=== Electron binding energy ===
+The energy required to remove an [[electron]] from an [[atom]] ([[ionization energy]]). For [[hydrogen]] in the ground state:
+:<math>E_1 = -13.6\ \text{eV}</math>
+
+=== Gravitational binding energy ===
+For a uniform sphere of mass <math>M</math> and radius <math>R</math>:
+:<math>U = -\frac{3GM^2}{5R}</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Atomic nucleus]]
+* [[Mass–energy equivalence]]
+* [[Nuclear fission]]
+* [[Nuclear fusion]]
+* [[Nuclear physics]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Nuclear physics]]
+[[Category:Energy]]
+[[Category:Binding energy| ]]

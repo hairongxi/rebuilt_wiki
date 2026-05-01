@@ -1,0 +1,69 @@
+{{Short description="Relativistic wave equation describing spin-1/2 particles}}
+{{Infobox physics
+| name = Dirac equation
+| image = 
+| caption = 
+| topics = [[Quantum mechanics]], [[Special relativity]], [[Spin (physics)]], [[Schrödinger equation]], [[Electron]]
+| formula = <math>(i\gamma^\mu\partial_\mu - m)\psi = 0</math>
+| proposed_by = [[Paul Dirac]], 1928
+}}
+
+The '''Dirac equation''' is a [[relativistic wave equation]] derived by [[Paul Dirac]] in 1928. It describes all [[spin (physics)|spin]]-½ massive particles, such as [[electron]]s, for which parity is a symmetry. It is consistent with both [[quantum mechanics]] and [[special relativity]], and was the first theory to account fully for [[special relativity]] in the context of quantum mechanics.
+
+== Equation ==
+In its modern form (using natural units <math>\hbar = c = 1</math>):
+:<math>(i\gamma^\mu\partial_\mu - m)\psi = 0</math>
+
+where:
+* <math>\gamma^\mu</math> are 4×4 [[Dirac matrices]]
+* <math>\psi</math> is a four-component [[spinor]] (also called Dirac spinor)
+* <math>m</math> is the [[rest mass]]
+* <math>\partial_\mu = \partial/\partial x^\mu</math>
+
+In standard notation:
+:<math>i\hbar\gamma^\mu\partial_\mu\psi - mc\psi = 0</math>
+
+== Key predictions ==
+
+=== Spin ===
+The equation naturally predicts that the electron has spin 1/2 — a property that had to be introduced ''ad hoc'' in previous models.
+
+=== Antimatter ===
+Each solution to the Dirac equation has a corresponding solution with negative energy. Dirac interpreted these as [[antimatter|antiparticles]]: the [[positron]] (anti-electron), discovered by [[Carl Anderson]] in 1932. The Dirac equation thus predicted the existence of antimatter.
+
+=== Magnetic moment ===
+The Dirac equation predicts the electron [[magnetic moment]] with [[g-factor]] <math>g = 2</math>:
+:<math>\boldsymbol{\mu} = -\frac{e}{m}\mathbf{S}</math>
+
+=== Fine structure ===
+The equation explains the [[fine structure]] of the [[hydrogen atom]] spectrum, including spin–orbit coupling.
+
+== Dirac matrices ==
+The [[gamma matrices]] satisfy the [[Clifford algebra]]:
+:<math>\{\gamma^\mu, \gamma^\nu\} = \gamma^\mu\gamma^\nu + \gamma^\nu\gamma^\mu = 2\eta^{\mu\nu}I_4</math>
+
+where <math>\eta^{\mu\nu}</math> is the [[Minkowski metric]].
+
+== Limitations ==
+* Single-particle interpretation fails for high energies (particle creation/annihilation)
+* Superseded by [[quantum electrodynamics]] for full description of electromagnetic interactions
+* Does not account for the [[anomalous magnetic moment]] of the electron (<math>g \approx 2.0023</math>)
+
+== See also ==
+{{Portal|Physics}}
+* [[Antimatter]]
+* [[Electron]]
+* [[Klein–Gordon equation]]
+* [[Positron]]
+* [[Quantum electrodynamics]]
+* [[Schrödinger equation]]
+* [[Special relativity]]
+* [[Spin (physics)]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Dirac equation| ]]
+[[Category:Quantum mechanics]]
+[[Category:Special relativity]]
+[[Category:Paul Dirac]]

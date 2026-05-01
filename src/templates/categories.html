@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Categories — Physics Wiki{% endblock %}
+{% block content %}
+<h1>Categories</h1>
+{% for cat, pages in cats.items() %}
+<h2 id="{{ cat|replace(' ', '-')|lower }}">{{ cat }}</h2>
+<ul class="page-list">
+    {% for p in pages %}
+    <li><a href="/wiki/{{ p|replace(' ', '_') }}">{{ p }}</a></li>
+    {% endfor %}
+</ul>
+{% endfor %}
+{% endblock %}

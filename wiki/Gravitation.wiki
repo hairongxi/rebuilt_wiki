@@ -1,0 +1,111 @@
+{{Short description|Natural phenomenon by which all things with mass or energy attract one another}}
+{{Infobox physics
+| name = Gravitation
+| image = Solar sys.jpg
+| caption = The [[Solar System]], whose motion is governed by [[Newton's law of universal gravitation|Newtonian gravity]]
+| topics = [[Newton's law of universal gravitation]], [[General relativity]], [[Gravitational field]], [[Gravitational potential]], [[Kepler's laws of planetary motion]]
+}}
+
+'''Gravitation''' (or '''gravity''') is a [[fundamental interaction|natural phenomenon]] by which all things with [[mass]] or [[energy]]—including [[planet]]s, [[star]]s, [[galaxy|galaxies]], and even [[light]]—are brought toward one another. On [[Earth]], gravity gives [[weight]] to physical objects, and the [[Moon]]'s gravity causes the ocean [[tide]]s.
+
+Gravity is most accurately described by the [[general theory of relativity]] (proposed by [[Albert Einstein]] in 1915), which describes gravity not as a force, but as a consequence of the [[curvature of spacetime]] caused by the uneven distribution of mass. For most applications, however, gravity is well approximated by [[Newton's law of universal gravitation]].
+
+== History ==
+{{Main|History of gravitational theory}}
+
+=== Early theories ===
+[[Aristotle]] believed that heavy objects fall faster than light ones, and that celestial bodies move in perfect circles. [[Galileo Galilei]] (1564–1642) demonstrated that, in the absence of air resistance, all objects fall at the same rate regardless of mass.
+
+=== Newtonian gravitation ===
+{{Main|Newton's law of universal gravitation}}
+In 1687, [[Isaac Newton]] published his [[law of universal gravitation]] in the ''Principia''. He proposed that every particle attracts every other particle with a force proportional to the product of their masses and inversely proportional to the square of the distance between them:
+:<math>\mathbf{F} = -G\frac{m_1 m_2}{r^2}\hat{\mathbf{r}}</math>
+where <math>G = 6.674 \times 10^{-11}\,\text{N·m}^2/\text{kg}^2</math> is the [[gravitational constant]].
+
+=== Einstein's general relativity ===
+{{Main|History of general relativity}}
+In 1915, [[Albert Einstein]] published the theory of [[general relativity]], which describes gravity as the curvature of [[spacetime]] caused by mass and energy. The [[Einstein field equations]] are:
+:<math>G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}</math>
+
+== Newtonian gravity ==
+
+=== Gravitational field ===
+The [[gravitational field]] <math>\mathbf{g}</math> at a point is the gravitational force per unit mass:
+:<math>\mathbf{g} = \frac{\mathbf{F}}{m} = -\frac{GM}{r^2}\hat{\mathbf{r}}</math>
+
+Near Earth's surface, <math>g \approx 9.81\,\text{m/s}^2</math>.
+
+=== Gravitational potential ===
+The [[gravitational potential]] <math>V</math> is related to the field by <math>\mathbf{g} = -\nabla V</math>. For a point mass:
+:<math>V = -\frac{GM}{r}</math>
+
+The [[gravitational potential energy]] of two masses separated by distance <math>r</math> is:
+:<math>U = -G\frac{m_1 m_2}{r}</math>
+
+=== Kepler's laws ===
+{{Main|Kepler's laws of planetary motion}}
+Newton showed that [[Kepler's laws of planetary motion]] follow from the inverse-square law:
+# Planets move in elliptical orbits with the Sun at one focus
+# A line from the Sun to a planet sweeps out equal areas in equal times (<math>dA/dt = \text{constant}</math>)
+# The square of the orbital period is proportional to the cube of the semi-major axis: <math>T^2 \propto a^3</math>
+
+=== Escape velocity ===
+{{Main|Escape velocity}}
+The escape velocity from a body of mass <math>M</math> and radius <math>R</math> is:
+:<math>v_e = \sqrt{\frac{2GM}{R}}</math>
+
+For Earth, <math>v_e \approx 11.2\,\text{km/s}</math>.
+
+== General relativity ==
+{{Main|General relativity}}
+
+=== Equivalence principle ===
+{{Main|Equivalence principle}}
+The [[equivalence principle]] states that the effects of gravity are locally indistinguishable from those of acceleration. This is the foundation of general relativity.
+
+=== Spacetime curvature ===
+Mass and energy curve [[spacetime]]. Objects in free fall follow [[geodesic]]s — the straightest possible paths in curved spacetime.
+
+=== Experimental tests ===
+* [[Perihelion precession of Mercury]] — unexplained by Newtonian gravity, precisely predicted by GR
+* [[Gravitational lensing]] — bending of light by massive objects, confirmed in 1919
+* [[Gravitational time dilation]] — clocks run slower in stronger gravitational fields
+* [[Gravitational wave]]s — first directly detected by [[LIGO]] in 2015
+* [[Shapiro time delay]] — light takes longer to pass near a massive object
+
+=== Black holes ===
+{{Main|Black hole}}
+A [[black hole]] is a region of spacetime where gravity is so strong that nothing, not even light, can escape. The [[Schwarzschild radius]] is:
+:<math>R_S = \frac{2GM}{c^2}</math>
+
+== Gravitational waves ===
+{{Main|Gravitational wave}}
+[[Gravitational wave]]s are ripples in spacetime that propagate at the speed of light, generated by accelerating masses such as orbiting [[binary star]]s or merging [[black hole]]s. They were first directly detected on September 14, 2015, by the [[LIGO]] detectors.
+
+== Applications ==
+* [[Celestial mechanics]] — orbital dynamics of planets, satellites, and spacecraft
+* [[Gravitational slingshot]] — using planetary gravity for spacecraft propulsion
+* [[Tide]] prediction
+* [[Gravity gradiometry]] — mineral and oil exploration
+* [[Global Positioning System|GPS]] — requires general relativistic corrections
+* [[Cosmology]] — structure formation, expansion of the universe
+
+== See also ==
+{{Portal|Physics}}
+* [[Gravitational constant]]
+* [[Anti-gravity]]
+* [[Quantum gravity]]
+* [[Graviton]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Isaac Newton|Newton, I.]] (1687). ''[[Philosophiæ Naturalis Principia Mathematica]]''.
+* [[Albert Einstein|Einstein, A.]] (1916). "The Foundation of the General Theory of Relativity". ''Annalen der Physik''.
+* [[Charles W. Misner|Misner, C. W.]], [[Kip Thorne|Thorne, K. S.]], [[John Archibald Wheeler|Wheeler, J. A.]] (1973). ''Gravitation''. W. H. Freeman.
+
+[[Category:Gravitation| ]]
+[[Category:Physics]]
+[[Category:Fundamental interactions]]
+[[Category:General relativity]]

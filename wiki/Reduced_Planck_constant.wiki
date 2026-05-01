@@ -1,0 +1,55 @@
+{{Short description="The Planck constant divided by 2π; fundamental constant of quantum mechanics}}
+{{Infobox physics
+| name = Reduced Planck constant
+| image = 
+| caption = 
+| topics = [[Quantum mechanics]], [[Planck constant]], [[Uncertainty principle]], [[Schrödinger equation]]
+| symbol = ħ (h-bar)
+| value = 1.054571817×10⁻³⁴ J·s
+| definition = <math>\hbar = h/2\pi</math>
+}}
+
+The '''reduced Planck constant''' (or '''Dirac constant'''), denoted <math>\hbar</math> (h-bar), is the [[Planck constant]] <math>h</math> divided by <math>2\pi</math>:
+
+:<math>\hbar = \frac{h}{2\pi} = 1.054571817 \times 10^{-34}\ \text{J·s}</math>
+
+== Why <math>\hbar</math> appears naturally ==
+The factor of <math>2\pi</math> appears because quantum phenomena are fundamentally associated with angular quantities (rotations, oscillations, waves). <math>\hbar</math> is the natural unit of [[angular momentum]] and appears throughout quantum mechanics.
+
+== Key equations using <math>\hbar</math> ==
+
+=== Schrödinger equation ===
+:<math>i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</math>
+
+=== Heisenberg uncertainty principle ===
+:<math>\Delta x \, \Delta p \geq \frac{\hbar}{2}</math>
+
+=== Commutation relation ===
+:<math>[\hat{x}, \hat{p}] = i\hbar</math>
+
+=== Planck–Einstein relation ===
+:<math>E = \hbar\omega</math>
+
+=== De Broglie wavelength ===
+:<math>\lambda = \frac{2\pi\hbar}{p} = \frac{h}{p}</math>
+:<math>p = \hbar k</math> (momentum–wavenumber relation)
+
+=== Angular momentum quantization ===
+:<math>L_z = m_\ell\hbar</math>
+
+== Spin ===
+[[Spin (physics)|Spin]] is measured in units of <math>\hbar</math>. The electron has spin <math>\hbar/2</math>. The spin operator eigenvalues are <math>S_z = m_s\hbar</math> with <math>m_s = \pm 1/2</math>.
+
+== See also ==
+{{Portal|Physics}}
+* [[Angular momentum]]
+* [[Planck constant]]
+* [[Quantum mechanics]]
+* [[Spin (physics)]]
+* [[Uncertainty principle]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Physical constants]]
+[[Category:Quantum mechanics]]

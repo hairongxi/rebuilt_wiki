@@ -1,0 +1,61 @@
+{{Short description="Branch of classical mechanics describing motion without reference to forces}}
+{{Infobox physics
+| name = Kinematics
+| image = Projectile motion.svg
+| caption = [[Projectile motion]] is a classic kinematic problem: the trajectory is a [[parabola]] under uniform [[gravity]].
+| topics = [[Classical mechanics]], [[Motion]], [[Velocity]], [[Acceleration]], [[Dynamics (mechanics)]]
+}}
+
+'''Kinematics''' is the branch of [[classical mechanics]] that describes the [[motion]] of points, bodies, and systems of bodies without considering the [[force]]s that cause them to move. It is often referred to as the "geometry of motion." The study of forces and their relation to motion is [[dynamics (mechanics)]].
+
+== Fundamental quantities ==
+Kinematics uses four primary quantities:
+
+* '''Position''' <math>\mathbf{r}(t)</math> — location in space as a function of time
+* '''Displacement''' <math>\Delta\mathbf{r} = \mathbf{r}_f - \mathbf{r}_i</math>
+* '''Velocity''' <math>\mathbf{v}(t) = \frac{d\mathbf{r}}{dt}</math> — rate of change of position
+* '''Acceleration''' <math>\mathbf{a}(t) = \frac{d\mathbf{v}}{dt} = \frac{d^2\mathbf{r}}{dt^2}</math> — rate of change of velocity
+
+== Equations of motion (constant acceleration) ==
+For constant acceleration <math>a</math> in one dimension:
+:<math>v = v_0 + at</math>
+:<math>x = x_0 + v_0 t + \frac{1}{2}at^2</math>
+:<math>v^2 = v_0^2 + 2a(x - x_0)</math>
+:<math>x = x_0 + \frac{1}{2}(v_0 + v)t</math>
+
+== Types of motion ==
+
+=== Rectilinear motion ===
+Motion along a straight line.
+
+=== Projectile motion ===
+Motion under uniform [[gravity]] with initial velocity at an angle <math>\theta</math>:
+* Horizontal: <math>x(t) = v_0\cos\theta \, t</math>
+* Vertical: <math>y(t) = v_0\sin\theta \, t - \frac{1}{2}gt^2</math>
+* Range: <math>R = \frac{v_0^2\sin 2\theta}{g}</math>
+* Maximum height: <math>h = \frac{v_0^2\sin^2\theta}{2g}</math>
+
+=== Circular motion ===
+* Angular displacement: <math>\theta</math>
+* Angular velocity: <math>\omega = \frac{d\theta}{dt}</math>
+* Angular acceleration: <math>\alpha = \frac{d\omega}{dt}</math>
+* Relation to linear quantities: <math>v = \omega r</math>, <math>a_t = \alpha r</math>, <math>a_c = \frac{v^2}{r}</math>
+
+=== Relative motion ===
+Velocities in different reference frames:
+:<math>\mathbf{v}_{AC} = \mathbf{v}_{AB} + \mathbf{v}_{BC}</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Acceleration]]
+* [[Classical mechanics]]
+* [[Dynamics (mechanics)]]
+* [[Motion]]
+* [[Velocity]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Kinematics| ]]
+[[Category:Classical mechanics]]
+[[Category:Motion (physics)]]

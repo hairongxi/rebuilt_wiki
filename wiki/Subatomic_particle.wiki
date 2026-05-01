@@ -1,0 +1,74 @@
+{{Short description="Particle smaller than an atom; includes elementary particles and composite particles}}
+{{Infobox physics
+| name = Subatomic particle
+| image = 
+| caption = 
+| topics = [[Particle physics]], [[Elementary particle]], [[Quark]], [[Lepton]], [[Neutrino]]
+}}
+
+In [[physics]], a '''subatomic particle''' is a particle smaller than an [[atom]]. The two main categories are [[elementary particle]]s (not composed of other particles) and [[composite particle]]s (bound states of two or more elementary particles).
+
+== Classification ==
+
+=== Elementary particles ===
+{{Main|Elementary particle}}
+Fundamental particles with no known substructure:
+* [[Fermion]]s — matter particles ([[quark]]s, [[lepton]]s)
+* [[Boson]]s — force carriers ([[photon]], [[gluon]], [[W and Z bosons]], [[Higgs boson]])
+
+=== Composite particles ===
+Particles composed of elementary particles:
+* '''[[Hadron]]s''' — bound by the [[strong interaction]]
+  * [[Baryon]]s — three quarks ([[proton]], [[neutron]])
+  * [[Meson]]s — quark–antiquark pairs ([[pion]], [[kaon]])
+* '''[[Atomic nucleus|Atomic nuclei]]''' — protons and neutrons bound by the [[nuclear force]]
+* '''[[Atom]]s''' — nucleus plus [[electron]]s
+
+== History of discovery ==
+{| class="wikitable"
+|-
+! Year !! Discovery
+|-
+| 1897 || [[Electron]] — first subatomic particle identified ([[J. J. Thomson]])
+|-
+| 1911 || [[Atomic nucleus]] ([[Ernest Rutherford]])
+|-
+| 1919 || [[Proton]]
+|-
+| 1932 || [[Neutron]] ([[James Chadwick]])
+|-
+| 1932 || [[Positron]] — first [[antiparticle]]
+|-
+| 1956 || [[Neutrino]] (experimental detection)
+|-
+| 1968 || Evidence for [[quark]]s (deep inelastic scattering)
+|-
+| 1979 || [[Gluon]] (indirect evidence at [[DESY]])
+|-
+| 2012 || [[Higgs boson]] ([[Large Hadron Collider]])
+|}
+
+== Properties ==
+Subatomic particles are characterised by:
+* [[Mass]]
+* [[Electric charge]]
+* [[Spin (physics)|Spin]]
+* [[Colour charge]] (quarks and gluons)
+* Lifetime (stable or unstable)
+* [[Antiparticle]] partner
+
+== See also ==
+{{Portal|Physics}}
+* [[Elementary particle]]
+* [[Lepton]]
+* [[Neutrino]]
+* [[Particle physics]]
+* [[Proton]]
+* [[Quark]]
+* [[Standard Model]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Subatomic particles| ]]
+[[Category:Particle physics]]

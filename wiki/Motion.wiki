@@ -1,0 +1,56 @@
+{{Short description|Change in position of an object over time}}
+{{Infobox physics
+| name = Motion
+| image = 
+| caption = 
+| topics = [[Classical mechanics]], [[Newton's laws of motion]], [[Force]], [[Kinematics]], [[Dynamics (mechanics)]]
+}}
+
+In [[physics]], '''motion''' is the change in position of an object with respect to its surroundings in a given interval of [[time]]. Motion is mathematically described in terms of [[displacement (geometry)|displacement]], [[distance]], [[velocity]], [[acceleration]], [[speed]], and [[time]].
+
+== Kinematics ==
+{{Main|Kinematics}}
+[[Kinematics]] describes the motion of objects without reference to the forces that cause the motion. Key quantities:
+
+* '''Position''' <math>\mathbf{r}(t)</math>
+* '''Velocity''': <math>\mathbf{v} = \frac{d\mathbf{r}}{dt}</math>
+* '''Acceleration''': <math>\mathbf{a} = \frac{d\mathbf{v}}{dt} = \frac{d^2\mathbf{r}}{dt^2}</math>
+
+=== Equations of motion ===
+For constant acceleration <math>a</math>:
+:<math>v = v_0 + at</math>
+:<math>r = r_0 + v_0 t + \frac{1}{2}at^2</math>
+:<math>v^2 = v_0^2 + 2a(r - r_0)</math>
+
+== Types of motion ==
+* '''Translational motion''' — movement in a straight line or curved path
+* '''Rotational motion''' — motion about an axis
+* '''Periodic motion''' — repeating pattern: [[oscillation]], [[simple harmonic motion]], circular motion
+* '''Projectile motion''' — motion under uniform [[gravity]]: parabolic trajectory
+* '''Brownian motion''' — random motion of particles in a fluid
+
+== Dynamics ==
+{{Main|Dynamics (mechanics)}}
+[[Dynamics (mechanics)|Dynamics]] connects motion to its causes — [[force]]s and [[torque]]s. [[Newton's laws of motion]] provide the fundamental framework:
+
+# An object remains at rest or in uniform motion unless acted upon by a net force ([[inertia]])
+# <math>\mathbf{F} = \frac{d\mathbf{p}}{dt}</math>
+# For every action, there is an equal and opposite reaction
+
+== Relativistic motion ==
+At speeds approaching the [[speed of light]], classical kinematics is replaced by [[special relativity]]. The [[Lorentz transformation]] relates measurements between reference frames.
+
+== See also ==
+{{Portal|Physics}}
+* [[Classical mechanics]]
+* [[Force]]
+* [[Kinematics]]
+* [[Newton's laws of motion]]
+* [[Velocity]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Motion (physics)| ]]
+[[Category:Classical mechanics]]
+[[Category:Kinematics]]

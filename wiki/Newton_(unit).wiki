@@ -1,0 +1,79 @@
+{{Short description|SI unit of force}}
+{{Infobox physics
+| name = Newton (unit)
+| image = 
+| caption = 
+| topics = [[Force]], [[International System of Units]], [[Newton's laws of motion]]
+| unit_system = [[SI derived unit]]
+| unit_of = [[Force]]
+| symbol = N
+| named_after = [[Isaac Newton]]
+| conversion = 1 N = 1 kg·m/s²
+}}
+
+The '''newton''' (symbol: '''N''') is the [[SI derived unit]] of [[force]]. It is named after [[Isaac Newton]] in recognition of his work on [[classical mechanics]], specifically [[Newton's second law|Newton's second law of motion]].
+
+One newton is the force needed to accelerate one [[kilogram]] of [[mass]] at a rate of one [[metre per second squared]] in the direction of the applied force:
+
+:<math>1\ \text{N} = 1\ \text{kg} \cdot \text{m} / \text{s}^2</math>
+
+== Definition from Newton's second law ==
+[[Newton's second law]] provides the definition:
+:<math>F = ma</math>
+
+So: <math>1\ \text{N} = 1\ \text{kg} \times 1\ \text{m/s}^2</math>
+
+== Multiples and conversions ==
+{| class="wikitable"
+|-
+! Submultiples !! Value
+|-
+| micronewton (μN) || 10⁻⁶ N
+|-
+| millinewton (mN) || 10⁻³ N
+|-
+| centinewton (cN) || 10⁻² N
+|}
+
+{| class="wikitable"
+|-
+! Multiples !! Value
+|-
+| kilonewton (kN) || 10³ N
+|-
+| meganewton (MN) || 10⁶ N
+|-
+| giganewton (GN) || 10⁹ N
+|}
+
+=== Common conversion factors ===
+* 1 [[dyne]] = 10⁻⁵ N (CGS unit)
+* 1 [[kilogram-force]] (kgf) = 9.80665 N
+* 1 [[pound-force]] (lbf) ≈ 4.448 N
+* 1 [[poundal]] ≈ 0.138 N
+
+== Practical examples ==
+* Weight of a 100 g apple on Earth: ~1 N
+* Average bite force of a human: ~500 N
+* Thrust of a [[Space Shuttle]] main engine at liftoff: ~1.8 MN
+* Gravitational force between Earth and Moon: ~2 × 10²⁰ N
+
+== Relation to other SI units ==
+* <math>1\ \text{N} = 1\ \text{Pa} \cdot \text{m}^2</math> (pressure × area)
+* <math>1\ \text{N} = 1\ \text{J/m}</math> (energy per distance)
+* <math>1\ \text{N} = 1\ \text{W} \cdot \text{s/m}</math> (power × time / distance)
+
+== See also ==
+{{Portal|Physics}}
+* [[Force]]
+* [[International System of Units]]
+* [[Isaac Newton]]
+* [[Kilogram]]
+* [[Newton's laws of motion]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Units of force]]
+[[Category:SI derived units]]
+[[Category:Isaac Newton]]

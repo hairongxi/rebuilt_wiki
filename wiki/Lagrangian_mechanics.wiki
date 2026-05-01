@@ -1,0 +1,60 @@
+{{Short description|Reformulation of classical mechanics using the Lagrangian function}}
+{{Infobox physics
+| name = Lagrangian mechanics
+| image = 
+| caption = 
+| topics = [[Classical mechanics]], [[Newton's laws of motion]], [[Conservation of energy]], [[Noether's theorem]]
+| key_equations = [[Euler–Lagrange equation]]
+}}
+
+'''Lagrangian mechanics''' is a reformulation of [[classical mechanics]] introduced by the Italian-French mathematician [[Joseph-Louis Lagrange]] in 1788. It describes the motion of a system in terms of its [[Lagrangian (physics)|Lagrangian function]] <math>L</math>, defined as the difference between [[kinetic energy]] <math>T</math> and [[potential energy]] <math>V</math>:
+:<math>L = T - V</math>
+
+Unlike [[Newtonian mechanics]], which works with vectors and forces, Lagrangian mechanics works with scalars and [[generalized coordinate]]s, making it particularly powerful for systems with constraints.
+
+== Principle of least action ==
+{{Main|Principle of least action}}
+The fundamental principle of Lagrangian mechanics is that the system evolves along a path that minimizes (or more precisely, makes stationary) the [[action (physics)|action]] <math>S</math>:
+:<math>S = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt</math>
+:<math>\delta S = 0</math>
+
+== Euler–Lagrange equations ==
+Applying the calculus of variations yields the [[Euler–Lagrange equation]]s for each generalized coordinate <math>q_i</math>:
+:<math>\frac{d}{dt}\left(\frac{\partial L}{\partial \dot{q}_i}\right) - \frac{\partial L}{\partial q_i} = 0</math>
+
+For a particle in a potential, this reduces to [[Newton's second law]]:
+:<math>m\ddot{q} = -\frac{\partial V}{\partial q}</math>
+
+== Connection to Noether's theorem ==
+{{Main|Noether's theorem}}
+The Lagrangian formulation directly relates continuous [[symmetry (physics)|symmetries]] of the Lagrangian to [[conservation law]]s via [[Noether's theorem]]:
+* Time-translation invariance → conservation of [[energy]]
+* Spatial-translation invariance → conservation of [[momentum]]
+* Rotational invariance → conservation of [[angular momentum]]
+
+== Generalized momenta ==
+The [[conjugate momentum]] associated with coordinate <math>q_i</math> is:
+:<math>p_i = \frac{\partial L}{\partial \dot{q}_i}</math>
+
+If the Lagrangian does not depend on a particular coordinate <math>q_i</math> (the coordinate is "cyclic"), then the corresponding momentum is conserved.
+
+== Advantages ==
+* Naturally handles constraints through the choice of generalized coordinates
+* Independent of the choice of coordinate system
+* Extends straightforwardly to [[special relativity]] and [[quantum mechanics]] (via the [[path integral formulation]])
+* Forms the basis for [[Noether's theorem]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Classical mechanics]]
+* [[Hamiltonian mechanics]]
+* [[Newton's laws of motion]]
+* [[Noether's theorem]]
+* [[Principle of least action]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Lagrangian mechanics| ]]
+[[Category:Classical mechanics]]
+[[Category:Calculus of variations]]

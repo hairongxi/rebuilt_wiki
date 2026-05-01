@@ -1,0 +1,75 @@
+{{Short description|Partial differential equation describing the quantum state of a physical system}}
+{{Infobox physical law
+| name = Schrödinger equation
+| image = Erwin Schrodinger2.jpg
+| caption = [[Erwin Schrödinger]], who formulated the equation in 1926
+| formula = <math>i\hbar\frac{\partial}{\partial t}|\Psi(t)\rangle = \hat{H}|\Psi(t)\rangle</math>
+| discovered_by = [[Erwin Schrödinger]] (1926)
+}}
+
+The '''Schrödinger equation''' is a linear [[partial differential equation]] that governs the [[wave function]] of a [[quantum mechanics|quantum-mechanical]] system. It is a central result in [[quantum mechanics]], and its discovery was a significant landmark in the development of the subject. The equation is named after [[Erwin Schrödinger]], who postulated it in 1926.
+
+Conceptually, the Schrödinger equation is the quantum analog of [[Newton's laws of motion|Newton's second law]] in [[classical mechanics]]. Given a set of known initial conditions, Newton's second law makes a mathematical prediction as to what path a given physical system will take over time. The Schrödinger equation gives the evolution over time of a [[wave function]], the quantum-mechanical characterization of an isolated physical system.
+
+== Time-dependent Schrödinger equation ==
+The most general form is the time-dependent Schrödinger equation (TDSE):
+:<math>i\hbar\frac{\partial}{\partial t}\Psi(\mathbf{r}, t) = \hat{H}\Psi(\mathbf{r}, t)</math>
+
+where:
+* <math>i = \sqrt{-1}</math> is the imaginary unit
+* <math>\hbar = h/2\pi</math> is the [[reduced Planck constant]]
+* <math>\Psi(\mathbf{r}, t)</math> is the [[wave function]]
+* <math>\hat{H}</math> is the [[Hamiltonian (quantum mechanics)|Hamiltonian operator]]
+
+For a single non-relativistic particle in a potential <math>V(\mathbf{r})</math>, the Hamiltonian is:
+:<math>\hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})</math>
+
+== Time-independent Schrödinger equation ==
+When the Hamiltonian is time-independent, the wave function can be [[separation of variables|separated]]:
+:<math>\Psi(\mathbf{r}, t) = \psi(\mathbf{r})e^{-iEt/\hbar}</math>
+
+Substituting yields the time-independent Schrödinger equation (TISE):
+:<math>\hat{H}\psi(\mathbf{r}) = E\psi(\mathbf{r})</math>
+
+or explicitly:
+:<math>-\frac{\hbar^2}{2m}\nabla^2\psi(\mathbf{r}) + V(\mathbf{r})\psi(\mathbf{r}) = E\psi(\mathbf{r})</math>
+
+This is an eigenvalue equation: <math>E</math> is the energy eigenvalue and <math>\psi</math> is the corresponding eigenfunction.
+
+== Solvable systems ==
+
+=== Particle in a box ===
+{{Main|Particle in a box}}
+For an infinite square well of width <math>L</math>:
+:<math>E_n = \frac{n^2\pi^2\hbar^2}{2mL^2}, \quad \psi_n(x) = \sqrt{\frac{2}{L}}\sin\left(\frac{n\pi x}{L}\right), \quad n = 1, 2, 3, \ldots</math>
+
+=== Quantum harmonic oscillator ===
+:<math>E_n = \hbar\omega\left(n + \frac{1}{2}\right)</math>
+
+=== Hydrogen atom ===
+:<math>E_n = -\frac{me^4}{8\varepsilon_0^2 h^2}\frac{1}{n^2} = -\frac{13.6\,\text{eV}}{n^2}</math>
+
+== Properties of the wave function ==
+The wave function must be:
+* [[Continuous function|Continuous]]
+* Single-valued
+* [[Square-integrable function|Square-integrable]] (normalizable): <math>\int |\Psi|^2 \, d^3r = 1</math>
+* Its first derivative must be continuous (except where <math>V</math> is infinite)
+
+== Probability interpretation ==
+{{Main|Born rule}}
+According to the [[Born rule]], <math>|\Psi(\mathbf{r}, t)|^2 d^3r</math> is the probability of finding the particle in volume element <math>d^3r</math> at time <math>t</math>.
+
+== See also ==
+{{Portal|Physics}}
+* [[Wave function]]
+* [[Dirac equation]]
+* [[Hamiltonian (quantum mechanics)]]
+* [[Potential well]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Schrödinger equation| ]]
+[[Category:Quantum mechanics]]
+[[Category:Partial differential equations]]

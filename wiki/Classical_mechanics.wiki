@@ -1,0 +1,192 @@
+{{Short description|Description of the motion of macroscopic objects}}
+{{Infobox physics
+| name = Classical mechanics
+| image = Orbital motion.gif
+| caption = Diagram of orbital motion of a satellite around the Earth, showing the perpendicular velocity and acceleration (force) vectors
+| topics = [[Kinematics]], [[Dynamics (mechanics)|Dynamics]], [[Statics]], [[Newton's laws of motion|Newton's laws]], [[Lagrangian mechanics|Lagrangian]] and [[Hamiltonian mechanics]]
+| branches = [[Analytical mechanics]], [[Celestial mechanics]], [[Continuum mechanics]], [[Relativistic mechanics]]
+}}
+
+'''Classical mechanics''' is a [[physics|physical theory]] describing the [[motion]] of macroscopic objects, from [[projectile]]s to parts of [[machinery]] and [[astronomical object]]s, such as [[spacecraft]], [[planet]]s, [[star]]s, and [[galaxy|galaxies]]. The field is also known as '''Newtonian mechanics''', after [[Isaac Newton]] and his [[Philosophiæ Naturalis Principia Mathematica|laws of motion]], but it also includes later work building on those discoveries. The term "classical mechanics" was coined in the early 20th century to distinguish it from newer physical theories, principally [[quantum mechanics]] and [[theory of relativity|relativity]].
+
+For objects governed by classical mechanics, if the present state is known with absolute precision, it is possible to predict how it will move in the future ([[determinism]]) and how it has moved in the past (reversibility). This is known as [[Laplace's demon]], a thought experiment proposed by [[Pierre-Simon Laplace]].
+
+== History ==
+{{Main|History of classical mechanics}}
+
+=== Antiquity ===
+The study of the motion of bodies began in antiquity. [[Aristotle]] (384–322 BCE) proposed a theory of motion based on the concept of "natural places": heavy bodies naturally move toward the center of the Earth, and light bodies naturally move toward the heavens. [[Aristotelian physics]] was accepted for nearly two millennia. [[Archimedes]] (c. 287–212 BCE) made fundamental contributions to [[statics]] and [[hydrostatics]], including the principle of the [[lever]] and [[buoyancy]].
+
+=== Medieval and Renaissance developments ===
+In the 6th century, [[John Philoponus]] criticized Aristotle's theory of projectile motion, arguing that a body continues to move due to an "impressed force" ([[impetus]]). [[Avicenna]] (Ibn Sīnā, 11th century) and [[Jean Buridan]] (14th century) further developed the theory of impetus.
+
+During the [[Scientific Revolution]], [[Nicolaus Copernicus]] proposed the [[heliocentric model]], [[Johannes Kepler]] formulated his [[Kepler's laws of planetary motion|three laws of planetary motion]], and [[Galileo Galilei]] conducted experiments on falling bodies and projectiles, establishing the foundations of modern [[kinematics]].
+
+=== Newtonian mechanics ===
+[[File:GodfreyKneller-IsaacNewton-1689.jpg|thumb|upright|[[Isaac Newton]] (1642–1727)]]
+In 1687, [[Isaac Newton]] published ''[[Philosophiæ Naturalis Principia Mathematica]]'', in which he formulated the [[Newton's laws of motion|three laws of motion]] and his [[Newton's law of universal gravitation|law of universal gravitation]]. These laws unified celestial and terrestrial mechanics, providing a single framework to explain the motion of planets and the fall of an apple.
+
+=== Lagrangian and Hamiltonian mechanics ===
+{{Main|Lagrangian mechanics|Hamiltonian mechanics}}
+In the late 18th century, [[Joseph-Louis Lagrange]] reformulated classical mechanics in terms of generalized coordinates and the [[Lagrangian mechanics|Lagrangian]] function, which is the difference between kinetic and potential energy. In the 19th century, [[William Rowan Hamilton]] introduced [[Hamiltonian mechanics]], expressing the equations of motion in terms of position and momentum and reformulating them in terms of a [[Hamiltonian (quantum mechanics)|Hamiltonian]] function. These formulations provided powerful tools for solving complex mechanical problems and later became the foundation for [[quantum mechanics]] and [[statistical mechanics]].
+
+== Description of the theory ==
+
+=== Newton's laws of motion ===
+{{Main|Newton's laws of motion}}
+Newton's three laws of motion describe the relationship between a body and the [[force]]s acting upon it:
+
+# '''First law (Law of inertia):''' A body remains at rest or in uniform motion in a straight line unless acted upon by a net external force.
+# '''Second law:''' The [[net force]] on a body is equal to the product of its [[mass]] and [[acceleration]]: <math>\mathbf{F} = m\mathbf{a} = \frac{d\mathbf{p}}{dt}</math>, where <math>\mathbf{p}</math> is the [[momentum]].
+# '''Third law:''' For every action, there is an equal and opposite reaction.
+
+=== Kinematics ===
+{{Main|Kinematics}}
+Kinematics is the branch of classical mechanics that describes the motion of points, bodies, and systems of bodies without considering the forces that cause them to move. The fundamental quantities in kinematics are:
+* '''Position''' (<math>\mathbf{r}</math>)
+* '''Velocity''' (<math>\mathbf{v} = \frac{d\mathbf{r}}{dt}</math>)
+* '''Acceleration''' (<math>\mathbf{a} = \frac{d\mathbf{v}}{dt} = \frac{d^2\mathbf{r}}{dt^2}</math>)
+
+For constant acceleration <math>a</math>, the [[equations of motion]] (SUVAT equations) are:
+:<math>v = u + at</math>
+:<math>s = ut + \frac{1}{2}at^2</math>
+:<math>v^2 = u^2 + 2as</math>
+:<math>s = \frac{u+v}{2}t</math>
+
+=== Dynamics ===
+{{Main|Dynamics (mechanics)}}
+Dynamics studies the causes of motion — forces and torques — and their effect on motion.
+
+Key concepts include:
+* '''[[Momentum]]''' (<math>\mathbf{p} = m\mathbf{v}</math>)
+* '''[[Force]]''' (<math>\mathbf{F} = \frac{d\mathbf{p}}{dt}</math>)
+* '''[[Impulse (physics)|Impulse]]''' (<math>\mathbf{J} = \int \mathbf{F}\, dt = \Delta\mathbf{p}</math>)
+* '''[[Work (physics)|Work]]''' (<math>W = \int \mathbf{F} \cdot d\mathbf{r}</math>)
+* '''[[Kinetic energy]]''' (<math>K = \frac{1}{2}mv^2</math>)
+* '''[[Potential energy]]''' (<math>U</math>, defined such that <math>\mathbf{F} = -\nabla U</math> for [[conservative force]]s)
+* '''[[Conservation of energy|Mechanical energy conservation]]''' (<math>E = K + U = \text{constant}</math> for conservative systems)
+
+=== Conservation laws ===
+{{Main|Conservation law}}
+Classical mechanics features several fundamental conservation laws, which arise from symmetries according to [[Noether's theorem]]:
+
+{| class="wikitable"
+|-
+! Conservation law
+! Symmetry
+! Consequence
+|-
+| [[Conservation of energy]]
+| [[Time translation symmetry|Time translation]]
+| Energy cannot be created or destroyed
+|-
+| [[Conservation of momentum|Conservation of linear momentum]]
+| [[Translational symmetry|Spatial translation]]
+| Total momentum is constant in an isolated system
+|-
+| [[Conservation of angular momentum]]
+| [[Rotational symmetry]]
+| Total angular momentum is constant in an isolated system
+|}
+
+=== Work and energy ===
+{{Main|Work (physics)|Energy}}
+The [[work–energy theorem]] states that the net work done on a particle equals the change in its kinetic energy:
+:<math>W_{\text{net}} = \Delta K</math>
+
+For [[conservative force]]s, the work done is independent of the path and depends only on the endpoints. A conservative force can be derived from a [[scalar potential]]: <math>\mathbf{F} = -\nabla U</math>. Examples include [[gravity]], [[elastic force]], and [[electrostatic force]].
+
+== Analytical mechanics ==
+{{Main|Analytical mechanics}}
+
+=== Lagrangian mechanics ===
+{{Main|Lagrangian mechanics}}
+Lagrangian mechanics uses [[generalized coordinates]] (<math>q_i</math>) to describe a system. The [[Lagrangian mechanics|Lagrangian]] <math>L</math> is defined as the difference between kinetic energy <math>T</math> and potential energy <math>V</math>:
+:<math>L = T - V</math>
+
+The equations of motion are derived from the [[principle of least action]]:
+:<math>\frac{d}{dt}\frac{\partial L}{\partial \dot{q}_i} - \frac{\partial L}{\partial q_i} = 0</math>
+
+These are the [[Euler–Lagrange equation]]s.
+
+=== Hamiltonian mechanics ===
+{{Main|Hamiltonian mechanics}}
+Hamiltonian mechanics reformulates mechanics using the [[Hamiltonian mechanics|Hamiltonian]] <math>H</math>, which represents the total energy of the system:
+:<math>H(q,p,t) = \sum_i p_i \dot{q}_i - L</math>
+
+[[Hamilton's equations]] are:
+:<math>\dot{q}_i = \frac{\partial H}{\partial p_i}, \quad \dot{p}_i = -\frac{\partial H}{\partial q_i}</math>
+
+The Hamiltonian formulation provides a geometric interpretation of mechanics in [[phase space]] and serves as the foundation for [[quantum mechanics]].
+
+== Specialized branches ==
+
+=== Celestial mechanics ===
+{{Main|Celestial mechanics}}
+Celestial mechanics studies the motion of celestial bodies under the influence of [[gravity]]. [[Kepler's laws of planetary motion]] describe elliptical orbits, and the [[two-body problem]] can be solved exactly. The [[three-body problem]] and [[n-body problem|''n''-body problem]] generally require numerical methods.
+
+=== Continuum mechanics ===
+{{Main|Continuum mechanics}}
+Continuum mechanics deals with the mechanical behavior of materials modeled as continuous mass rather than discrete particles. It includes:
+* '''[[Solid mechanics]]''' — study of the deformation and motion of solid materials
+* '''[[Fluid mechanics]]''' — study of fluids (liquids and gases)
+* '''[[Elasticity (physics)|Elasticity theory]]''' — study of materials that return to their original shape
+* '''[[Plasticity (physics)|Plasticity theory]]''' — study of permanent deformation
+
+=== Statistical mechanics ===
+{{Main|Statistical mechanics}}
+Statistical mechanics connects the microscopic properties of individual atoms and molecules to the macroscopic bulk properties of materials. It provides a statistical interpretation of [[thermodynamics]], relating quantities such as [[temperature]], [[pressure]], and [[entropy]] to the probabilistic behavior of large ensembles of particles.
+
+=== Chaos theory ===
+{{Main|Chaos theory}}
+Chaos theory studies the behavior of [[dynamical system]]s that are highly sensitive to initial conditions — an effect popularly known as the "[[butterfly effect]]". Even in classical deterministic systems, long-term prediction becomes impossible due to [[exponential growth]] of perturbations.
+
+== Relation to other theories ==
+
+=== Special relativity ===
+{{Main|Special relativity}}
+Classical mechanics breaks down at speeds approaching the [[speed of light]] (<math>c \approx 3 \times 10^8</math> m/s). [[Special relativity]] provides an accurate description for all speeds, reducing to Newtonian mechanics in the limit <math>v \ll c</math>. Corrections include [[relativistic momentum]] and [[relativistic energy]]:
+:<math>\mathbf{p} = \gamma m\mathbf{v}, \quad E = \gamma mc^2</math>
+where <math>\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}</math> is the [[Lorentz factor]].
+
+=== General relativity ===
+{{Main|General relativity}}
+[[General relativity]], developed by [[Albert Einstein]], is a theory of [[gravitation]] that supersedes Newton's law of universal gravitation. It describes gravity not as a force but as a consequence of the [[curvature of spacetime]] caused by [[mass–energy equivalence|mass and energy]]. It reduces to Newtonian gravity in the weak-field, low-velocity limit.
+
+=== Quantum mechanics ===
+{{Main|Quantum mechanics}}
+At the scale of atoms and subatomic particles, classical mechanics fails and must be replaced by [[quantum mechanics]]. The transition between the two is governed by the [[correspondence principle]], which states that quantum systems behave classically in the limit of large quantum numbers. Mathematically, this is expressed through the [[Ehrenfest theorem]].
+
+== Applications ==
+Classical mechanics is essential in many fields of science and engineering:
+* [[Astronomy]] and [[astrophysics]] — orbital mechanics, galaxy dynamics
+* [[Engineering]] — structural analysis, [[robotics]], [[fluid dynamics]]
+* [[Biomechanics]] — motion of organisms, prosthetic design
+* [[Geophysics]] — plate tectonics, seismology
+* [[Sports science]] — projectile motion, impact analysis
+
+== See also ==
+{{Portal|Physics}}
+* [[Analytical mechanics]]
+* [[Dynamics (mechanics)]]
+* [[Kinematics]]
+* [[Mechanics]]
+* [[Timeline of classical mechanics]]
+
+== Notes ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Richard Feynman|Feynman, R.]], [[Robert B. Leighton|Leighton, R.]], [[Matthew Sands|Sands, M.]] (1963). ''[[The Feynman Lectures on Physics]]'', Vol. 1. Addison-Wesley.
+* [[Herbert Goldstein|Goldstein, H.]] (1980). ''Classical Mechanics'' (2nd ed.). Addison-Wesley.
+* [[Lev Landau|Landau, L. D.]], Lifshitz, E. M. (1976). ''Mechanics'' (3rd ed.). Butterworth-Heinemann.
+* [[Dmitri Kleiner|Kleppner, D.]], Kolenkow, R. (1973). ''An Introduction to Mechanics''. McGraw-Hill.
+
+== External links ==
+* [https://feynmanlectures.caltech.edu/ The Feynman Lectures on Physics]
+* [https://phys.libretexts.org/Bookshelves/Classical_Mechanics Physics LibreTexts: Classical Mechanics]
+
+[[Category:Classical mechanics| ]]
+[[Category:Physics]]
+[[Category:Mechanics]]
+[[Category:History of physics]]

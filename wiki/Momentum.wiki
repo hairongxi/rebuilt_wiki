@@ -1,0 +1,92 @@
+{{Short description|Product of the mass and velocity of an object}}
+{{Infobox physical quantity
+| name = Momentum
+| image = Billiard balls.jpg
+| caption = Momentum transfer in billiard ball collisions
+| symbols = <math>\mathbf{p}</math>
+| SI_unit = kg·m/s
+| conserved = Yes (in isolated systems)
+}}
+
+In [[classical mechanics]], '''momentum''' ('''linear momentum''', '''translational momentum''', or simply '''momentum''') is the product of the [[mass]] and [[velocity]] of an object:
+:<math>\mathbf{p} = m\mathbf{v}</math>
+
+Like velocity, momentum is a [[vector (physics)|vector]] quantity, possessing both magnitude and direction. The [[International System of Units|SI]] unit of momentum is the [[kilogram]] meter per second (kg·m/s).
+
+Momentum is a [[conservation law|conserved]] quantity: the total momentum of an [[isolated system]] (one not subject to external forces) is constant. This principle is one of the most fundamental in physics.
+
+== Newton's second law in momentum form ==
+[[Isaac Newton]] originally stated his [[Newton's laws of motion#Newton's second law|second law]] in terms of momentum:
+:<math>\mathbf{F} = \frac{d\mathbf{p}}{dt}</math>
+
+The [[net force]] equals the rate of change of momentum. For constant mass:
+:<math>\mathbf{F} = \frac{d}{dt}(m\mathbf{v}) = m\frac{d\mathbf{v}}{dt} = m\mathbf{a}</math>
+
+== Conservation of momentum ==
+{{Main|Conservation of momentum}}
+In a [[closed system]] (no external forces), the total momentum is conserved:
+:<math>\sum \mathbf{p}_i = \text{constant}</math>
+
+Equivalently, the total momentum before an interaction equals the total momentum after:
+:<math>\sum \mathbf{p}_{\text{before}} = \sum \mathbf{p}_{\text{after}}</math>
+
+Conservation of momentum follows from [[Noether's theorem]]: it is a consequence of the [[translational symmetry]] of space.
+
+== Impulse–momentum theorem ==
+{{Main|Impulse (physics)}}
+The [[Impulse (physics)|impulse]] <math>\mathbf{J}</math> equals the change in momentum:
+:<math>\mathbf{J} = \int_{t_1}^{t_2} \mathbf{F}\, dt = \Delta\mathbf{p} = \mathbf{p}_2 - \mathbf{p}_1</math>
+
+This explains why a force applied over a longer time produces a greater change in momentum, forming the principle behind [[airbag]]s and [[crumple zone]]s.
+
+== Collisions ==
+
+=== Elastic collisions ===
+In an [[elastic collision]], both momentum and [[kinetic energy]] are conserved. For two bodies:
+:<math>m_1 v_{1i} + m_2 v_{2i} = m_1 v_{1f} + m_2 v_{2f}</math>
+:<math>\frac{1}{2}m_1 v_{1i}^2 + \frac{1}{2}m_2 v_{2i}^2 = \frac{1}{2}m_1 v_{1f}^2 + \frac{1}{2}m_2 v_{2f}^2</math>
+
+=== Inelastic collisions ===
+In an [[inelastic collision]], kinetic energy is not conserved, but momentum is. In a [[completely inelastic collision]], the objects stick together after impact.
+
+=== Coefficient of restitution ===
+The [[coefficient of restitution]] <math>e</math> quantifies the elasticity of a collision:
+:<math>e = \frac{v_{2f} - v_{1f}}{v_{1i} - v_{2i}}</math>
+where <math>e = 1</math> for perfectly elastic collisions and <math>e = 0</math> for perfectly inelastic collisions.
+
+== Center of mass and momentum ==
+The total momentum of a system equals the momentum of its [[center of mass]]:
+:<math>\mathbf{P}_{\text{total}} = M\mathbf{v}_{\text{cm}}</math>
+where <math>M = \sum m_i</math> is the total mass.
+
+== Angular momentum ==
+{{Main|Angular momentum}}
+[[Angular momentum]] <math>\mathbf{L}</math> is the rotational analog of linear momentum:
+:<math>\mathbf{L} = \mathbf{r} \times \mathbf{p}</math>
+
+== Relativistic momentum ==
+{{Main|Special relativity}}
+At speeds approaching the [[speed of light]], the classical formula is modified:
+:<math>\mathbf{p} = \gamma m\mathbf{v}</math>
+where <math>\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}</math> is the [[Lorentz factor]].
+
+== Momentum in quantum mechanics ==
+In [[quantum mechanics]], momentum is represented by the operator:
+:<math>\hat{\mathbf{p}} = -i\hbar\nabla</math>
+
+The [[de Broglie wavelength]] relates momentum to wavelength:
+:<math>\lambda = \frac{h}{p}</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Impulse (physics)]]
+* [[Angular momentum]]
+* [[Conservation law]]
+* [[Newton's laws of motion]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Momentum| ]]
+[[Category:Classical mechanics]]
+[[Category:Conservation laws]]

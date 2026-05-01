@@ -1,0 +1,63 @@
+{{Short description|Core of an atom, composed of protons and neutrons}}
+{{Infobox physics
+| name = Atomic nucleus
+| image = Nucleus drawing.svg
+| caption = A model of an [[atom]] showing the nucleus (red) surrounded by [[electron]] clouds.
+| topics = [[Nuclear physics]], [[Proton]], [[Neutron]], [[Strong interaction]], [[Binding energy]]
+| composition = [[Proton]]s and [[neutron]]s
+| radius = ~1–10 fm (femtometres)
+}}
+
+The '''atomic nucleus''' is the small, dense region at the centre of an [[atom]], consisting of [[proton]]s and [[neutron]]s, collectively called [[nucleon]]s. It was discovered in 1911 by [[Ernest Rutherford]] based on the [[Geiger–Marsden experiment]], also known as the [[Rutherford scattering|gold foil experiment]].
+
+The nucleus contains nearly all of the [[mass]] of an atom, despite occupying only a tiny fraction of its volume. Nuclear diameters are on the order of 1–10 [[femtometre]]s (1 fm = 10⁻¹⁵ m), whereas atomic diameters are on the order of 10⁻¹⁰ m.
+
+== Composition ==
+The number of protons in the nucleus, called the [[atomic number]] <math>Z</math>, determines the [[chemical element]]. The total number of nucleons, the [[mass number]] <math>A</math>, determines the [[isotope]]:
+:<math>A = Z + N</math>
+where <math>N</math> is the number of neutrons.
+
+[[Isotope]]s of an element have the same <math>Z</math> but different <math>N</math>.
+
+== Nuclear forces ==
+{{Main|Nuclear force}}
+The nucleus is held together by the [[strong interaction]], also called the [[nuclear force]], which binds nucleons together at distances of ~1 fm. This force overcomes the [[electric field|electrostatic repulsion]] between positively charged protons.
+
+=== Binding energy ===
+The [[binding energy]] of a nucleus is the energy required to separate it into its constituent protons and neutrons. According to [[mass–energy equivalence]]:
+:<math>E_B = \left[Zm_p + Nm_n - m_{\text{nucleus}}\right]c^2</math>
+
+The [[binding energy per nucleon]] peaks around [[iron-56]], making it the most stable nucleus.
+
+== Nuclear models ==
+
+=== Liquid drop model ===
+The [[semi-empirical mass formula]] treats the nucleus as an incompressible liquid drop and accurately predicts binding energies.
+
+=== Shell model ===
+The [[nuclear shell model]] describes nucleons as occupying discrete energy levels, analogous to [[electron shell]]s in [[atomic physics]]. Nuclei with filled shells ("magic numbers": 2, 8, 20, 28, 50, 82, 126) are particularly stable.
+
+== Nuclear reactions ==
+* [[Nuclear fission]] — splitting of a heavy nucleus into lighter nuclei, releasing energy
+* [[Nuclear fusion]] — combining light nuclei into heavier nuclei, releasing tremendous energy (powers [[star]]s)
+* [[Radioactive decay]] — spontaneous emission of particles or radiation: [[alpha decay]], [[beta decay]], [[gamma decay]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Atom]]
+* [[Binding energy]]
+* [[Electron]]
+* [[Neutron]]
+* [[Nuclear fission]]
+* [[Nuclear fusion]]
+* [[Nuclear physics]]
+* [[Proton]]
+* [[Radioactive decay]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Atomic nucleus| ]]
+[[Category:Nuclear physics]]
+[[Category:Atomic physics]]
+[[Category:Subatomic particles]]

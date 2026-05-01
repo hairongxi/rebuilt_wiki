@@ -1,0 +1,57 @@
+{{Short description|Experimental gas law relating pressure and volume at constant temperature}}
+{{Infobox physics
+| name = Boyle's law
+| image = Boyles Law.svg
+| caption = A graph of pressure vs. volume showing the inverse relationship: <math>P \propto 1/V</math>.
+| topics = [[Ideal gas law]], [[Thermodynamics]], [[Kinetic theory of gases]], [[Laws of thermodynamics]]
+| formula = <math>PV = \text{constant}</math> (at constant T, n)
+}}
+
+'''Boyle's law''' (also called '''Mariotte's law''' or the '''Boyle–Mariotte law''') is an [[experimental gas law]] that describes how the [[pressure]] of a [[gas]] tends to decrease as the [[volume]] of the container increases. Formulated by [[Robert Boyle]] in 1662, it states that:
+
+The absolute pressure exerted by a given mass of an [[ideal gas]] is inversely proportional to the volume it occupies, if the [[temperature]] and amount of gas remain unchanged.
+
+:<math>P \propto \frac{1}{V}</math>
+:<math>PV = k</math>
+
+where <math>P</math> is the pressure, <math>V</math> is the volume, and <math>k</math> is a constant for a given mass of gas at constant temperature.
+
+== Derivation from kinetic theory ==
+{{Main|Kinetic theory of gases}}
+From the kinetic theory, the pressure of an ideal gas is:
+:<math>P = \frac{Nm\langle v^2 \rangle}{3V}</math>
+
+At constant temperature, the average kinetic energy (and thus <math>\langle v^2 \rangle</math>) is constant, so <math>PV</math> is constant.
+
+== Relation to ideal gas law ==
+{{Main|Ideal gas law}}
+Boyle's law is a special case of the [[ideal gas law]] when <math>n</math> (number of moles) and <math>T</math> (temperature) are held constant:
+:<math>PV = nRT</math>
+
+== Historical experiment ==
+Boyle used a J-shaped glass tube partially filled with mercury to trap a fixed quantity of air. By adding more mercury, he increased the pressure on the trapped air and observed that the volume decreased proportionally.
+
+== Combined gas laws ==
+Along with [[Charles's law]] and [[Gay-Lussac's law]], Boyle's law forms the [[combined gas law]]:
+:<math>\frac{P_1 V_1}{T_1} = \frac{P_2 V_2}{T_2}</math>
+
+== Applications ==
+* Breathing — [[diaphragm (anatomy)|diaphragm]] movement changes thoracic volume, altering lung pressure
+* [[Scuba diving]] — gas expands as divers ascend (lower pressure)
+* [[Syringe]]s — pulling the plunger reduces pressure, drawing fluid in
+* [[Internal combustion engine]] — compression strokes
+
+== See also ==
+{{Portal|Physics}}
+* [[Charles's law]]
+* [[Gay-Lussac's law]]
+* [[Ideal gas law]]
+* [[Kinetic theory of gases]]
+* [[Thermodynamics]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Gas laws]]
+[[Category:Thermodynamics]]
+[[Category:Scientific laws]]

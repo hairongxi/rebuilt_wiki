@@ -1,0 +1,67 @@
+{{Short description="Empirical law: energy cannot be created or destroyed, only transformed"}}
+{{Infobox physical law
+| name = Conservation of energy
+| image = Physicsworks.jpg
+| caption = Energy transformation: potential energy converts to kinetic energy and back, but total energy remains constant in the absence of non-conservative forces.
+| formula = <math>\Delta E_{\text{total}} = 0</math> for an isolated system
+| discovered_by = [[James Prescott Joule|Joule]], [[Hermann von Helmholtz|Helmholtz]], [[Lord Kelvin|Kelvin]] et al. (1840s)
+}}
+
+The '''conservation of energy''' is a fundamental law of [[physics]] stating that the total [[energy]] of an [[isolated system]] remains constant — it is said to be ''conserved'' over time. Energy can be neither [[creatio ex nihilo|created nor destroyed]]; rather, it can only be transformed or transferred from one form to another.
+
+This principle is equivalent to the [[first law of thermodynamics]].
+
+== Statement ==
+For an isolated system, the total energy is constant:
+:<math>\Delta E_{\text{total}} = 0</math>
+
+For a system interacting with its environment:
+:<math>\Delta E_{\text{system}} + \Delta E_{\text{surroundings}} = 0</math>
+
+== Historical development ==
+The conservation of energy emerged from experiments in the 1840s:
+* [[James Prescott Joule]] demonstrated the [[mechanical equivalent of heat]] (1843)
+* [[Julius Robert von Mayer]] proposed the concept of energy conservation (1842)
+* [[Hermann von Helmholtz]] formalized the principle in ''Über die Erhaltung der Kraft'' (1847)
+
+== Mechanical energy conservation ==
+{{Main|Conservative force}}
+In a system with only [[conservative force]]s, the total [[mechanical energy]] is conserved:
+:<math>E = K + U = \text{constant}</math>
+where <math>K</math> is [[kinetic energy]] and <math>U</math> is [[potential energy]].
+
+When non-conservative forces (friction, drag) are present:
+:<math>W_{\text{nc}} = \Delta K + \Delta U</math>
+
+== Noether's theorem connection ==
+{{Main|Noether's theorem}}
+Energy conservation is a consequence of [[time translation symmetry]]: the laws of physics do not change with time.
+
+== Relativistic energy conservation ==
+In [[special relativity]], the conserved quantity is the total relativistic energy:
+:<math>E = \gamma mc^2</math>
+
+[[Mass–energy equivalence]] (<math>E = mc^2</math>) means mass and energy are interconvertible. In [[nuclear reaction]]s, the mass defect appears as kinetic energy.
+
+== Quantum mechanical energy conservation ==
+In [[quantum mechanics]], energy is conserved in the sense that the [[expectation value (quantum mechanics)|expectation value]] of the [[Hamiltonian (quantum mechanics)|Hamiltonian]] is constant for time-independent systems. The [[energy–time uncertainty principle]] allows temporary violations at short timescales.
+
+== Experimental verification ==
+Energy conservation has been verified to extraordinary precision:
+* No confirmed experiment has ever violated it
+* Apparent violations (e.g., [[beta decay|beta decay spectra]]) led to the prediction and discovery of the [[neutrino]] ([[Wolfgang Pauli]], 1930)
+* Laboratoire Souterrain de Modane tests confirm conservation at the <math>10^{-14}</math> level
+
+== See also ==
+{{Portal|Physics}}
+* [[First law of thermodynamics]]
+* [[Noether's theorem]]
+* [[Work–energy theorem]]
+* [[Mass–energy equivalence]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Conservation of energy| ]]
+[[Category:Energy]]
+[[Category:Conservation laws]]

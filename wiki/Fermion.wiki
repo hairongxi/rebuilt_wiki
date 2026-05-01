@@ -1,0 +1,58 @@
+{{Short description|Particle with half-integer spin obeying the Pauli exclusion principle}}
+{{Infobox physics
+| name = Fermion
+| image = 
+| caption = 
+| topics = [[Quantum mechanics]], [[Spin (physics)]], [[Pauli exclusion principle]], [[Identical particles]], [[Fermi–Dirac statistics]]
+| examples = [[Electron]], [[Proton]], [[Neutron]], [[Quark]], [[Neutrino]]
+}}
+
+In [[particle physics]], a '''fermion''' is a [[subatomic particle]] that follows [[Fermi–Dirac statistics]] and has half-integer [[spin (physics)|spin]] (<math>1/2, 3/2, 5/2, \ldots</math>). Fermions are named after [[Enrico Fermi]]. They obey the [[Pauli exclusion principle]]: no two identical fermions can occupy the same [[quantum state]] simultaneously.
+
+== Classification ==
+Fermions fall into two categories:
+
+=== Elementary fermions ===
+In the [[Standard Model]], elementary fermions are the fundamental building blocks of matter:
+* '''[[Quark]]s''' — six flavours: up, down, charm, strange, top, bottom
+* '''[[Lepton]]s''' — electron, muon, tauon, and their associated [[neutrino]]s
+
+=== Composite fermions ===
+* '''[[Baryon]]s''' — three quarks bound together: [[proton]]s, [[neutron]]s
+* Some [[atom]]s, when their total spin is half-integer (e.g., [[helium-3]], <math>^3\text{He}</math>)
+
+== Properties ==
+* Half-integer [[spin (physics)|spin]]
+* Antisymmetric [[wave function]] under particle exchange
+* Obey [[Fermi–Dirac statistics]]
+* Subject to the [[Pauli exclusion principle]]
+* At low temperatures, form [[degenerate matter]]: the [[Fermi gas]]
+
+== Fermi–Dirac statistics ==
+{{Main|Fermi–Dirac statistics}}
+The average occupancy of a single-particle state with energy <math>E</math> is:
+:<math>\langle n \rangle = \frac{1}{e^{(E - \mu)/k_B T} + 1}</math>
+
+where <math>\mu</math> is the [[chemical potential]] ([[Fermi energy]] at <math>T = 0</math>).
+
+== Degeneracy pressure ==
+The Pauli exclusion principle gives rise to [[degeneracy pressure]], which supports:
+* [[White dwarf]]s — [[electron degeneracy pressure]]
+* [[Neutron star]]s — neutron degeneracy pressure
+* [[Electron]]s in [[atom]]s — preventing collapse of atoms
+
+== See also ==
+{{Portal|Physics}}
+* [[Boson]]
+* [[Fermi–Dirac statistics]]
+* [[Identical particles]]
+* [[Pauli exclusion principle]]
+* [[Spin (physics)]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Fermions| ]]
+[[Category:Quantum field theory]]
+[[Category:Particle physics]]
+[[Category:Statistical mechanics]]

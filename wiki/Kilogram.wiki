@@ -1,0 +1,60 @@
+{{Short description="SI base unit of mass}}
+{{Infobox physics
+| name = Kilogram
+| image = Prototype kilogram replica.JPG
+| caption = Replica of the [[International Prototype of the Kilogram]] (IPK), the former definition of the kilogram.
+| topics = [[Mass]], [[International System of Units]], [[Planck constant]]
+| unit_system = [[SI base unit]]
+| unit_of = [[Mass]]
+| symbol = kg
+}}
+
+The '''kilogram''' (symbol: '''kg''') is the [[SI base unit]] of [[mass]]. It is widely used in science, engineering, and commerce worldwide. The kilogram is defined by taking the fixed numerical value of the [[Planck constant]] <math>h</math> as 6.62607015×10⁻³⁴ when expressed in the unit J·s (= kg·m²·s⁻¹).
+
+== Definition ==
+Since 20 May 2019, the kilogram is defined via the [[Planck constant]]:
+
+:<math>1\ \text{kg} = \frac{h}{6.62607015 \times 10^{-34}\ \text{m}^2 \cdot \text{s}^{-1}}</math>
+
+This replaced the [[International Prototype of the Kilogram]] (IPK), a platinum–iridium cylinder stored in [[Sèvres]], France, which had been the standard since 1889.
+
+== Historical definitions ==
+* 1795 — defined as the mass of one litre of water at the melting point of ice (the "grave")
+* 1799 — the ''Kilogramme des Archives'', a platinum prototype
+* 1889 — the IPK adopted by the [[General Conference on Weights and Measures|CGPM]]
+* 2019 — redefined in terms of the Planck constant
+
+== Multiples and conversions ==
+{| class="wikitable"
+|-
+! Submultiples !! Multiples
+|-
+| milligram (mg) = 10⁻⁶ kg || megagram (Mg) = 10³ kg = 1 [[tonne]]
+|-
+| microgram (μg) = 10⁻⁹ kg || gigagram (Gg) = 10⁶ kg
+|}
+
+* 1 kg ≈ 2.20462 [[pound (mass)|pounds]]
+* 1 kg = 1000 [[gram]]s
+
+== Significance in physics ==
+The kilogram appears in many fundamental equations:
+* [[Newton's second law]]: <math>F = ma</math> → kg·m/s² = N
+* [[Kinetic energy]]: <math>E_k = \frac{1}{2}mv^2</math> → kg·m²/s² = J
+* [[Momentum]]: <math>p = mv</math> → kg·m/s
+* [[Newton's law of universal gravitation]]: <math>F = Gm_1m_2/r^2</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Gram]]
+* [[International System of Units]]
+* [[Mass]]
+* [[Newton (unit)]]
+* [[Planck constant]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Kilogram| ]]
+[[Category:SI base units]]
+[[Category:Units of mass]]

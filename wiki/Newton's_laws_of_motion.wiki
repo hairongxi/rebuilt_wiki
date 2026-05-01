@@ -1,0 +1,81 @@
+{{Short description|Physical laws describing the relationship between a body and forces}}
+{{Infobox physics
+| name = Newton's laws of motion
+| image = Newtons laws in latin.jpg
+| caption = Newton's First and Second Laws, in Latin, from the original 1687 ''Principia''
+| topics = [[Inertia]], [[Force]], [[Momentum]], [[Action and reaction]]
+}}
+
+'''Newton's laws of motion''' are three physical laws that, together, laid the foundation for [[classical mechanics]]. They describe the relationship between a body and the [[force]]s acting upon it, and the body's [[motion]] in response to those forces. First published by [[Isaac Newton]] in his ''[[Philosophiæ Naturalis Principia Mathematica]]'' (1687), these laws have been expressed in many forms over the centuries.
+
+== First law (Law of inertia) ==
+{{Main|Inertia}}
+:''Every object perseveres in its state of rest, or of uniform motion in a right line, unless it is compelled to change that state by forces impressed thereon.'' (Newton's original Latin)
+
+In modern terms:
+:<math>\sum \mathbf{F} = 0 \;\Rightarrow\; \frac{d\mathbf{v}}{dt} = 0</math>
+
+A body remains at rest or in uniform motion (constant velocity) unless acted upon by a net external force. This law defines [[inertial reference frame]]s: frames in which the first law holds.
+
+== Second law ==
+The net force on a body equals the rate of change of its [[momentum]]:
+:<math>\mathbf{F} = \frac{d\mathbf{p}}{dt}</math>
+
+For constant mass:
+:<math>\mathbf{F} = m\mathbf{a} = m\frac{d\mathbf{v}}{dt} = m\frac{d^2\mathbf{r}}{dt^2}</math>
+
+This is the quantitative statement linking force to acceleration. The SI unit of force, the [[newton (unit)|newton]], is defined from this law.
+
+Key properties:
+* Force and acceleration are in the same direction
+* The relationship is [[linear]] (<math>F \propto a</math>)
+* The law applies to the [[net force]] (vector sum of all forces)
+
+== Third law (Action and reaction) ==
+:''To every action there is always opposed an equal reaction: or the mutual actions of two bodies upon each other are always equal, and directed to contrary parts.''
+
+:<math>\mathbf{F}_{A \to B} = -\mathbf{F}_{B \to A}</math>
+
+If body A exerts a force on body B, then body B simultaneously exerts a force on body A of equal magnitude and opposite direction.
+
+Important implications:
+* Forces always come in pairs
+* The action and reaction forces act on '''different bodies''' — thus they do not cancel
+* Applies to all types of forces (gravitational, electromagnetic, contact)
+
+== Applications ==
+
+=== Block on an inclined plane ===
+For a block of mass <math>m</math> on a frictionless incline at angle <math>\theta</math>:
+* Normal force: <math>N = mg\cos\theta</math>
+* Acceleration down the incline: <math>a = g\sin\theta</math>
+
+=== Atwood machine ===
+{{Main|Atwood machine}}
+For two masses connected by a massless string over a frictionless pulley:
+:<math>a = \frac{m_2 - m_1}{m_1 + m_2}g</math>
+:<math>T = \frac{2m_1 m_2}{m_1 + m_2}g</math>
+
+=== Uniform circular motion ===
+For an object moving at speed <math>v</math> in a circle of radius <math>r</math>:
+:<math>a_c = \frac{v^2}{r}, \quad F_c = \frac{mv^2}{r}</math>
+
+== Limitations ==
+Newton's laws are excellent approximations for macroscopic objects at non-relativistic speeds. They break down:
+* At speeds near <math>c</math> — replaced by [[special relativity]]
+* At atomic scales — replaced by [[quantum mechanics]]
+* In strong gravitational fields — replaced by [[general relativity]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Classical mechanics]]
+* [[Momentum]]
+* [[Force]]
+* [[Inertia]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Newton's laws of motion| ]]
+[[Category:Classical mechanics]]
+[[Category:Isaac Newton]]

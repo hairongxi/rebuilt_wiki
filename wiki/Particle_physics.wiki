@@ -1,0 +1,59 @@
+{{Short description="Branch of physics studying the nature and interactions of subatomic particles}}
+{{Infobox physics
+| name = Particle physics
+| image = CMS Higgs-event.jpg
+| caption = A [[Higgs boson]] candidate event at the [[CMS experiment]], [[Large Hadron Collider]].
+| topics = [[Elementary particle]], [[Standard Model]], [[Quantum field theory]], [[Quark]], [[Lepton]]
+}}
+
+'''Particle physics''' (also known as '''high-energy physics''') is the branch of [[physics]] that studies the nature of the particles that constitute [[matter]] and [[radiation]]. It investigates the smallest detectable particles and the [[fundamental interaction]]s necessary to explain their behaviour.
+
+== Scope ==
+Particle physics studies:
+* [[Elementary particle]]s — particles with no known substructure ([[quark]]s, [[lepton]]s, [[boson]]s)
+* [[Composite particle]]s — bound states ([[hadron]]s: [[proton]], [[neutron]], [[meson]]s)
+* [[Fundamental interaction]]s — [[strong interaction|strong]], [[electromagnetic]], [[weak interaction|weak]], and [[gravity|gravitational]]
+* Symmetries and conservation laws
+* The properties of the [[vacuum]] and the early [[universe]]
+
+== Experimental methods ==
+=== Particle accelerators ===
+High-energy particles are collided to produce new particles:
+* [[Large Hadron Collider]] (LHC) at [[CERN]] — 27 km circumference, √s = 13.6 TeV
+* [[Tevatron]] (Fermilab) — discovered the [[top quark]] (1995)
+
+=== Detectors ===
+Particles are identified and measured by their interactions with detector materials:
+* Tracking detectors — measure trajectory and momentum
+* [[Calorimeter]]s — measure energy
+* [[Cherenkov detector]]s — particle identification
+
+=== Cosmic rays ===
+Naturally occurring high-energy particles from space provide a complementary probe. The [[Oh-My-God particle]] had an energy of ~3×10²⁰ eV.
+
+== The Standard Model ==
+{{Main|Standard Model}}
+The Standard Model is the current theoretical framework, describing 17 known elementary particles. It has been extraordinarily successful but is known to be incomplete.
+
+== Open questions ==
+* Nature of [[dark matter]]
+* Origin of [[neutrino]] masses
+* [[Matter–antimatter asymmetry]]
+* Unification with [[gravity]] ([[quantum gravity]])
+* Why three generations of particles?
+* [[Hierarchy problem]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Elementary particle]]
+* [[Fundamental interaction]]
+* [[Lepton]]
+* [[Quark]]
+* [[Standard Model]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Particle physics| ]]
+[[Category:Nuclear physics]]
+[[Category:Quantum field theory]]

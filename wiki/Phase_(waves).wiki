@@ -1,0 +1,50 @@
+{{Short description|Position within a wave cycle; measures the offset of a wave relative to a reference point}}
+{{Infobox physics
+| name = Phase (waves)
+| image = Phase shift.svg
+| caption = Two sinusoids with a phase difference <math>\Delta\phi</math>.
+| topics = [[Wave]], [[Interference (wave propagation)]], [[Oscillation]]
+| symbol = φ
+| SI_unit = [[radian]] or [[degree (angle)|degree]]
+}}
+
+In [[physics]], the '''phase''' of a [[wave]] or [[oscillation]] specifies the location of a point within the wave cycle at a given time. For a [[sinusoidal]] wave, phase is the argument of the sine (or cosine) function:
+
+:<math>y(t) = A\sin(\omega t + \phi_0)</math>
+
+where:
+* <math>\omega t + \phi_0</math> is the total phase
+* <math>\phi_0</math> is the initial phase (phase constant)
+* <math>A</math> is the [[amplitude]]
+
+== Phase difference ==
+The [[phase shift]] (phase difference) <math>\Delta\phi</math> between two waves determines how they [[interference (wave propagation)|interfere]]:
+* <math>\Delta\phi = 0, 2\pi, 4\pi, \ldots</math> — constructive interference (in phase)
+* <math>\Delta\phi = \pi, 3\pi, \ldots</math> — destructive interference (out of phase)
+* Other values — partial interference
+
+== Wave equation ==
+For a travelling wave: <math>y(x,t) = A\sin(kx - \omega t + \phi_0)</math>, the phase is <math>kx - \omega t + \phi_0</math>. Points of constant phase travel at the [[phase velocity]]:
+:<math>v_p = \frac{\omega}{k}</math>
+
+== Phase in quantum mechanics ==
+In [[quantum mechanics]], the overall phase of a [[wave function]] is not physically observable, but [[relative phase]] differences between states give rise to [[quantum interference]] and [[quantum superposition]].
+
+== Applications ==
+* [[Interferometry]] — measuring tiny displacements via phase comparison
+* [[Phased array]] radar/antenna — beam steering via controlled phase shifts
+* [[Phase modulation]] — encoding information in phase changes
+* [[Holography]] — recording phase information
+* [[AC power]] — [[phase angle]] between voltage and current
+
+== See also ==
+{{Portal|Physics}}
+* [[Interference (wave propagation)]]
+* [[Oscillation]]
+* [[Wave]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Wave mechanics]]
+[[Category:Concepts in physics]]

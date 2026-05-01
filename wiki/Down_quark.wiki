@@ -1,0 +1,69 @@
+{{Short description="Second-lightest quark flavour; constituent of protons and neutrons}}
+{{Infobox physics
+| name = Down quark
+| image = 
+| caption = 
+| topics = [[Quark]], [[Elementary particle]], [[Proton]], [[Neutron]], [[Standard Model]]
+| composition = [[Elementary particle]]
+| statistics = [[Fermion]]
+| symbol = d
+| generation = First
+| charge = −1/3 e
+| mass = 4.7 ± 0.5 MeV/c²
+| spin = 1/2
+}}
+
+The '''down quark''' (symbol: <math>d</math>) is a first-generation [[quark]] with [[electric charge]] −1/3 e. It is the second-lightest quark after the [[up quark]] and a fundamental constituent of ordinary [[matter]].
+
+== Role in matter ==
+Along with the up quark, the down quark forms the stable matter of the [[universe]]:
+
+* [[Proton]] (<math>uud</math>): one down quark
+* [[Neutron]] (<math>udd</math>): two down quarks
+
+The stability of the proton (and thus all atoms) depends on the fact that the proton is the lightest [[baryon]] — free protons cannot decay into lighter particles because [[baryon number]] is conserved.
+
+== Properties ==
+{| class="wikitable"
+|-
+! Property !! Value
+|-
+| Mass || 4.7 ± 0.5 MeV/c²
+|-
+| Charge || −1/3 e
+|-
+| [[Spin (physics)|Spin]] || 1/2
+|-
+| [[Isospin]] (<math>I_3</math>) || −1/2
+|-
+| [[Colour charge]] || Red, green, or blue
+|}
+
+== Weak decay ==
+The down quark is slightly heavier than the up quark, enabling [[beta decay]]:
+
+:<math>d \rightarrow u + e^- + \bar{\nu}_e</math> (β⁻ decay)
+
+This is the fundamental process underlying the decay of the free [[neutron]]:
+:<math>udd \rightarrow uud + e^- + \bar{\nu}_e</math>
+
+In a bound neutron (within a nucleus), this process may be energetically forbidden, stabilising nuclei.
+
+== CKM matrix ==
+The down quark mixes with [[strange quark|strange]] and [[bottom quark]]s through the [[Cabibbo–Kobayashi–Maskawa matrix]] (CKM matrix). The <math>d \leftrightarrow u</math> transition has probability <math>|V_{ud}|^2 \approx 0.949</math>.
+
+== See also ==
+{{Portal|Physics}}
+* [[Beta decay]]
+* [[Elementary particle]]
+* [[Neutron]]
+* [[Proton]]
+* [[Quark]]
+* [[Up quark]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Quarks]]
+[[Category:Elementary particles]]
+[[Category:Particle physics]]

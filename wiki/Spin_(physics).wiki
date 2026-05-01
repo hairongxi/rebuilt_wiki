@@ -1,0 +1,77 @@
+{{Short description="Intrinsic form of angular momentum carried by elementary particles"}}
+{{Infobox physical quantity
+| name = Spin
+| image = Spin half.svg
+| caption = A spin-1/2 particle visualized: the spin angular momentum can point "up" or "down" along any measurement axis.
+| symbols = <math>\mathbf{S}</math>
+| SI_unit = J·s (same as angular momentum)
+}}
+
+'''Spin''' is an intrinsic form of [[angular momentum]] carried by [[elementary particle]]s, composite particles ([[hadron]]s), and [[atomic nucleus|atomic nuclei]]. Spin is one of two types of angular momentum in [[quantum mechanics]], the other being [[angular momentum operator|orbital angular momentum]].
+
+Unlike orbital angular momentum, spin has no classical analog; it cannot be explained as a literal rotation of the particle. Spin is a purely [[quantum mechanics|quantum mechanical]] phenomenon.
+
+== Spin quantum number ==
+The spin [[quantum number]] <math>s</math> is a non-negative half-integer or integer:
+* '''Fermions:''' <math>s = 1/2, 3/2, 5/2, \ldots</math> (half-integer)
+* '''Bosons:''' <math>s = 0, 1, 2, \ldots</math> (integer)
+
+The magnitude of the spin angular momentum is:
+:<math>|\mathbf{S}| = \hbar\sqrt{s(s+1)}</math>
+
+The projection along any axis (usually <math>z</math>) can take <math>2s+1</math> values:
+:<math>S_z = m_s\hbar, \quad m_s = -s, -s+1, \ldots, s</math>
+
+== Spin-1/2 particles ==
+The most important case in physics. For <math>s = 1/2</math>:
+* <math>|\mathbf{S}| = \hbar\sqrt{3}/2</math>
+* <math>S_z = \pm \hbar/2</math> (spin "up" and spin "down")
+
+Examples: [[electron]], [[proton]], [[neutron]], [[quark]]s, [[neutrino]]s.
+
+The [[Pauli matrices]] represent spin-1/2 operators:
+:<math>\sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}</math>
+
+The spin operator is <math>\mathbf{S} = \frac{\hbar}{2}\boldsymbol{\sigma}</math>.
+
+== Spin–statistics theorem ==
+{{Main|Spin–statistics theorem}}
+The [[spin–statistics theorem]] links spin to particle statistics:
+* '''Fermions''' (half-integer spin): obey [[Fermi–Dirac statistics]] and the [[Pauli exclusion principle]]
+* '''Bosons''' (integer spin): obey [[Bose–Einstein statistics]]; can form [[Bose–Einstein condensate]]s
+
+== Magnetic moment ==
+Spin gives particles a [[magnetic moment]]:
+:<math>\boldsymbol{\mu} = g\frac{q}{2m}\mathbf{S}</math>
+where <math>g</math> is the [[g-factor (physics)|g-factor]].
+
+For the electron:
+:<math>g_e \approx 2.002\,319</math> ([[Dirac equation]] predicts exactly 2; the deviation is due to [[QED]] corrections)
+:<math>\mu_B = \frac{e\hbar}{2m_e} \approx 9.274 \times 10^{-24}\,\text{J/T}</math> ([[Bohr magneton]])
+
+== Spin–orbit coupling ==
+{{Main|Spin–orbit interaction}}
+The interaction between a particle's spin and its orbital angular momentum causes energy level splitting:
+:<math>H_{\text{SO}} \propto \mathbf{L} \cdot \mathbf{S}</math>
+
+This is responsible for [[fine structure]] in atomic spectra.
+
+== Spin in magnetic fields ==
+A spin in a magnetic field <math>B</math> (along <math>z</math>) has energy:
+:<math>E = -\boldsymbol{\mu} \cdot \mathbf{B} = -g\frac{q}{2m}S_z B</math>
+
+This is the basis of [[electron paramagnetic resonance]] (EPR/ESR) and [[nuclear magnetic resonance]] (NMR/MRI).
+
+== See also ==
+{{Portal|Physics}}
+* [[Angular momentum]]
+* [[Pauli exclusion principle]]
+* [[Spin–orbit coupling]]
+* [[Magnetic moment]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Spin (physics)| ]]
+[[Category:Quantum mechanics]]
+[[Category:Particle physics]]

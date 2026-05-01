@@ -1,0 +1,68 @@
+{{Short description|Principle that mass can be converted to energy and vice versa}}
+{{Infobox physics
+| name = Mass–energy equivalence
+| image = 
+| caption = 
+| topics = [[Special relativity]], [[Energy]], [[Mass]], [[Speed of light]], [[Momentum]]
+| formula = <math>E = mc^2</math>
+| proposed_by = [[Albert Einstein]], 1905
+}}
+
+In [[physics]], '''mass–energy equivalence''' is the principle that [[mass]] is a form of [[energy]], and that mass and energy are interconvertible. This relationship was derived by [[Albert Einstein]] from his theory of [[special relativity]] and is encapsulated in the famous equation:
+
+:<math>E = mc^2</math>
+
+where <math>E</math> is the [[energy]], <math>m</math> is the [[mass]], and <math>c</math> is the [[speed of light]] in vacuum (299,792,458 m/s).
+
+== Meaning ==
+The equation <math>E = mc^2</math> means that a small amount of mass is equivalent to an enormous amount of energy. For example, the complete conversion of 1 kg of mass would release approximately 9×10¹⁶ joules — equivalent to about 21 megatons of TNT.
+
+== Derivation ==
+From relativistic [[kinetic energy]]:
+:<math>E_{\text{kin}} = (\gamma - 1) m_0 c^2</math>
+
+The total energy is:
+:<math>E = \gamma m_0 c^2 = m_{\text{rel}} c^2</math>
+
+At rest (<math>v = 0, \gamma = 1</math>):
+:<math>E_0 = m_0 c^2</math> — the rest energy
+
+== Relativistic energy–momentum relation ==
+The complete relationship between energy, momentum, and mass:
+:<math>E^2 = (pc)^2 + (m_0 c^2)^2</math>
+
+For massless particles (e.g., [[photon]]s, <math>m_0 = 0</math>):
+:<math>E = pc</math>
+
+== Practical manifestations ==
+* '''[[Nuclear fission]]''' — ~0.1% of mass converted to energy
+* '''[[Nuclear fusion]]''' — ~0.7% of mass converted to energy
+* '''[[Annihilation]]''' — 100% conversion when matter meets [[antimatter]]
+* '''[[Binding energy]] in nuclei''' — mass defect explains nuclear stability
+* '''[[Pair production]]''' — energy creates particle–antiparticle pairs
+
+== Applications ==
+* [[Nuclear power]] — energy from mass defect in fission/fusion
+* [[Nuclear weapon]]s — rapid mass–energy conversion
+* [[Particle accelerator]]s — creation of massive particles from kinetic energy
+* [[PET scan]]s — detection of annihilation photons in medical imaging
+* [[Stellar nucleosynthesis]] — mass–energy conversion powers stars
+
+== See also ==
+{{Portal|Physics}}
+* [[Energy]]
+* [[Mass]]
+* [[Momentum]]
+* [[Nuclear fission]]
+* [[Nuclear fusion]]
+* [[Special relativity]]
+* [[Speed of light]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Special relativity]]
+[[Category:Energy]]
+[[Category:Mass]]
+[[Category:Albert Einstein]]
+[[Category:Equations of physics]]

@@ -1,0 +1,68 @@
+{{Short description|Law relating voltage, current, and resistance}}
+{{Infobox physical law
+| name = Ohm's law
+| image = OhmsLaw.svg
+| caption = [[Voltage]] <math>V</math>, [[Electric current|current]] <math>I</math>, and [[Electrical resistance|resistance]] <math>R</math> in a simple circuit.
+| formula = <math>V = IR</math>
+| discovered_by = [[Georg Ohm]] (1827)
+}}
+
+'''Ohm's law''' states that the [[electric current|current]] through a [[electrical conductor|conductor]] between two points is directly proportional to the [[voltage]] across the two points. Introducing the constant of proportionality, the [[electrical resistance|resistance]], one arrives at the usual mathematical equation:
+:<math>V = IR</math>
+
+where <math>V</math> is the voltage (potential difference) in [[volt]]s (V), <math>I</math> is the current in [[ampere]]s (A), and <math>R</math> is the resistance in [[ohm]]s (Ω).
+
+The law was named after German physicist [[Georg Ohm]], who published his findings in 1827.
+
+== Microscopic form ==
+In microscopic terms, Ohm's law relates the [[electric field]] <math>\mathbf{E}</math> to the [[current density]] <math>\mathbf{J}</math>:
+:<math>\mathbf{J} = \sigma\mathbf{E}</math>
+where <math>\sigma</math> is the [[electrical conductivity]] (SI unit: [[siemens (unit)|siemens]] per meter, S/m).
+
+The inverse of conductivity is the [[electrical resistivity|resistivity]] <math>\rho = 1/\sigma</math> (Ω·m). For a uniform conductor of length <math>L</math> and cross-sectional area <math>A</math>:
+:<math>R = \rho\frac{L}{A}</math>
+
+== Ohmic vs. non-ohmic materials ==
+A material or component that obeys Ohm's law (linear <math>V</math>–<math>I</math> relationship) is called '''ohmic'''. Examples include most metals at constant temperature.
+
+'''Non-ohmic''' components have a nonlinear <math>V</math>–<math>I</math> characteristic, such as:
+* [[Diode]]s
+* [[Transistor]]s
+* [[Incandescent light bulb|Filament lamps]] (resistance increases with temperature)
+* [[Electrolyte]]s
+
+== Resistivity and temperature ==
+For most metals, resistivity increases linearly with temperature:
+:<math>\rho(T) = \rho_0[1 + \alpha(T - T_0)]</math>
+where <math>\alpha</math> is the [[temperature coefficient of resistivity]].
+
+For [[superconductor]]s, the resistivity drops to exactly zero below a [[critical temperature]].
+
+== Power dissipation (Joule heating) ==
+{{Main|Joule heating}}
+The power dissipated as heat in a resistor is:
+:<math>P = IV = I^2R = \frac{V^2}{R}</math>
+
+== AC circuits and impedance ==
+{{Main|Electrical impedance}}
+For [[alternating current|AC]] circuits, Ohm's law generalizes to:
+:<math>V = IZ</math>
+where <math>Z</math> is the [[electrical impedance|impedance]] (a complex quantity with magnitude in ohms). For a pure resistor, <math>Z = R</math>; for an inductor, <math>Z = i\omega L</math>; for a capacitor, <math>Z = \frac{1}{i\omega C}</math>.
+
+== Hydraulic analogy ==
+{{Main|Hydraulic analogy}}
+In the [[hydraulic analogy]], voltage corresponds to pressure difference, current to flow rate, and resistance to pipe constriction. Ohm's law is analogous to the [[Hagen–Poiseuille equation]].
+
+== See also ==
+{{Portal|Physics}}
+* [[Kirchhoff's circuit laws]]
+* [[Electrical resistance]]
+* [[Electrical impedance]]
+* [[Joule heating]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Ohm's law| ]]
+[[Category:Electrical circuits]]
+[[Category:Scientific laws]]

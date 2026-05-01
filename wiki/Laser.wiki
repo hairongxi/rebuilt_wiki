@@ -1,0 +1,65 @@
+{{Short description="Device that emits coherent light through stimulated emission}}
+{{Infobox physics
+| name = Laser
+| image = Laser pointers.jpg
+| caption = Laser beams from various laser pointers.
+| topics = [[Optics]], [[Photon]], [[Quantum mechanics]], [[Electromagnetic radiation]]
+| acronym = Light Amplification by Stimulated Emission of Radiation
+}}
+
+A '''laser''' is a device that emits [[light]] through a process of optical amplification based on the [[stimulated emission]] of [[electromagnetic radiation]]. The word "laser" is an acronym for "Light Amplification by Stimulated Emission of [[Radiation]]".
+
+Lasers differ from other light sources in that they emit light that is:
+* '''[[Coherence (physics)|Coherent]]''' — all photons are in phase
+* '''Monochromatic''' — single wavelength (colour)
+* '''Directional''' — narrow beam with low divergence
+
+== Principle of operation ==
+A laser consists of three essential components:
+
+=== 1. Gain medium ===
+A material (gas, liquid, solid, or semiconductor) with atoms or molecules that can be excited to a higher [[energy level]].
+
+=== 2. Pumping mechanism ===
+Energy source that excites atoms to create a [[population inversion]] — more atoms in the upper excited state than the lower state. Methods:
+* Optical pumping (flash lamps, other lasers)
+* Electrical discharge
+* Chemical reactions
+
+=== 3. Optical resonator ===
+A pair of [[mirror]]s forming a [[Fabry–Pérot cavity]] that provides optical feedback. Photons reflect back and forth, stimulating further emissions and amplifying the beam.
+
+== Stimulated emission ==
+The key quantum process: an incoming [[photon]] of energy <math>h\nu = E_2 - E_1</math> stimulates an excited atom to emit an identical photon — same frequency, phase, direction, and polarization.
+
+== Laser types ==
+* '''Gas lasers''' — [[helium–neon laser|He–Ne]], CO₂, argon-ion
+* '''Solid-state lasers''' — Nd:YAG, [[ruby laser|ruby]], titanium:sapphire
+* '''Semiconductor lasers''' — laser diodes (CD/DVD players, fibre optics)
+* '''Dye lasers''' — tunable wavelength
+* '''Fiber lasers''' — high-power industrial applications
+* '''Free-electron lasers''' — tunable across wide spectrum
+
+== Applications ==
+* Telecommunications — [[optical fibre]] data transmission
+* Medicine — [[laser surgery]], eye correction ([[LASIK]])
+* Manufacturing — cutting, welding, engraving
+* Scientific research — [[spectroscopy]], [[laser cooling]], [[optical tweezers]]
+* Consumer electronics — barcode scanners, printers, disc readers
+* Military — rangefinding, target designation
+* Metrology — precise distance measurement ([[LIDAR]])
+
+== See also ==
+{{Portal|Physics}}
+* [[Coherence (physics)]]
+* [[Optics]]
+* [[Photon]]
+* [[Spectroscopy]]
+* [[Stimulated emission]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Laser| ]]
+[[Category:Optics]]
+[[Category:Quantum mechanics]]

@@ -1,0 +1,62 @@
+{{Short description|Operator in quantum mechanics corresponding to the total energy of a system}}
+{{Infobox physics
+| name = Hamiltonian (quantum mechanics)
+| image = 
+| caption = 
+| topics = [[Quantum mechanics]], [[Schrödinger equation]], [[Wave function]], [[Hamiltonian mechanics]]
+| symbol = Â, Ä¤ (H-hat)
+}}
+
+In [[quantum mechanics]], the '''Hamiltonian''' <math>\hat{H}</math> is the operator corresponding to the total [[energy]] of a quantum system. It plays a central role in the [[Schrödinger equation]], which governs the time evolution of the [[wave function]]:
+
+:<math>i\hbar\frac{\partial}{\partial t}|\psi(t)\rangle = \hat{H}|\psi(t)\rangle</math>
+
+== Form ==
+For a single non-relativistic particle of mass <math>m</math> moving in a potential <math>V(\mathbf{r})</math>, the Hamiltonian takes the form:
+
+:<math>\hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V(\hat{\mathbf{r}})</math>
+
+where the first term is the [[kinetic energy operator]] and the second term is the [[potential energy operator]].
+
+== Time-independent Schrödinger equation ==
+{{Main|Schrödinger equation}}
+When the Hamiltonian is time-independent, the Schrödinger equation separates into the [[time-independent Schrödinger equation]]:
+
+:<math>\hat{H}\psi(\mathbf{r}) = E\psi(\mathbf{r})</math>
+
+This is an [[eigenvalue]] equation: the eigenfunctions <math>\psi</math> are the [[stationary state]]s, and the eigenvalues <math>E</math> are the allowed energy levels.
+
+== Properties ==
+* The Hamiltonian is a [[Hermitian operator]], ensuring real energy eigenvalues
+* Its expectation value gives the average energy: <math>\langle E \rangle = \langle\psi|\hat{H}|\psi\rangle</math>
+* If <math>\hat{H}</math> commutes with an operator <math>\hat{A}</math>, the observable corresponding to <math>\hat{A}</math> is conserved
+
+== Examples ==
+
+=== Quantum harmonic oscillator ===
+:<math>\hat{H} = \frac{\hat{p}^2}{2m} + \frac{1}{2}m\omega^2\hat{x}^2</math>
+Energy eigenvalues: <math>E_n = \hbar\omega(n + \frac{1}{2})</math>
+
+=== Hydrogen atom ===
+:<math>\hat{H} = -\frac{\hbar^2}{2m_e}\nabla^2 - \frac{e^2}{4\pi\varepsilon_0 r}</math>
+Energy eigenvalues: <math>E_n = -\frac{13.6\ \text{eV}}{n^2}</math>
+
+== Relationship to classical Hamiltonian ==
+The quantum Hamiltonian is obtained from the [[Hamiltonian mechanics|classical Hamiltonian]] by replacing [[canonical coordinate]]s with operators:
+:<math>H(q, p) \rightarrow \hat{H}(\hat{q}, \hat{p})</math>
+with the [[canonical commutation relation]] <math>[\hat{q}, \hat{p}] = i\hbar</math>.
+
+== See also ==
+{{Portal|Physics}}
+* [[Classical mechanics]]
+* [[Hamiltonian mechanics]]
+* [[Operator (physics)]]
+* [[Schrödinger equation]]
+* [[Wave function]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Quantum mechanics]]
+[[Category:Hamiltonian mechanics]]
+[[Category:Operator theory]]

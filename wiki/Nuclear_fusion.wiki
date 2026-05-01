@@ -1,0 +1,71 @@
+{{Short description|Nuclear reaction combining light nuclei into heavier nuclei, releasing energy}}
+{{Infobox physics
+| name = Nuclear fusion
+| image = Fusion in the Sun.svg
+| caption = The [[proton–proton chain reaction]] in the [[Sun]] fuses hydrogen into helium, releasing energy.
+| topics = [[Nuclear physics]], [[Atomic nucleus]], [[Mass–energy equivalence]], [[Binding energy]], [[Plasma (physics)]]
+}}
+
+'''Nuclear fusion''' is a [[nuclear reaction]] in which two or more [[atomic nucleus|atomic nuclei]] combine to form one or more different atomic nuclei and [[subatomic particle]]s ([[neutron]]s or [[proton]]s). The process releases or absorbs [[energy]] depending on the masses of the nuclei involved.
+
+Fusion of light elements (up to [[iron-56]]) releases energy because the [[binding energy]] per nucleon increases. This is the process that powers [[star]]s, including the [[Sun]].
+
+== Basic principle ==
+For fusion to occur, nuclei must overcome their mutual [[Coulomb's law|electrostatic repulsion]] and approach to within ~1 fm, where the [[strong interaction]] binds them. This requires extremely high temperatures (millions of kelvin) and pressures.
+
+== Energy release ==
+The energy released comes from the difference in [[nuclear binding energy|binding energies]]. For the [[deuterium–tritium fusion]] reaction:
+
+:<math>^2\text{D} + ^3\text{T} \rightarrow ^4\text{He} + n + 17.6\ \text{MeV}</math>
+
+This is the most accessible reaction for terrestrial fusion.
+
+== Stellar fusion ==
+
+=== Proton–proton chain ===
+In stars like the [[Sun]], the dominant process is the [[proton–proton chain reaction]]:
+:<math>4p \rightarrow ^4\text{He} + 2e^+ + 2\nu_e + 26.73\ \text{MeV}</math>
+
+=== CNO cycle ===
+In more massive stars, the [[CNO cycle]] dominates, using [[carbon]], [[nitrogen]], and [[oxygen]] as catalysts.
+
+=== Nucleosynthesis ===
+Fusion in stars produces elements up to [[iron]]. Heavier elements are formed in [[supernova]]e and [[neutron star merger]]s via rapid [[neutron capture]].
+
+== Terrestrial fusion research ==
+* '''[[Tokamak]]''' — magnetic confinement ([[ITER]], [[JET]])
+* '''[[Inertial confinement fusion]]''' — laser-driven implosion ([[National Ignition Facility|NIF]])
+* '''[[Stellarator]]''' — alternative magnetic confinement geometry
+
+Achieving net energy gain (fusion energy out > input energy) remains the "holy grail" of energy research.
+
+== Contrast with fission ==
+{| class="wikitable"
+|-
+! !! Fusion !! Fission
+|-
+| Reaction || Light nuclei combine || Heavy nucleus splits
+|-
+| Energy per reaction || ~17.6 MeV (D–T) || ~200 MeV (²³⁵U)
+|-
+| Fuel abundance || Very high (hydrogen) || Limited (uranium)
+|-
+| Radioactive waste || Low || High
+|}
+
+== See also ==
+{{Portal|Physics}}
+* [[Binding energy]]
+* [[Mass–energy equivalence]]
+* [[Nuclear fission]]
+* [[Nuclear physics]]
+* [[Proton]]
+* [[Star]]
+* [[Sun]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Nuclear fusion| ]]
+[[Category:Nuclear physics]]
+[[Category:Energy]]

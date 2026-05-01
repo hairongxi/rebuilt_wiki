@@ -1,0 +1,67 @@
+{{Short description="Dimension in which events occur in apparently irreversible succession}}
+{{Infobox physics
+| name = Time
+| image = 
+| caption = 
+| topics = [[Spacetime]], [[Special relativity]], [[Entropy]], [[Second law of thermodynamics]]
+| SI_unit = [[second]] (s)
+| measurable = yes
+}}
+
+'''Time''' is the continued [[sequence]] of existence and events that occurs in an apparently irreversible succession from the [[past]], through the [[present]], and into the [[future]]. It is a component quantity of various measurements used to sequence events, to compare the duration of events or the intervals between them, and to quantify [[rate (mathematics)|rates]] of change.
+
+In [[physics]], time is one of the fundamental quantities along with [[space]], combined into the four-dimensional [[spacetime]] of [[special relativity|special]] and [[general relativity]].
+
+== Operational definition ==
+The [[SI unit]] of time is the [[second]], defined as the duration of 9,192,631,770 periods of the radiation corresponding to the transition between two [[hyperfine structure|hyperfine levels]] of the ground state of the [[caesium-133]] atom.
+
+== Time in classical mechanics ==
+In [[Newtonian mechanics]], time is absolute — it passes uniformly and independently of observers. The temporal coordinate <math>t</math> is the same for all reference frames.
+
+== Time in relativity ==
+
+=== Special relativity ===
+{{Main|Special relativity}}
+In special relativity, time is relative — the measured time interval between events depends on the observer's motion. The [[Lorentz transformation]] relates time coordinates between frames:
+:<math>t' = \gamma\left(t - \frac{vx}{c^2}\right)</math>
+
+=== Time dilation ===
+{{Main|Time dilation}}
+Moving clocks run slower: <math>\Delta t' = \gamma\Delta t</math>
+
+=== Relativity of simultaneity ===
+Events simultaneous in one frame are not simultaneous in another moving relative to the first.
+
+=== General relativity ===
+{{Main|General relativity}}
+Gravitational time dilation: clocks run slower in stronger gravitational fields.
+:<math>\Delta t' = \Delta t\sqrt{1 - \frac{2GM}{rc^2}}</math>
+
+== Arrow of time ==
+{{Main|Arrow of time}}
+Why time appears to flow in only one direction:
+* '''Thermodynamic arrow''' — [[entropy]] increases ([[second law of thermodynamics]])
+* '''Cosmological arrow''' — the [[universe]] is expanding
+* '''Psychological arrow''' — we remember the past, not the future
+
+== Time in quantum mechanics ==
+In standard [[quantum mechanics]], time is a parameter, not an operator. The [[time-dependent Schrödinger equation]] describes evolution:
+:<math>i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</math>
+
+The [[problem of time]] in [[quantum gravity]] remains unresolved.
+
+== See also ==
+{{Portal|Physics}}
+* [[Arrow of time]]
+* [[Entropy]]
+* [[Second]]
+* [[Spacetime]]
+* [[Special relativity]]
+* [[Time dilation]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Time| ]]
+[[Category:Spacetime]]
+[[Category:Physical quantities]]

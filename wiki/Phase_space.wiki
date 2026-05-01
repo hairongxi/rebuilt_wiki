@@ -1,0 +1,73 @@
+{{Short description="Space in which all possible states of a system are represented"}}
+{{Infobox physics
+| name = Phase space
+| image = Phase space of a harmonic oscillator.svg
+| caption = Phase space portrait of a [[harmonic oscillator]]: elliptical trajectories represent constant-energy states. Position <math>q</math> on the horizontal axis and momentum <math>p</math> on the vertical axis.
+| topics = [[Hamiltonian mechanics]], [[Liouville's theorem (Hamiltonian)|Liouville's theorem]], [[Poincaré map]], [[Statistical mechanics]]
+}}
+
+In [[dynamical system]] theory and [[physics]], '''phase space''' is a space in which all possible states of a system are represented, with each possible state corresponding to one unique point in the phase space. For a mechanical system, the phase space usually consists of all possible values of position and momentum variables.
+
+Phase space was introduced by [[Ludwig Boltzmann]], [[Henri Poincaré]], and [[Josiah Willard Gibbs]] in the late 19th century.
+
+== Definition ==
+For a system with <math>n</math> [[degrees of freedom (physics and chemistry)|degrees of freedom]], the phase space is a <math>2n</math>-dimensional space spanned by:
+* <math>n</math> [[generalized coordinates]]: <math>q_1, q_2, \ldots, q_n</math>
+* <math>n</math> conjugate [[momentum|momenta]]: <math>p_1, p_2, \ldots, p_n</math>
+
+A single point <math>(q_1, \ldots, q_n, p_1, \ldots, p_n)</math> in this space completely specifies the microscopic state of the system.
+
+== Examples ==
+
+=== Simple harmonic oscillator ===
+A one-dimensional harmonic oscillator has phase space coordinates <math>(x, p)</math>. States of constant energy trace ellipses:
+:<math>\frac{p^2}{2m} + \frac{1}{2}kx^2 = E = \text{constant}</math>
+
+=== Simple pendulum ===
+For small angles, phase space trajectories are circles. For larger amplitudes, the phase portrait reveals [[separatrix (dynamical systems)|separatrices]] and distinct regimes (librational vs. rotational motion).
+
+== Hamiltonian mechanics ==
+{{Main|Hamiltonian mechanics}}
+[[Hamilton's equations]] describe the time evolution in phase space:
+:<math>\dot{q}_i = \frac{\partial H}{\partial p_i}, \quad \dot{p}_i = -\frac{\partial H}{\partial q_i}</math>
+
+The phase space [[velocity field]] is divergenceless:
+:<math>\nabla \cdot \mathbf{v} = \sum_i \left(\frac{\partial \dot{q}_i}{\partial q_i} + \frac{\partial \dot{p}_i}{\partial p_i}\right) = 0</math>
+
+== Liouville's theorem ==
+{{Main|Liouville's theorem (Hamiltonian)}}
+The phase space density <math>\rho(q, p, t)</math> is conserved along trajectories:
+:<math>\frac{d\rho}{dt} = \frac{\partial \rho}{\partial t} + \{\rho, H\} = 0</math>
+where <math>\{\cdot, \cdot\}</math> is the [[Poisson bracket]].
+
+Equivalent: the phase space volume of an ensemble of systems is conserved under Hamiltonian evolution. This is fundamental to [[statistical mechanics]].
+
+== Poincaré section ==
+{{Main|Poincaré map}}
+A [[Poincaré map|Poincaré section]] is a lower-dimensional slice through phase space, used to analyze the qualitative behavior of dynamical systems. Regular (periodic/quasiperiodic) motion appears as points on invariant curves; chaotic motion fills regions diffusely.
+
+== Phase space in quantum mechanics ==
+In [[quantum mechanics]], the [[uncertainty principle]] prevents simultaneous precise specification of <math>q</math> and <math>p</math>. The phase space is replaced by [[Hilbert space]], but [[quasiprobability distributions]] such as the [[Wigner quasiprobability distribution|Wigner function]] provide a semi-classical phase-space representation.
+
+== Phase space in statistical mechanics ==
+{{Main|Statistical mechanics}}
+In the [[microcanonical ensemble]], all microstates with energy <math>E</math> are equally probable. The entropy is:
+:<math>S = k_B \ln \Omega(E)</math>
+where <math>\Omega(E)</math> is the volume of accessible phase space.
+
+The [[partition function (statistical mechanics)|canonical partition function]] integrates over phase space:
+:<math>Z = \frac{1}{h^{n}}\int e^{-\beta H(q,p)}\, d^n q\, d^n p</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Hamiltonian mechanics]]
+* [[Liouville's theorem (Hamiltonian)]]
+* [[State space]]
+* [[Configuration space (physics)]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Phase space| ]]
+[[Category:Hamiltonian mechanics]]
+[[Category:Statistical mechanics]]

@@ -1,0 +1,67 @@
+{{Short description="SI derived unit of electric charge}}
+{{Infobox physics
+| name = Coulomb
+| image = 
+| caption = 
+| topics = [[Electric charge]], [[Ampere]], [[International System of Units]], [[Elementary charge]]
+| unit_system = [[SI derived unit]]
+| unit_of = [[Electric charge]]
+| symbol = C
+| named_after = [[Charles-Augustin de Coulomb]]
+| conversion = 1 C = 1 A·s
+}}
+
+The '''coulomb''' (symbol: '''C''') is the [[SI derived unit]] of [[electric charge]]. It is named after [[Charles-Augustin de Coulomb]]. One coulomb is defined as the amount of charge transported by a constant [[electric current]] of one [[ampere]] in one [[second]]:
+
+:<math>1\ \text{C} = 1\ \text{A} \cdot 1\ \text{s}</math>
+
+== Relation to elementary charge ==
+One coulomb equals approximately 6.241509×10¹⁸ elementary charges:
+
+:<math>1\ \text{C} = \frac{1}{e}\ \text{e} = 6.241509074 \times 10^{18}\ e</math>
+
+where <math>e = 1.602176634 \times 10^{-19}\ \text{C}</math>.
+
+== Coulomb's law ==
+{{Main|Coulomb's law}}
+The force between two point charges <math>q_1</math> and <math>q_2</math> separated by distance <math>r</math>:
+
+:<math>F = k_e\frac{q_1 q_2}{r^2}</math>
+where <math>k_e = 8.9875517923 \times 10^9\ \text{N·m}^2/\text{C}^2</math>
+
+Two charges of 1 C each, 1 m apart, would exert a force of ~9×10⁹ N — approximately the weight of 900,000 tonnes.
+
+== Practical scale ==
+* Typical [[lightning]] strike: ~15–350 C
+* [[AA battery]] capacity: ~10,000 C
+* Charge on a [[capacitor]] in a camera flash: ~0.1 C
+* Static charge from walking on carpet: ~10⁻⁶ C
+
+The coulomb is a very large unit — most everyday charge transfers involve microcoulombs (μC) or nanocoulombs (nC).
+
+== Other units ==
+{| class="wikitable"
+|-
+! Unit !! Value in C
+|-
+| [[Ampere-hour]] (A·h) || 3,600 C
+|-
+| [[Faraday constant]] (<math>F</math>) || 96,485 C/mol
+|-
+| [[Statcoulomb]] (esu) || ~3.336×10⁻¹⁰ C
+|}
+
+== See also ==
+{{Portal|Physics}}
+* [[Ampere]]
+* [[Coulomb's law]]
+* [[Electric charge]]
+* [[Elementary charge]]
+* [[Faraday constant]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:SI derived units]]
+[[Category:Units of electric charge]]
+[[Category:Electromagnetism]]

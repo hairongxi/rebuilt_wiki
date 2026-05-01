@@ -1,0 +1,147 @@
+{{Short description|Waves of electromagnetic fields propagating through space}}
+{{Infobox physics
+| name = Electromagnetic wave
+| image = EM-Wave.gif
+| caption = Animation of an electromagnetic wave: the electric field (red) and magnetic field (blue) oscillate perpendicular to each other and to the direction of propagation
+| topics = [[Maxwell's equations|Maxwell's equations in vacuum]], [[Plane wave]], [[Poynting vector]], [[Electromagnetic spectrum]], [[Radiation pressure]]
+}}
+
+An '''electromagnetic wave''' ('''EM wave''') is a self-propagating oscillation of [[electric field|electric]] and [[magnetic field]]s in space. Electromagnetic waves were first predicted by [[James Clerk Maxwell]] in 1865 as a consequence of his [[Maxwell's equations|equations]], and were first experimentally generated and detected by [[Heinrich Hertz]] in 1887.
+
+Electromagnetic waves travel at the [[speed of light]] <math>c = 299{,}792{,}458\,\text{m/s}</math> in vacuum and require no medium for propagation. They encompass a broad electromagnetic spectrum, including [[radio wave]]s, [[microwave]]s, [[infrared radiation]], [[visible light]], [[ultraviolet radiation]], [[X-ray]]s, and [[gamma ray]]s.
+
+== Derivation from Maxwell's equations ==
+
+In vacuum (<math>\rho = 0</math>, <math>\mathbf{J} = 0</math>), Maxwell's equations become:
+
+:<math>\nabla \cdot \mathbf{E} = 0</math>
+:<math>\nabla \cdot \mathbf{B} = 0</math>
+:<math>\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}</math>
+:<math>\nabla \times \mathbf{B} = \mu_0\varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}</math>
+
+Taking the curl of Faraday's law and using Ampère's law yields the wave equation for <math>\mathbf{E}</math>:
+:<math>\nabla^2 \mathbf{E} = \mu_0\varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}</math>
+
+Similarly for <math>\mathbf{B}</math>:
+:<math>\nabla^2 \mathbf{B} = \mu_0\varepsilon_0 \frac{\partial^2 \mathbf{B}}{\partial t^2}</math>
+
+The wave speed is:
+:<math>c = \frac{1}{\sqrt{\mu_0\varepsilon_0}} \approx 3.00 \times 10^8\,\text{m/s}</math>
+
+== Plane wave solution ==
+
+The simplest solution is a [[plane wave]] propagating along the x-direction:
+:<math>\mathbf{E}(x,t) = E_0 \sin(kx - \omega t) \hat{\mathbf{y}}</math>
+:<math>\mathbf{B}(x,t) = B_0 \sin(kx - \omega t) \hat{\mathbf{z}}</math>
+
+where:
+* <math>k = 2\pi/\lambda</math> is the [[wavenumber]]
+* <math>\omega = 2\pi f = kc</math> is the [[angular frequency]]
+* <math>E_0</math> and <math>B_0</math> are related by <math>E_0 = c B_0</math>
+
+The key properties of EM plane waves are:
+* <math>\mathbf{E}</math>, <math>\mathbf{B}</math>, and the direction of propagation <math>\hat{\mathbf{k}}</math> are mutually perpendicular
+* The wave is [[transverse wave|transverse]]
+* <math>E</math> and <math>B</math> are in phase
+
+== Energy and momentum ==
+
+=== Poynting vector ===
+{{Main|Poynting vector}}
+The [[Poynting vector]] <math>\mathbf{S}</math> represents the energy flux (power per unit area) of an electromagnetic wave:
+:<math>\mathbf{S} = \frac{1}{\mu_0}\mathbf{E} \times \mathbf{B}</math>
+
+The magnitude of the time-averaged Poynting vector is the [[intensity (physics)|intensity]]:
+:<math>I = \langle S \rangle = \frac{1}{2}c\varepsilon_0 E_0^2 = \frac{c}{2\mu_0}B_0^2</math>
+
+=== Electromagnetic energy density ===
+The energy density of an EM wave is equally divided between the electric and magnetic fields:
+:<math>u = \frac{1}{2}\varepsilon_0 E^2 + \frac{1}{2\mu_0}B^2</math>
+
+=== Radiation pressure ===
+{{Main|Radiation pressure}}
+Electromagnetic waves carry momentum and exert pressure when absorbed or reflected:
+:<math>p_{\text{rad}} = \frac{I}{c}</math> (perfectly absorbing surface)
+:<math>p_{\text{rad}} = \frac{2I}{c}</math> (perfectly reflecting surface)
+
+== Polarization ===
+{{Main|Polarization (waves)}}
+[[Polarization (waves)|Polarization]] describes the orientation of the electric field oscillations. Types include:
+* '''Linear polarization''' — <math>\mathbf{E}</math> oscillates along a fixed direction
+* '''Circular polarization''' — <math>\mathbf{E}</math> rotates with constant magnitude
+* '''Elliptical polarization''' — general case, <math>\mathbf{E}</math> traces an ellipse
+
+== Electromagnetic spectrum ===
+{{Main|Electromagnetic spectrum}}
+
+{| class="wikitable"
+|-
+! Region !! Wavelength range !! Frequency range !! Photon energy
+|-
+| [[Radio waves]] || > 1 mm || < 300 GHz || < 1.2 meV
+|-
+| [[Microwave]]s || 1 mm – 1 m || 300 MHz – 300 GHz || 1.2 μeV – 1.2 meV
+|-
+| [[Infrared]] || 700 nm – 1 mm || 300 GHz – 430 THz || 1.2 meV – 1.8 eV
+|-
+| [[Visible light]] || 380–700 nm || 430–790 THz || 1.8–3.3 eV
+|-
+| [[Ultraviolet]] || 10–380 nm || 790 THz – 30 PHz || 3.3 eV – 124 eV
+|-
+| [[X-rays]] || 0.01–10 nm || 30 PHz – 30 EHz || 124 eV – 124 keV
+|-
+| [[Gamma rays]] || < 0.01 nm || > 30 EHz || > 124 keV
+|}
+
+== Propagation in matter ==
+
+=== Dielectrics ===
+In a [[dielectric]] medium, the speed of EM waves is reduced:
+:<math>v = \frac{c}{n}</math>
+where <math>n = \sqrt{\kappa_e \kappa_m} \approx \sqrt{\kappa_e}</math> is the [[refractive index]].
+
+=== Conductors ===
+In a [[electrical conductor|conductor]], EM waves are attenuated. The [[skin depth]] <math>\delta</math> is the distance over which the field amplitude decreases by a factor of <math>1/e</math>:
+:<math>\delta = \sqrt{\frac{2}{\omega \mu \sigma}}</math>
+where <math>\sigma</math> is the [[electrical conductivity|conductivity]].
+
+=== Plasma ===
+{{Main|Waves in plasmas}}
+In a [[plasma (physics)|plasma]], EM waves can propagate only if their frequency exceeds the [[plasma frequency]]:
+:<math>\omega_p = \sqrt{\frac{n_e e^2}{\varepsilon_0 m_e}}</math>
+
+== Dipole radiation ===
+{{Main|Dipole antenna}}
+An oscillating [[electric dipole]] radiates electromagnetic waves with the [[angular distribution]]:
+:<math>\frac{dP}{d\Omega} \propto \sin^2\theta</math>
+
+The total radiated power is given by the [[Larmor formula]] (for a non-relativistic accelerating charge):
+:<math>P = \frac{e^2 a^2}{6\pi\varepsilon_0 c^3}</math>
+
+== Applications ==
+* [[Radio]] and [[television]] broadcasting
+* [[Mobile phone]]s and [[Wi-Fi]]
+* [[Radar]] and [[lidar]]
+* [[Microwave oven]]s
+* [[Fiber optics|Fiber optic]] communication
+* [[X-ray imaging]] and [[CT scan]]s
+* [[Gamma ray spectroscopy]]
+* [[Infrared detectors|Infrared]] and [[thermal camera]]s
+
+== See also ==
+{{Portal|Physics}}
+* [[Electromagnetism]]
+* [[Photon]]
+* [[Antenna (radio)]]
+* [[Waveguide (electromagnetism)]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[David J. Griffiths|Griffiths, D. J.]] (2017). ''Introduction to Electrodynamics'' (4th ed.). Cambridge University Press, Ch. 9.
+* [[John David Jackson (physicist)|Jackson, J. D.]] (1998). ''Classical Electrodynamics'' (3rd ed.). Wiley, Ch. 7.
+
+[[Category:Electromagnetic radiation]]
+[[Category:Electromagnetism]]
+[[Category:Waves]]

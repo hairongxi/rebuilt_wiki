@@ -1,0 +1,61 @@
+{{Short description|Fundamental principle in quantum mechanics}}
+{{Infobox physical law
+| name = Uncertainty principle
+| image = Werner Heisenberg at 1927 Solvay Conference.jpg
+| caption = [[Werner Heisenberg]], who formulated the principle in 1927
+| formula = <math>\Delta x \Delta p \geq \frac{\hbar}{2}</math>
+| discovered_by = [[Werner Heisenberg]] (1927)
+}}
+
+The '''uncertainty principle''', also known as '''Heisenberg's indeterminacy principle''', is a fundamental concept in [[quantum mechanics]]. It states that there is a fundamental limit to the accuracy with which the values for certain pairs of physical quantities of a [[particle]], such as [[position (vector)|position]], <math>x</math>, and [[momentum]], <math>p</math>, can be predicted from [[initial condition]]s.
+
+Such variable pairs are known as [[canonical coordinates|complementary variables]] or [[Canonical coordinates|canonically conjugate variables]]; and, depending on interpretation, the uncertainty principle limits to what extent such conjugate properties maintain their approximate meaning, as the mathematical framework of quantum mechanics does not support the notion of simultaneously well-defined conjugate properties expressed by a single value.
+
+== Position–momentum uncertainty ==
+The most famous form:
+:<math>\Delta x \Delta p_x \geq \frac{\hbar}{2}</math>
+
+where <math>\Delta x</math> is the [[standard deviation]] of position and <math>\Delta p_x</math> is the standard deviation of momentum. This means the more precisely the position is known, the less precisely the momentum is known, and vice versa.
+
+== Energy–time uncertainty ==
+:<math>\Delta E \Delta t \geq \frac{\hbar}{2}</math>
+
+This is qualitatively different from the position–momentum relation (time is not an operator in standard quantum mechanics). It relates the lifetime of a state to its energy uncertainty: short-lived states have large energy uncertainties.
+
+== General formulation (Robertson relation) ==
+For any two [[observable]]s represented by [[Hermitian operator]]s <math>\hat{A}</math> and <math>\hat{B}</math>:
+:<math>\Delta A \Delta B \geq \frac{1}{2}\left|\langle[\hat{A}, \hat{B}]\rangle\right|</math>
+
+where <math>[\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}</math> is the [[commutator]]. The canonical commutation relation <math>[\hat{x}, \hat{p}] = i\hbar</math> yields the position–momentum uncertainty principle.
+
+== Physical origin ==
+The uncertainty principle arises from the [[wave–particle duality]] of matter. A localized particle requires a superposition of many wavelengths (momenta); a particle with well-defined momentum (single wavelength) must be delocalized.
+
+== Heisenberg's microscope ==
+Heisenberg originally illustrated the principle with a [[thought experiment]] involving a [[Heisenberg's microscope|gamma-ray microscope]]: measuring an electron's position with a photon inevitably disturbs its momentum.
+
+== Common misconceptions ==
+* The uncertainty principle is NOT a limitation of measurement technology — it is a fundamental property of quantum states
+* It does NOT arise from the observer effect (disturbance), though measurement disturbance can contribute
+* The position–momentum uncertainty is derivable from the wave nature of matter ([[Fourier transform]] property)
+
+== Consequences ==
+* [[Zero-point energy]] — the ground state of a harmonic oscillator has non-zero energy
+* [[Quantum tunneling]] — particles can "borrow" energy for short times
+* Limits to [[electron microscope]] resolution
+* [[Virtual particle]]s in [[quantum field theory]]
+* Stability of atoms — the electron cannot spiral into the nucleus
+
+== See also ==
+{{Portal|Physics}}
+* [[Complementarity (physics)]]
+* [[Wave–particle duality]]
+* [[Observer effect (physics)]]
+* [[Quantum indeterminacy]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Uncertainty principle| ]]
+[[Category:Quantum mechanics]]
+[[Category:Werner Heisenberg]]

@@ -1,0 +1,71 @@
+{{Short description="Scientific laws describing the motion of planets around the Sun"}}
+{{Infobox physical law
+| name = Kepler's laws of planetary motion
+| image = Kepler laws diagram.svg
+| caption = Illustration of Kepler's three laws: elliptical orbits, equal areas, and the period–radius relationship.
+| formula = <math>T^2 \propto a^3</math> (third law)
+| discovered_by = [[Johannes Kepler]] (1609–1619)
+}}
+
+In [[astronomy]], '''Kepler's laws of planetary motion''', published by [[Johannes Kepler]] between 1609 and 1619, describe the orbits of [[planet]]s around the [[Sun]]. The laws modified the [[heliocentric model|heliocentric theory]] of [[Nicolaus Copernicus]], replacing its circular orbits and [[deferent and epicycle|epicycles]] with elliptical trajectories, and explaining how planetary velocities vary.
+
+The three laws state that:
+# The orbit of a planet is an [[ellipse]] with the Sun at one of the two [[focus (geometry)|foci]].
+# A line segment joining a planet and the Sun sweeps out equal areas during equal intervals of time.
+# The square of a planet's [[orbital period]] is proportional to the cube of the length of the [[semi-major and semi-minor axes|semi-major axis]] of its orbit.
+
+== First law (Law of ellipses) ==
+:''The orbit of every planet is an ellipse with the Sun at one of the two foci.''
+
+Mathematically, an ellipse with semi-major axis <math>a</math> and eccentricity <math>e</math>:
+:<math>r = \frac{a(1 - e^2)}{1 + e\cos\theta}</math>
+
+where <math>r</math> is the distance from the Sun and <math>\theta</math> is the true anomaly.
+
+The [[eccentricity (mathematics)|eccentricity]] <math>e</math> measures deviation from a circle (<math>e = 0</math> for a circle). Most planets have low eccentricities (Earth: <math>e \approx 0.0167</math>).
+
+== Second law (Law of equal areas) ==
+:''A line joining a planet and the Sun sweeps out equal areas during equal intervals of time.''
+
+This is a statement of the [[conservation of angular momentum]]:
+:<math>\frac{dA}{dt} = \frac{L}{2m} = \text{constant}</math>
+
+Consequence: planets move faster when closer to the Sun ([[perihelion]]) and slower when farther away ([[aphelion]]).
+
+== Third law (Law of harmonies) ==
+:''The square of the orbital period of a planet is proportional to the cube of the semi-major axis of its orbit.''
+
+:<math>T^2 \propto a^3</math>
+
+Newton later derived the precise form:
+:<math>T^2 = \frac{4\pi^2}{GM}a^3</math>
+where <math>G</math> is the [[gravitational constant]] and <math>M</math> is the mass of the central body.
+
+For the Sun: <math>\frac{4\pi^2}{GM_\odot} \approx 2.97 \times 10^{-19}\,\text{s}^2/\text{m}^3</math>.
+
+== Newton's derivation ==
+[[Isaac Newton]] showed that Kepler's laws follow mathematically from his [[Newton's law of universal gravitation|law of universal gravitation]] and [[Newton's laws of motion|laws of motion]]. This was a monumental achievement:
+* The first law follows from the inverse-square force law (conic sections are the only solutions)
+* The second law is a direct consequence of angular momentum conservation
+* The third law relates the gravitational constant to orbital parameters
+
+== Applications ==
+* Determination of planetary masses using satellite orbits
+* Calculation of orbital periods and distances for [[exoplanet]]s
+* [[Spacecraft]] trajectory design
+* Estimation of the mass of the [[Milky Way]] galaxy from stellar orbits
+* [[Binary star]] system analysis
+
+== See also ==
+{{Portal|Physics}}
+* [[Newton's law of universal gravitation]]
+* [[Orbital mechanics]]
+* [[Celestial mechanics]]
+* [[Ellipse]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Kepler's laws of planetary motion| ]]
+[[Category:Celestial mechanics]]
+[[Category:Orbits]]

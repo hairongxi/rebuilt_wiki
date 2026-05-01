@@ -1,0 +1,69 @@
+{{Short description|Force per unit area applied in a direction perpendicular to a surface}}
+{{Infobox physics
+| name = Pressure
+| image = Pressure force area.svg
+| caption = Pressure is the force applied perpendicular to a surface per unit area.
+| topics = [[Force]], [[Thermodynamics]], [[Fluid dynamics]], [[Kinetic theory of gases]]
+| symbol = p, P
+| SI_unit = [[pascal (unit)|pascal]] (Pa)
+| dimension = M L⁻¹ T⁻²
+}}
+
+'''Pressure''' (symbol <math>p</math> or <math>P</math>) is the [[force]] applied perpendicular to the surface of an object per unit [[area]] over which that force is distributed. It is a [[scalar (physics)|scalar]] quantity.
+
+:<math>p = \frac{F_\perp}{A}</math>
+
+where <math>F_\perp</math> is the normal force and <math>A</math> is the area.
+
+The [[SI unit]] of pressure is the [[pascal (unit)|pascal]] (Pa), equal to one [[newton (unit)|newton]] per square metre (N/m²). Other common units include the [[atmosphere (unit)|atmosphere]] (atm), [[bar (unit)|bar]], [[torr]], and [[pounds per square inch]] (psi).
+
+== Types ==
+
+=== Hydrostatic pressure ===
+In a static fluid at rest, the pressure at depth <math>h</math> is:
+:<math>p = p_0 + \rho gh</math>
+where <math>p_0</math> is the surface pressure, <math>\rho</math> is the fluid density, and <math>g</math> is the [[gravitational acceleration]].
+
+=== Gas pressure ===
+In the [[kinetic theory of gases]], pressure arises from molecular collisions with container walls:
+:<math>p = \frac{1}{3}\rho\langle v^2 \rangle = \frac{2}{3}\frac{N}{V}\langle E_k \rangle</math>
+
+where <math>\langle v^2 \rangle</math> is the mean square speed of the molecules.
+
+=== Dynamic pressure ===
+In flowing fluids, [[Bernoulli's principle]] relates static pressure to dynamic pressure:
+:<math>p + \frac{1}{2}\rho v^2 + \rho gh = \text{constant}</math>
+
+=== Atmospheric pressure ===
+Standard atmospheric pressure at sea level is:
+:1 atm = 101,325 Pa = 760 mmHg (torr) = 14.696 psi
+
+== Pressure in thermodynamics ==
+{{Main|Laws of thermodynamics}}
+In [[thermodynamics]], pressure is a fundamental [[state variable]]. For an [[ideal gas]], the relationship between pressure, volume, temperature, and amount of substance is given by the [[ideal gas law]]:
+
+:<math>pV = nRT = Nk_B T</math>
+
+== Measurement ==
+Pressure is measured using devices such as:
+* [[Barometer]] — measures atmospheric pressure
+* [[Manometer]] — measures gas pressure
+* [[Bourdon gauge]] — mechanical pressure measurement
+* [[Piezoelectric sensor]] — electronic pressure measurement
+
+== See also ==
+{{Portal|Physics}}
+* [[Buoyancy]]
+* [[Fluid dynamics]]
+* [[Force]]
+* [[Ideal gas law]]
+* [[Kinetic theory of gases]]
+* [[Pascal (unit)]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Pressure| ]]
+[[Category:Fluid dynamics]]
+[[Category:Thermodynamics]]
+[[Category:Physical quantities]]

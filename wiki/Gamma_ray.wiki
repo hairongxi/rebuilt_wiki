@@ -1,0 +1,63 @@
+{{Short description="Electromagnetic radiation with the highest photon energy}}
+{{Infobox physics
+| name = Gamma ray
+| image = 
+| caption = 
+| topics = [[Electromagnetic wave]], [[Electromagnetic spectrum]], [[Photon]], [[Radioactive decay]], [[Nuclear physics]]
+| wavelength = <0.01 nm
+| frequency = >30 EHz
+| energy = >100 keV
+}}
+
+A '''gamma ray''' (γ) is a form of high-energy [[electromagnetic radiation]] with the shortest [[wavelength]] and highest [[photon]] energy in the [[electromagnetic spectrum]]. Gamma rays have photon energies above 100 keV, frequencies above 30 EHz, and wavelengths below 10 pm.
+
+== Origin ==
+Gamma rays are produced by:
+* [[Radioactive decay]] (gamma decay) — de-excitation of an excited [[atomic nucleus]]
+* [[Annihilation]] — electron–positron annihilation producing 511 keV photons
+* [[Nuclear reaction]]s — fission, fusion, neutron capture
+* [[Astroparticle physics|Astrophysical processes]] — [[supernova]]e, [[gamma-ray burst]]s, [[pulsar]]s, [[active galactic nucleus|active galactic nuclei]]
+* [[Particle accelerator]]s — [[bremsstrahlung]] from high-energy electrons
+
+== Properties ==
+* Penetrating power: can pass through several cm of lead
+* [[Ionizing radiation]] — damages biological tissue
+* No electric charge — unaffected by electric or magnetic fields
+* Travel at the [[speed of light]]
+
+== Gamma decay ==
+When an excited nucleus returns to its ground state, it emits the excess energy as a gamma-ray photon:
+:<math>^{A}_{Z}\text{X}^* \rightarrow ^{A}_{Z}\text{X} + \gamma</math>
+
+No change in [[atomic number]] or [[mass number]].
+
+== Interaction with matter ==
+Gamma rays interact with matter via three primary mechanisms:
+# '''[[Photoelectric effect]]''' — dominant at low energies (<0.5 MeV)
+# '''[[Compton scattering]]''' — dominant at intermediate energies (0.5–5 MeV)
+# '''[[Pair production]]''' — dominant at high energies (>5 MeV), creating electron–positron pairs
+
+== Applications ==
+* '''Medical''' — [[radiotherapy]] (cancer treatment), [[gamma knife]] surgery, sterilization
+* '''Industrial''' — non-destructive testing, food irradiation
+* '''Science''' — [[gamma-ray astronomy]], [[Mössbauer spectroscopy]]
+* '''Security''' — cargo and vehicle scanning
+
+== Gamma-ray bursts ===
+{{Main|Gamma-ray burst}}
+[[Gamma-ray burst]]s are the most energetic electromagnetic events known, releasing in seconds more energy than the Sun will in its entire 10-billion-year lifetime.
+
+== See also ==
+{{Portal|Physics}}
+* [[Compton scattering]]
+* [[Electromagnetic spectrum]]
+* [[Electromagnetic wave]]
+* [[Radioactive decay]]
+* [[X-ray]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Gamma rays| ]]
+[[Category:Electromagnetic radiation]]
+[[Category:Radioactivity]]

@@ -1,0 +1,71 @@
+{{Short description|Emission of electrons when light shines on a material}}
+{{Infobox physics
+| name = Photoelectric effect
+| image = Photoelectric effect in a solid - diagram.svg
+| caption = Schematic of the photoelectric effect: photons eject electrons from a metal surface.
+| discovered_by = [[Heinrich Hertz]] (1887), explained by [[Albert Einstein]] (1905)
+}}
+
+The '''photoelectric effect''' is the emission of [[electron]]s from a material when [[light]] ([[electromagnetic radiation]]) shines upon it. Electrons emitted in this manner are called '''photoelectrons'''. The phenomenon is studied in [[condensed matter physics]], [[solid state chemistry|solid state]], and [[quantum chemistry]] to draw inferences about the properties of atoms, molecules, and solids.
+
+The experimental results disagree with [[classical electromagnetism]], which predicts that the electron energy should be proportional to the [[intensity (physics)|intensity]] of the light. Instead, the photoelectric effect exhibits a threshold [[frequency]] below which no electrons are emitted, regardless of intensity.
+
+== Einstein's explanation ==
+In 1905, [[Albert Einstein]] proposed that light consists of discrete quanta ([[photon]]s), each with energy:
+:<math>E = h\nu = \frac{hc}{\lambda}</math>
+where <math>h</math> is the [[Planck constant]] and <math>\nu</math> is the frequency.
+
+The maximum kinetic energy of an emitted photoelectron is:
+:<math>K_{\text{max}} = h\nu - \phi</math>
+where <math>\phi</math> is the [[work function]] of the material — the minimum energy required to remove an electron from the surface.
+
+== Key experimental observations ==
+
+# '''Threshold frequency:''' For a given material, there exists a minimum frequency <math>\nu_0 = \phi/h</math> below which no electrons are emitted, regardless of intensity.
+
+# '''Kinetic energy depends on frequency:''' <math>K_{\text{max}}</math> increases linearly with frequency and is independent of intensity.
+
+# '''Current depends on intensity:''' The number of emitted electrons (photocurrent) is proportional to the light intensity above the threshold frequency.
+
+# '''Instantaneous emission:''' Electrons are emitted with no measurable time delay, even at very low intensities.
+
+== Stopping potential ==
+The [[stopping potential]] <math>V_s</math> is the voltage required to stop the most energetic electrons:
+:<math>eV_s = K_{\text{max}} = h\nu - \phi</math>
+
+A graph of <math>V_s</math> vs. <math>\nu</math> yields a straight line with slope <math>h/e</math>, providing a direct measurement of the [[Planck constant]].
+
+== Work function ==
+{{Main|Work function}}
+Typical work functions for metals:
+* [[Cesium]]: 2.1 eV (visible light)
+* [[Sodium]]: 2.3 eV (visible/green light)
+* [[Zinc]]: 4.3 eV (ultraviolet)
+* [[Platinum]]: 6.4 eV (far ultraviolet)
+
+== Historical significance ==
+The photoelectric effect was pivotal in the development of [[quantum mechanics]]:
+* Einstein received the 1921 [[Nobel Prize in Physics]] for his explanation
+* It provided direct evidence for the [[quantization (physics)|quantization]] of light
+* [[Robert Andrews Millikan|Millikan]]'s precise experiments (1916) confirmed Einstein's equation and measured <math>h</math>
+
+== Applications ==
+* [[Photomultiplier]] tubes
+* [[Photodiode]]s and [[solar cell]]s
+* [[Image sensor]]s (CCD, CMOS)
+* [[Photoelectron spectroscopy]] for chemical analysis
+* [[Night vision device]]s
+
+== See also ==
+{{Portal|Physics}}
+* [[Photon]]
+* [[Compton scattering]]
+* [[Work function]]
+* [[Wave–particle duality]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Photoelectric effect| ]]
+[[Category:Albert Einstein]]
+[[Category:Quantum mechanics]]

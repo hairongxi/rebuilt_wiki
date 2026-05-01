@@ -1,0 +1,77 @@
+{{Short description|Physical quantity expressing the degree of disorder or randomness}}
+{{Infobox physical quantity
+| name = Entropy
+| image = Ice water.jpg
+| caption = Ice melting in water: entropy increases as the ordered crystalline structure becomes a disordered liquid.
+| symbols = <math>S</math>
+| SI_unit = [[joule]] per [[kelvin]] (J/K)
+}}
+
+'''Entropy''' is a scientific concept that is most commonly associated with a state of disorder, randomness, or uncertainty. The term and the concept are used in diverse fields, from [[classical thermodynamics]], where it was first recognized, to the microscopic description of nature in [[statistical mechanics]], and to the principles of [[information theory]].
+
+In [[thermodynamics]], entropy is a [[state function]] that measures the unavailability of a system's [[energy]] to do useful [[Work (thermodynamics)|work]]. In [[statistical mechanics]], entropy is a measure of the number of microscopic configurations ([[microstate (statistical mechanics)|microstates]]) that correspond to a macroscopic state.
+
+== Thermodynamic definition ==
+For a [[reversible process (thermodynamics)|reversible process]], the change in entropy is:
+:<math>dS = \frac{\delta Q_{\text{rev}}}{T}</math>
+
+For an irreversible process:
+:<math>dS > \frac{\delta Q}{T}</math>
+
+Combining: <math>dS \geq \frac{\delta Q}{T}</math>, with equality for reversible processes. This is the [[Clausius inequality]].
+
+== Statistical definition (Boltzmann) ==
+{{Main|Boltzmann's entropy formula}}
+[[Ludwig Boltzmann]] gave a microscopic interpretation:
+:<math>S = k_B \ln \Omega</math>
+where <math>k_B = 1.381 \times 10^{-23}\,\text{J/K}</math> is the [[Boltzmann constant]] and <math>\Omega</math> is the number of accessible [[microstate (statistical mechanics)|microstates]].
+
+This formula is carved on Boltzmann's tombstone in Vienna.
+
+== Second law of thermodynamics ==
+{{Main|Second law of thermodynamics}}
+The [[second law of thermodynamics]] states that the total entropy of an isolated system always increases over time, or remains constant in ideal cases where the system is in a steady state or undergoing a reversible process:
+:<math>\Delta S_{\text{total}} \geq 0</math>
+
+== Properties ==
+* '''State function:''' Entropy depends only on the current state, not on path
+* '''Extensive:''' Entropy is proportional to system size
+* '''Additive:''' Total entropy equals sum of subsystem entropies
+* '''Temperature dependence:''' <math>\left(\frac{\partial S}{\partial T}\right)_V = \frac{C_V}{T}</math>
+
+== Entropy change equations ==
+
+{| class="wikitable"
+|-
+! Process !! Entropy change
+|-
+| Ideal gas isothermal expansion || <math>\Delta S = nR\ln\frac{V_2}{V_1}</math>
+|-
+| Heating at constant pressure || <math>\Delta S = C_P \ln\frac{T_2}{T_1}</math>
+|-
+| Phase change (at <math>T</math>) || <math>\Delta S = \frac{L}{T}</math> (<math>L</math> = latent heat)
+|-
+| Free expansion || <math>\Delta S = nR\ln\frac{V_2}{V_1}</math> (irreversible)
+|}
+
+== Entropy and information ==
+{{Main|Entropy (information theory)}}
+[[Claude Shannon]]'s [[information entropy]] <math>H = -\sum p_i \log_2 p_i</math> is formally analogous to the [[Gibbs entropy formula]]:
+:<math>S = -k_B \sum p_i \ln p_i</math>
+
+== Entropy in cosmology ==
+The universe as a whole is believed to have begun in a very low-entropy state (the [[Big Bang]]). The [[arrow of time]] — the observed asymmetry between past and future — is often linked to the increase of cosmic entropy.
+
+== See also ==
+{{Portal|Physics}}
+* [[Second law of thermodynamics]]
+* [[Gibbs free energy]]
+* [[Enthalpy]]
+* [[Negentropy]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Entropy| ]]
+[[Category:Thermodynamics]]
+[[Category:State functions]]

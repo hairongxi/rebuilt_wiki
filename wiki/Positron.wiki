@@ -1,0 +1,66 @@
+{{Short description="Antiparticle of the electron with positive electric charge}}
+{{Infobox physics
+| name = Positron
+| image = 
+| caption = 
+| topics = [[Antimatter]], [[Electron]], [[Elementary particle]], [[Beta decay]]
+| composition = [[Elementary particle]]
+| statistics = [[Fermion]]
+| symbol = e⁺
+| mass = 9.1093837015×10⁻³¹ kg (0.511 MeV/c²)
+| charge = +1 e
+| spin = 1/2
+}}
+
+The '''positron''' (or '''antielectron''') is the [[antiparticle]] of the [[electron]]. It has the same [[mass]] and [[spin (physics)|spin]] as the electron but opposite [[electric charge]] (+1 [[elementary charge|e]] instead of −1 e). The positron was the first [[antimatter]] particle to be discovered, predicted by [[Paul Dirac]] in 1928 and experimentally observed by [[Carl Anderson]] in 1932.
+
+== Discovery ==
+[[Carl Anderson]] observed a particle in a [[cloud chamber]] with the same mass as an electron but curving oppositely in a [[magnetic field]]. He named it the "positron." Dirac's theoretical prediction and Anderson's experimental confirmation earned [[Nobel Prize in Physics|Nobel Prizes]] in 1933 and 1936 respectively.
+
+== Properties ==
+* Mass: exactly equal to the electron mass (0.511 MeV/c²)
+* Charge: +1 e (opposite sign of electron)
+* Spin: 1/2 (fermion)
+* Stable in vacuum, but annihilates rapidly in matter
+
+== Annihilation ==
+When a positron encounters an electron, they annihilate, producing two (or sometimes three) [[gamma ray]] [[photon]]s:
+
+:<math>e^+ + e^- \rightarrow \gamma + \gamma</math>
+
+Each photon has energy 511 keV (the rest mass energy of the electron/positron). [[Conservation of momentum]] requires two photons emitted in opposite directions.
+
+== Production ==
+
+=== Beta-plus decay ===
+:<math>p \rightarrow n + e^+ + \nu_e</math>
+Proton-rich nuclei emit positrons.
+
+=== Pair production ===
+A high-energy photon (>1.022 MeV) interacting with a nucleus can create an electron–positron pair:
+:<math>\gamma \rightarrow e^+ + e^-</math>
+
+=== Artificial production ===
+* [[Particle accelerator]]s
+* [[PET scan|PET]] radioisotopes (e.g., <sup>18</sup>F, <sup>11</sup>C)
+
+== Applications ==
+* '''[[PET scan]]s''' (Positron Emission Tomography) — medical imaging using positron-emitting radioisotopes
+* '''Positron annihilation spectroscopy''' — materials science, defect detection
+* '''[[Positronium]]''' studies — bound electron–positron system for testing QED
+* '''[[Antihydrogen]]''' production — combining positrons with antiprotons
+
+== See also ==
+{{Portal|Physics}}
+* [[Antimatter]]
+* [[Beta decay]]
+* [[Electron]]
+* [[Gamma ray]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Positron| ]]
+[[Category:Antimatter]]
+[[Category:Leptons]]
+[[Category:Elementary particles]]

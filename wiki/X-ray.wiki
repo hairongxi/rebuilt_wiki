@@ -1,0 +1,60 @@
+{{Short description|Electromagnetic radiation with wavelengths shorter than ultraviolet}}
+{{Infobox physics
+| name = X-ray
+| image = Röntgen-Röhre.svg
+| caption = Diagram of an [[X-ray tube]], producing X-rays by accelerating electrons to strike a metal target.
+| topics = [[Electromagnetic wave]], [[Electromagnetic spectrum]], [[Photon]]
+| wavelength = 0.01–10 nm
+| frequency = 30 PHz – 30 EHz
+| energy = 100 eV – 100 keV
+}}
+
+'''X-rays''' (or '''Röntgen radiation''') are a form of high-energy [[electromagnetic radiation]] with [[wavelength]]s ranging from about 10 [[picometre]]s to 10 [[nanometre]]s, corresponding to [[frequency|frequencies]] in the range 30 [[petahertz]] to 30 [[exahertz]] and [[photon]] energies in the range 100 eV to 100 keV.
+
+X-rays were discovered by [[Wilhelm Röntgen]] in 1895, for which he received the first [[Nobel Prize in Physics]] in 1901.
+
+== Production ==
+X-rays are produced by two mechanisms:
+
+=== Bremsstrahlung ===
+When high-speed [[electron]]s are decelerated upon striking a metal target, they emit [[bremsstrahlung]] (braking radiation) X-rays with a continuous spectrum.
+
+=== Characteristic X-rays ===
+When an inner-shell [[electron]] is ejected from an [[atom]] and an outer-shell electron falls in to fill the vacancy, a [[photon]] of energy equal to the energy difference is emitted — a ''characteristic X-ray'' of that element.
+
+== Properties ==
+* Travel at the [[speed of light]] in vacuum
+* Can penetrate materials opaque to [[visible light]]
+* Can [[ionizing radiation|ionize]] atoms and damage biological tissue
+* Exhibit [[diffraction]], [[interference (wave propagation)|interference]], and [[polarization (waves)|polarization]]
+
+== Applications ==
+* [[Radiography]] — medical imaging (bones, teeth, chest)
+* [[CT scan]] — three-dimensional medical imaging
+* [[X-ray crystallography]] — determining crystal and molecular structures (DNA, proteins)
+* [[X-ray astronomy]] — observing high-energy celestial objects
+* [[X-ray fluorescence]] — elemental analysis
+* [[Airport security]] — baggage scanning
+* [[Industrial radiography]] — weld and structural inspection
+
+== Bragg's law ==
+{{Main|Bragg's law}}
+X-ray diffraction by crystals follows [[Bragg's law]]:
+:<math>n\lambda = 2d\sin\theta</math>
+where <math>d</math> is the spacing between crystal planes.
+
+== See also ==
+{{Portal|Physics}}
+* [[Bragg's law]]
+* [[Electromagnetic spectrum]]
+* [[Electromagnetic wave]]
+* [[Gamma ray]]
+* [[Photon]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:X-rays| ]]
+[[Category:Electromagnetic radiation]]
+[[Category:Medical imaging]]
+[[Category:Ionizing radiation]]

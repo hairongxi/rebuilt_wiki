@@ -1,0 +1,147 @@
+{{Short description|Branch of physics concerned with the behavior of fluids}}
+{{Infobox physics
+| name = Fluid dynamics
+| image = Airplane vortex edit.jpg
+| caption = Wake turbulence from a [[wingtip]] of an airplane, visualized by colored smoke
+| topics = [[Continuity equation]], [[Bernoulli's principle]], [[Navier–Stokes equations]], [[Turbulence]], [[Boundary layer]], [[Reynolds number]]
+}}
+
+'''Fluid dynamics''' is a subdiscipline of [[fluid mechanics]] that describes the flow of [[fluid]]s — [[liquid]]s and [[gas]]es. It has several subdisciplines, including [[aerodynamics]] (the study of air and other gases in motion) and [[hydrodynamics]] (the study of liquids in motion). Fluid dynamics has a wide range of applications, including calculating [[force]]s and [[moment (physics)|moments]] on [[aircraft]], determining the [[mass flow rate]] of [[petroleum]] through [[pipeline transport|pipelines]], [[weather forecasting|predicting weather patterns]], understanding [[nebula]]e in [[interstellar medium|interstellar space]], and modeling [[fission weapon]] detonation.
+
+The solution of a fluid dynamics problem typically involves the calculation of various properties of the fluid, such as [[flow velocity]], [[pressure]], [[density]], and [[temperature]], as functions of space and time.
+
+== Fundamental concepts ==
+
+=== Continuum hypothesis ===
+{{Main|Continuum mechanics}}
+Fluid dynamics assumes fluids are continuous media, meaning properties such as density and velocity are defined at every point. This is valid when the [[Knudsen number]] <math>Kn = \lambda/L \ll 1</math>, where <math>\lambda</math> is the [[mean free path]] and <math>L</math> is the characteristic length scale.
+
+=== Pressure ===
+{{Main|Pressure}}
+[[Pressure]] <math>p</math> is the normal force per unit area exerted by a fluid. The [[Pascal (unit)|pascal]] (Pa = N/m<sup>2</sup>) is the SI unit of pressure.
+
+=== Density ===
+{{Main|Density}}
+Density <math>\rho</math> is mass per unit volume. An [[incompressible flow|incompressible fluid]] has constant density.
+
+=== Viscosity ===
+{{Main|Viscosity}}
+[[Viscosity]] <math>\mu</math> characterizes a fluid's resistance to flow. The shear stress <math>\tau</math> for a [[Newtonian fluid]] is:
+:<math>\tau = \mu \frac{du}{dy}</math>
+
+The [[kinematic viscosity]] is <math>\nu = \mu/\rho</math>.
+
+== Governing equations ==
+
+=== Continuity equation ===
+{{Main|Continuity equation}}
+The continuity equation expresses [[conservation of mass]]:
+:<math>\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0</math>
+
+For an incompressible fluid (<math>\rho = \text{constant}</math>):
+:<math>\nabla \cdot \mathbf{u} = 0</math>
+
+For a one-dimensional incompressible flow through a pipe of varying cross-section <math>A</math>:
+:<math>A_1 v_1 = A_2 v_2</math>
+
+=== Navier–Stokes equations ===
+{{Main|Navier–Stokes equations}}
+The [[Navier–Stokes equations]] express [[conservation of momentum]]:
+:<math>\rho\left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \rho \mathbf{g}</math>
+
+This equation is the foundation of fluid dynamics. The existence and smoothness of its solutions is one of the [[Millennium Prize Problems]].
+
+=== Bernoulli's principle ===
+{{Main|Bernoulli's principle}}
+For steady, inviscid, incompressible flow along a streamline:
+:<math>\frac{p}{\rho} + \frac{v^2}{2} + gz = \text{constant}</math>
+
+Equivalently: <math>p + \frac{1}{2}\rho v^2 + \rho g h = \text{constant}</math>
+
+The term <math>\frac{1}{2}\rho v^2</math> is the [[dynamic pressure]].
+
+== Flow classification ==
+
+=== Laminar vs. turbulent flow ===
+{{Main|Laminar flow|Turbulence}}
+The [[Reynolds number]] <math>Re</math> characterizes the flow regime:
+:<math>Re = \frac{\rho v L}{\mu} = \frac{vL}{\nu}</math>
+
+{| class="wikitable"
+|-
+! Flow type !! Reynolds number !! Characteristics
+|-
+| [[Laminar flow]] || <math>Re \lesssim 2300</math> (in pipes) || Smooth, ordered streamlines
+|-
+| Transitional || <math>2300 \lesssim Re \lesssim 4000</math> || Intermittent turbulence
+|-
+| [[Turbulent flow]] || <math>Re \gtrsim 4000</math> || Chaotic eddies, mixing
+|}
+
+=== Compressible vs. incompressible ===
+Flow is considered [[incompressible flow|incompressible]] when the [[Mach number]] <math>Ma = v/c</math> (where <math>c</math> is the [[speed of sound]]) is less than 0.3. For <math>Ma > 0.3</math>, compressibility effects become significant.
+
+=== Steady vs. unsteady ===
+In [[steady flow]], fluid properties at a point do not change with time: <math>\partial/\partial t = 0</math>. In [[unsteady flow]], they do.
+
+=== Viscous vs. inviscid ===
+[[Inviscid flow]] neglects viscosity (<math>\mu = 0</math>). This is often a good approximation for high Reynolds number flows away from boundaries. The [[Euler equations (fluid dynamics)|Euler equations]] describe inviscid flow:
+:<math>\rho\left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u} \cdot \nabla \mathbf{u}\right) = -\nabla p + \rho \mathbf{g}</math>
+
+== Boundary layer theory ==
+{{Main|Boundary layer}}
+Near a solid surface, viscosity is important. The [[boundary layer]] is the thin region where the velocity increases from zero at the wall to the free-stream value. For laminar flow over a flat plate:
+:<math>\delta \approx \frac{5.0x}{\sqrt{Re_x}}</math>
+where <math>\delta</math> is the boundary layer thickness and <math>Re_x = vx/\nu</math>.
+
+== Fluid statics ==
+{{Main|Fluid statics}}
+
+=== Hydrostatic pressure ===
+In a static fluid, pressure increases with depth:
+:<math>p = p_0 + \rho g h</math>
+
+=== Archimedes' principle ===
+{{Main|Archimedes' principle}}
+The buoyant force on a submerged object equals the weight of the displaced fluid:
+:<math>F_b = \rho_f V g</math>
+
+=== Pascal's law ===
+{{Main|Pascal's law}}
+Pressure applied to an enclosed fluid is transmitted undiminished to all parts of the fluid.
+
+=== Surface tension ===
+{{Main|Surface tension}}
+[[Surface tension]] <math>\gamma</math> arises from cohesive forces at a liquid–gas interface. The [[Young–Laplace equation]] relates the pressure difference across a curved interface:
+:<math>\Delta p = \gamma\left(\frac{1}{R_1} + \frac{1}{R_2}\right)</math>
+
+The [[capillary action|capillary rise]] in a tube of radius <math>r</math> is:
+:<math>h = \frac{2\gamma\cos\theta}{\rho g r}</math>
+
+== Applications ==
+* [[Aerodynamics]] — design of aircraft, automobiles, wind turbines
+* [[Hydrodynamics]] — ship design, marine engineering
+* [[Meteorology]] — weather and climate modeling
+* [[Biomedical engineering]] — blood flow, respiratory dynamics
+* [[Hydraulic engineering]] — pipe flow, open channel flow
+* [[Environmental science]] — pollutant dispersion, ocean currents
+
+== See also ==
+{{Portal|Physics}}
+* [[Fluid mechanics]]
+* [[Computational fluid dynamics]]
+* [[Aerodynamics]]
+* [[Vortex]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[G. K. Batchelor|Batchelor, G. K.]] (2000). ''An Introduction to Fluid Dynamics''. Cambridge University Press.
+* [[Lev Landau|Landau, L. D.]], Lifshitz, E. M. (1987). ''Fluid Mechanics'' (2nd ed.). Butterworth-Heinemann.
+* [[Frank M. White|White, F. M.]] (2016). ''Fluid Mechanics'' (8th ed.). McGraw-Hill.
+
+[[Category:Fluid dynamics| ]]
+[[Category:Physics]]
+[[Category:Aerodynamics]]
+[[Category:Mechanical engineering]]

@@ -1,0 +1,64 @@
+{{Short description|Radioactive decay process in which a beta particle is emitted from an atomic nucleus}}
+{{Infobox physics
+| name = Beta decay
+| image = Beta-minus Decay.svg
+| caption = In β⁻ decay, a [[neutron]] transforms into a [[proton]], emitting an [[electron]] and an [[antineutrino]].
+| topics = [[Nuclear physics]], [[Weak interaction]], [[Neutrino]], [[Radioactive decay]]
+}}
+
+In [[nuclear physics]], '''beta decay''' (β-decay) is a type of [[radioactive decay]] in which a [[beta particle]] (fast, energetic [[electron]] or [[positron]]) is emitted from an [[atomic nucleus]]. Beta decay is mediated by the [[weak interaction]] and occurs in two main forms: β⁻ and β⁺ decay.
+
+== Types ==
+
+=== Beta-minus decay (β⁻) ===
+A [[neutron]] in the nucleus converts into a [[proton]], emitting an [[electron]] and an electron [[antineutrino]]:
+:<math>n \rightarrow p + e^- + \bar{\nu}_e</math>
+
+This increases the [[atomic number]] by 1 and produces a [[beta particle]] (the electron). Example: [[Carbon-14]] decay.
+:<math>^{14}_6\text{C} \rightarrow ^{14}_7\text{N} + e^- + \bar{\nu}_e</math>
+
+=== Beta-plus decay (β⁺) ===
+A [[proton]] converts into a neutron, emitting a [[positron]] and an electron [[neutrino]]:
+:<math>p \rightarrow n + e^+ + \nu_e</math>
+
+This decreases the atomic number by 1. Example: [[Sodium-22]] decay.
+:<math>^{22}_{11}\text{Na} \rightarrow ^{22}_{10}\text{Ne} + e^+ + \nu_e</math>
+
+=== Electron capture ===
+An inner-shell [[electron]] is captured by a proton in the nucleus:
+:<math>p + e^- \rightarrow n + \nu_e</math>
+
+== Neutrino hypothesis ==
+The continuous energy spectrum of beta decay electrons puzzled physicists in the 1920s. To preserve [[conservation of energy]], [[Wolfgang Pauli]] proposed the existence of the [[neutrino]] in 1930. [[Enrico Fermi]] incorporated this into his theory of beta decay (1933), introducing the [[weak interaction]].
+
+== Selection rules ==
+Beta decay obeys [[selection rules]]:
+* '''Allowed transitions''': no change in orbital angular momentum (<math>\Delta\ell = 0</math>), spin change <math>\Delta S = 0, \pm 1</math>
+* '''Fermi transitions''': electron and neutrino spins anti-aligned (<math>S = 0</math>)
+* '''Gamow–Teller transitions''': electron and neutrino spins aligned (<math>S = 1</math>)
+* '''Forbidden transitions''': <math>\Delta\ell > 0</math> — much longer half-lives
+
+== Applications ==
+* [[Radiocarbon dating]] — determining age of organic materials using <sup>14</sup>C decay
+* [[Neutrino]] physics — detection of neutrinos from beta decay
+* [[Radiotherapy]] — beta emitters for cancer treatment
+* [[Nuclear medicine]] — PET scans using β⁺ emitters
+* [[Radiotracer]]s — tracking biochemical processes
+
+== See also ==
+{{Portal|Physics}}
+* [[Electron]]
+* [[Neutrino]]
+* [[Neutron]]
+* [[Nuclear physics]]
+* [[Proton]]
+* [[Radioactive decay]]
+* [[Weak interaction]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Beta decay| ]]
+[[Category:Nuclear physics]]
+[[Category:Radioactivity]]
+[[Category:Weak interaction]]

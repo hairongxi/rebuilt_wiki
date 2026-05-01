@@ -1,0 +1,58 @@
+{{Short description="Rate of change of position; speed with direction}}
+{{Infobox physics
+| name = Velocity
+| image = 
+| caption = 
+| topics = [[Kinematics]], [[Motion]], [[Speed]], [[Acceleration]], [[Momentum]]
+| symbol = v
+| SI_unit = [[metre per second]] (m/s)
+| type = [[Vector (physics)|Vector]]
+}}
+
+'''Velocity''' is the rate of change of the [[position (geometry)|position]] of an object with respect to a frame of reference, and is a function of [[time]]. Velocity is a [[vector (physics)|vector]] quantity — it has both magnitude ([[speed]]) and direction. The [[SI unit]] is [[metre per second]] (m/s).
+
+:<math>\mathbf{v} = \frac{d\mathbf{r}}{dt}</math>
+
+where <math>\mathbf{r}</math> is the position vector.
+
+== Distinction from speed ==
+* '''Velocity''' (<math>\mathbf{v}</math>) — vector: describes both how fast and in what direction
+* '''Speed''' (<math>v = |\mathbf{v}|</math>) — scalar: magnitude of velocity, directionless
+
+An object moving in a circle at constant speed has a constantly changing velocity (direction changes).
+
+== Equations of motion (constant acceleration) ==
+:<math>v = v_0 + at</math>
+:<math>v^2 = v_0^2 + 2a\Delta x</math>
+:<math>\Delta x = \frac{v_0 + v}{2}t</math>
+
+== Relative velocity ==
+Velocities in different reference frames add vectorially (Galilean transformation for <math>v \ll c</math>):
+:<math>\mathbf{v}_{AB} = \mathbf{v}_{AC} + \mathbf{v}_{CB}</math>
+
+For [[special relativity]], use relativistic velocity addition:
+:<math>u' = \frac{u - v}{1 - uv/c^2}</math>
+
+== Terminal velocity ==
+When [[drag (physics)|drag force]] balances [[gravity]], an object falls at constant velocity:
+:<math>v_t = \sqrt{\frac{2mg}{\rho A C_d}}</math>
+
+== Velocity in momentum and kinetic energy ==
+* [[Momentum]]: <math>\mathbf{p} = m\mathbf{v}</math>
+* [[Kinetic energy]]: <math>E_k = \frac{1}{2}mv^2</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Acceleration]]
+* [[Kinematics]]
+* [[Momentum]]
+* [[Motion]]
+* [[Speed]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Velocity| ]]
+[[Category:Kinematics]]
+[[Category:Motion (physics)]]
+[[Category:Physical quantities]]

@@ -1,0 +1,74 @@
+{{Short description|Number of occurrences of a repeating event per unit of time}}
+{{Infobox physics
+| name = Frequency
+| image = FrequencyAnimation.gif
+| caption = A sinusoidal wave: higher frequency means more cycles per unit time.
+| topics = [[Wave]], [[Oscillation]], [[Simple harmonic motion]], [[Electromagnetic wave]]
+| symbol = f, ν
+| SI_unit = [[hertz]] (Hz)
+| dimension = T⁻¹
+}}
+
+'''Frequency''' is the number of occurrences of a repeating event per unit of [[time]]. It is measured in [[hertz]] (Hz), where 1 Hz = 1 cycle per second. Frequency is a fundamental parameter in describing [[wave]]s, [[oscillation]]s, and periodic phenomena across all branches of physics.
+
+:<math>f = \frac{1}{T}</math>
+where <math>T</math> is the [[period (physics)|period]] (the duration of one cycle).
+
+== Angular frequency ==
+[[Angular frequency]] <math>\omega</math> (in radians per second) is related to ordinary frequency by:
+:<math>\omega = 2\pi f</math>
+
+== Wave relationships ==
+For a [[wave]] travelling at speed <math>v</math> with [[wavelength]] <math>\lambda</math>, the frequency is:
+:<math>f = \frac{v}{\lambda}</math>
+
+For [[electromagnetic wave]]s in vacuum (<math>v = c</math>):
+:<math>c = \lambda f</math>
+
+For [[sound wave]]s, frequency determines [[pitch (music)|pitch]].
+
+== Frequency ranges ==
+{| class="wikitable"
+|-
+! Range !! Frequency (Hz)
+|-
+| [[Radio wave]]s || ~3 kHz – 300 GHz
+|-
+| [[Microwave]]s || ~300 MHz – 300 GHz
+|-
+| [[Infrared]] || ~300 GHz – 430 THz
+|-
+| [[Visible light]] || ~430–790 THz
+|-
+| [[Ultraviolet]] || ~790 THz – 30 PHz
+|-
+| [[X-ray]]s || ~30 PHz – 30 EHz
+|-
+| [[Gamma ray]]s || > 30 EHz
+|}
+
+== Quantum relation ==
+In [[quantum mechanics]], frequency is related to [[energy]] by the [[Planck–Einstein relation]]:
+:<math>E = hf = \hbar\omega</math>
+where <math>h</math> is the [[Planck constant]]. This is fundamental to the [[photoelectric effect]], [[spectroscopy]], and all quantum processes.
+
+== Resonance ==
+{{Main|Resonance}}
+When a system is driven at its [[natural frequency]], the amplitude of oscillation increases dramatically—a phenomenon called [[resonance]].
+
+== See also ==
+{{Portal|Physics}}
+* [[Angular frequency]]
+* [[Electromagnetic spectrum]]
+* [[Hertz]]
+* [[Oscillation]]
+* [[Wavelength]]
+* [[Wave]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Frequency| ]]
+[[Category:Wave mechanics]]
+[[Category:Temporal rates]]
+[[Category:Acoustics]]

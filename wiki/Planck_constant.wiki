@@ -1,0 +1,64 @@
+{{Short description|Fundamental physical constant that relates photon energy to its frequency}}
+{{Infobox physics
+| name = Planck constant
+| image = 
+| caption = 
+| topics = [[Quantum mechanics]], [[Photoelectric effect]], [[Black-body radiation]], [[Uncertainty principle]]
+| symbol = h
+| value = 6.62607015×10⁻³⁴ J·s (exact by definition)
+}}
+
+The '''Planck constant''' <math>h</math> is a fundamental [[physical constant]] that is the quantum of electromagnetic action. It relates the [[energy]] of a [[photon]] to its [[frequency]]:
+
+:<math>E = h\nu = \hbar\omega</math>
+
+where <math>\nu</math> is the frequency and <math>\omega = 2\pi\nu</math> is the [[angular frequency]]. The constant was introduced by [[Max Planck]] in 1900 to explain [[black-body radiation]], marking the birth of [[quantum mechanics]].
+
+Since 2019, the Planck constant has the exact defined value:
+:<math>h = 6.62607015 \times 10^{-34}\ \text{J·s}</math>
+
+== Reduced Planck constant ==
+The [[reduced Planck constant]] (Dirac constant) <math>\hbar</math> (h-bar) is:
+:<math>\hbar = \frac{h}{2\pi} = 1.054571817 \times 10^{-34}\ \text{J·s}</math>
+
+<math>\hbar</math> appears naturally in most quantum mechanical equations.
+
+== Fundamental roles ==
+
+=== Energy–frequency relation ===
+:<math>E = h\nu = \hbar\omega</math> — the [[Planck–Einstein relation]] for photons
+
+=== De Broglie wavelength ===
+{{Main|De Broglie wavelength}}
+:<math>\lambda = \frac{h}{p}</math> — every particle has an associated wavelength
+
+=== Heisenberg uncertainty principle ===
+{{Main|Uncertainty principle}}
+:<math>\Delta x \, \Delta p \geq \frac{\hbar}{2}</math>
+
+=== Schrödinger equation ===
+{{Main|Schrödinger equation}}
+:<math>i\hbar\frac{\partial}{\partial t}\Psi = \hat{H}\Psi</math>
+
+=== Commutation relations ===
+:<math>[\hat{x}, \hat{p}] = i\hbar</math>
+
+== Role in the SI redefinition ==
+In the [[2019 redefinition of the SI base units]], the Planck constant was given a fixed exact value, which (together with definitions of the [[second]] and [[metre]]) defines the [[kilogram]].
+
+== Historical significance ==
+Planck's introduction of <math>h</math> to explain [[black-body radiation]] resolved the [[ultraviolet catastrophe]] of classical physics and inadvertently founded [[quantum theory]]. Planck himself initially viewed the constant as a mathematical convenience, but [[Albert Einstein]]'s explanation of the [[photoelectric effect]] (1905) confirmed its physical reality.
+
+== See also ==
+{{Portal|Physics}}
+* [[Photoelectric effect]]
+* [[Quantum mechanics]]
+* [[Uncertainty principle]]
+* [[Wave–particle duality]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Physical constants]]
+[[Category:Quantum mechanics]]
+[[Category:Max Planck]]

@@ -1,0 +1,75 @@
+{{Short description="All of space and time and their contents}}
+{{Infobox physics
+| name = Universe
+| image = Hubble ultra deep field.jpg
+| caption = The [[Hubble Ultra-Deep Field]] shows thousands of galaxies across billions of light-years.
+| topics = [[Cosmology]], [[General relativity]], [[Big Bang]], [[Dark matter]], [[Dark energy]]
+| age = 13.787 ± 0.020 billion years
+| size = At least 93 billion light-years in diameter (observable)
+}}
+
+The '''universe''' is all of [[space]] and [[time]] and their contents, including [[planet]]s, [[star]]s, [[galaxy|galaxies]], and all other forms of [[matter]] and [[energy]]. The [[Big Bang]] theory is the prevailing cosmological description of the development of the universe.
+
+== Observable universe ==
+{{Main|Observable universe}}
+The observable universe is a spherical region approximately 93 billion [[light-year]]s in diameter, centred on the observer. It contains approximately:
+* 10¹¹ [[galaxy|galaxies]]
+* 10²²–10²⁴ [[star]]s
+* 10⁸⁰ [[proton]]s (baryonic matter)
+
+Because [[light]] travels at a finite [[speed of light|speed]] (~3×10⁸ m/s), looking farther into space means looking further back in time.
+
+== Composition ==
+Based on the [[Lambda-CDM model]]:
+* ~68% [[dark energy]] — drives accelerated expansion
+* ~27% [[dark matter]] — detected only via gravitational effects
+* ~5% ordinary (baryonic) matter — atoms, stars, planets, gas
+
+== History ==
+{| class="wikitable"
+|-
+! Epoch !! Time after Big Bang
+|-
+| [[Big Bang]] || 0
+|-
+| [[Inflation (cosmology)|Inflation]] || 10⁻³⁶–10⁻³² s
+|-
+| [[Big Bang nucleosynthesis]] || 3–20 minutes
+|-
+| [[Recombination (cosmology)|Recombination]] (CMB released) || ~380,000 years
+|-
+| First stars ([[reionization]]) || ~100–400 million years
+|-
+| [[Galaxy formation]] || ~1 billion years
+|-
+| [[Dark energy]] domination || ~4 billion years
+|-
+| Present day || 13.8 billion years
+|}
+
+== Shape and fate ==
+The shape of the universe depends on its density parameter <math>\Omega</math>:
+* <math>\Omega > 1</math>: closed (spherical) — [[Big Crunch]]
+* <math>\Omega = 1</math>: flat — [[Big Freeze]] (heat death)
+* <math>\Omega < 1</math>: open (hyperbolic) — Big Freeze
+
+Current observations suggest a flat universe (<math>\Omega \approx 1</math>), with accelerated expansion driven by dark energy.
+
+== Multiverse hypothesis ==
+Some theories suggest our universe may be one of many in a [[multiverse]], though this remains speculative and untestable.
+
+== See also ==
+{{Portal|Physics}}
+* [[Big Bang]]
+* [[Cosmology]]
+* [[Dark energy]]
+* [[Dark matter]]
+* [[Galaxy]]
+* [[General relativity]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Universe| ]]
+[[Category:Cosmology]]
+[[Category:Concepts in astronomy]]

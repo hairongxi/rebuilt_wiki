@@ -1,0 +1,63 @@
+{{Short description|Classical mechanics law describing gravitational attraction between masses}}
+{{Infobox physics
+| name = Newton's law of universal gravitation
+| image = NewtonsLawOfUniversalGravitation.svg
+| caption = Every point mass attracts every other point mass by a force pointing along the line intersecting both points.
+| topics = [[Gravitation]], [[Force]], [[Classical mechanics]], [[Kepler's laws of planetary motion]]
+| formula = <math>F = G\frac{m_1 m_2}{r^2}</math>
+}}
+
+'''Newton's law of universal gravitation''' states that every [[point mass]] attracts every other point mass in the [[universe]] by a [[force]] acting along the line intersecting both points. The force is proportional to the product of the two [[mass]]es and inversely proportional to the square of the [[distance]] between them:
+
+:<math>F = G\frac{m_1 m_2}{r^2}</math>
+
+where:
+* <math>F</math> is the gravitational force between two masses
+* <math>m_1</math> and <math>m_2</math> are the masses
+* <math>r</math> is the distance between the centres of the masses
+* <math>G</math> is the [[gravitational constant]], approximately 6.674×10⁻¹¹ N·m²/kg²
+
+This is a general physical law derived from empirical observations by what [[Isaac Newton]] called [[inductive reasoning]]. It is a part of [[classical mechanics]] and was formulated in Newton's work ''[[Philosophiæ Naturalis Principia Mathematica]]'' (1687).
+
+== Vector form ==
+In vector notation, the force on mass <math>m_1</math> due to <math>m_2</math> is:
+:<math>\mathbf{F}_{12} = -G\frac{m_1 m_2}{|\mathbf{r}_{12}|^2}\hat{\mathbf{r}}_{12}</math>
+where <math>\hat{\mathbf{r}}_{12}</math> is the unit vector from <math>m_2</math> to <math>m_1</math>.
+
+== Gravitational field ==
+The [[gravitational field]] <math>\mathbf{g}</math> is the force per unit mass:
+:<math>\mathbf{g}(\mathbf{r}) = -G\sum_i \frac{m_i}{|\mathbf{r} - \mathbf{r}_i|^2}\hat{\mathbf{r}}_i</math>
+
+For a spherically symmetric body of mass <math>M</math>, the field outside is:
+:<math>g = G\frac{M}{r^2}</math>
+
+== Relation to Kepler's laws ==
+{{Main|Kepler's laws of planetary motion}}
+Newton showed that his law of gravitation mathematically implies [[Kepler's laws of planetary motion]], unifying terrestrial and celestial mechanics.
+
+== Gravitational potential energy ==
+The [[gravitational potential energy]] of two masses separated by distance <math>r</math> is:
+:<math>U = -G\frac{m_1 m_2}{r}</math>
+
+The negative sign indicates that work must be done to separate the masses against their gravitational attraction.
+
+== Limits and Einstein's theory ==
+{{Main|General relativity}}
+Newton's law is an excellent approximation for most practical purposes but is superseded by [[Einstein]]'s theory of [[general relativity]], which describes gravitation as the curvature of [[spacetime]] caused by mass and energy.
+
+== See also ==
+{{Portal|Physics}}
+* [[Coulomb's law]]
+* [[Gravitation]]
+* [[Gravitational constant]]
+* [[General relativity]]
+* [[Kepler's laws of planetary motion]]
+* [[Mass]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Gravitation]]
+[[Category:Classical mechanics]]
+[[Category:Scientific laws]]
+[[Category:Isaac Newton]]

@@ -1,0 +1,77 @@
+{{Short description|Basic law of electromagnetism predicting how a magnetic field interacts with an electric circuit}}
+{{Infobox physical law
+| name = Faraday's law of induction
+| image = Induction experiment.png
+| caption = A magnet moving through a coil induces an electromotive force.
+| formula = <math>\mathcal{E} = -\frac{d\Phi_B}{dt}</math>
+| discovered_by = [[Michael Faraday]] (1831)
+}}
+
+'''Faraday's law of induction''' is a basic law of [[electromagnetism]] predicting how a [[magnetic field]] will interact with an [[electric circuit]] to produce an [[electromotive force]] (EMF) — a phenomenon known as [[electromagnetic induction]]. It is the fundamental operating principle of [[transformer]]s, [[inductor]]s, and many types of [[electric motor]]s, [[electrical generator|generators]] and [[solenoid]]s.
+
+The law was discovered by [[Michael Faraday]] in 1831 and mathematically formalized by [[James Clerk Maxwell]].
+
+== Statement ==
+The induced electromotive force in any closed circuit is equal to the negative of the time rate of change of the [[magnetic flux]] through the circuit:
+:<math>\mathcal{E} = -\frac{d\Phi_B}{dt}</math>
+
+In integral form (one of [[Maxwell's equations]]):
+:<math>\oint_{\partial S} \mathbf{E} \cdot d\mathbf{l} = -\frac{d}{dt}\iint_S \mathbf{B} \cdot d\mathbf{A}</math>
+
+In differential form:
+:<math>\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}</math>
+
+== Magnetic flux ==
+{{Main|Magnetic flux}}
+The magnetic flux <math>\Phi_B</math> through a surface <math>S</math> is:
+:<math>\Phi_B = \iint_S \mathbf{B} \cdot d\mathbf{A}</math>
+
+The SI unit of magnetic flux is the [[weber (unit)|weber]] (Wb = T·m²).
+
+== Lenz's law ==
+{{Main|Lenz's law}}
+The negative sign in Faraday's law encapsulates [[Lenz's law]]: the induced current flows in a direction such that its magnetic field opposes the change in flux that produced it. This is a consequence of the [[conservation of energy]].
+
+== Ways to induce EMF ==
+EMF can be induced by changing:
+# The magnitude of the magnetic field (<math>B</math>)
+# The area of the loop (<math>A</math>)
+# The orientation of the loop relative to the field (<math>\theta</math>)
+
+Mathematically, for a uniform field at angle <math>\theta</math>:
+:<math>\mathcal{E} = -\frac{d}{dt}(BA\cos\theta) = -\left(\frac{dB}{dt}A\cos\theta + B\frac{dA}{dt}\cos\theta - BA\sin\theta\frac{d\theta}{dt}\right)</math>
+
+== Motional EMF ==
+For a conducting rod of length <math>L</math> moving at velocity <math>\mathbf{v}</math> perpendicular to <math>\mathbf{B}</math>:
+:<math>\mathcal{E} = BLv</math>
+
+== Applications ==
+
+=== Electric generator ===
+An [[electrical generator]] converts mechanical energy into electrical energy by rotating a coil in a magnetic field. The induced EMF is sinusoidal:
+:<math>\mathcal{E}(t) = NBA\omega\sin(\omega t)</math>
+where <math>N</math> is the number of turns and <math>A</math> is the loop area.
+
+=== Transformer ===
+{{Main|Transformer}}
+Based on mutual induction:
+:<math>\frac{V_s}{V_p} = \frac{N_s}{N_p}</math>
+where the subscripts <math>p</math> and <math>s</math> refer to primary and secondary coils.
+
+=== Eddy currents ===
+{{Main|Eddy current}}
+Changing magnetic fields induce circulating currents in bulk conductors, causing energy losses. Lamination of transformer cores minimizes eddy currents.
+
+== See also ==
+{{Portal|Physics}}
+* [[Lenz's law]]
+* [[Electromagnetic induction]]
+* [[Maxwell's equations]]
+* [[Inductance]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Faraday's law of induction| ]]
+[[Category:Electromagnetism]]
+[[Category:Michael Faraday]]

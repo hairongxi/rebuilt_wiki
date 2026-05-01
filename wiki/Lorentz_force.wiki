@@ -1,0 +1,77 @@
+{{Short description|Force on a charged particle in an electromagnetic field}}
+{{Infobox physical law
+| name = Lorentz force
+| image = Lorentz force particle.svg
+| caption = The Lorentz force <math>\mathbf{F}</math> on a charged particle moving with velocity <math>\mathbf{v}</math> in electric field <math>\mathbf{E}</math> and magnetic field <math>\mathbf{B}</math>.
+| formula = <math>\mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})</math>
+| discovered_by = [[Hendrik Lorentz]] (1895)
+}}
+
+In [[physics]], specifically in [[electromagnetism]], the '''Lorentz force''' (or '''electromagnetic force''') is the combination of [[electric force|electric]] and [[magnetic force]] on a [[point charge]] due to [[electromagnetic field]]s. A particle of charge <math>q</math> moving with velocity <math>\mathbf{v}</math> in an electric field <math>\mathbf{E}</math> and a magnetic field <math>\mathbf{B}</math> experiences a force:
+:<math>\mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})</math>
+
+The law is named after Dutch physicist [[Hendrik Lorentz]], who formulated it in 1895.
+
+== Components ==
+
+=== Electric force ===
+The electric component <math>\mathbf{F}_e = q\mathbf{E}</math> is parallel to the electric field and does work on the particle.
+
+=== Magnetic force ===
+The magnetic component <math>\mathbf{F}_m = q\mathbf{v} \times \mathbf{B}</math> is perpendicular to both the velocity and the magnetic field. Key properties:
+* Does '''no work''' (<math>\mathbf{F}_m \cdot \mathbf{v} = 0</math>) — it can change the direction but not the [[speed]]
+* Magnitude: <math>F_m = qvB\sin\theta</math>, where <math>\theta</math> is the angle between <math>\mathbf{v}</math> and <math>\mathbf{B}</math>
+* Direction: given by the [[right-hand rule]]
+
+== Motion in uniform fields ==
+
+=== Uniform electric field ===
+A charge in a uniform <math>\mathbf{E}</math> undergoes constant acceleration <math>\mathbf{a} = q\mathbf{E}/m</math>, analogous to projectile motion under gravity.
+
+=== Uniform magnetic field ===
+A charge moving perpendicular to <math>\mathbf{B}</math> follows a circular path with:
+:<math>r = \frac{mv}{qB}, \quad \omega_c = \frac{qB}{m}</math>
+where <math>\omega_c</math> is the [[cyclotron frequency]] and <math>r</math> is the [[gyroradius]] (Larmor radius).
+
+Velocity parallel to <math>\mathbf{B}</math> is unaffected, resulting in [[helix|helical]] motion.
+
+=== Crossed E and B fields ===
+With perpendicular <math>\mathbf{E}</math> and <math>\mathbf{B}</math>, particles with a specific velocity <math>v = E/B</math> pass undeflected. This is the principle of the [[velocity selector]] and the [[Wien filter]].
+
+== Continuous charge distributions ==
+For continuous distributions, the force density (force per unit volume) is:
+:<math>\mathbf{f} = \rho\mathbf{E} + \mathbf{J} \times \mathbf{B}</math>
+
+== Force on a current-carrying wire ==
+For a straight wire of length <math>L</math> carrying current <math>I</math>:
+:<math>\mathbf{F} = I\mathbf{L} \times \mathbf{B}</math>
+
+== Lorentz force in Maxwell's equations ==
+The Lorentz force provides the link between [[Maxwell's equations]] and mechanics. The complete set of Maxwell's equations plus the Lorentz force law describes classical electrodynamics.
+
+== Relativistic form ==
+{{Main|Relativistic electromagnetism}}
+In [[special relativity]], the Lorentz force is described by the [[electromagnetic tensor]] <math>F^{\mu\nu}</math>:
+:<math>\frac{dp^\mu}{d\tau} = qF^{\mu\nu}u_\nu</math>
+where <math>p^\mu</math> is the four-momentum and <math>u_\nu</math> is the four-velocity.
+
+== Applications ==
+* [[Cathode ray tube]] (CRT) — electron beam deflection
+* [[Mass spectrometry|Mass spectrometer]] — charge-to-mass ratio measurement
+* [[Cyclotron]] and [[synchrotron]] — particle acceleration
+* [[Hall effect]] — voltage generation across a conductor
+* [[Magnetohydrodynamics]] — plasma behavior
+
+== See also ==
+{{Portal|Physics}}
+* [[Coulomb's law]]
+* [[Biot–Savart law]]
+* [[Right-hand rule]]
+* [[Cyclotron motion]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Lorentz force| ]]
+[[Category:Electromagnetism]]
+[[Category:Force]]

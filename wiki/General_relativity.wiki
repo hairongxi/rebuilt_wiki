@@ -1,0 +1,69 @@
+{{Short description|Einstein's theory of gravitation describing spacetime curvature}}
+{{Infobox physics
+| name = General relativity
+| image = GPB circling earth.jpg
+| caption = Artist impression of [[Gravity Probe B]] measuring spacetime curvature around Earth.
+| topics = [[Gravitation]], [[Spacetime]], [[Special relativity]], [[Cosmology]]
+| key_equation = [[Einstein field equations]]
+}}
+
+'''General relativity''' (GR), also known as the '''general theory of relativity''', is the geometric [[theory]] of [[gravitation]] published by [[Albert Einstein]] in 1915. It is the current description of gravitation in modern physics. General relativity generalises [[special relativity]] and refines [[Newton's law of universal gravitation]], providing a unified description of gravity as a geometric property of [[spacetime]].
+
+The central idea of general relativity is that [[mass]] and [[energy]] curve the geometry of spacetime, and this curvature affects the motion of [[matter]] and [[light]]. As [[John Archibald Wheeler]] succinctly put it: "Spacetime tells matter how to move; matter tells spacetime how to curve."
+
+== Einstein field equations ==
+{{Main|Einstein field equations}}
+The relationship between matter and spacetime geometry is given by:
+:<math>R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}</math>
+
+The left-hand side describes the geometry of spacetime (the [[Einstein tensor]] <math>G_{\mu\nu}</math>). The right-hand side describes the distribution of matter and energy (the [[stress–energy tensor]] <math>T_{\mu\nu}</math>). The [[cosmological constant]] <math>\Lambda</math> was originally introduced by Einstein to achieve a static universe.
+
+== Principles ==
+
+=== Equivalence principle ===
+The [[equivalence principle]] states that the effects of gravity are locally indistinguishable from acceleration. In a small freely falling reference frame, the laws of physics reduce to those of special relativity.
+
+=== Geodesic motion ===
+Free particles follow [[geodesic]]s—the straightest possible paths in curved spacetime:
+:<math>\frac{d^2 x^\mu}{d\tau^2} + \Gamma^\mu_{\alpha\beta}\frac{dx^\alpha}{d\tau}\frac{dx^\beta}{d\tau} = 0</math>
+where <math>\Gamma^\mu_{\alpha\beta}</math> are the [[Christoffel symbols]] and <math>\tau</math> is the [[proper time]].
+
+== Predictions and tests ==
+
+=== Classical tests ===
+# '''Perihelion precession of Mercury''' — 43 arcseconds per century, unexplained by Newtonian gravity
+# '''Deflection of light by the Sun''' — confirmed by the 1919 [[solar eclipse]] expedition led by [[Arthur Eddington]]
+# '''Gravitational redshift''' — light loses energy climbing out of a gravitational well
+
+=== Modern tests ===
+* [[Gravitational time dilation]] — verified in [[GPS]] satellites
+* [[Gravitational wave]]s — directly detected by [[LIGO]] in 2015 from a binary black hole merger
+* [[Frame-dragging]] — confirmed by [[Gravity Probe B]]
+* [[Black hole]] imaging — [[Event Horizon Telescope]], 2019
+
+== Black holes ==
+{{Main|Black hole}}
+One of the most dramatic predictions of general relativity is the existence of [[black hole]]s—regions of spacetime where gravity is so strong that nothing, not even light, can escape. The boundary is the [[event horizon]]. The [[Schwarzschild metric]] describes a non-rotating black hole:
+:<math>ds^2 = -\left(1 - \frac{2GM}{c^2 r}\right)c^2 dt^2 + \left(1 - \frac{2GM}{c^2 r}\right)^{-1} dr^2 + r^2 d\Omega^2</math>
+
+== Cosmology ==
+{{Main|Physical cosmology}}
+General relativity is the theoretical foundation for modern [[cosmology]]. The [[Friedmann–Lemaître–Robertson–Walker metric]] (FLRW metric) describes a homogeneous, isotropic expanding universe and leads to the [[Big Bang]] model.
+
+== See also ==
+{{Portal|Physics}}
+* [[Black hole]]
+* [[Cosmological constant]]
+* [[Cosmology]]
+* [[Gravitation]]
+* [[Gravitational wave]]
+* [[Spacetime]]
+* [[Special relativity]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:General relativity| ]]
+[[Category:Theories of gravity]]
+[[Category:Albert Einstein]]
+[[Category:Fundamental physics concepts]]

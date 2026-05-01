@@ -1,0 +1,85 @@
+{{Short description|Modern metric system of measurement}}
+{{Infobox physics
+| name = International System of Units
+| image = SI base units.svg
+| caption = The seven [[SI base unit]]s and their interdependencies.
+| topics = [[Physical constant]], [[Metre]], [[Kilogram]], [[Second]]
+| abbreviation = SI
+}}
+
+The '''International System of Units''', internationally known by the abbreviation '''SI''' (from the French ''Système international d'unités''), is the modern form of the [[metric system]] and the world's most widely used [[system of measurement]]. It is the only system of measurement with official status in nearly every country in the world.
+
+== SI base units ==
+The SI comprises seven [[SI base unit|base units]]:
+
+{| class="wikitable"
+|-
+! Quantity !! Unit !! Symbol
+|-
+| [[Time]] || [[second]] || s
+|-
+| [[Length]] || [[metre]] || m
+|-
+| [[Mass]] || [[kilogram]] || kg
+|-
+| [[Electric current]] || [[ampere]] || A
+|-
+| [[Temperature]] || [[kelvin]] || K
+|-
+| [[Amount of substance]] || [[mole (unit)|mole]] || mol
+|-
+| [[Luminous intensity]] || [[candela]] || cd
+|}
+
+All other SI units are derived from these seven base units.
+
+== 2019 redefinition ==
+{{Main|2019 redefinition of the SI base units}}
+Since 20 May 2019, all SI base units are defined in terms of fundamental [[physical constant]]s:
+
+{| class="wikitable"
+|-
+! Constant !! Defines !! Exact value
+|-
+| [[Speed of light]] <math>c</math> || metre || 299,792,458 m/s
+|-
+| [[Planck constant]] <math>h</math> || kilogram || 6.62607015×10⁻³⁴ J·s
+|-
+| [[Elementary charge]] <math>e</math> || ampere || 1.602176634×10⁻¹⁹ C
+|-
+| [[Boltzmann constant]] <math>k_B</math> || kelvin || 1.380649×10⁻²³ J/K
+|-
+| [[Avogadro constant]] <math>N_A</math> || mole || 6.02214076×10²³ mol⁻¹
+|}
+
+== Derived units ==
+Common [[SI derived unit]]s:
+* [[Hertz]] (Hz) — frequency
+* [[Newton (unit)|Newton]] (N) — force
+* [[Pascal (unit)|Pascal]] (Pa) — pressure
+* [[Joule]] (J) — energy
+* [[Watt]] (W) — power
+* [[Coulomb]] (C) — electric charge
+* [[Volt]] (V) — voltage
+* [[Ohm]] (Ω) — resistance
+* [[Tesla (unit)|Tesla]] (T) — magnetic flux density
+
+== SI prefixes ==
+The SI uses standard [[metric prefix|prefixes]] for multiples and submultiples:
+* kilo- (k) = 10³, mega- (M) = 10⁶, giga- (G) = 10⁹
+* milli- (m) = 10⁻³, micro- (μ) = 10⁻⁶, nano- (n) = 10⁻⁹
+
+== See also ==
+{{Portal|Physics}}
+* [[Kilogram]]
+* [[Metre]]
+* [[Newton (unit)]]
+* [[Physical constant]]
+* [[Second]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:International System of Units| ]]
+[[Category:Systems of units]]
+[[Category:Measurement]]

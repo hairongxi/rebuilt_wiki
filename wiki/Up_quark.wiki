@@ -1,0 +1,70 @@
+{{Short description="Lightest quark flavour; constituent of protons and neutrons}}
+{{Infobox physics
+| name = Up quark
+| image = 
+| caption = 
+| topics = [[Quark]], [[Elementary particle]], [[Proton]], [[Neutron]], [[Standard Model]]
+| composition = [[Elementary particle]]
+| statistics = [[Fermion]]
+| symbol = u
+| generation = First
+| charge = +2/3 e
+| mass = 2.2 ± 0.5 MeV/c²
+| spin = 1/2
+}}
+
+The '''up quark''' (symbol: <math>u</math>) is the lightest of all [[quark]]s, a type of [[elementary particle]], and a major constituent of ordinary [[matter]]. Along with the [[down quark]], it forms the first generation of quarks in the [[Standard Model]].
+
+== Role in matter ==
+The [[proton]] (<math>uud</math>) contains two up quarks and one down quark:
+* Charge: <math>+2/3 + 2/3 - 1/3 = +1</math>
+
+The [[neutron]] (<math>udd</math>) contains one up quark and two down quarks:
+* Charge: <math>+2/3 - 1/3 - 1/3 = 0</math>
+
+Together, the up and down quarks account for nearly all visible mass in the [[universe]].
+
+== Properties ==
+{| class="wikitable"
+|-
+! Property !! Value
+|-
+| Mass || 2.2 ± 0.5 MeV/c² (~0.2% of proton mass)
+|-
+| Charge || +2/3 e
+|-
+| [[Spin (physics)|Spin]] || 1/2
+|-
+| [[Isospin]] (<math>I_3</math>) || +1/2
+|-
+| [[Colour charge]] || Red, green, or blue
+|}
+
+The up quark is the second-lightest quark after the [[down quark]]. The proton's mass (~938 MeV/c²) arises primarily from the [[binding energy]] of QCD, not from the rest masses of its constituent quarks (~9 MeV/c² total).
+
+== Weak interactions ==
+The up quark participates in [[weak interaction]]s, coupling to the down quark via the [[Cabibbo–Kobayashi–Maskawa matrix|CKM matrix]]:
+
+:<math>\begin{pmatrix} d' \\ s' \\ b' \end{pmatrix} = \begin{pmatrix}
+V_{ud} & V_{us} & V_{ub} \\
+V_{cd} & V_{cs} & V_{cb} \\
+V_{td} & V_{ts} & V_{tb}
+\end{pmatrix} \begin{pmatrix} d \\ s \\ b \end{pmatrix}</math>
+
+The dominant coupling is <math>u \leftrightarrow d</math> with <math>|V_{ud}| \approx 0.974</math>.
+
+== See also ==
+{{Portal|Physics}}
+* [[Down quark]]
+* [[Elementary particle]]
+* [[Neutron]]
+* [[Proton]]
+* [[Quark]]
+* [[Standard Model]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Quarks]]
+[[Category:Elementary particles]]
+[[Category:Particle physics]]

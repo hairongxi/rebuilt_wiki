@@ -1,0 +1,90 @@
+{{Short description|Quantitative property transferred to perform work or heat}}
+{{Infobox physical quantity
+| name = Energy
+| image = Lightning over Oradea Romania cropped.jpg
+| caption = [[Lightning]] is a dramatic natural display of energy transfer.
+| symbols = <math>E</math>
+| SI_unit = [[joule]] (J = kg·m²/s²)
+| conserved = Yes
+}}
+
+'''Energy''' is the [[physical quantity|quantitative property]] that must be transferred to an object in order to perform [[Work (physics)|work]] on, or to [[heat]], the object. Energy is a [[Conservation of energy|conserved]] quantity; the law of [[conservation of energy]] states that energy can be [[energy transformation|converted]] in form, but not created or destroyed.
+
+The [[International System of Units|SI]] unit of energy is the [[joule]] (J), defined as 1 kg·m²/s². Common units include the [[calorie]], the [[kilowatt-hour]] (kWh), and the [[electronvolt]] (eV).
+
+== Forms of energy ==
+Energy exists in many forms:
+
+{| class="wikitable"
+|-
+! Form !! Description
+|-
+| [[Kinetic energy]] || Energy of motion: <math>K = \frac{1}{2}mv^2</math>
+|-
+| [[Potential energy]] || Stored energy due to position or configuration
+|-
+| [[Thermal energy]] || Energy associated with random molecular motion
+|-
+| [[Chemical energy]] || Energy stored in chemical bonds
+|-
+| [[Electrical energy]] || Energy from electric charges and fields
+|-
+| [[Nuclear energy]] || Energy from nuclear binding and reactions
+|-
+| [[Radiant energy]] || Energy carried by electromagnetic waves
+|-
+| [[Rest energy]] || <math>E_0 = mc^2</math> — mass–energy equivalence
+|}
+
+== Kinetic energy ==
+{{Main|Kinetic energy}}
+The kinetic energy of a particle of mass <math>m</math> moving at speed <math>v</math> is:
+:<math>K = \frac{1}{2}mv^2</math>
+
+The relativistic expression is <math>K = (\gamma - 1)mc^2</math>.
+
+== Potential energy ==
+{{Main|Potential energy}}
+Potential energy <math>U</math> is stored energy associated with conservative forces; <math>\mathbf{F} = -\nabla U</math>. Common types:
+* '''Gravitational potential energy''': <math>U_g = mgh</math> (near Earth's surface)
+* '''Elastic potential energy''': <math>U_s = \frac{1}{2}kx^2</math> (spring)
+* '''Electrostatic potential energy''': <math>U_e = k_e\frac{q_1 q_2}{r}</math>
+
+== Conservation of energy ==
+{{Main|Conservation of energy}}
+The [[first law of thermodynamics]] and the principle of conservation of mechanical energy state that for an isolated system, total energy is constant:
+:<math>E = K + U + U_{\text{int}} = \text{constant}</math>
+
+Noether's theorem links energy conservation to [[time translation symmetry]].
+
+== Work and heat ==
+Energy transfer occurs via:
+* '''[[Work (physics)|Work]]''': <math>W = \int \mathbf{F} \cdot d\mathbf{r}</math> — organized energy transfer
+* '''[[Heat]]''': <math>Q</math> — disorganized energy transfer due to temperature difference
+
+The work–energy theorem: <math>W_{\text{net}} = \Delta K</math>
+
+== Power ==
+{{Main|Power (physics)}}
+[[Power (physics)|Power]] is the rate of energy transfer:
+:<math>P = \frac{dE}{dt}</math>
+The SI unit is the [[watt]] (W = J/s).
+
+== Energy in special relativity ==
+{{Main|Mass–energy equivalence}}
+Einstein's <math>E = mc^2</math> unifies mass and energy. The [[energy–momentum relation]]:
+:<math>E^2 = (pc)^2 + (mc^2)^2</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Thermodynamics]]
+* [[Exergy]]
+* [[Renewable energy]]
+* [[Energy density]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Energy| ]]
+[[Category:Physics]]
+[[Category:Conservation laws]]

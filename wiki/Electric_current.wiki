@@ -1,0 +1,65 @@
+{{Short description|Flow of electric charge through a conductor}}
+{{Infobox physics
+| name = Electric current
+| image = Ohm's Law with Voltage source.svg
+| caption = A simple electrical circuit with a [[voltage source]] driving an electric current through a [[resistor]].
+| topics = [[Electric charge]], [[Electric field]], [[Ohm's law]], [[Magnetic field]]
+| symbol = I
+| SI_unit = [[ampere]] (A)
+| dimension = I
+}}
+
+An '''electric current''' is a flow of [[electric charge]] through a [[conductor (electrical)|conductor]]. In [[electrical circuit|electric circuits]], this charge is often carried by moving [[electron]]s in a wire. The [[SI unit]] for electric current is the [[ampere]] (A), which is defined as one [[coulomb]] of charge passing through a point per [[second]]:
+
+:<math>I = \frac{dQ}{dt}</math>
+
+== Ohm's law ==
+{{Main|Ohm's law}}
+In many conductive materials, the current <math>I</math> is proportional to the applied [[voltage]] <math>V</math>:
+:<math>I = \frac{V}{R}</math>
+where <math>R</math> is the [[electrical resistance]].
+
+== Current density ==
+The [[current density]] <math>\mathbf{J}</math> is a [[vector field]] describing current flow per unit area:
+:<math>\mathbf{J} = nq\mathbf{v}_d</math>
+where <math>n</math> is the charge carrier density, <math>q</math> is the charge of each carrier, and <math>\mathbf{v}_d</math> is the [[drift velocity]].
+
+The total current through a surface is:
+:<math>I = \int \mathbf{J} \cdot d\mathbf{A}</math>
+
+== Types of current ==
+
+=== Direct current (DC) ===
+All [[electric charge]] flows in one constant direction. Common sources: [[Battery (electricity)|batteries]], [[solar cell]]s, [[DC power supply|DC power supplies]].
+
+=== Alternating current (AC) ===
+The direction of charge flow periodically reverses. The standard for mains electricity worldwide. The voltage varies sinusoidally:
+:<math>V(t) = V_0\sin(2\pi ft)</math>
+where <math>f</math> is the [[frequency]] (typically 50 or 60 Hz).
+
+== Magnetic effects ==
+An electric current produces a [[magnetic field]], as described by [[Ampère's circuital law]]:
+:<math>\oint \mathbf{B} \cdot d\boldsymbol{\ell} = \mu_0 I_{\text{enc}}</math>
+
+This is the principle behind [[electromagnet]]s, [[electric motor]]s, and [[transformer]]s.
+
+== Conduction mechanisms ==
+* '''Metallic conduction''' — [[electron]]s in the [[conduction band]]
+* '''Electrolytic conduction''' — [[ion]]s in solution
+* '''Semiconductor conduction''' — electrons and [[electron hole|holes]]
+* '''Superconductivity''' — zero-resistance current below a critical temperature
+
+== See also ==
+{{Portal|Physics}}
+* [[Ampere]]
+* [[Electric charge]]
+* [[Electric field]]
+* [[Ohm's law]]
+* [[Voltage]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electric current| ]]
+[[Category:Electromagnetism]]
+[[Category:Physical quantities]]

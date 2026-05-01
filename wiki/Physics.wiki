@@ -1,0 +1,123 @@
+{{Short description|Scientific study of matter, energy, and their interactions}}
+{{Infobox physics
+| name = Physics
+| image = CollageFisica.jpg
+| caption = Various physical phenomena: [[lightning]], [[galaxy|galaxies]], [[magnet]]s, [[laser]]s, and [[atom]]s
+| topics = [[Matter]], [[Energy]], [[Force]], [[Spacetime]], [[Fundamental interaction]]s
+}}
+
+'''Physics''' (from [[Ancient Greek|Greek]] <nowiki>''</nowiki>φυσική (ἐπιστήμη)<nowiki>''</nowiki>, ''physikḗ (epistḗmē)'', "knowledge of nature") is the [[natural science]] that studies [[matter]], its [[Motion (physics)|motion]] and behavior through [[spacetime]], and the related entities of [[energy]] and [[force]]. Physics is one of the most fundamental scientific disciplines, and its main goal is to understand how the [[universe]] behaves.
+
+Physics is one of the oldest academic disciplines and, through its inclusion of [[astronomy]], perhaps the oldest. Over much of the past two millennia, physics, [[chemistry]], [[biology]], and certain branches of [[mathematics]] were a part of [[natural philosophy]], but during the [[Scientific Revolution]] in the 17th century, these natural sciences emerged as unique research endeavors in their own right. Physics intersects with many interdisciplinary areas of research, such as [[biophysics]] and [[quantum chemistry]], and the boundaries of physics are not rigidly defined.
+
+== History ==
+{{Main|History of physics}}
+
+=== Ancient and medieval ===
+Early civilizations studied celestial motions and natural phenomena. [[Aristotle]]'s physics dominated Western thought for nearly two millennia. In the Islamic Golden Age, scholars such as [[Ibn al-Haytham]] (Alhazen) made significant contributions to [[optics]].
+
+=== Scientific Revolution ===
+The 16th and 17th centuries saw revolutionary advances: [[Copernicus]] proposed the [[heliocentric model]], [[Galileo Galilei|Galileo]] pioneered experimental physics, and [[Isaac Newton|Newton]] formulated the laws of motion and universal gravitation.
+
+=== 19th century ===
+Major developments included [[thermodynamics]], [[electromagnetism]] (culminating in [[Maxwell's equations]]), and the formulation of [[statistical mechanics]].
+
+=== 20th century and modern physics ===
+The 20th century brought two revolutionary theories: [[quantum mechanics]] and [[theory of relativity|relativity]] (special and general). The discovery of the [[atomic nucleus]], [[nuclear fission]] and [[nuclear fusion|fusion]], the [[Standard Model]] of particle physics, and the development of [[condensed matter physics]] and [[cosmology]] expanded physics into numerous specialized fields.
+
+== Core theories ==
+
+=== Classical mechanics ===
+{{Main|Classical mechanics}}
+Describes the motion of macroscopic objects from projectiles to planets. Governed by [[Newton's laws of motion]] and reformulated in [[Lagrangian mechanics|Lagrangian]] and [[Hamiltonian mechanics|Hamiltonian]] frameworks.
+
+=== Electromagnetism ===
+{{Main|Electromagnetism}}
+Describes the interaction of [[electric charge|electrically charged]] particles via electric and magnetic fields. Unified by [[Maxwell's equations]], which also describe [[light]] as an electromagnetic wave.
+
+=== Thermodynamics and statistical mechanics ===
+{{Main|Thermodynamics|Statistical mechanics}}
+Thermodynamics studies the relationships between heat, work, temperature, and energy, governed by the four [[laws of thermodynamics]]. Statistical mechanics connects microscopic properties to macroscopic thermodynamic behavior.
+
+=== Quantum mechanics ===
+{{Main|Quantum mechanics}}
+Describes the behavior of matter and energy at atomic and subatomic scales, characterized by [[quantization (physics)|quantization]], [[wave–particle duality]], and the [[uncertainty principle]].
+
+=== Relativity ===
+{{Main|Theory of relativity}}
+[[Special relativity]] describes the physics of objects moving at speeds close to the [[speed of light]], while [[general relativity]] describes [[gravity]] as the curvature of [[spacetime]].
+
+== Branches of physics ==
+{{Main|Branches of physics}}
+
+{| class="wikitable"
+|-
+! Branch !! Subfields
+|-
+| [[Classical mechanics]] || [[Statics]], [[Dynamics (mechanics)|Dynamics]], [[Kinematics]], [[Celestial mechanics]], [[Continuum mechanics]]
+|-
+| [[Electromagnetism]] || [[Electrostatics]], [[Magnetostatics]], [[Electrodynamics]], [[Optics]]
+|-
+| [[Thermodynamics]] || [[Classical thermodynamics]], [[Statistical mechanics]], [[Kinetic theory of gases|Kinetic theory]]
+|-
+| [[Quantum mechanics]] || [[Quantum field theory]], [[Quantum electrodynamics]], [[Quantum chromodynamics]]
+|-
+| [[Relativistic mechanics]] || [[Special relativity]], [[General relativity]], [[Cosmology]]
+|-
+| [[Atomic, molecular, and optical physics]] || [[Atomic physics]], [[Molecular physics]], [[Spectroscopy]], [[Laser physics]]
+|-
+| [[Nuclear and particle physics]] || [[Nuclear physics]], [[Particle physics]], [[High-energy physics]]
+|-
+| [[Condensed matter physics]] || [[Solid-state physics]], [[Nanotechnology]], [[Superconductivity]]
+|-
+| [[Astrophysics]] || [[Stellar astrophysics]], [[Cosmology]], [[Gravitational physics]]
+|-
+| [[Applied physics]] || [[Biophysics]], [[Geophysics]], [[Medical physics]], [[Materials science]]
+|}
+
+== Fundamental interactions ==
+{{Main|Fundamental interaction}}
+Physics recognizes four fundamental interactions:
+# '''[[Gravity]]''' — mediated by [[graviton]]s (hypothetical), described by [[general relativity]]
+# '''[[Electromagnetism]]''' — mediated by [[photon]]s, described by [[quantum electrodynamics]]
+# '''[[Weak interaction]]''' — mediated by [[W and Z bosons]], responsible for [[beta decay]]
+# '''[[Strong interaction]]''' — mediated by [[gluon]]s, binds quarks in protons and neutrons
+
+Unifying these interactions is one of the greatest challenges in theoretical physics.
+
+== Methodology ==
+{{Main|Scientific method}}
+Physics progresses through the interplay of theory and experiment:
+# Observation of phenomena
+# Formulation of hypotheses and theories
+# Mathematical modeling
+# Experimental testing and verification
+# Refinement or rejection of theories
+
+== Unsolved problems ==
+{{Main|List of unsolved problems in physics}}
+Major open questions include:
+* [[Quantum gravity]] — reconciling general relativity with quantum mechanics
+* [[Dark matter]] and [[dark energy]] — what constitutes 95% of the universe
+* [[Hierarchy problem]] — why gravity is so much weaker than other forces
+* [[Arrow of time]] — why entropy increases
+* [[Interpretations of quantum mechanics]] — the measurement problem
+
+== See also ==
+{{Portal|Physics}}
+* [[Outline of physics]]
+* [[Philosophy of physics]]
+* [[Physics education]]
+* [[Nobel Prize in Physics]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Richard Feynman|Feynman, R. P.]] (1963–65). ''[[The Feynman Lectures on Physics]]''. 3 vols. Addison-Wesley.
+* [[Lev Landau|Landau, L. D.]], Lifshitz, E. M. (Course of Theoretical Physics, 10 vols.). Butterworth-Heinemann.
+* [[David Halliday (physicist)|Halliday, D.]], Resnick, R., Walker, J. (2013). ''Fundamentals of Physics'' (10th ed.). Wiley.
+
+[[Category:Physics| ]]
+[[Category:Natural sciences]]
+[[Category:Physical sciences]]

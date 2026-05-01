@@ -1,0 +1,89 @@
+{{Short description|The simplest form of mechanical oscillation}}
+{{Infobox physics
+| name = Simple harmonic motion
+| image = Simple Harmonic Motion Orbit.gif
+| caption = Simple harmonic motion: a projection of uniform circular motion onto a line.
+| topics = [[Hooke's law]], [[Harmonic oscillator]], [[Angular frequency]], [[Amplitude]]
+}}
+
+In [[mechanics]] and [[physics]], '''simple harmonic motion''' ('''SHM''') is a special type of periodic [[oscillation|motion]] where the [[restoring force]] is directly [[Proportionality (mathematics)|proportional]] to the [[Displacement (geometry)|displacement]] from an [[Mechanical equilibrium|equilibrium]] position and acts in the direction opposite to the displacement:
+:<math>F = -kx</math>
+
+where <math>k</math> is a positive constant (force constant).
+
+== Equation of motion ==
+From [[Newton's laws of motion|Newton's second law]], the equation of motion is:
+:<math>\frac{d^2x}{dt^2} + \omega^2 x = 0</math>
+where <math>\omega = \sqrt{k/m}</math> is the [[angular frequency]].
+
+The general solution is:
+:<math>x(t) = A\cos(\omega t + \phi)</math>
+where:
+* <math>A</math> = [[amplitude]] (maximum displacement)
+* <math>\phi</math> = [[phase (waves)|phase constant]] (determined by initial conditions)
+* <math>\omega</math> = angular frequency (rad/s)
+
+== Kinematic quantities ==
+From <math>x(t) = A\cos(\omega t + \phi)</math>:
+* Velocity: <math>v(t) = \frac{dx}{dt} = -\omega A\sin(\omega t + \phi)</math>
+* Acceleration: <math>a(t) = \frac{d^2x}{dt^2} = -\omega^2 x(t)</math>
+
+Maximum values:
+* <math>v_{\text{max}} = \omega A</math>
+* <math>a_{\text{max}} = \omega^2 A</math>
+
+== Period and frequency ==
+The [[period (physics)|period]] <math>T</math> and [[frequency]] <math>f</math> are related to the angular frequency:
+:<math>T = \frac{2\pi}{\omega} = 2\pi\sqrt{\frac{m}{k}}, \quad f = \frac{1}{T} = \frac{\omega}{2\pi}</math>
+
+The period is independent of the amplitude ([[isochronous|isochronism]]), a property discovered by [[Galileo Galilei|Galileo]].
+
+== Energy ==
+The total mechanical energy is conserved and proportional to the square of the amplitude:
+:<math>E = \frac{1}{2}kA^2</math>
+
+The kinetic and potential energies vary with time:
+:<math>K(t) = \frac{1}{2}kA^2\sin^2(\omega t + \phi)</math>
+:<math>U(t) = \frac{1}{2}kA^2\cos^2(\omega t + \phi)</math>
+
+The time-averaged kinetic and potential energies are equal:
+:<math>\langle K \rangle = \langle U \rangle = \frac{1}{4}kA^2</math>
+
+== Examples ==
+
+=== Mass–spring system ===
+For a mass <math>m</math> attached to a horizontal spring of stiffness <math>k</math>:
+:<math>\omega = \sqrt{\frac{k}{m}}, \quad T = 2\pi\sqrt{\frac{m}{k}}</math>
+
+=== Simple pendulum ===
+{{Main|Pendulum}}
+For small angular amplitudes (<math>\theta \ll 1</math> rad):
+:<math>\omega = \sqrt{\frac{g}{L}}, \quad T = 2\pi\sqrt{\frac{L}{g}}</math>
+where <math>L</math> is the pendulum length.
+
+=== Physical pendulum ===
+{{Main|Pendulum#Compound pendulum}}
+:<math>T = 2\pi\sqrt{\frac{I}{mgd}}</math>
+where <math>I</math> is the moment of inertia about the pivot and <math>d</math> is the pivot-to-CM distance.
+
+=== LC circuit ===
+{{Main|LC circuit}}
+In an ideal [[LC circuit]], the charge oscillates with:
+:<math>\omega = \frac{1}{\sqrt{LC}}</math>
+
+== Phasor representation ==
+SHM can be represented as the projection of uniform circular motion onto a diameter. The [[phasor]] is a rotating vector of length <math>A</math> with angular velocity <math>\omega</math>.
+
+== See also ==
+{{Portal|Physics}}
+* [[Harmonic oscillator]]
+* [[Damping|Damped oscillation]]
+* [[Resonance]]
+* [[Normal mode]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Simple harmonic motion| ]]
+[[Category:Oscillation]]
+[[Category:Classical mechanics]]

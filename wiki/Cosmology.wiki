@@ -1,0 +1,64 @@
+{{Short description="Scientific study of the origin, evolution, and ultimate fate of the universe}}
+{{Infobox physics
+| name = Cosmology
+| image = CMB_Timeline75.jpg
+| caption = History of the [[universe]] from the [[Big Bang]] to the present.
+| topics = [[General relativity]], [[Universe]], [[Big Bang]], [[Dark matter]], [[Dark energy]]
+}}
+
+'''Cosmology''' is a branch of [[astronomy]] concerned with the study of the origin, evolution, and ultimate fate of the [[universe]]. '''Physical cosmology''' is the scientific study of the universe's origin, large-scale structures and dynamics, and its ultimate fate, using the laws of [[physics]].
+
+== Big Bang model ==
+{{Main|Big Bang}}
+The prevailing cosmological model is the [[Lambda-CDM model]] (ΛCDM), which describes a universe that began approximately 13.8 billion years ago in a hot, dense state (the [[Big Bang]]) and has been expanding ever since.
+
+== Key observational pillars ==
+
+=== Hubble expansion ===
+[[Edwin Hubble]] discovered that galaxies recede from us at speeds proportional to their distance:
+:<math>v = H_0 d</math>
+where <math>H_0 \approx 70\ \text{km/s/Mpc}</math> is the [[Hubble constant]].
+
+=== Cosmic microwave background ===
+{{Main|Cosmic microwave background}}
+Thermal radiation left over from ~380,000 years after the Big Bang, at temperature <math>T = 2.725\ \text{K}</math>. Discovered by [[Arno Penzias]] and [[Robert Wilson]] in 1965.
+
+=== Big Bang nucleosynthesis ===
+Primordial production of light elements (<math>^1\text{H}, ^4\text{He}, ^2\text{D}, ^7\text{Li}</math>) occurred in the first ~3 minutes.
+
+=== Large-scale structure ===
+The universe exhibits a web-like structure of galaxies, clusters, and filaments.
+
+== Composition of the universe ==
+The ΛCDM model indicates:
+* ~68% [[dark energy]] ([[cosmological constant]] <math>\Lambda</math>)
+* ~27% [[dark matter]]
+* ~5% ordinary [[baryon]]ic matter
+
+== Friedmann equations ==
+{{Main|Friedmann equations}}
+Derived from the [[Einstein field equations]] for a homogeneous, isotropic universe:
+
+:<math>H^2 = \left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\rho - \frac{kc^2}{a^2} + \frac{\Lambda c^2}{3}</math>
+:<math>\frac{\ddot{a}}{a} = -\frac{4\pi G}{3}\left(\rho + \frac{3p}{c^2}\right) + \frac{\Lambda c^2}{3}</math>
+
+== Open questions ==
+* Nature of [[dark matter]] and [[dark energy]]
+* [[Cosmic inflation]] — what drove the early exponential expansion?
+* [[Baryon asymmetry]] — why matter over antimatter?
+* Ultimate fate: [[Big Freeze]], [[Big Rip]], or [[Big Crunch]]?
+
+== See also ==
+{{Portal|Physics}}
+* [[Big Bang]]
+* [[Dark energy]]
+* [[Dark matter]]
+* [[General relativity]]
+* [[Universe]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Cosmology| ]]
+[[Category:Astrophysics]]
+[[Category:General relativity]]

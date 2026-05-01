@@ -1,0 +1,73 @@
+{{Short description="Process transforming one or more atomic nuclei into one or more different nuclei}}
+{{Infobox physics
+| name = Nuclear reaction
+| image = 
+| caption = 
+| topics = [[Nuclear physics]], [[Atomic nucleus]], [[Nuclear fission]], [[Nuclear fusion]], [[Mass–energy equivalence]]
+}}
+
+A '''nuclear reaction''' is a process in which one or more [[atomic nucleus|atomic nuclei]] are transformed into one or more different nuclei, often accompanied by the emission or absorption of [[subatomic particle]]s or [[electromagnetic radiation]]. Nuclear reactions are fundamentally different from [[chemical reaction]]s: they involve changes in the [[atomic nucleus|nucleus]] rather than only the [[electron]] cloud, and release energies typically millions of times greater.
+
+== Types of nuclear reactions ==
+
+=== Fission ===
+{{Main|Nuclear fission}}
+Heavy nucleus splits into lighter nuclei:
+:<math>^{235}_{92}\text{U} + n \rightarrow ^{141}_{56}\text{Ba} + ^{92}_{36}\text{Kr} + 3n + \sim200\ \text{MeV}</math>
+
+=== Fusion ===
+{{Main|Nuclear fusion}}
+Light nuclei combine into heavier nuclei:
+:<math>^2\text{D} + ^3\text{T} \rightarrow ^4\text{He} + n + 17.6\ \text{MeV}</math>
+
+=== Radioactive decay ===
+{{Main|Radioactive decay}}
+Spontaneous transformation:
+* [[Alpha decay]]: emission of [[helium-4]] nucleus
+* [[Beta decay]]: conversion of neutron ↔ proton + [[electron]]/[[positron]] + [[neutrino]]
+* [[Gamma decay]]: emission of high-energy [[photon]]
+
+=== Nuclear scattering ===
+* Elastic scattering — kinetic energy conserved
+* Inelastic scattering — target nucleus excited
+
+=== Spallation ===
+High-energy particle bombardment fragments the target nucleus into multiple lighter nuclei.
+
+== Energy in nuclear reactions ==
+The [[Q-value (nuclear)|Q-value]] of a reaction is the energy released (or absorbed):
+
+:<math>Q = (m_{\text{initial}} - m_{\text{final}})c^2</math>
+
+* <math>Q > 0</math> — exothermic (energy released)
+* <math>Q < 0</math> — endothermic (energy absorbed)
+
+== Conservation laws ==
+Nuclear reactions conserve:
+* [[Baryon number]] (total number of nucleons)
+* [[Electric charge]]
+* [[Energy]] and [[momentum]]
+* [[Angular momentum]]
+* [[Lepton number]] (in beta decay)
+
+== Applications ==
+* [[Nuclear power]] — electricity generation
+* [[Nuclear medicine]] — diagnosis and treatment
+* [[Radiocarbon dating]] — archaeological dating
+* [[Particle accelerator]]s — fundamental research
+* [[Nuclear astrophysics]] — understanding stellar processes
+
+== See also ==
+{{Portal|Physics}}
+* [[Atomic nucleus]]
+* [[Mass–energy equivalence]]
+* [[Nuclear fission]]
+* [[Nuclear fusion]]
+* [[Nuclear physics]]
+* [[Radioactive decay]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Nuclear reactions| ]]
+[[Category:Nuclear physics]]

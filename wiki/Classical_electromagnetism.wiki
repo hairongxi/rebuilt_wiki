@@ -1,0 +1,57 @@
+{{Short description|Branch of physics studying electromagnetic phenomena before quantum theory}}
+{{Infobox physics
+| name = Classical electromagnetism
+| image = 
+| caption = 
+| topics = [[Electromagnetism]], [[Maxwell's equations]], [[Lorentz force]], [[Electric field]], [[Magnetic field]]
+}}
+
+'''Classical electromagnetism''' or '''classical electrodynamics''' is a branch of theoretical [[physics]] that studies the interactions between [[electric charge]]s and [[electric current|currents]] using an extension of the [[Classical mechanics|classical Newtonian model]]. The theory provides a description of [[electromagnetic phenomena]] whenever the relevant [[length]] scales and field strengths are large enough that [[quantum mechanics|quantum mechanical]] effects are negligible.
+
+== Fundamental equations ==
+
+=== Maxwell's equations ===
+{{Main|Maxwell's equations}}
+The complete description of classical electromagnetism is given by [[Maxwell's equations]]:
+:<math>\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}</math> ([[Gauss's law]])
+:<math>\nabla \cdot \mathbf{B} = 0</math> ([[Gauss's law for magnetism]])
+:<math>\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}</math> ([[Faraday's law of induction]])
+:<math>\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0\varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}</math> ([[Ampère's circuital law]] with Maxwell's correction)
+
+=== Lorentz force ===
+{{Main|Lorentz force}}
+The force on a charged particle in electromagnetic fields is:
+:<math>\mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})</math>
+
+== Key phenomena ==
+* '''[[Electrostatics]]''' — forces between stationary charges; described by [[Coulomb's law]]
+* '''[[Magnetostatics]]''' — currents producing steady magnetic fields; [[Biot–Savart law]], [[Ampère's law]]
+* '''[[Electrodynamics]]''' — time-varying fields; [[electromagnetic induction]], [[electromagnetic wave]]s
+* '''[[Electromagnetic radiation]]''' — propagating oscillatory electric and magnetic fields; travel at the [[speed of light]]
+
+== Electromagnetic potentials ==
+Introducing the [[scalar potential]] <math>\phi</math> and [[vector potential]] <math>\mathbf{A}</math>:
+:<math>\mathbf{E} = -\nabla\phi - \frac{\partial\mathbf{A}}{\partial t}</math>
+:<math>\mathbf{B} = \nabla \times \mathbf{A}</math>
+
+== Limit of validity ==
+Classical electromagnetism breaks down at:
+* Very small scales (~[[Compton wavelength]]) where [[quantum electrodynamics]] becomes necessary
+* Extremely strong fields where [[nonlinear QED]] effects appear
+* Atomic and subatomic scales where quantum effects dominate
+
+== See also ==
+{{Portal|Physics}}
+* [[Electric field]]
+* [[Electromagnetic wave]]
+* [[Electromagnetism]]
+* [[Magnetic field]]
+* [[Maxwell's equations]]
+* [[Quantum electrodynamics]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electromagnetism]]
+[[Category:Classical physics]]
+[[Category:Electrodynamics]]

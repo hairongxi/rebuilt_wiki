@@ -1,0 +1,137 @@
+{{Short description|Theory of space and time}}
+{{Infobox physics
+| name = Special relativity
+| image = Spacetime cone.svg
+| caption = Light cone in [[Minkowski spacetime]]
+| topics = [[Spacetime]], [[Lorentz transformation]], [[Time dilation]], [[Length contraction]], [[Mass–energy equivalence]], [[Relativity of simultaneity]]
+}}
+
+'''Special relativity''' is a scientific theory of the relationship between [[space]] and [[time]]. In [[Albert Einstein]]'s 1905 treatment, the theory is presented as being based on just two [[postulates of special relativity|postulates]]:
+
+# The [[laws of physics]] are [[Invariant (physics)|invariant]] (identical) in all [[inertial frame]]s of reference (that is, frames of reference with no [[acceleration]]).
+# The [[speed of light]] in [[vacuum]] is the same for all observers, regardless of the motion of the light source or observer.
+
+Special relativity has a wide range of consequences that have been experimentally verified, including [[length contraction]], [[time dilation]], [[relativistic mass]], [[mass–energy equivalence]], a universal [[speed limit]], and the [[relativity of simultaneity]].
+
+== History ==
+{{Main|History of special relativity}}
+
+The theory was proposed by [[Albert Einstein]] in 1905 in his paper "[[On the Electrodynamics of Moving Bodies]]" (''Zur Elektrodynamik bewegter Körper''). The incompatibility of [[Newtonian mechanics]] with [[Maxwell's equations]] of electromagnetism and the lack of experimental confirmation of the hypothetical [[luminiferous aether]] led to the development of special relativity.
+
+Key precursors included [[Hendrik Lorentz]] and [[Henri Poincaré]], who independently developed mathematical transformations consistent with the principle of relativity. However, Einstein was the first to provide a complete conceptual framework and physical interpretation.
+
+== Postulates ==
+{{Main|Postulates of special relativity}}
+
+=== Principle of relativity ===
+The laws of physics are the same in all inertial frames. No physical experiment performed within an inertial frame can detect the uniform motion of that frame.
+
+=== Constancy of the speed of light ===
+The speed of light in vacuum, <math>c = 299{,}792{,}458\,\text{m/s}</math>, is the same for all observers, regardless of the relative motion between source and observer.
+
+== Lorentz transformations ==
+{{Main|Lorentz transformation}}
+
+Consider two inertial frames <math>S</math> and <math>S'</math>, with <math>S'</math> moving at velocity <math>v</math> along the <math>x</math>-axis relative to <math>S</math>. The [[Lorentz transformation]]s are:
+
+:<math>t' = \gamma\left(t - \frac{vx}{c^2}\right)</math>
+:<math>x' = \gamma(x - vt)</math>
+:<math>y' = y</math>
+:<math>z' = z</math>
+
+where <math>\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}</math> is the [[Lorentz factor]].
+
+The inverse transformations are obtained by replacing <math>v</math> with <math>-v</math>.
+
+== Consequences ==
+
+=== Relativity of simultaneity ===
+{{Main|Relativity of simultaneity}}
+Two events that are simultaneous in one inertial frame are not necessarily simultaneous in another. The time difference between events in different frames is given by:
+:<math>\Delta t' = \gamma\left(\Delta t - \frac{v\Delta x}{c^2}\right)</math>
+
+=== Time dilation ===
+{{Main|Time dilation}}
+A moving clock runs slower than a stationary clock. If <math>\Delta t_0</math> is the proper time interval (measured in the rest frame), then the dilated time <math>\Delta t</math> in a frame moving at speed <math>v</math> is:
+:<math>\Delta t = \gamma\Delta t_0</math>
+
+=== Length contraction ===
+{{Main|Length contraction}}
+The length of an object measured in the frame in which it is moving is shorter than its proper length <math>L_0</math> (length in its rest frame):
+:<math>L = \frac{L_0}{\gamma}</math>
+
+=== Addition of velocities ===
+{{Main|Velocity-addition formula}}
+The relativistic addition of velocities ensures that no velocity exceeds <math>c</math>:
+:<math>u = \frac{u' + v}{1 + \frac{u'v}{c^2}}</math>
+
+== Relativistic mechanics ==
+
+=== Relativistic momentum ===
+The relativistic momentum is:
+:<math>\mathbf{p} = \gamma m\mathbf{v}</math>
+
+=== Relativistic energy ===
+{{Main|Energy–momentum relation}}
+The total relativistic energy is:
+:<math>E = \gamma mc^2</math>
+
+The [[rest energy]] is:
+:<math>E_0 = mc^2</math>
+
+The [[kinetic energy]] is:
+:<math>K = (\gamma - 1)mc^2</math>
+
+=== Energy–momentum relation ===
+The [[energy–momentum relation]] connects energy, momentum, and rest mass:
+:<math>E^2 = (pc)^2 + (mc^2)^2</math>
+
+For massless particles (such as photons), <math>E = pc</math>.
+
+=== Doppler effect ===
+{{Main|Relativistic Doppler effect}}
+The relativistic Doppler shift for light is:
+:<math>f_{\text{obs}} = f_{\text{src}}\sqrt{\frac{1 + v/c}{1 - v/c}}</math>
+for longitudinal motion (relative motion along the line of sight).
+
+== Spacetime ==
+{{Main|Minkowski spacetime}}
+
+[[Hermann Minkowski]] introduced the concept of four-dimensional [[spacetime]], unifying space and time into a single continuum. The [[spacetime interval]] between two events is invariant across all inertial frames:
+:<math>(\Delta s)^2 = (c\Delta t)^2 - (\Delta x)^2 - (\Delta y)^2 - (\Delta z)^2</math>
+
+[[Four-vector]]s provide a concise formulation of special relativity:
+* [[Four-position]]: <math>X^\mu = (ct, x, y, z)</math>
+* [[Four-momentum]]: <math>P^\mu = (E/c, p_x, p_y, p_z)</math>
+
+== Four-dimensional formulation ==
+Maxwell's equations take a particularly elegant form in four-dimensional notation. The [[electromagnetic field tensor]] <math>F^{\mu\nu}</math> encapsulates both the electric and magnetic fields.
+
+== Experimental evidence ==
+Key experimental confirmations include:
+* [[Michelson–Morley experiment]] — absence of aether drift
+* [[Ives–Stilwell experiment]] — time dilation via Doppler shift
+* [[Hafele–Keating experiment]] — time dilation with atomic clocks on aircraft
+* [[Muon]] lifetime dilation in cosmic rays
+* Tests in [[particle accelerator]]s — relativistic momentum and energy verified daily
+* [[GPS]] satellites — require relativistic corrections for accurate positioning
+
+== See also ==
+{{Portal|Physics}}
+* [[General relativity]]
+* [[Twin paradox]]
+* [[Causality]]
+* [[Lorentz covariance]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Albert Einstein|Einstein, A.]] (1905). "On the Electrodynamics of Moving Bodies". ''Annalen der Physik''. '''17''': 891–921.
+* [[Edwin F. Taylor|Taylor, E. F.]], [[John Archibald Wheeler|Wheeler, J. A.]] (1992). ''Spacetime Physics'' (2nd ed.). W. H. Freeman.
+* [[Wolfgang Rindler|Rindler, W.]] (2006). ''Introduction to Special Relativity'' (2nd ed.). Oxford University Press.
+* [[Richard Feynman|Feynman, R. P.]] ''[[The Feynman Lectures on Physics]]'', Vol. 1, Ch. 15–17.
+
+[[Category:Special relativity| ]]
+[[Category:Physics]]
+[[Category:Albert Einstein]]

@@ -1,0 +1,66 @@
+{{Short description="Rotational analogue of linear momentum}}
+{{Infobox physics
+| name = Angular momentum
+| image = Gyroscope operation.gif
+| caption = A [[gyroscope]] remains upright while spinning due to conservation of angular momentum.
+| topics = [[Classical mechanics]], [[Momentum]], [[Spin (physics)]], [[Noether's theorem]]
+| symbol = L
+| SI_unit = kg·m²/s
+| conserved = Yes (in rotationally symmetric systems)
+}}
+
+'''Angular momentum''' (sometimes called '''moment of momentum''' or '''rotational momentum''') is the [[rotational]] analog of linear [[momentum]]. It is a [[vector quantity]] that represents the product of a body's [[moment of inertia|rotational inertia]] and [[angular velocity|rotational velocity]] about a particular axis.
+
+For a point particle:
+:<math>\mathbf{L} = \mathbf{r} \times \mathbf{p} = \mathbf{r} \times m\mathbf{v}</math>
+
+where <math>\mathbf{r}</math> is the position vector relative to the reference point and <math>\mathbf{p}</math> is the linear momentum.
+
+== Conservation ==
+{{Main|Conservation of angular momentum}}
+Angular momentum is conserved in a system where there is no net external [[torque]]. This is a consequence of rotational symmetry via [[Noether's theorem]]:
+
+:<math>\frac{d\mathbf{L}}{dt} = \boldsymbol{\tau}_{\text{ext}}</math>
+
+If <math>\boldsymbol{\tau}_{\text{ext}} = 0</math>, then <math>\mathbf{L} = \text{constant}</math>.
+
+== Classical mechanics ==
+For a rigid body rotating about a fixed axis:
+:<math>L = I\omega</math>
+
+where <math>I</math> is the [[moment of inertia]] and <math>\omega</math> is the [[angular velocity]].
+
+=== Orbital vs. spin angular momentum ===
+* '''Orbital''' — motion of the centre of mass about a point
+* '''Spin''' — rotation about the centre of mass
+
+== Quantum mechanics ==
+In [[quantum mechanics]], angular momentum is quantised:
+
+:<math>L^2 = \ell(\ell+1)\hbar^2, \quad \ell = 0, 1, 2, \ldots</math>
+:<math>L_z = m_\ell\hbar, \quad m_\ell = -\ell, -\ell+1, \ldots, +\ell</math>
+
+[[Spin (physics)|Spin angular momentum]] is an intrinsic property of particles:
+:<math>S^2 = s(s+1)\hbar^2</math>
+
+== Applications ==
+* [[Kepler's laws of planetary motion|Kepler's second law]] — equal areas in equal times (conservation of angular momentum)
+* Figure skating — spin rate increases when arms are pulled in (decrease of <math>I</math>)
+* [[Gyroscope]] — maintains orientation due to angular momentum
+* [[Neutron star]] rotation — conservation from stellar collapse
+* [[Atomic orbital]]s — quantised angular momentum shapes
+
+== See also ==
+{{Portal|Physics}}
+* [[Moment of inertia]]
+* [[Momentum]]
+* [[Noether's theorem]]
+* [[Spin (physics)]]
+* [[Torque]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Angular momentum| ]]
+[[Category:Classical mechanics]]
+[[Category:Physical quantities]]

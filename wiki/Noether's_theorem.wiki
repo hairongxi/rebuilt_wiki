@@ -1,0 +1,75 @@
+{{Short description="Theorem connecting symmetries and conservation laws in physics"}}
+{{Infobox physical law
+| name = Noether's theorem
+| image = Emmy Noether.jpg
+| caption = [[Emmy Noether]] (1882–1935), who proved the theorem in 1915 and published it in 1918
+| formula = Every differentiable symmetry of the action has a corresponding conservation law.
+| discovered_by = [[Emmy Noether]] (1918)
+}}
+
+'''Noether's theorem''' (or '''Noether's first theorem''') states that every [[differentiable function|differentiable]] symmetry of the [[action (physics)|action]] of a [[physical system]] with [[conservative force]]s has a corresponding [[conservation law]]. The theorem was proven by mathematician [[Emmy Noether]] in 1915 and published in 1918.
+
+The action of a physical system is the [[time integral|integral over time]] of a [[Lagrangian mechanics|Lagrangian]] function, from which the system's behavior can be determined by the [[principle of least action]]. Noether's theorem is used in [[theoretical physics]] and the [[calculus of variations]].
+
+== Statement ==
+For every continuous [[symmetry (physics)|symmetry]] of the [[action (physics)|action]], there exists a conserved quantity (a constant of the motion).
+
+Mathematically: If the Lagrangian <math>L(q, \dot{q}, t)</math> is invariant under an infinitesimal transformation:
+:<math>q_i \to q_i + \varepsilon f_i(q, \dot{q}, t)</math>
+then the quantity
+:<math>J = \sum_i \frac{\partial L}{\partial \dot{q}_i} f_i</math>
+is conserved: <math>\frac{dJ}{dt} = 0</math>.
+
+== Fundamental correspondences ==
+
+{| class="wikitable"
+|-
+! Symmetry !! Conserved quantity
+|-
+| [[Time translation symmetry|Time translation invariance]] || [[Conservation of energy|Energy]]
+|-
+| [[Translational symmetry|Spatial translation invariance]] || [[Conservation of momentum|Linear momentum]]
+|-
+| [[Rotational symmetry|Rotational invariance]] || [[Conservation of angular momentum|Angular momentum]]
+|-
+| [[Gauge invariance]] || [[Charge conservation|Electric charge]]
+|-
+| Spatial reflection (parity) || [[Parity (physics)]]
+|}
+
+== Physical examples ==
+
+=== Energy conservation ===
+If the Lagrangian has no explicit time dependence (<math>\partial L/\partial t = 0</math>), the Hamiltonian (total energy) is conserved:
+:<math>H = \sum_i p_i \dot{q}_i - L = E = \text{constant}</math>
+
+=== Momentum conservation ===
+If the Lagrangian is invariant under spatial translations (<math>q_i \to q_i + \varepsilon</math>), the conjugate momentum is conserved:
+:<math>p = \frac{\partial L}{\partial \dot{q}} = \text{constant}</math>
+
+=== Angular momentum conservation ===
+If the system is rotationally invariant, angular momentum is conserved. In a central potential <math>V(r)</math>, <math>\mathbf{L} = \mathbf{r} \times \mathbf{p} = \text{constant}</math>.
+
+== Historical significance ==
+Noether's theorem elevated conservation laws from empirical observations to consequences of fundamental symmetries of nature. [[Albert Einstein]] described Noether as "the most important woman in the history of mathematics."
+
+The theorem is a cornerstone of modern theoretical physics, underpinning:
+* [[Classical mechanics]]
+* [[Quantum field theory]]
+* [[General relativity]]
+* [[Gauge theory]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Conservation law]]
+* [[Symmetry (physics)]]
+* [[Lagrangian mechanics]]
+* [[Conservation of energy]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Noether's theorem| ]]
+[[Category:Conservation laws]]
+[[Category:Symmetry]]
+[[Category:Theoretical physics]]

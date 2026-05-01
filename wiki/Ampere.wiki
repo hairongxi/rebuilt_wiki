@@ -1,0 +1,55 @@
+{{Short description="SI base unit of electric current}}
+{{Infobox physics
+| name = Ampere
+| image = 
+| caption = 
+| topics = [[Electric current]], [[International System of Units]], [[Elementary charge]]
+| unit_system = [[SI base unit]]
+| unit_of = [[Electric current]]
+| symbol = A
+| named_after = [[André-Marie Ampère]]
+}}
+
+The '''ampere''' (symbol: '''A'''), often shortened to '''amp''', is the [[SI base unit]] of [[electric current]]. It is named after [[André-Marie Ampère]], one of the founders of [[electromagnetism]].
+
+Since 2019, the ampere is defined by fixing the numerical value of the [[elementary charge]] <math>e</math> to 1.602176634×10⁻¹⁹ when expressed in the unit [[coulomb]] (C = A·s):
+
+:<math>1\ \text{A} = \frac{e}{1.602176634 \times 10^{-19}}\ \text{s}^{-1}</math>
+
+Equivalently, one ampere is the current corresponding to the flow of <math>1/(1.602176634\times 10^{-19}) \approx 6.24\times 10^{18}</math> elementary charges per [[second]].
+
+== Historical definition ==
+Before 2019, the ampere was defined via the magnetic force between two parallel conductors: one ampere was the constant current that, if maintained in two straight parallel conductors of infinite length and negligible cross-section placed 1 metre apart in vacuum, would produce a force of 2×10⁻⁷ N/m between them. This definition fixed <math>\mu_0 = 4\pi\times 10^{-7}\ \text{N/A}^2</math>.
+
+== Multiples ==
+{| class="wikitable"
+|-
+! Submultiples !! Multiples
+|-
+| milliampere (mA) = 10⁻³ A || kiloampere (kA) = 10³ A
+|-
+| microampere (μA) = 10⁻⁶ A || megaampere (MA) = 10⁶ A
+|}
+
+== Ampere in Ohm's law ==
+{{Main|Ohm's law}}
+:<math>I = \frac{V}{R}</math>
+One ampere flows through a 1 [[ohm]] resistor when 1 [[volt]] is applied.
+
+== Power relation ==
+:<math>P = IV</math>
+One ampere at one volt delivers one [[watt]] of power.
+
+== See also ==
+{{Portal|Physics}}
+* [[Coulomb]]
+* [[Electric current]]
+* [[International System of Units]]
+* [[Ohm's law]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:SI base units]]
+[[Category:Units of electric current]]
+[[Category:Electromagnetism]]

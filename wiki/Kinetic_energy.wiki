@@ -1,0 +1,66 @@
+{{Short description|Kinetic energy possessed by an object due to its motion}}
+{{Infobox physical quantity
+| name = Kinetic energy
+| image = Golf ball at the starting position.jpg
+| caption = A moving golf ball possesses kinetic energy.
+| symbols = <math>K</math>, <math>E_k</math>, <math>T</math>
+| SI_unit = [[joule]] (J)
+}}
+
+In [[physics]], the '''kinetic energy''' of an object is the [[energy]] that it possesses due to its [[motion]]. It is defined as the [[Work (physics)|work]] needed to accelerate a body of a given mass from rest to its stated [[velocity]]. Having gained this energy during its acceleration, the body maintains this kinetic energy unless its speed changes.
+
+== Classical (Newtonian) kinetic energy ==
+For a particle of mass <math>m</math> moving at non-relativistic speed <math>v</math>:
+:<math>K = \frac{1}{2}mv^2</math>
+
+For a system of particles, the total kinetic energy equals the sum of the kinetic energies of the individual particles.
+
+=== Derivation from work ===
+The work–energy theorem states that the net work equals the change in kinetic energy:
+:<math>W = \int \mathbf{F} \cdot d\mathbf{r} = \int m\frac{d\mathbf{v}}{dt} \cdot \mathbf{v}\,dt = \frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2 = \Delta K</math>
+
+=== Rotational kinetic energy ===
+{{Main|Rotational energy}}
+For a rigid body rotating about a fixed axis with angular velocity <math>\omega</math>:
+:<math>K_{\text{rot}} = \frac{1}{2}I\omega^2</math>
+where <math>I</math> is the [[moment of inertia]].
+
+The total kinetic energy of a rolling object is:
+:<math>K = \frac{1}{2}mv_{\text{cm}}^2 + \frac{1}{2}I_{\text{cm}}\omega^2</math>
+
+== Relativistic kinetic energy ==
+{{Main|Kinetic energy#Relativistic kinetic energy}}
+At speeds comparable to the [[speed of light]], the classical formula is inadequate. The relativistic kinetic energy is:
+:<math>K = (\gamma - 1)mc^2</math>
+where <math>\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}</math> is the [[Lorentz factor]].
+
+For <math>v \ll c</math>, a binomial expansion recovers the classical result:
+:<math>K \approx \frac{1}{2}mv^2 + \frac{3}{8}m\frac{v^4}{c^2} + \cdots</math>
+
+== Kinetic energy in quantum mechanics ==
+In [[quantum mechanics]], the kinetic energy operator is:
+:<math>\hat{T} = -\frac{\hbar^2}{2m}\nabla^2</math>
+
+The [[expectation value (quantum mechanics)|expectation value]] is <math>\langle T \rangle = -\frac{\hbar^2}{2m}\int \psi^* \nabla^2\psi \, d^3r</math>.
+
+== Kinetic energy of gases ==
+{{Main|Kinetic theory of gases}}
+For an ideal gas, the average translational kinetic energy per molecule is:
+:<math>\langle K \rangle = \frac{3}{2}k_B T</math>
+where <math>k_B</math> is the [[Boltzmann constant]] and <math>T</math> is the temperature.
+
+By the [[equipartition theorem]], each quadratic degree of freedom contributes <math>\frac{1}{2}k_B T</math>.
+
+== See also ==
+{{Portal|Physics}}
+* [[Potential energy]]
+* [[Work (physics)]]
+* [[Momentum]]
+* [[Conservation of energy]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Kinetic energy| ]]
+[[Category:Energy]]
+[[Category:Dynamics (mechanics)]]

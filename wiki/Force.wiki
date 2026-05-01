@@ -1,0 +1,97 @@
+{{Short description|Study of forces and their effects on motion}}
+{{Infobox physics
+| name = Force
+| image = Force examples.svg
+| caption = Forces can be described as pushes or pulls, which can cause an object with mass to change its velocity.
+| topics = [[Newton's laws of motion]], [[Vector (physics)|Vector]], [[Resultant force]], [[Free body diagram]]
+| SI_unit = [[newton (unit)|newton]] (N = kg·m/s²)
+}}
+
+In [[physics]], a '''force''' is any interaction that, when unopposed, will change the [[motion]] of an object. A force can cause an object with [[mass]] to change its [[velocity]] (which includes to begin moving from a state of rest), i.e., to [[accelerate]]. Force can also be described intuitively as a push or a pull. A force has both [[Magnitude (mathematics)|magnitude]] and [[direction (geometry)|direction]], making it a [[vector (physics)|vector]] quantity.
+
+The [[SI derived unit|SI unit]] of force is the [[newton (unit)|newton]] (N), defined as the force required to accelerate a one-[[kilogram]] mass at one [[metre per second squared|meter per second squared]]: 1 N = 1 kg·m/s².
+
+== Newton's second law ==
+{{Main|Newton's laws of motion}}
+According to [[Newton's laws of motion|Newton's second law]], the [[net force]] on an object equals the rate of change of its [[momentum]]:
+:<math>\mathbf{F} = \frac{d\mathbf{p}}{dt}</math>
+
+For constant mass, this simplifies to:
+:<math>\mathbf{F} = m\mathbf{a}</math>
+where <math>m</math> is the mass and <math>\mathbf{a}</math> is the [[acceleration]].
+
+== Types of forces ==
+
+=== Fundamental forces ===
+{{Main|Fundamental interaction}}
+All forces in nature can be traced to four [[fundamental interaction]]s:
+# '''[[Gravity|Gravitational force]]''' — attraction between masses; the weakest but infinite-range
+# '''[[Electromagnetic force]]''' — acts between electrically charged particles; governs everyday phenomena
+# '''[[Weak interaction|Weak nuclear force]]''' — responsible for [[beta decay]]
+# '''[[Strong interaction|Strong nuclear force]]''' — binds [[quark]]s into [[proton]]s and [[neutron]]s
+
+=== Contact forces ===
+Contact forces require physical contact between objects:
+* '''[[Normal force]]''' (<math>\mathbf{N}</math>) — perpendicular to the contact surface
+* '''[[Friction]]''' (<math>\mathbf{f}</math>) — opposes relative motion; can be [[static friction|static]] or [[kinetic friction|kinetic]]
+* '''[[Tension (physics)|Tension]]''' (<math>\mathbf{T}</math>) — transmitted through strings, cables, or rods
+* '''[[Spring force]]''' — [[Hooke's law]]: <math>F = -kx</math> for an ideal spring
+* '''[[Buoyancy]]''' — upward force exerted by a fluid
+
+=== Non-contact (action-at-a-distance) forces ===
+* '''[[Gravity|Gravitational force]]''': <math>F_g = G\frac{m_1 m_2}{r^2}</math>
+* '''[[Coulomb's law|Electrostatic force]]''': <math>F_e = k_e\frac{q_1 q_2}{r^2}</math>
+* '''[[Lorentz force|Magnetic force on a moving charge]]''': <math>\mathbf{F} = q\mathbf{v} \times \mathbf{B}</math>
+
+== Free body diagrams ==
+A [[free body diagram]] (FBD) is a graphical illustration used to visualize the applied forces, movements, and resulting reactions on a body. All forces acting on the object are drawn as vectors originating from the object's center.
+
+== Superposition of forces ==
+When multiple forces act on an object, the net (resultant) force is the [[vector sum]]:
+:<math>\mathbf{F}_{\text{net}} = \sum_i \mathbf{F}_i</math>
+
+If the net force is zero, the object is in [[mechanical equilibrium|equilibrium]] and does not accelerate.
+
+== Work done by a force ==
+{{Main|Work (physics)}}
+The [[Work (physics)|work]] <math>W</math> done by a constant force <math>\mathbf{F}</math> over a displacement <math>\Delta\mathbf{r}</math> is:
+:<math>W = \mathbf{F} \cdot \Delta\mathbf{r} = F \Delta r\cos\theta</math>
+
+For a variable force along a path <math>C</math>:
+:<math>W = \int_C \mathbf{F} \cdot d\mathbf{r}</math>
+
+== Conservative and non-conservative forces ==
+{{Main|Conservative force}}
+A force is '''conservative''' if the work it does on a particle moving between two points is independent of the path taken. Equivalent conditions:
+* <math>\nabla \times \mathbf{F} = 0</math> (in three dimensions)
+* <math>\mathbf{F} = -\nabla U</math> for some scalar potential <math>U</math>
+* The work around any closed path is zero: <math>\oint \mathbf{F} \cdot d\mathbf{r} = 0</math>
+
+Examples: gravity, electrostatic force, ideal spring force.
+
+'''Non-conservative forces''' (e.g., friction, air resistance, viscous drag) dissipate mechanical energy as heat.
+
+== Impulse ==
+{{Main|Impulse (physics)}}
+The [[Impulse (physics)|impulse]] <math>\mathbf{J}</math> delivered by a force over a time interval <math>\Delta t</math> is:
+:<math>\mathbf{J} = \int_{t_1}^{t_2} \mathbf{F}\, dt = \Delta\mathbf{p}</math>
+
+The impulse equals the change in momentum (impulse–momentum theorem).
+
+== See also ==
+{{Portal|Physics}}
+* [[Torque]]
+* [[Pressure]]
+* [[Stress (mechanics)]]
+* [[Centripetal force]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Richard Feynman|Feynman, R. P.]] ''[[The Feynman Lectures on Physics]]'', Vol. 1, Ch. 12.
+* [[David Halliday (physicist)|Halliday, D.]], Resnick, R., Walker, J. (2013). ''Fundamentals of Physics'' (10th ed.). Wiley, Ch. 5.
+
+[[Category:Force| ]]
+[[Category:Classical mechanics]]
+[[Category:Physics]]

@@ -1,0 +1,68 @@
+{{Short description|Branch of astronomy dealing with the motions and gravitational effects of celestial objects}}
+{{Infobox physics
+| name = Celestial mechanics
+| image = Solar system orrery inner planets.gif
+| caption = Motion of the inner planets of the [[Solar System]].
+| topics = [[Classical mechanics]], [[Gravitation]], [[Kepler's laws of planetary motion]], [[Newton's laws of motion]]
+}}
+
+'''Celestial mechanics''' is the branch of [[astronomy]] that deals with the [[motion]]s of celestial objects. Historically, it applies principles of [[classical mechanics]] and [[Newton's law of universal gravitation]] to determine the orbits of [[planet]]s, [[natural satellite|moon]]s, [[comet]]s, and [[asteroid]]s. Modern celestial mechanics also incorporates [[general relativity]] and numerical methods for high-precision work.
+
+== Historical development ==
+
+=== Kepler's laws ===
+{{Main|Kepler's laws of planetary motion}}
+[[Johannes Kepler]] formulated three empirical laws of [[planetary motion]] (1609–1619):
+# Planets move in [[ellipse|elliptical]] orbits with the Sun at one focus
+# A line connecting a planet to the Sun sweeps out equal areas in equal times
+# The square of the orbital period is proportional to the cube of the semi-major axis: <math>T^2 \propto a^3</math>
+
+=== Newtonian synthesis ===
+[[Isaac Newton]]'s ''[[Philosophiæ Naturalis Principia Mathematica]]'' (1687) derived Kepler's laws from universal gravitation and his three [[Newton's laws of motion|laws of motion]], unifying celestial and terrestrial mechanics.
+
+== Fundamentals ==
+
+=== Two-body problem ===
+The motion of two bodies under mutual gravitational attraction has an exact analytical solution. The relative motion is equivalent to a single body moving in a central gravitational field:
+:<math>\frac{d^2\mathbf{r}}{dt^2} = -\frac{G(m_1 + m_2)}{r^3}\mathbf{r}</math>
+
+The orbit is a [[conic section]]: ellipse, parabola, or hyperbola.
+
+=== Orbital elements ===
+An orbit is fully described by six [[orbital elements]]:
+* Semi-major axis <math>a</math>
+* [[Eccentricity (orbit)|Eccentricity]] <math>e</math>
+* Inclination <math>i</math>
+* Longitude of the ascending node <math>\Omega</math>
+* Argument of periapsis <math>\omega</math>
+* True anomaly <math>\nu</math>
+
+=== Three-body and n-body problems ===
+For three or more bodies, no general analytical solution exists. The [[three-body problem]] leads to chaotic behaviour and requires numerical integration.
+
+== Perturbation theory ==
+Small deviations from idealised two-body motion are treated using [[perturbation theory]]:
+* Planetary perturbations — mutual gravitational effects between planets
+* Non-spherical gravity — planetary oblateness (<math>J_2</math> effects)
+* Relativistic corrections — e.g., Mercury's [[perihelion precession]]
+
+== Modern applications ==
+* [[Spacecraft]] trajectory design and navigation
+* [[Satellite]] orbit determination
+* [[Exoplanet]] detection via [[radial velocity method]]
+* [[Asteroid impact prediction]]
+
+== See also ==
+{{Portal|Physics}}
+* [[Classical mechanics]]
+* [[Gravitation]]
+* [[Kepler's laws of planetary motion]]
+* [[Newton's laws of motion]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Celestial mechanics| ]]
+[[Category:Classical mechanics]]
+[[Category:Astronomy]]
+[[Category:Orbits]]

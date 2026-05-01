@@ -1,0 +1,75 @@
+{{Short description|Bending of waves around obstacles and spreading through apertures}}
+{{Infobox physics
+| name = Diffraction
+| image = Single Slit Diffraction First Minima.svg
+| caption = Single-slit diffraction: plane waves passing through a narrow slit spread out, forming a characteristic pattern of bright and dark fringes.
+| topics = [[Huygens–Fresnel principle]], [[Single-slit diffraction]], [[Diffraction grating]], [[Bragg's law]]
+}}
+
+'''Diffraction''' refers to various phenomena that occur when a [[wave]] encounters an obstacle or an opening. It is defined as the bending of waves around the corners of an obstacle or through an aperture into the region of the [[geometrical shadow]] of the obstacle/aperture.
+
+Diffraction occurs with all types of waves, including [[sound waves]], [[water wave]]s, and [[electromagnetic wave]]s such as [[visible light]], [[X-ray]]s, and [[radio waves]]. Since physical objects have wave-like properties (at the atomic level), diffraction also occurs with matter and can be studied according to the principles of [[quantum mechanics]].
+
+== Huygens–Fresnel principle ==
+{{Main|Huygens–Fresnel principle}}
+The [[Huygens–Fresnel principle]] states that every point on a wavefront acts as a source of secondary spherical wavelets. The envelope of these wavelets determines the new wavefront, and their superposition (including phase) gives the diffraction pattern.
+
+== Single-slit diffraction ==
+{{Main|Single-slit diffraction}}
+For monochromatic light of wavelength <math>\lambda</math> passing through a slit of width <math>a</math>, the intensity distribution is:
+:<math>I(\theta) = I_0 \left(\frac{\sin\beta}{\beta}\right)^2</math>
+where <math>\beta = \frac{\pi a}{\lambda}\sin\theta</math>
+
+Minima (dark fringes) occur at:
+:<math>a\sin\theta = m\lambda, \quad m = \pm 1, \pm 2, \pm 3, \ldots</math>
+
+The width of the central maximum is <math>\Delta\theta = 2\lambda/a</math>.
+
+== Double-slit interference with diffraction ==
+For two slits of width <math>a</math> separated by distance <math>d</math>:
+:<math>I(\theta) = I_0 \left(\frac{\sin\beta}{\beta}\right)^2 \cos^2\left(\frac{\pi d}{\lambda}\sin\theta\right)</math>
+
+This combines the single-slit diffraction envelope with the double-slit interference pattern.
+
+== Diffraction grating ==
+{{Main|Diffraction grating}}
+A [[diffraction grating]] with <math>N</math> equally spaced slits produces sharp maxima at:
+:<math>d\sin\theta = m\lambda, \quad m = 0, \pm 1, \pm 2, \ldots</math>
+where <math>d</math> is the grating spacing.
+
+The angular dispersion is:
+:<math>\frac{d\theta}{d\lambda} = \frac{m}{d\cos\theta}</math>
+
+The [[resolving power]] is:
+:<math>R = \frac{\lambda}{\Delta\lambda} = mN</math>
+
+== Circular aperture (Airy disk) ==
+{{Main|Airy disk}}
+Light passing through a circular aperture of diameter <math>D</math> forms an [[Airy disk]]. The first minimum occurs at:
+:<math>\sin\theta \approx 1.22\frac{\lambda}{D}</math>
+
+This is the [[Rayleigh criterion]] for the resolution limit of optical instruments.
+
+== X-ray diffraction ==
+{{Main|X-ray crystallography}}
+X-rays diffracted by crystal lattices obey [[Bragg's law]]:
+:<math>2d\sin\theta = n\lambda, \quad n = 1, 2, 3, \ldots</math>
+where <math>d</math> is the interplanar spacing. This forms the basis of [[X-ray crystallography]].
+
+== Fraunhofer vs. Fresnel diffraction ==
+* '''[[Fraunhofer diffraction]]:''' Source and screen are far from the aperture (plane wave approximation). Simpler mathematically.
+* '''[[Fresnel diffraction]]:''' Near-field diffraction with curved wavefronts. More complex.
+
+== See also ==
+{{Portal|Physics}}
+* [[Interference (wave propagation)]]
+* [[Diffraction grating]]
+* [[Bragg's law]]
+* [[Huygens–Fresnel principle]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Diffraction| ]]
+[[Category:Optics]]
+[[Category:Wave mechanics]]

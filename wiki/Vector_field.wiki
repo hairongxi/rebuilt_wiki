@@ -1,0 +1,65 @@
+{{Short description|Assignment of a vector to each point in a subset of space}}
+{{Infobox physics
+| name = Vector field
+| image = VectorField.svg
+| caption = A vector field representing wind velocity over a region.
+| topics = [[Electric field]], [[Magnetic field]], [[Electromagnetism]], [[Fluid dynamics]], [[Gravitation]]
+}}
+
+In [[vector calculus]], a '''vector field''' is an assignment of a [[Vector (mathematics and physics)|vector]] to each point in a subset of [[space]]. Vector fields are often used in physics to model the [[speed]] and direction of a moving fluid throughout space, or the strength and direction of a [[force]], such as the [[magnetic field|magnetic]] or [[gravitational field|gravitational]] force.
+
+== Definition ==
+A vector field on a domain <math>D \subset \mathbb{R}^n</math> is a function <math>\mathbf{F}: D \rightarrow \mathbb{R}^n</math> that assigns to each point <math>\mathbf{x} \in D</math> a vector <math>\mathbf{F}(\mathbf{x})</math>:
+:<math>\mathbf{F}(\mathbf{x}) = (F_1(x_1,\ldots,x_n), \ldots, F_n(x_1,\ldots,x_n))</math>
+
+== Vector calculus operations ==
+
+=== Divergence ===
+The [[divergence]] measures the "outflow" of a vector field at a point:
+:<math>\nabla \cdot \mathbf{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z}</math>
+
+[[Gauss's law]] relates divergence to flux through a closed surface.
+
+=== Curl ===
+The [[Curl (mathematics)|curl]] measures the "rotation" or circulation:
+:<math>\nabla \times \mathbf{F} = \left(\frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z}, \frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x}, \frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y}\right)</math>
+
+== Physical examples ==
+{| class="wikitable"
+|-
+! Field !! Type
+|-
+| [[Electric field]] || Gradient of scalar potential (electrostatic)
+|-
+| [[Magnetic field]] || Divergence-free (<math>\nabla \cdot \mathbf{B} = 0</math>)
+|-
+| [[Gravitational field]] || Conservative, <math>\mathbf{g} = -\nabla \phi</math>
+|-
+| Velocity field in a fluid || Describes fluid flow
+|-
+| [[Poynting vector]] || Energy flux of electromagnetic field
+|}
+
+== Conservative vector fields ==
+A vector field is [[conservative force|conservative]] if it can be expressed as the [[gradient]] of a scalar potential:
+:<math>\mathbf{F} = -\nabla U</math>
+
+For a conservative field, the [[line integral]] is path-independent and the [[curvature|curl]] is zero.
+
+== Uniqueness theorems ==
+[[Helmholtz decomposition]]: any sufficiently smooth vector field can be decomposed into a curl-free (irrotational) and a divergence-free (solenoidal) component.
+
+== See also ==
+{{Portal|Physics}}
+* [[Electric field]]
+* [[Gradient]]
+* [[Magnetic field]]
+* [[Scalar field]]
+* [[Tensor field]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Vector calculus]]
+[[Category:Mathematical physics]]
+[[Category:Fluid dynamics]]

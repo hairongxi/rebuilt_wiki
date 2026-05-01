@@ -1,0 +1,71 @@
+{{Short description="Region of spacetime with gravity so strong that nothing can escape}}
+{{Infobox physics
+| name = Black hole
+| image = Black hole - Messier 87 crop max res.jpg
+| caption = First image of a black hole ([[Messier 87|M87*]]) by the [[Event Horizon Telescope]] (2019).
+| topics = [[General relativity]], [[Gravity]], [[Spacetime]], [[Event horizon]], [[Singularity (physics)|Singularity]]
+}}
+
+A '''black hole''' is a region of [[spacetime]] where [[gravity]] is so strong that nothing — no [[particle]]s or even [[electromagnetic radiation]] such as [[light]] — can escape from it. The boundary of no escape is called the [[event horizon]].
+
+Black holes are predicted by [[Einstein]]'s theory of [[general relativity]]. The first direct image of a black hole was captured by the [[Event Horizon Telescope]] in 2019, showing the supermassive black hole in galaxy [[Messier 87|M87]].
+
+== Properties ==
+Black holes are characterised by only three parameters ([[no-hair theorem]]):
+* [[Mass]] <math>M</math>
+* [[Electric charge]] <math>Q</math>
+* [[Angular momentum]] <math>J</math>
+
+=== Event horizon ===
+The event horizon is the surface of no return. For a non-rotating (Schwarzschild) black hole, its radius is:
+
+:<math>R_S = \frac{2GM}{c^2}</math>
+
+the [[Schwarzschild radius]]. For the Sun, <math>R_S \approx 3\ \text{km}</math>.
+
+=== Singularity ===
+At the centre lies a [[gravitational singularity]] where spacetime curvature becomes infinite and known laws of physics break down.
+
+== Types ==
+
+=== Stellar-mass black holes ===
+Formed by the [[gravitational collapse]] of massive [[star]]s (>20 solar masses). Typical mass: 5–100 <math>M_\odot</math>. Detected via [[X-ray]] binary systems.
+
+=== Supermassive black holes ===
+Found at the centres of most [[galaxy|galaxies]], including [[Sagittarius A*]] in the [[Milky Way]]. Masses: millions to billions of <math>M_\odot</math>.
+
+=== Intermediate-mass black holes ===
+Hypothesised class: 100–100,000 <math>M_\odot</math>. Candidate objects observed via gravitational wave signals.
+
+=== Primordial black holes ===
+Hypothetical black holes formed in the early universe; could range from microscopic to stellar masses.
+
+== Hawking radiation ==
+{{Main|Hawking radiation}}
+[[Stephen Hawking]] showed that black holes emit [[thermal radiation]] due to quantum effects near the event horizon:
+
+:<math>T_H = \frac{\hbar c^3}{8\pi G M k_B}</math>
+
+This causes black holes to slowly evaporate. For a solar-mass black hole, the temperature is ~10⁻⁸ K (negligible); microscopic black holes would evaporate rapidly.
+
+== Observational evidence ==
+* [[Gravitational wave]]s from black hole mergers ([[LIGO]]/Virgo, since 2015)
+* Direct imaging by the [[Event Horizon Telescope]] (2019, 2022)
+* Stellar orbits around [[Sagittarius A*]] ([[Reinhard Genzel]], [[Andrea Ghez]] — Nobel Prize 2020)
+* [[X-ray binaries]] (e.g., [[Cygnus X-1]])
+
+== See also ==
+{{Portal|Physics}}
+* [[Event horizon]]
+* [[General relativity]]
+* [[Gravitational wave]]
+* [[Gravity]]
+* [[Neutron star]]
+* [[Spacetime]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Black holes| ]]
+[[Category:General relativity]]
+[[Category:Astrophysics]]

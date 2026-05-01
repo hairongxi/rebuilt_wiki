@@ -1,0 +1,63 @@
+{{Short description="Force equals the rate of change of momentum}}
+{{Infobox physics
+| name = Newton's second law
+| image = 
+| caption = 
+| topics = [[Newton's laws of motion]], [[Force]], [[Momentum]], [[Mass]], [[Acceleration]]
+| formula = <math>\mathbf{F} = \frac{d\mathbf{p}}{dt}</math>
+}}
+
+'''Newton's second law''' of motion states that the [[force]] acting on an object is equal to the rate of change of its [[momentum]]. In its most general form:
+
+:<math>\mathbf{F} = \frac{d\mathbf{p}}{dt}</math>
+
+where <math>\mathbf{F}</math> is the net force and <math>\mathbf{p} = m\mathbf{v}</math> is the momentum.
+
+For a system with constant [[mass]], this simplifies to the more familiar form:
+
+:<math>\mathbf{F} = m\mathbf{a}</math>
+
+where <math>m</math> is the mass and <math>\mathbf{a}</math> is the [[acceleration]].
+
+== Significance ==
+Newton's second law is the foundation of [[classical mechanics]] and [[dynamics (mechanics)|dynamics]]. It:
+* Defines the quantitative relationship between force, mass, and acceleration
+* Introduces the concept of [[mass|inertial mass]] as resistance to acceleration
+* Provides the basis for equations of motion
+* Implies [[conservation of momentum]] for isolated systems
+
+== Vector nature ==
+Force and acceleration are [[vector (physics)|vectors]] — the direction of acceleration matches the direction of the net force. In component form:
+
+:<math>F_x = m a_x,\quad F_y = m a_y,\quad F_z = m a_z</math>
+
+== Variable mass systems ==
+For systems where mass changes (e.g., a [[rocket]] expelling fuel), the second law must be applied to the total system:
+
+:<math>m\frac{d\mathbf{v}}{dt} = \mathbf{F}_{\text{ext}} + \mathbf{v}_{\text{rel}}\frac{dm}{dt}</math>
+
+where <math>\mathbf{v}_{\text{rel}}</math> is the exhaust velocity relative to the rocket.
+
+== Impulse–momentum theorem ==
+Integrating Newton's second law over time:
+
+:<math>\mathbf{J} = \int\mathbf{F}\,dt = \Delta\mathbf{p}</math>
+
+== Newton's other laws ==
+* [[Newton's first law]] — [[inertia]]: an object remains at rest or in uniform motion unless acted upon by a net force
+* [[Newton's third law]] — action and reaction: <math>\mathbf{F}_{12} = -\mathbf{F}_{21}</math>
+
+== See also ==
+{{Portal|Physics}}
+* [[Acceleration]]
+* [[Force]]
+* [[Mass]]
+* [[Momentum]]
+* [[Newton's laws of motion]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Newton's laws of motion]]
+[[Category:Classical mechanics]]
+[[Category:Equations of physics]]

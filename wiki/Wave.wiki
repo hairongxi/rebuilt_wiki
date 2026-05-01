@@ -1,0 +1,125 @@
+{{Short description|Repeated oscillation about a stable equilibrium}}
+{{Infobox physics
+| name = Wave
+| image = Waveforms.svg
+| caption = Various waveforms: [[sine wave|sine]], [[square wave|square]], [[triangle wave|triangle]], and [[sawtooth wave|sawtooth]]
+| topics = [[Wave propagation]], [[Wave equation]], [[Wave interference]], [[Standing wave]], [[Sound]], [[Electromagnetic radiation]], [[Water wave]]
+}}
+
+A '''wave''' is a propagating dynamic disturbance (change from [[mechanical equilibrium|equilibrium]]) of one or more quantities. Waves can be periodic, in which case those quantities oscillate repeatedly about an equilibrium (resting) value at some [[frequency]].
+
+There are three main types of waves:
+* '''Mechanical waves''' propagate through a [[transmission medium|medium]], and the substance of this medium is deformed. Examples include [[sound]], [[water wave]]s, and [[seismic wave]]s.
+* '''Electromagnetic waves''' consist of periodic oscillations of [[electric field|electrical]] and [[magnetic field]]s, and can travel through a [[vacuum]]. Examples include [[visible light]], [[radio wave]]s, and [[X-ray]]s.
+* '''[[Gravitational wave]]s''' are disturbances in the [[curvature]] of [[spacetime]], predicted by [[general relativity]].
+
+== Mathematical description ==
+
+=== The wave equation ===
+{{Main|Wave equation}}
+The general [[wave equation]] in one dimension is:
+:<math>\frac{\partial^2 y}{\partial x^2} = \frac{1}{v^2}\frac{\partial^2 y}{\partial t^2}</math>
+where <math>y(x,t)</math> is the wave function and <math>v</math> is the [[wave speed]].
+
+In three dimensions:
+:<math>\nabla^2 \psi = \frac{1}{v^2}\frac{\partial^2 \psi}{\partial t^2}</math>
+
+=== Traveling waves ===
+A [[traveling wave]] has the general form:
+:<math>y(x,t) = f(x \mp vt)</math>
+where the minus sign corresponds to a wave traveling in the +x direction, and the plus sign to the −x direction.
+
+=== Sinusoidal waves ===
+A sinusoidal traveling wave is described by:
+:<math>y(x,t) = A\sin(kx - \omega t + \phi)</math>
+where:
+* <math>A</math> = [[amplitude]]
+* <math>k = 2\pi/\lambda</math> = [[wavenumber]]
+* <math>\lambda</math> = [[wavelength]]
+* <math>\omega = 2\pi f</math> = [[angular frequency]]
+* <math>f</math> = [[frequency]]
+* <math>\phi</math> = [[phase (waves)|phase constant]]
+
+The relationship between wave speed, frequency, and wavelength is:
+:<math>v = \lambda f = \frac{\omega}{k}</math>
+
+== Wave phenomena ==
+
+=== Reflection and transmission ===
+{{Main|Reflection (physics)|Transmission (physics)}}
+At a boundary between two media, a wave is partially reflected and partially transmitted. The [[reflection coefficient]] and [[transmission coefficient]] depend on the [[wave impedance]]s of the two media.
+
+=== Superposition and interference ===
+{{Main|Superposition principle|Interference (wave propagation)}}
+Because the wave equation is linear, solutions obey the [[superposition principle]]. When two or more waves overlap, the net displacement is the sum of individual displacements.
+
+[[Constructive interference]] occurs when waves are in phase; [[destructive interference]] occurs when they are out of phase by <math>\pi</math>.
+
+=== Standing waves ===
+{{Main|Standing wave}}
+A [[standing wave]] results from the superposition of two identical waves traveling in opposite directions:
+:<math>y(x,t) = 2A\sin(kx)\cos(\omega t)</math>
+
+Standing waves have [[node (physics)|nodes]] (points of zero displacement) at positions <math>x = n\lambda/2</math> and [[antinode]]s (points of maximum displacement) at <math>x = (2n+1)\lambda/4</math>.
+
+=== Beats ===
+{{Main|Beat (acoustics)}}
+When two waves of slightly different frequencies superpose, the amplitude varies periodically at the [[beat frequency]]:
+:<math>f_{\text{beat}} = |f_1 - f_2|</math>
+
+=== Doppler effect ===
+{{Main|Doppler effect}}
+The [[Doppler effect]] is the change in observed frequency when the source and observer are in relative motion. For sound:
+:<math>f_{\text{obs}} = f_{\text{src}}\frac{v \pm v_{\text{obs}}}{v \mp v_{\text{src}}}</math>
+where <math>v</math> is the speed of sound in the medium.
+
+== Types of waves ==
+
+=== Mechanical waves ===
+{{Main|Mechanical wave}}
+
+==== Sound ====
+{{Main|Sound}}
+[[Sound]] is a longitudinal mechanical wave propagating through a medium. The speed of sound in an ideal gas is:
+:<math>v = \sqrt{\frac{\gamma RT}{M}}</math>
+where <math>\gamma</math> is the [[heat capacity ratio|adiabatic index]], <math>R</math> is the gas constant, <math>T</math> is absolute temperature, and <math>M</math> is molar mass.
+
+The [[sound intensity level]] in decibels (dB) is:
+:<math>\beta = 10\log_{10}\left(\frac{I}{I_0}\right)\,\text{dB}</math>
+where <math>I_0 = 10^{-12}\,\text{W/m}^2</math> is the threshold of hearing.
+
+==== Waves on a string ====
+For a stretched string with linear density <math>\mu</math> and tension <math>T</math>:
+:<math>v = \sqrt{\frac{T}{\mu}}</math>
+:<math>f_n = \frac{n}{2L}\sqrt{\frac{T}{\mu}}, \quad n = 1, 2, 3, \ldots</math>
+
+=== Electromagnetic waves ===
+{{Main|Electromagnetic radiation}}
+Electromagnetic waves are transverse, self-propagating oscillations of electric and magnetic fields that travel at <math>c = 3.00 \times 10^8\,\text{m/s}</math> in vacuum. The [[Poynting vector]] <math>\mathbf{S} = \frac{1}{\mu_0}\mathbf{E} \times \mathbf{B}</math> gives the energy flux.
+
+=== Water waves ===
+{{Main|Water wave}}
+[[Water wave]]s combine longitudinal and transverse motion. In deep water (<math>d \gg \lambda</math>), the dispersion relation is <math>\omega = \sqrt{gk}</math>. In shallow water (<math>d \ll \lambda</math>), <math>\omega = k\sqrt{gd}</math>.
+
+== Dispersion ===
+{{Main|Dispersion (waves)}}
+[[Dispersion (waves)|Dispersion]] occurs when the phase velocity depends on frequency. The [[phase velocity]] is <math>v_p = \omega/k</math> and the [[group velocity]] is <math>v_g = d\omega/dk</math>. Information and energy travel at the group velocity.
+
+== See also ==
+{{Portal|Physics}}
+* [[Oscillation]]
+* [[Acoustics]]
+* [[Wave–particle duality]]
+* [[Shock wave]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Anthony French|French, A. P.]] (1971). ''Vibrations and Waves''. W. W. Norton.
+* [[Frank S. Crawford|Crawford, F. S.]] (1968). ''Waves'' (Berkeley Physics Course, Vol. 3). McGraw-Hill.
+* [[Iain G. Main|Main, I. G.]] (1993). ''Vibrations and Waves in Physics'' (3rd ed.). Cambridge University Press.
+
+[[Category:Waves| ]]
+[[Category:Physics]]
+[[Category:Mechanical vibrations]]

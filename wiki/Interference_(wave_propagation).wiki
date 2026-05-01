@@ -1,0 +1,81 @@
+{{Short description="Phenomenon in which two waves superpose to form a resultant wave"}}
+{{Infobox physics
+| name = Interference
+| image = Interference of water waves with obstacles.png
+| caption = Water wave interference: overlapping circular waves produce regions of constructive and destructive interference.
+| topics = [[Superposition principle]], [[Constructive interference]], [[Destructive interference]], [[Young's double-slit experiment]], [[Thin-film interference]]
+}}
+
+In [[physics]], '''interference''' is a phenomenon in which two [[wave]]s superpose to form a resultant wave of greater, lower, or the same [[amplitude]]. Interference usually refers to the interaction of waves that are correlated or [[coherence (physics)|coherent]] with each other, either because they come from the same source or because they have the same or nearly the same [[frequency]].
+
+Interference effects can be observed with all types of waves, including [[light]], [[radio wave|radio]], [[sound wave|acoustic]], [[surface water wave]]s, [[gravity wave]]s, or [[matter wave]]s.
+
+== Superposition principle ==
+{{Main|Superposition principle}}
+When two or more waves overlap, the resultant displacement equals the algebraic sum of the individual displacements:
+:<math>y(x,t) = y_1(x,t) + y_2(x,t)</math>
+
+== Constructive and destructive interference ==
+
+=== Constructive interference ===
+When waves are in [[phase (waves)|phase]] (phase difference = 0, 2π, 4π, …):
+:<math>A_{\text{resultant}} = A_1 + A_2</math>
+
+For identical amplitudes: <math>I \propto (A_1 + A_2)^2 = 4A^2</math>
+
+=== Destructive interference ===
+When waves are out of phase by π (180°):
+:<math>A_{\text{resultant}} = |A_1 - A_2|</math>
+
+For identical amplitudes: complete cancellation (<math>I = 0</math>).
+
+== Young's double-slit experiment ==
+{{Main|Young's interference experiment}}
+[[Thomas Young (scientist)|Thomas Young]] demonstrated light interference in 1801, providing decisive evidence for the [[wave theory of light]].
+
+Bright fringes occur at:
+:<math>d\sin\theta = m\lambda, \quad m = 0, \pm 1, \pm 2, \ldots</math>
+
+Dark fringes occur at:
+:<math>d\sin\theta = \left(m + \frac{1}{2}\right)\lambda, \quad m = 0, \pm 1, \pm 2, \ldots</math>
+
+Fringe spacing on a screen at distance <math>L</math>:
+:<math>\Delta y = \frac{\lambda L}{d}</math>
+
+== Thin-film interference ==
+{{Main|Thin-film interference}}
+Light reflecting from the top and bottom surfaces of a thin film can interfere. For normal incidence in a film of thickness <math>t</math> and refractive index <math>n</math>:
+
+Constructive (in air, with no phase reversal at one surface):
+:<math>2nt = \left(m + \frac{1}{2}\right)\lambda, \quad m = 0, 1, 2, \ldots</math>
+
+Examples: [[soap bubble]]s, [[oil slick]]s, anti-reflection coatings, [[Newton's rings]].
+
+== Michelson interferometer ==
+{{Main|Michelson interferometer}}
+Splits a beam into two paths, recombines them. Fringe shift <math>\Delta N</math> when one mirror moves by <math>\Delta d</math>:
+:<math>\Delta d = \frac{\Delta N \cdot \lambda}{2}</math>
+
+Historically used in the [[Michelson–Morley experiment]] (1887) to disprove the existence of the [[luminiferous aether]]. Today used in [[Fourier transform spectroscopy]] and [[gravitational wave detector]]s.
+
+== Coherence ==
+{{Main|Coherence (physics)}}
+Interference requires [[coherence (physics)|coherence]]:
+* '''Temporal coherence''' — relates to monochromaticity (line width)
+* '''Spatial coherence''' — relates to source size
+
+[[Laser]]s are highly coherent; conventional light sources are partially coherent.
+
+== See also ==
+{{Portal|Physics}}
+* [[Diffraction]]
+* [[Superposition principle]]
+* [[Standing wave]]
+* [[Beat (acoustics)]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Interference| ]]
+[[Category:Optics]]
+[[Category:Wave mechanics]]

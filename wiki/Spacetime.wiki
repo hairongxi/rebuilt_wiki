@@ -1,0 +1,79 @@
+{{Short description|Four-dimensional continuum combining space and time}}
+{{Infobox physics
+| name = Spacetime
+| image = World line.svg
+| caption = A [[world line]] traces the path of an object through spacetime. The light cone marks the boundary of causality.
+| topics = [[Special relativity]], [[General relativity]], [[Speed of light]], [[Lorentz transformation]]
+}}
+
+In [[physics]], '''spacetime''' is a mathematical model that combines the three [[dimension]]s of [[space]] and one dimension of [[time]] into a single four-dimensional [[continuum]]. This concept, introduced by [[Hermann Minkowski]] in 1908, provides the geometric framework for [[Albert Einstein]]'s theories of [[special relativity|special]] and [[general relativity]].
+
+In classical (non-relativistic) physics, space and time are treated as separate and absolute. In relativity, they are intertwined: measurements of time and distance depend on the relative motion of the observer.
+
+== Minkowski spacetime ==
+{{Main|Minkowski space}}
+In special relativity, spacetime is flat and described by the [[Minkowski metric]]. The [[spacetime interval]] between two events is invariant under [[Lorentz transformation]]s:
+
+:<math>ds^2 = -c^2 dt^2 + dx^2 + dy^2 + dz^2</math>
+
+or, using the [[metric tensor]] <math>\eta_{\mu\nu}</math>:
+:<math>ds^2 = \eta_{\mu\nu} dx^\mu dx^\nu</math>
+
+The sign convention used here is (−, +, +, +).
+
+=== Light cones and causality ===
+The light cone of an event divides spacetime into three regions:
+* '''Timelike''' (<math>ds^2 < 0</math>) — causally connected, achievable by massive particles
+* '''Lightlike''' (<math>ds^2 = 0</math>) — paths of massless particles (photons)
+* '''Spacelike''' (<math>ds^2 > 0</math>) — causally disconnected; no physical signal can connect these events
+
+The [[speed of light]] <math>c</math> defines the boundary of the light cone and thus the [[causality (physics)|causal structure]] of the universe.
+
+== Curved spacetime ==
+{{Main|General relativity}}
+In [[general relativity]], matter and energy curve spacetime. The geometry is described by the [[Einstein field equations]]:
+:<math>R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}</math>
+
+where:
+* <math>R_{\mu\nu}</math> and <math>R</math> are the [[Ricci curvature tensor]] and [[scalar curvature]]
+* <math>g_{\mu\nu}</math> is the [[metric tensor]]
+* <math>T_{\mu\nu}</math> is the [[stress–energy tensor]]
+* <math>\Lambda</math> is the [[cosmological constant]]
+
+Gravity is not a [[force]] in this framework but a manifestation of spacetime curvature.
+
+== Consequences ==
+
+=== Time dilation ===
+Moving clocks run slower:
+:<math>\Delta t' = \gamma \Delta t, \quad \gamma = \frac{1}{\sqrt{1 - v^2/c^2}}</math>
+
+=== Length contraction ===
+Moving objects are contracted along the direction of motion:
+:<math>L = \frac{L_0}{\gamma}</math>
+
+=== Gravitational time dilation ===
+Clocks run slower in stronger gravitational fields, as confirmed by the [[Pound–Rebka experiment]] and [[GPS]] satellite corrections.
+
+== Experimental confirmations ==
+* [[Michelson–Morley experiment]] — constancy of the speed of light
+* [[Eddington experiment]] (1919) — light bending by the Sun
+* [[Gravitational redshift]]
+* [[Gravitational wave]]s — directly detected by [[LIGO]] in 2015
+
+== See also ==
+{{Portal|Physics}}
+* [[General relativity]]
+* [[Lorentz transformation]]
+* [[Minkowski space]]
+* [[Special relativity]]
+* [[Speed of light]]
+* [[World line]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Spacetime| ]]
+[[Category:Special relativity]]
+[[Category:General relativity]]
+[[Category:Concepts in physics]]

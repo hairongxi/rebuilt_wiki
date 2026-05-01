@@ -1,0 +1,97 @@
+{{Short description="Repeated oscillation about a stable equilibrium"}}
+{{Infobox physics
+| name = Oscillation
+| image = Cosine.svg
+| caption = [[Simple harmonic motion]]: displacement vs. time for a cosine function.
+| topics = [[Simple harmonic motion]], [[Damping|Damped oscillation]], [[Driven oscillator|Driven oscillation]], [[Resonance]], [[Coupled oscillators]]
+}}
+
+'''Oscillation''' is the repetitive or periodic variation, typically in time, of some measure about a central value (often a point of [[mechanical equilibrium|equilibrium]]) or between two or more different states. Familiar examples of oscillation include a swinging [[pendulum]] and [[alternating current]].
+
+Oscillations occur not only in mechanical systems but also in dynamic systems in virtually every area of science: for example, the beating of the human [[heart]] (for circulation), business cycles in [[economics]], [[predator–prey systems|predator–prey]] population cycles in [[ecology]], geothermal [[geyser]]s in [[geology]], vibration of strings in [[guitar]] and other [[string instrument]]s, periodic firing of [[neuron|nerve cells]] in the brain, and the periodic swelling of [[Cepheid variable]] stars in [[astronomy]].
+
+== Simple harmonic motion ==
+{{Main|Simple harmonic motion}}
+
+The simplest form of oscillation is [[simple harmonic motion]] (SHM). A system exhibits SHM when the restoring force is proportional to the displacement from equilibrium and directed opposite to it ([[Hooke's law]]):
+:<math>F = -kx</math>
+
+The equation of motion is:
+:<math>\frac{d^2x}{dt^2} + \omega_0^2 x = 0</math>
+where <math>\omega_0 = \sqrt{k/m}</math> is the [[angular frequency|natural angular frequency]].
+
+The general solution is:
+:<math>x(t) = A\cos(\omega_0 t + \phi)</math>
+where <math>A</math> is the amplitude and <math>\phi</math> is the [[phase (waves)|phase]].
+
+=== Energy in SHM ===
+The total mechanical energy is constant:
+:<math>E = \frac{1}{2}kA^2 = \frac{1}{2}m\omega_0^2 A^2</math>
+
+This energy oscillates between kinetic and potential forms:
+:<math>K = \frac{1}{2}m\dot{x}^2, \quad U = \frac{1}{2}kx^2</math>
+
+=== Examples of SHM ===
+
+==== Pendulum ====
+{{Main|Pendulum}}
+For a [[simple pendulum]] of length <math>L</math> with small angular displacement:
+:<math>\frac{d^2\theta}{dt^2} + \frac{g}{L}\theta = 0</math>
+:<math>\omega_0 = \sqrt{\frac{g}{L}}, \quad T = 2\pi\sqrt{\frac{L}{g}}</math>
+
+For a [[compound pendulum|physical pendulum]]:
+:<math>T = 2\pi\sqrt{\frac{I}{mgd}}</math>
+where <math>I</math> is the moment of inertia about the pivot and <math>d</math> is the distance from pivot to center of mass.
+
+==== Spring–mass system ====
+For a mass <math>m</math> attached to a spring of stiffness <math>k</math>:
+:<math>\omega_0 = \sqrt{\frac{k}{m}}, \quad T = 2\pi\sqrt{\frac{m}{k}}</math>
+
+== Damped oscillation ==
+{{Main|Damping}}
+In real systems, [[dissipation|energy loss]] causes the oscillation to decay. For [[viscous damping]], the equation of motion is:
+:<math>\frac{d^2x}{dt^2} + 2\beta\frac{dx}{dt} + \omega_0^2 x = 0</math>
+where <math>\beta</math> is the damping coefficient.
+
+Three regimes:
+* '''Underdamped''' (<math>\beta < \omega_0</math>): <math>x(t) = Ae^{-\beta t}\cos(\omega_1 t + \phi)</math>, where <math>\omega_1 = \sqrt{\omega_0^2 - \beta^2}</math>
+* '''Critically damped''' (<math>\beta = \omega_0</math>): Returns to equilibrium in minimum time without oscillating
+* '''Overdamped''' (<math>\beta > \omega_0</math>): Returns to equilibrium slowly without oscillating
+
+== Driven oscillation and resonance ==
+{{Main|Resonance}}
+When an external driving force <math>F_0\cos(\omega t)</math> is applied, the steady-state solution is:
+:<math>x(t) = \frac{F_0/m}{\sqrt{(\omega_0^2 - \omega^2)^2 + (2\beta\omega)^2}} \cos(\omega t - \delta)</math>
+where the phase shift <math>\delta</math> is:
+:<math>\tan\delta = \frac{2\beta\omega}{\omega_0^2 - \omega^2}</math>
+
+[[Resonance]] occurs when the driving frequency equals the natural frequency (<math>\omega = \omega_0</math>), producing maximum amplitude. The [[Q factor|quality factor]] <math>Q</math> measures the sharpness of resonance:
+:<math>Q = \frac{\omega_0}{2\beta}</math>
+
+== Coupled oscillators ==
+{{Main|Normal mode}}
+When two or more oscillators are coupled, energy can transfer between them. The system exhibits [[normal mode]]s — patterns of motion where all parts move with the same frequency. For two identical coupled pendulums, the normal mode frequencies are:
+:<math>\omega_1 = \omega_0, \quad \omega_2 = \sqrt{\omega_0^2 + 2\kappa}</math>
+where <math>\kappa</math> is the coupling strength.
+
+== Nonlinear oscillations ==
+{{Main|Nonlinear system}}
+For large amplitudes, many systems lose their harmonic character and become [[nonlinear oscillation|nonlinear]]. The [[Duffing oscillator]] and [[Van der Pol oscillator]] are classic examples. Nonlinear oscillators can exhibit [[limit cycle]]s, [[bifurcation theory|bifurcations]], and [[chaos theory|chaos]].
+
+== See also ==
+{{Portal|Physics}}
+* [[Waves]]
+* [[Vibration]]
+* [[Normal mode]]
+* [[Harmonic oscillator]]
+
+== References ==
+{{Reflist|30em}}
+
+== Further reading ==
+* [[Anthony French|French, A. P.]] (1971). ''Vibrations and Waves''. W. W. Norton.
+* [[George C. King|King, G. C.]] (2009). ''Vibrations and Waves''. Wiley.
+
+[[Category:Oscillation| ]]
+[[Category:Mechanical vibrations]]
+[[Category:Classical mechanics]]

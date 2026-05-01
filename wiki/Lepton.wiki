@@ -1,0 +1,67 @@
+{{Short description="Family of elementary particles including the electron and neutrino}}
+{{Infobox physics
+| name = Lepton
+| image = 
+| caption = 
+| topics = [[Elementary particle]], [[Fermion]], [[Electron]], [[Neutrino]], [[Standard Model]]
+| composition = [[Elementary particle]]
+| statistics = [[Fermion]]
+| types = Electron, muon, tau (+ neutrinos)
+| spin = 1/2
+}}
+
+In [[particle physics]], a '''lepton''' is an [[elementary particle]] of half-integer [[spin (physics)|spin]] ([[fermion]]) that does not undergo [[strong interaction]]s. The name "lepton" comes from the Greek λεπτός (''leptos''), meaning "small" or "thin."
+
+There are six types of leptons, arranged in three generations, plus their [[antiparticle]]s:
+{| class="wikitable"
+|-
+! Generation !! Charged lepton !! Neutral lepton (neutrino) !! Charge
+|-
+| 1st || [[Electron]] (e⁻) || νₑ (electron neutrino) || −1
+|-
+| 2nd || [[Muon]] (μ⁻) || ν_μ (muon neutrino) || −1
+|-
+| 3rd || [[Tau (particle)|Tau]] (τ⁻) || ν_τ (tau neutrino) || −1
+|}
+
+== Properties ==
+* Spin 1/2 (fermions)
+* Subject to [[weak interaction]] and (if charged) [[electromagnetism]]
+* Do NOT experience the [[strong interaction]]
+* Each charged lepton has an associated [[neutrino]] (neutral lepton)
+* [[Lepton number]] is conserved in the Standard Model (separately for each generation)
+
+== Masses ==
+* [[Electron]]: 0.511 MeV/c² (lightest charged lepton, stable)
+* [[Muon]]: 105.7 MeV/c² (mean lifetime ~2.2 μs)
+* [[Tau (particle)|Tau]]: 1,777 MeV/c² (mean lifetime ~2.9×10⁻¹³ s)
+* Neutrinos: masses < 2 eV (electron neutrino), exact values unknown
+
+== Conservation of lepton number ==
+Each lepton generation has a conserved quantum number <math>L_e, L_\mu, L_\tau</math>. For example:
+* Electron and νₑ have <math>L_e = +1</math>
+* Positron and anti-νₑ have <math>L_e = -1</math>
+
+[[Neutrino oscillation]]s violate individual lepton number conservation, implying physics beyond the Standard Model.
+
+== Role in nature ==
+* [[Electron]]s form [[atom]]s and determine chemical properties
+* [[Muon]]s are produced in cosmic ray interactions and used in [[muon tomography]]
+* [[Tau (particle)|Tau]] leptons are produced in high-energy particle collisions
+* [[Neutrino]]s are the most abundant massive particles in the universe
+
+== See also ==
+{{Portal|Physics}}
+* [[Electron]]
+* [[Elementary particle]]
+* [[Fermion]]
+* [[Muon]]
+* [[Neutrino]]
+* [[Standard Model]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Leptons| ]]
+[[Category:Elementary particles]]
+[[Category:Particle physics]]

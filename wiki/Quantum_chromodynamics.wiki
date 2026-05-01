@@ -1,0 +1,70 @@
+{{Short description="Quantum field theory of the strong interaction}}
+{{Infobox physics
+| name = Quantum chromodynamics
+| image = 
+| caption = 
+| topics = [[Strong interaction]], [[Quark]], [[Gluon]], [[Standard Model]], [[Quantum field theory]]
+| gauge_group = [[SU(3)]]
+| force_carriers = 8 [[gluon]]s
+}}
+
+'''Quantum chromodynamics''' ('''QCD''') is the [[quantum field theory]] that describes the [[strong interaction]] — the force that binds [[quark]]s together to form [[hadron]]s such as [[proton]]s and [[neutron]]s. It is a [[non-abelian gauge theory]] with [[SU(3)]] gauge symmetry and is a cornerstone of the [[Standard Model]].
+
+== Colour charge ==
+{{Main|Colour charge}}
+QCD is based on a property called [[colour charge]] (red, green, blue), analogous to [[electric charge]] in [[quantum electrodynamics]] but with three types instead of one. Each [[quark]] carries a colour charge; each [[gluon]] carries a combination of colour and anti-colour.
+
+== Lagrangian ==
+The QCD Lagrangian density:
+
+:<math>\mathcal{L}_{\text{QCD}} = \bar{\psi}_i(i\gamma^\mu(D_\mu)_{ij} - m\delta_{ij})\psi_j - \frac{1}{4}G^a_{\mu\nu}G^{\mu\nu}_a</math>
+
+where:
+* <math>\psi_i</math> are quark fields with colour index <math>i = 1, 2, 3</math>
+* <math>(D_\mu)_{ij} = \partial_\mu\delta_{ij} - ig_s(T_a)_{ij}A^a_\mu</math> is the covariant derivative
+* <math>G^a_{\mu\nu}</math> is the gluon field strength tensor
+* <math>T_a</math> are the eight generators of SU(3) ([[Gell-Mann matrices]])
+* <math>g_s</math> is the strong coupling constant
+
+== Key features ==
+
+=== Asymptotic freedom ===
+At high energies (short distances), the strong coupling constant <math>\alpha_s</math> becomes small:
+:<math>\alpha_s(Q^2) \approx \frac{4\pi}{(11 - 2n_f/3)\ln(Q^2/\Lambda_{\text{QCD}}^2)}</math>
+
+Quarks behave as nearly free particles inside hadrons. Discovered by [[David Gross]], [[Frank Wilczek]], and [[David Politzer]] ([[Nobel Prize in Physics|Nobel Prize]] 2004).
+
+=== Colour confinement ===
+At low energies (large distances), the force between quarks does not diminish — the potential grows linearly:
+:<math>V(r) \approx \sigma r</math>
+
+where <math>\sigma \approx 1\ \text{GeV/fm}</math>. This prevents isolated quarks or gluons from existing; only colour-neutral combinations (hadrons) are observed.
+
+=== Gluon self-interaction ===
+Unlike photons in QED, gluons carry colour charge themselves and interact with each other. This is the origin of confinement and asymptotic freedom.
+
+== Experimental evidence ==
+* Deep inelastic scattering at [[SLAC]] (1968) — revealed point-like constituents (quarks) in protons
+* Three-jet events at [[PETRA]] (1979) — evidence for the gluon
+* [[Jet (particle physics)|Jet]] production at high-energy colliders
+* Quark–gluon plasma at [[RHIC]] and [[Large Hadron Collider|LHC]]
+
+== Quark–gluon plasma ==
+At extreme temperatures (~2×10¹² K), hadrons dissolve into a plasma of free quarks and gluons — the state of matter that existed microseconds after the [[Big Bang]].
+
+== See also ==
+{{Portal|Physics}}
+* [[Asymptotic freedom]]
+* [[Colour charge]]
+* [[Gluon]]
+* [[Quark]]
+* [[Standard Model]]
+* [[Strong interaction]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Quantum chromodynamics| ]]
+[[Category:Quantum field theory]]
+[[Category:Strong interaction]]
+[[Category:Particle physics]]
