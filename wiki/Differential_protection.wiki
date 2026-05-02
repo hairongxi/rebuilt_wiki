@@ -1,0 +1,106 @@
+{{Short description|Unit protection scheme comparing current entering and leaving a protected zone; trips when the difference exceeds a threshold}}
+{{Infobox physical quantity
+| name = Differential protection
+| image = 
+| caption = Differential protection applies Kirchhoff's current law to a defined protection zone — any imbalance current indicates an internal fault.
+| symbols = <math>I_{diff}</math> (differential current), <math>I_{rest}</math> (restraint current), <math>k_1</math> (slope), <math>k_2</math> (slope 2)
+| SI_unit = [[ampere]] (A), per unit (p.u.)
+}}
+
+'''Differential protection''' (ANSI/IEEE device number 87) is a unit-type [[power system protection]] scheme that compares the [[electric current|current]] entering and leaving a defined protection zone. Based on [[Kirchhoff's circuit laws|Kirchhoff's current law]], under normal external conditions the phasor sum of currents entering the zone equals the sum leaving; any imbalance current indicates an internal [[short circuit|fault]]. Differential protection is the primary protection for high-value assets including [[power transformer]]s, [[synchronous generator|generators]], [[busbar]]s, and short transmission lines.
+
+== Principle ==
+
+The fundamental operating quantities of a differential relay are the differential (operate) current and the restraint (bias) current:
+
+=== Differential current ===
+:<math>I_{diff} = |\mathbf{I}_{in} - \mathbf{I}_{out}|</math>
+
+For a two-terminal zone with CTs on both sides, <math>I_{diff} = |\mathbf{I}_1 + \mathbf{I}_2|</math> (accounting for CT polarity conventions where currents are taken as entering the protected zone). Under healthy conditions, <math>I_{diff}</math> is ideally zero, though CT errors, tap-changer positions, and line charging current produce a small standing differential current.
+
+=== Restraint current ===
+:<math>I_{rest} = \frac{|\mathbf{I}_{in}| + |\mathbf{I}_{out}|}{2}</math>
+
+Alternatively, the maximum through-current <math>I_{rest} = \max(|\mathbf{I}_{in}|, |\mathbf{I}_{out}|)</math> may be used. The restraint quantity increases with through-current to prevent maloperation during heavy external faults where CT saturation may produce spurious differential current.
+
+== Biased differential characteristic ==
+
+The percentage restraint (biased) differential relay compares the differential current against a tripping boundary that is a function of the restraint current:
+
+:<math>I_{diff} > I_{diff0} + k_1 \cdot I_{rest} \quad \text{for } I_{rest} \leq I_{rest,break}</math>
+
+:<math>I_{diff} > I_{diff0} + k_1 \cdot I_{rest,break} + k_2 \cdot (I_{rest} - I_{rest,break}) \quad \text{for } I_{rest} > I_{rest,break}</math>
+
+{| class="wikitable"
+|-
+! Parameter !! Description !! Typical value
+|-
+| <math>I_{diff0}</math> || Minimum differential pickup (unbiased region) || 0.1–0.3 p.u. of rated current
+|-
+| <math>k_1</math> (Slope 1) || Percentage restraint slope for low through-currents || 15–30%
+|-
+| <math>k_2</math> (Slope 2) || Increased slope for high through-currents (CT saturation region) || 40–80%
+|-
+| <math>I_{rest,break}</math> || Breakpoint between Slope 1 and Slope 2 || 2.0–4.0 p.u.
+|}
+
+The dual-slope characteristic accommodates CT errors under moderate loads (low slope) while preventing maloperation when external high-current faults drive CTs into saturation (high slope). Additional features include:
+
+* '''2nd harmonic restraint''' — Blocks tripping for transformer [[inrush current]] (predominantly 2nd harmonic content). Typical setting: 15–20% of fundamental.
+* '''5th harmonic restraint''' — Blocks tripping during transformer overexcitation (predominantly 5th harmonic).
+* '''DC offset detection''' — Identifies CT saturation caused by asymmetrical fault currents.
+
+== Applications ==
+
+=== Transformer differential (87T) ===
+[[Power transformer]] differential protection must address several challenges:
+
+* '''Inrush current''' — Magnetizing inrush upon energization can reach 8–12 times rated current. Non-fault inrush is rich in 2nd harmonic; harmonic blocking or restraint is applied.
+* '''CT ratio mismatch''' — Primary and secondary CT ratios rarely match perfectly due to transformer turns ratio. Interposing CTs or ratio matching via relay tap settings compensates.
+* '''Vector group compensation''' — Phase shift introduced by transformer winding connections (e.g., Dyn11, 30° lag) must be compensated. Modern numerical relays perform this internally using matrix transformations.
+* '''Zero-sequence current elimination''' — For delta-connected windings, zero-sequence current circulates internally and does not appear on the line side. The relay must eliminate zero-sequence from the line-side currents.
+
+=== Generator differential (87G) ===
+Protects generator stator windings against phase-to-phase and phase-to-ground faults. Sensitivity is high (typically 5–10% of rated current) since CTs are closely matched and there is no inrush phenomenon.
+
+=== Busbar differential (87B) ===
+Protects [[busbar]]s in [[electrical substation]]s. Two main implementations:
+
+* '''High-impedance differential''' — All CTs connected in parallel drive a high-impedance voltage relay. Current must circulate through CT magnetizing branches during external faults; during internal faults the voltage across the high impedance rises to trip level. Stability voltage:
+
+:<math>V_s \geq I_{f,max} \times (R_{CT} + 2R_{lead})</math>
+
+* '''Low-impedance differential''' — Numerical relay with individual CT inputs and algorithmic restraint. Offers greater flexibility but requires high-quality CTs.
+
+=== Line current differential (87L) ===
+Differential protection for [[electric power transmission|transmission lines]]. Current phasors measured at each line terminal are exchanged via [[optical ground wire|OPGW]] fiber-optic or power-line carrier communication channels. The [[alpha plane]] characteristic provides intuitive visualization of internal vs. external faults:
+
+:<math>\text{Ratio} = \frac{\mathbf{I}_{local}}{\mathbf{I}_{remote}}, \quad \mathbf{I}_{local} + \mathbf{I}_{remote} > I_{pickup}</math>
+
+Stable operation requires compensation for channel delay asymmetry, which is managed by GPS or IEEE 1588 time synchronization.
+
+== Percentage restraint characteristic (graphical) ==
+
+The tripping and restraint regions are defined in the <math>(I_{rest}, I_{diff})</math> plane:
+
+* '''Trip region''' — Above the bias characteristic line. Internal fault.
+* '''Restraint region''' — Below the bias characteristic line. External fault or load condition.
+* '''Unrestrained (instantaneous) trip''' — Differential current exceeding a high-set threshold (typically 8–12 p.u.) causes instantaneous tripping without harmonic restraint. Protects against severe internal faults where CT saturation could otherwise delay operation.
+
+== See also ==
+{{Portal|Energy}}
+* [[Power system protection]]
+* [[Protective relay]]
+* [[Overcurrent protection]]
+* [[Distance protection]]
+* [[Power transformer]]
+* [[Busbar]]
+* [[Instrument transformer]]
+* [[Kirchhoff's circuit laws]]
+* [[Symmetrical components]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]

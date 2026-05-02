@@ -1,0 +1,112 @@
+{{Short description|Protective device that limits overvoltage transients and diverts surge current to ground}}
+{{Infobox physical quantity
+| name = Surge arrester
+| image = 
+| caption = A surge arrester limits transient overvoltages and diverts surge energy to ground, protecting insulation in power equipment.
+| symbols = <math>U_c</math> (continuous operating voltage), <math>U_r</math> (rated voltage), <math>I_n</math> (nominal discharge current), <math>U_{\text{res}}</math> (residual voltage)
+| SI_unit = Volt (V), Ampere (A), Joule (J)
+}}
+
+A '''surge arrester''' (also called lightning arrester) is a protective device in [[electric power system]]s that limits transient [[overvoltage]]s caused by [[lightning]] strikes or switching operations, diverting [[electric current|surge current]] safely to ground. It is a critical component of [[insulation coordination]] in [[electrical substation]]s, on [[overhead power line]]s, and at cable terminations.
+
+== Operating principle ==
+The surge arrester exhibits a highly nonlinear [[voltage]]–current characteristic. Under normal system voltage, it behaves as an insulator with negligible leakage current (microamperes). During a transient overvoltage, its [[electrical resistance|resistance]] collapses dramatically, conducting kiloamperes of surge [[electric current|current]] and clamping the voltage across the protected equipment. After the surge passes, it returns to its high-impedance state.
+
+The nonlinear V-I characteristic is approximated by:
+
+:<math>I = k V^{\alpha}</math>
+
+where <math>k</math> is a material constant and <math>\alpha</math> is the nonlinearity exponent. For silicon carbide (SiC) arresters, <math>\alpha \approx 5</math>–7; for metal-oxide (ZnO) arresters, <math>\alpha \approx 20</math>–50, indicating near-ideal switching behavior.
+
+== Types of surge arresters ==
+
+=== Silicon carbide (SiC) arrester ===
+The earliest modern arrester type, using SiC varistor blocks in series with spark gaps. The gaps isolate the varistor from continuous operating voltage, but manufacturing tolerances produce uneven voltage distribution. Spark-gap arresters are now largely obsolete, replaced by gapless designs.
+
+=== Metal-oxide (ZnO) gapless arrester ===
+The dominant technology since the 1980s, zinc oxide (ZnO) varistors provide sufficient nonlinearity to operate without series gaps. ZnO ceramics are sintered from ZnO powder with small additions of Bi<sub>2</sub>O<sub>3</sub>, Sb<sub>2</sub>O<sub>3</sub>, MnO, and other dopants that create grain-boundary barriers. Advantages over SiC:
+* No spark gaps — immediate response to overvoltages
+* Higher energy absorption per unit volume
+* Simplified construction and improved reliability
+* Better pollution performance
+
+== Key parameters ==
+
+=== Continuous operating voltage (<math>U_c</math>) ===
+The maximum rms power-frequency voltage the arrester can withstand continuously. Must exceed the highest system operating voltage, typically 1.05–1.10 per unit of nominal voltage.
+
+=== Rated voltage (<math>U_r</math>) ===
+The maximum temporary overvoltage (TOV) the arrester can withstand for 10 seconds. For an effectively earthed system:
+
+:<math>U_r \geq U_c \times k_{\text{TOV}}</math>
+
+where <math>k_{\text{TOV}}</math> is the temporary overvoltage factor, typically 1.4 for solidly earthed systems and 1.9 for isolated/resonant-earthed systems in China.
+
+=== Nominal discharge current (<math>I_n</math>) ===
+Standard impulse current values: 1.5 kA, 2.5 kA, 5 kA, 10 kA, and 20 kA. For transmission substations (≥110 kV), 10 kA is typical; for distribution (≤35 kV), 5 kA.
+
+=== Residual voltage (<math>U_{\text{res}}</math>) ===
+The voltage across the arrester during discharge of a nominal current impulse (8/20 µs waveform). This is the clamping voltage presented to the protected equipment. A lower residual voltage provides better protection but may compromise energy handling.
+
+=== Energy absorption capability ===
+The ability to absorb thermal energy from a single impulse (kJ) or multiple impulses without damage. The energy dissipated per surge:
+
+:<math>W = \int_0^{\infty} v(t) \cdot i(t) \, dt</math>
+
+Typical station-class arresters absorb 5–20 kJ/kV of <math>U_r</math>.
+
+== Protection margin ==
+The insulation coordination margin ensures the arrester protects the equipment under all conditions:
+
+:<math>\text{Protection margin (\%)} = \frac{U_{\text{BIL}} - U_{\text{res}}}{U_{\text{BIL}}} \times 100\%</math>
+
+where <math>U_{\text{BIL}}</math> is the basic insulation level (lightning impulse withstand voltage) of the protected equipment. A margin of 20–25% is standard practice.
+
+For switching surges:
+
+:<math>\text{Switching margin (\%)} = \frac{U_{\text{BSL}} - U_{\text{switching}}}{U_{\text{BSL}}} \times 100\%</math>
+
+== Selection and application ==
+
+=== Selection criteria ===
+* System voltage and [[earthing system|neutral earthing]] method — determines <math>U_c</math> and <math>U_r</math>
+* Insulation level of protected equipment — determines acceptable <math>U_{\text{res}}</math>
+* Energy stress — line discharge class (1 to 5 per IEC 60099-4)
+* Environmental conditions — altitude, pollution, seismic
+* Location — line entrance, transformer terminal, cable sheath, generator
+
+=== Application locations ===
+* '''Line entrance''': Protects substation entry from incoming lightning surges on [[overhead power line]]s.
+* '''Transformer terminals''': Dedicated arresters mounted directly on [[power transformer]] bushings minimize lead length and inductive voltage drop.
+* '''Cable terminations''': Protects [[power cable]] jacket and screen insulation.
+* '''Generator protection''': Large rotating machines have lower BIL; specialized distribution-class arresters are used.
+* '''Series compensation''': Protects capacitor banks in series-compensated [[electric power transmission|transmission]] lines.
+
+== Standards ==
+* '''IEC 60099-4''': Surge arresters — metal-oxide surge arresters without gaps for AC systems
+* '''IEC 60099-5''': Selection and application recommendations
+* '''IEC 60099-9''': Metal-oxide surge arresters without gaps for HVDC converter stations
+* '''GB 11032''': Chinese standard for metal-oxide surge arresters for AC power systems (aligned with IEC 60099-4)
+* '''IEEE C62.11''': North American standard for metal-oxide surge arresters for AC power circuits
+
+== See also ==
+{{Portal|Energy}}
+* [[Insulation coordination]]
+* [[Overhead power line]]
+* [[Electrical substation]]
+* [[Earthing system]]
+* [[Power transformer]]
+* [[Circuit breaker]]
+* [[HVDC]]
+* [[Electric power transmission]]
+* [[Power cable]]
+* [[Electrical grid]]
+* [[Electric power system]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Surge arresters]]
+[[Category:Electrical engineering]]
+[[Category:Electric power]]
+[[Category:Overvoltage protection]]

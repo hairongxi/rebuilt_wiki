@@ -1,0 +1,133 @@
+{{Short description|Safety connection of electrical equipment to the earth}}
+{{Infobox physical quantity
+|| name = Earthing system
+|| image = 
+|| caption = An earthing (grounding) system provides a low-impedance path for fault currents to the earth.
+|| symbols = <math>R_g</math> (grounding resistance)
+|| SI_unit = [[ohm]] (Ω) for grounding resistance
+}}
+
+An '''earthing system''' ('''grounding system''' in North American terminology) is a set of electrical connections that intentionally connect specific parts of an [[electric power system]] to the [[ground (electricity)|earth]]. The primary objectives are personnel safety, equipment protection, and ensuring proper operation of protective devices such as [[circuit breaker]]s and [[fuse (electrical)|fuses]].
+
+Earthing provides a low-[[electrical impedance|impedance]] path for [[fault current]]s, limiting the voltage rise on exposed conductive parts during a fault. International standard [[IEC 60364]] classifies earthing arrangements for low-voltage installations.
+
+== Purpose of earthing ==
+
+=== Personnel safety ===
+If a live conductor contacts the metallic enclosure of electrical equipment, the enclosure becomes energized. Without proper earthing, a person touching it completes the circuit to ground, receiving a potentially lethal [[electric shock]]. The earthing system ensures the [[circuit breaker]] or [[residual-current device]] (RCD/GFCI) trips quickly.
+
+=== Equipment protection ===
+* '''Overvoltage protection''' — diverting [[lightning]] surges and switching transients to ground
+* '''Electrostatic discharge''' (ESD) — preventing static charge accumulation on equipment
+* '''Electromagnetic compatibility''' (EMC) — providing a reference plane for electronic circuits
+
+=== System stability ===
+In [[electric power transmission|transmission]] and [[electric power distribution|distribution]] systems, the neutral earthing method affects:
+* Magnitude of overvoltages during ground faults
+* Sensitivity and selectivity of ground fault protection
+* Magnitude of [[short-circuit]] ground-fault currents
+* [[Electric power system|Power system]] stability
+
+== IEC 60364 earthing types ==
+
+=== TN system ===
+In a TN system, the [[electrical substation|transformer]] neutral is directly earthed. The exposed conductive parts of the installation are connected to this earthed point via protective conductors (PE).
+
+==== TN-S ====
+Separate neutral (N) and protective earth (PE) conductors throughout the system. Provides clean separation of neutral and earth paths. Used in new installations in many countries.
+
+==== TN-C ====
+Combined neutral and protective earth in a single conductor (PEN). More economical but carries the risk of dangerous voltages on exposed metalwork if the PEN conductor breaks.
+
+==== TN-C-S ====
+Combined PEN from the substation to the building entry, then separated into N and PE within the installation. Common in [[United Kingdom|UK]] (PME — Protective Multiple Earthing) and Chinese residential systems.
+
+=== TT system ===
+The transformer neutral and the consumer's earthing are each connected to separate [[earth electrode]]s. Fault current returns through the general mass of earth. The fault loop impedance is higher than TN, so [[residual-current device]]s (RCDs) are essential for disconnection. Widely used in [[Europe]] and rural China.
+
+In a TT system, the touch voltage during a fault must satisfy:
+
+:<math>V_t = I_f R_e \leq 50\ \text{V}</math>
+
+where <math>I_f</math> is the ground-fault current and <math>R_e</math> is the earth electrode resistance at the consumer's installation.
+
+=== IT system ===
+The supply is either isolated from earth or connected through a high impedance. The first fault does not produce a dangerous touch voltage (the system can continue operating). A second fault creates a short-circuit. Used in hospital operating theatres, mines, and critical industrial processes where continuity of service is essential.
+
+== Grounding resistance and soil resistivity ==
+
+The resistance of an earth electrode is governed by [[soil resistivity]] <math>\rho</math> (Ω·m). For a vertical rod of length <math>L</math> and radius <math>a</math>:
+
+:<math>R = \frac{\rho}{2\pi L}\left[\ln\left(\frac{8L}{a}\right) - 1\right]</math>
+
+For a horizontal buried conductor of length <math>L</math> at depth <math>d</math>:
+
+:<math>R = \frac{\rho}{\pi L}\left[\ln\left(\frac{2L}{\sqrt{2ad}}\right) - 1\right]</math>
+
+Typical [[soil resistivity]] values:
+{| class="wikitable"
+|-
+! Soil type !! Resistivity (Ω·m)
+|-
+| Marshy / wet organic soil || 1–20
+|-
+| Loam and clay || 20–100
+|-
+| Sand and gravel || 100–2,000
+|-
+| Rock || 1,000–10,000+
+|}
+
+Grounding resistance targets are typically ≤ 10 Ω for distribution substations and ≤ 1 Ω for [[electrical substation|transmission substations]].
+
+== Ground electrode types ==
+* '''Vertical rod''' — [[copper]]-clad steel or [[galvanized steel]] driven into the ground; typical length 1.5–3 m
+* '''Horizontal grid''' — buried bare [[copper]] conductor forming a mesh; standard for substations
+* '''Ring earth electrode''' — conductor encircling a building at foundation level
+* '''Ufer ground (concrete-encased electrode)''' — steel reinforcing bars in concrete foundations; reliable and low-maintenance
+* '''Earth plate''' — buried metallic plate (copper or galvanized steel); used where rod driving is impractical
+
+== Step and touch voltage ==
+{{Main|Step voltage}}
+During a ground fault, current flowing into the earth creates a voltage gradient at the surface:
+
+'''Step voltage''' <math>V_{\text{step}}</math> — potential difference between two points on the ground separated by 1 m:
+
+:<math>V_{\text{step}} = \frac{\rho I_g}{2\pi}\left(\frac{1}{r} - \frac{1}{r + 1\ \text{m}}\right)</math>
+
+'''Touch voltage''' <math>V_{\text{touch}}</math> — potential difference between a grounded metallic structure and the ground surface at 1 m distance:
+
+:<math>V_{\text{touch}} = \frac{\rho I_g}{2\pi}\left(\frac{1}{r} - \frac{1}{\sqrt{r^2 + h^2}}\right)</math>
+
+where <math>I_g</math> is the ground fault current, <math>r</math> is the distance from the electrode, and <math>h</math> is the height of the grounded structure.
+
+IEEE Std 80 provides permissible step and touch voltage limits based on body weight (50 kg and 70 kg) and fault clearing time.
+
+== Equipotential bonding ==
+Equipotential bonding connects all exposed conductive parts and extraneous conductive parts (water pipes, gas pipes, structural steel) to the main earthing terminal, ensuring they stay at the same potential during a fault. This eliminates potential differences that could cause dangerous touch voltages. In bathrooms and swimming pools, supplementary equipotential bonding is required by most national [[electrical code]]s.
+
+== Earthing in high-voltage systems ==
+In [[electric power transmission|HV transmission]] systems, the neutral earthing method determines:
+* '''Solidly earthed''' — provides maximum ground-fault current for fast protection, but causes high [[short-circuit]] stress
+* '''Resistance earthed''' — limits ground-fault current to 100–1,000 A via a neutral grounding resistor
+* '''Reactance earthed''' — uses a neutral reactor to limit fault current
+* '''Resonant earthed (Petersen coil)''' — an adjustable [[inductor]] tuned to cancel the capacitive charging current, enabling self-extinction of single line-to-ground faults in [[Overhead power line|overhead lines]]
+
+== See also ==
+{{Portal|Engineering}}
+* [[Electric power system]]
+* [[Electrical substation]]
+* [[Circuit breaker]]
+* [[Residual-current device]]
+* [[Overhead power line]]
+* [[Power cable]]
+* [[Electric power transmission]]
+* [[Soil resistivity]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Earthing| ]]
+[[Category:Electrical engineering]]
+[[Category:Electrical safety]]
+[[Category:Electric power systems]]

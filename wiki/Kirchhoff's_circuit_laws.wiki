@@ -1,0 +1,110 @@
+{{Short description|Two fundamental laws of electrical circuit analysis: the current law and the voltage law}}
+{{Infobox physical law
+| name = Kirchhoff's circuit laws
+| image = 
+| caption = Kirchhoff's current law (KCL) and Kirchhoff's voltage law (KVL) are the fundamental tools for analyzing [[electrical circuit]]s.
+| formula = KCL: <math>\sum_{k=1}^{n} I_k = 0</math><br/>KVL: <math>\sum_{k=1}^{n} V_k = 0</math>
+| discovered_by = [[Gustav Kirchhoff]] (1845)
+}}
+
+'''Kirchhoff's circuit laws''' are two equalities that deal with the current and [[voltage|potential difference]] (voltage) in the [[lumped element model]] of [[electrical circuit]]s. They were first described in 1845 by German physicist [[Gustav Kirchhoff]]. Together with [[Ohm's law]], they form the fundamental basis of [[network analysis (electrical circuits)|circuit analysis]].
+
+The two laws are:
+
+* '''Kirchhoff's current law (KCL):''' The algebraic sum of currents entering any node (junction) is zero.
+* '''Kirchhoff's voltage law (KVL):''' The algebraic sum of all voltages around any closed loop is zero.
+
+These laws are direct consequences of the [[charge conservation|conservation of electric charge]] and the conservative nature of the [[electric field]] in the absence of time-varying [[magnetic field]]s.
+
+== Kirchhoff's current law (KCL) ==
+{{Main|Charge conservation}}
+Kirchhoff's current law states that at any node (junction) in an electrical circuit, the sum of currents flowing into that node equals the sum of currents flowing out of that node. Equivalently, the algebraic sum of currents at a node is zero:
+
+:<math>\sum_{k=1}^{n} I_k = 0</math>
+
+where currents entering the node are taken as positive (or negative, by a consistent sign convention) and currents leaving are taken with the opposite sign.
+
+=== Physical basis ===
+KCL is a consequence of the [[charge conservation|conservation of electric charge]]. Since charge cannot accumulate at a node in a steady-state circuit (and in the lumped-element model, nodes have no [[capacitance]]), all charge flowing into a node must flow out:
+
+:<math>\nabla \cdot \mathbf{J} = -\frac{\partial \rho}{\partial t} = 0 \quad \text{(in the static limit)}</math>
+
+where <math>\mathbf{J}</math> is the [[current density]] and <math>\rho</math> is the charge density.
+
+=== Examples ===
+For a node with three branches carrying currents <math>I_1</math>, <math>I_2</math>, and <math>I_3</math>, with <math>I_1</math> entering and <math>I_2, I_3</math> leaving:
+
+:<math>I_1 - I_2 - I_3 = 0 \quad \text{or} \quad I_1 = I_2 + I_3</math>
+
+== Kirchhoff's voltage law (KVL) ==
+Kirchhoff's voltage law states that the directed sum of the electrical potential differences (voltages) around any closed network loop is zero:
+
+:<math>\sum_{k=1}^{n} V_k = 0</math>
+
+When traversing a loop, voltage rises (sources) are taken as positive and voltage drops (loads) as negative, or vice versa, as long as the sign convention is applied consistently.
+
+=== Physical basis ===
+KVL is a consequence of the conservative nature of the [[electric field]] in the absence of time-varying magnetic fields. The line integral of the electric field around any closed path is zero:
+
+:<math>\oint \mathbf{E} \cdot d\boldsymbol{\ell} = 0</math>
+
+This follows from the [[electrostatics|electrostatic]] condition <math>\nabla \times \mathbf{E} = 0</math>. When time-varying [[magnetic field]]s are present (as in [[electromagnetic induction]]), KVL must be modified; [[Faraday's law of induction|Faraday's law]] introduces an additional EMF term.
+
+=== Sign convention ===
+A systematic method for applying KVL:
+
+# Choose a direction to traverse the loop (clockwise or counterclockwise).
+# When moving from − to + across a voltage source, add the EMF.
+# When moving from + to − across a voltage source, subtract the EMF.
+# For [[electrical resistance|resistors]], the voltage drop is <math>IR</math> in the direction of the current; going against the current yields <math>-IR</math>.
+
+== Applications ==
+
+=== Mesh analysis ===
+{{Main|Mesh analysis}}
+KVL applied to each ''mesh'' (a loop that does not contain any other loop) of a planar circuit yields a system of linear equations. For a circuit with <math>m</math> meshes and <math>n</math> unknown currents, [[mesh analysis]] solves:
+
+:<math>\mathbf{R}\mathbf{I} = \mathbf{V}</math>
+
+where <math>\mathbf{R}</math> is an <math>n \times n</math> [[Electrical resistance|resistance]] matrix, <math>\mathbf{I}</math> is the vector of mesh currents, and <math>\mathbf{V}</math> is the vector of source voltages.
+
+=== Nodal analysis ===
+{{Main|Nodal analysis}}
+KCL applied to each node (except the reference node) yields a system of equations for the node voltages. [[Nodal analysis]] is preferred for circuits with current sources and is the basis for computerized circuit simulation (e.g., [[SPICE]]).
+
+=== Circuit theorems ===
+Kirchhoff's laws, together with [[Ohm's law]], provide the foundation for:
+
+* [[Thévenin's theorem]] — any linear two-terminal network reduces to a single voltage source and series impedance
+* [[Norton's theorem]] — dual to Thévenin, using a current source and parallel admittance
+* [[Superposition theorem]] — response in a linear circuit equals the sum of responses to each independent source acting alone
+* [[Maximum power transfer theorem]] — maximum power delivered when load impedance equals complex conjugate of source impedance
+
+== Limitations ==
+Kirchhoff's laws assume the [[lumped element model]] — that circuit elements are discrete and the circuit dimensions are much smaller than the [[wavelength]] of the signals involved. At high frequencies ([[microwave]] and above), where the wavelength becomes comparable to circuit dimensions, distributed element models ([[transmission line theory]]) must be used instead.
+
+Additionally, KVL in its simple form breaks down when a loop encloses a changing magnetic flux. In such cases, the induced [[electromotive force]] from [[Faraday's law of induction]] must be included as an additional term:
+
+:<math>\sum V_k = -\frac{d\Phi_B}{dt}</math>
+
+== Historical context ==
+Gustav Kirchhoff (1824–1887) formulated these laws in 1845 while still a student at the [[University of Königsberg]]. His work extended [[Georg Ohm]]'s earlier research and provided a systematic method for analyzing complex circuits. Kirchhoff went on to make foundational contributions to [[spectroscopy]] ([[Kirchhoff's law of thermal radiation]]) and [[black-body radiation]].
+
+== See also ==
+{{Portal|Physics}}
+* [[Ohm's law]]
+* [[Electrical impedance]]
+* [[Electric power]]
+* [[Power factor]]
+* [[Electromagnetic induction]]
+* [[Electric current]]
+* [[Voltage]]
+* [[Electric field]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Kirchhoff's circuit laws| ]]
+[[Category:Electrical engineering]]
+[[Category:Electrical circuits]]
+[[Category:Scientific laws]]

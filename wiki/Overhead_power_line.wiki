@@ -1,0 +1,120 @@
+{{Short description|Above-ground electrical conductor for transmission and distribution of electric power}}
+{{Infobox physical quantity
+|| name = Overhead power line
+|| image = 
+|| caption = Overhead power lines on lattice steel towers carry high-voltage electricity across long distances.
+|| symbols = 
+|| SI_unit = Operating voltage in [[volt]]s (V), typical systems 110 kV to 1,100 kV
+}}
+
+An '''overhead power line''' is an [[electrical conductor]] suspended by [[Electrical insulation|insulators]] from towers or poles, used for the [[electric power transmission|transmission]] and [[electric power distribution|distribution]] of [[electric power]] through the air. Overhead lines are the most economical method for transmitting large amounts of power over land, and they form the backbone of every [[electrical grid]].
+
+Overhead lines can operate at a wide range of voltages: [[electric power distribution|distribution]] lines typically 10 kV to 33 kV, sub-transmission at 66 kV to 132 kV, and [[electric power transmission|transmission]] at 220 kV to 1,100 kV. China's Changji–Guquan line operates at 1,100 kV, the world's highest transmission voltage.
+
+== Conductors ==
+{{Main|Electrical conductor}}
+Overhead line conductors must combine high [[electrical conductivity]], high tensile strength, and corrosion resistance.
+
+=== ACSR (Aluminum Conductor Steel-Reinforced) ===
+The most widely used conductor worldwide. A core of [[steel]] strands provides mechanical strength, surrounded by layers of [[aluminum]] strands that carry the current. The cross-sectional ratio of aluminum to steel (e.g., 54/7 meaning 54 aluminum, 7 steel strands) determines the conductor's electrical and mechanical properties. Typical sizes: 240/40 mm² to 720/50 mm² for transmission.
+
+=== AAAC (All Aluminum Alloy Conductor) ===
+Made entirely of aluminum-[[magnesium]]-[[silicon]] alloy. Lighter than ACSR with better corrosion resistance, making it suitable for coastal and polluted environments. Comparable strength-to-weight ratio to ACSR without a steel core.
+
+=== Other conductor types ===
+* '''ACAR''' — Aluminum Conductor Alloy-Reinforced; compromise between ACSR and AAAC
+* '''G(Z)TACSR''' — Gap-type thermal-resistant ACSR; uses a small gap filled with heat-resistant grease allowing operation up to 210°C (vs. 90°C for conventional ACSR); common in Japanese and Chinese capacity-uprating projects
+* '''OPGW''' — Optical Ground Wire; [[fiber optic]] communications cables integrated into the shield wire
+
+=== Conductor bundling ===
+At voltages above 220 kV, each phase uses multiple sub-conductors spaced 30–50 cm apart (bundled conductors). Bundling reduces [[corona discharge]] losses and the effective line [[electrical reactance|reactance]]:
+
+:<math>L' = \frac{\mu_0}{2\pi}\left(\ln\frac{D_m}{r_{\text{eff}}} + \frac{1}{4}\right)</math>
+
+where <math>D_m</math> is the geometric mean distance between phases and <math>r_{\text{eff}}</math> is the geometric mean radius of the bundle. For <math>n</math> sub-conductors spaced <math>s</math> apart:
+
+:<math>r_{\text{eff}} = \sqrt[n]{n \cdot r \cdot s^{n-1}}</math>
+
+Typical bundling: 2-bundle for 220–400 kV, 4-bundle for 500 kV, 6–8 bundle for 765–1,100 kV.
+
+== Insulators ==
+Insulators provide mechanical support and electrical isolation between the energized conductors and the grounded tower.
+
+* '''Ceramic (porcelain) insulators''' — traditional material; high compressive strength but heavy and susceptible to vandalism
+* '''Glass insulators''' — tempered glass; visually inspectable (shatters when failed, leaving a safe remnant); widely used in Europe and China
+* '''Composite (silicone rubber) insulators''' — fiberglass core with [[silicone rubber]] weather sheds; lightweight, excellent pollution performance due to hydrophobicity; increasingly dominant at all voltages
+
+The required creepage distance (leakage path along the insulator surface) depends on the pollution level. In heavily polluted areas of [[China]], creepage distances of 25–31 mm/kV are specified.
+
+== Towers ==
+
+=== Lattice steel towers ===
+The standard for transmission lines above 66 kV. Fabricated from galvanized [[steel]] angles bolted together, they combine high strength with low wind resistance. Common configurations:
+* '''Delta''': single-circuit, narrow right-of-way
+* '''Vertical (twin-peak)''': double-circuit, common in China (e.g., 220 kV and 500 kV double-circuit)
+* '''Guyed-V''': lighter, for single circuits in open terrain
+
+Lattice tower height ranges from 20 m (66 kV) to over 100 m (1,100 kV or river crossings).
+
+=== Tubular steel poles ===
+Sleek appearance suitable for urban and suburban areas. Higher cost but smaller footprint.
+
+=== Wooden and concrete poles ===
+Common in distribution (up to 33 kV). [[Reinforced concrete|Concrete]] poles are widely used in China for rural distribution at 10 kV.
+
+== Sag and tension ==
+The conductor hangs in a [[catenary]] curve between supports. The sag <math>D</math> (maximum vertical displacement) is approximated for level spans:
+
+:<math>D \approx \frac{w L^2}{8 T}</math>
+
+where <math>w</math> is the conductor weight per unit length, <math>L</math> is the span length, and <math>T</math> is the horizontal tension. Sag increases with temperature (thermal expansion) and ice loading. The conductor tension must respect limits — usually 30–40% of the rated tensile strength under everyday conditions.
+
+== Corona discharge ==
+At high electric field strengths (above ~30 kV/cm peak at the conductor surface), air ionizes, producing a faint glow, audible hissing, and [[radio interference]]. Corona losses increase nonlinearly with voltage and are worse in rain or fog. The critical surface gradient for onset:
+
+:<math>E_c = 30 m \delta\left(1 + \frac{0.301}{\sqrt{\delta r}}\right)\ \text{kV/cm}</math>
+
+where <math>m</math> is the surface roughness factor, <math>\delta</math> is the relative air density, and <math>r</math> is the conductor radius. Bundling is the primary mitigation technique.
+
+== Right-of-way ==
+A right-of-way (ROW) is a cleared strip of land under and around the line. Width depends on voltage: approximately 30 m for 110 kV, 50 m for 220 kV, 70 m for 500 kV, and up to 100 m for 1,100 kV. Vegetation management and building restrictions within the ROW are essential for safety and reliability.
+
+== Lightning protection ==
+Overhead lines are protected by one or two '''shield wires''' (static wires, earth wires) running above the phase conductors. The shield wire intercepts lightning strokes and conducts the current to ground via the tower and its [[Earthing system|earthing electrodes]]. The protective angle (typically 20–30°) defines the zone of protection. Tower footing resistance should be ≤ 10 Ω for effective lightning performance; in high-resistivity [[soil]], counterpoise wires or deep-driven rods may be needed.
+
+== Line parameters ==
+The series [[electrical impedance|impedance]] per unit length for a three-phase line:
+
+:<math>Z' = R' + j\omega L' = R' + j\omega\frac{\mu_0}{2\pi}\ln\frac{D_m}{r_{\text{eff}}}</math>
+
+The shunt [[admittance]] per unit length:
+
+:<math>Y' = j\omega C' = j\omega\frac{2\pi\varepsilon_0}{\ln(D_m/r_{\text{eff}})}</math>
+
+The [[characteristic impedance]] (surge impedance) is:
+
+:<math>Z_c = \sqrt{\frac{L'}{C'}} \approx \sqrt{\frac{\mu_0}{\varepsilon_0}}\frac{1}{2\pi}\ln\frac{D_m}{r_{\text{eff}}} \approx 60\ln\frac{D_m}{r_{\text{eff}}}\ \Omega</math>
+
+Typical surge impedance: 250–400 Ω. The surge impedance loading (SIL) is the natural power level:
+
+:<math>\text{SIL} = \frac{V^2}{Z_c}\ \text{W}</math>
+
+== See also ==
+{{Portal|Engineering}}
+* [[Electric power transmission]]
+* [[Electric power distribution]]
+* [[Electrical grid]]
+* [[Power cable]]
+* [[Electrical substation]]
+* [[HVDC]]
+* [[Earthing system]]
+* [[Corona discharge]]
+* [[Power transformer]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Overhead power lines| ]]
+[[Category:Electrical engineering]]
+[[Category:Electric power transmission]]
+[[Category:Electrical grid]]

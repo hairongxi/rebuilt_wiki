@@ -1,0 +1,138 @@
+{{Short description|Mechanical switching device that provides an isolating distance when open, operated only under no-load or negligible current conditions}}
+{{Infobox physical quantity
+| name = Disconnector
+| image = 
+| caption = A disconnector (isolating switch) provides a visible, unmistakable isolation gap to ensure the safety of personnel working on de-energized equipment.
+| symbols = <math>U_r</math>, <math>I_r</math>, <math>I_k</math> (short-time withstand current)
+| SI_unit = [[volt]] (V), [[ampere]] (A), [[ampere|kA]]
+}}
+
+'''Disconnector''' (also called an isolating switch or isolator) is a mechanical [[switch|switching device]] which, in the open position, provides an isolating distance in accordance with specified requirements. A disconnector is capable of opening and closing a circuit only when either a negligible [[electric current|current]] is broken or made, or when no significant change in voltage across the terminals of each pole occurs. It is a fundamental safety component of [[switchgear]] assemblies and [[electrical substation]]s, enabling visual confirmation of de-energized state before maintenance work begins.
+
+== Purpose and function ==
+The primary purpose of a disconnector is to provide a visible, unambiguous isolation gap between energized and de-energized sections of a [[electric power system|power system]]. Unlike a [[circuit breaker]], a disconnector does not have an [[electric arc|arc]]-quenching mechanism and must not interrupt load current or fault current. The key functional requirements are:
+
+* In the open position, provide a clearly visible isolating gap
+* Withstand the rated voltage across the open gap under all specified conditions (including overvoltages)
+* Withstand rated short-time current and peak current in the closed position without damage or unintended opening
+* Allow mechanical locking in both open and closed positions
+* Be interlocked with associated circuit breakers to prevent operation under load
+
+The isolating distance <math>d</math> must satisfy:
+
+:<math>d \geq d_{\text{min}} = \frac{U_r \times k_{\text{safety}}}{E_{\text{crit}}}</math>
+
+where <math>U_r</math> is the rated voltage, <math>k_{\text{safety}}</math> is a safety factor (typically 1.2–1.5), and <math>E_{\text{crit}}</math> is the critical breakdown field strength of the insulating medium (air: ~3 kV/mm at standard conditions, SF<sub>6</sub>: ~8.9 kV/mm at 1 bar).
+
+== Types of disconnectors ==
+
+=== By construction ===
+
+{| class="wikitable"
+|-
+! Type !! Mechanism !! Typical voltage !! Description
+|-
+| Center-break || Two insulator columns rotating in opposite directions, contact at center || 36–550 kV || Arms open horizontally, simple and reliable
+|-
+| Double-break || Three insulator stacks; center stack rotates, breaking at two points || 110–550 kV || Two series gaps; compact width
+|-
+| Vertical-break || One rotating insulator column; blade opens vertically upward || 36–220 kV || Compact footprint, gravity-assisted opening
+|-
+| Pantograph || Scissor-action blade extends upward/downward to mate with fixed contact || 110–1,100 kV || Ideal for busbar selection in double-busbar schemes; connects bus above to equipment below
+|-
+| Horizontal-break (knee-type) || Blade folds at a knee joint, opening in two planes || 36–245 kV || Compact; popular in AIS substations
+|-
+| Horizontal center-break (rotating) || Single rotating stack with two moving arms || 36–170 kV || Economic; limited to lower ratings
+|}
+
+=== By phase operation ===
+
+* '''Gang-operated (three-pole)''' — all three phases operated by a single mechanism via a linkage system. Standard for most applications.
+* '''Single-pole operated''' — each phase has its own mechanism, allowing independent operation. Used in some 1½-breaker schemes and where single-phase switching flexibility is required.
+
+== Operating mechanism ==
+
+=== Manual mechanism ===
+A hand-operated lever or crank, usually via a mechanical linkage. Common for lower voltage (up to 36 kV) and where remote operation is not required. Provides tactile feedback of operation.
+
+=== Motorized mechanism ===
+An [[electric motor]] drives the disconnector through reduction gearing. Enables remote operation from the [[SCADA|control room]]. Motor supply: typically 110/220 V DC from the station battery system. Operating time: typically 3–10 seconds.
+
+=== Stored-energy mechanism ===
+Spring-charged mechanism releases energy to open or close the disconnector rapidly, reducing arcing time on the negligible make/break currents (e.g., capacitive charging current of short bus sections).
+
+== Earthing switch ==
+{{Main|Earthing system}}
+Many disconnectors are equipped with an integrated earthing switch on one or both sides. The earthing switch connects the isolated conductor to the station [[earthing system|grounding grid]], dissipating residual charge and induced voltages:
+
+:<math>V_{\text{residual}} = C_{\text{eq}} \times V_{\text{capacitive coupling}}</math>
+
+Earthing switches are classified by their making capability:
+
+* Class A: full short-circuit making capacity (can close onto an accidentally energized line)
+* Class B: only capacitive and inductive current making capacity (for induced voltages and trapped charge)
+
+High-speed earthing switches (HSES) with spring mechanisms close within a few cycles, providing rapid protection for GIS cable sections.
+
+== Ratings ==
+
+{| class="wikitable"
+|-
+! Rating !! Symbol !! Typical values (145 kV)
+|-
+| Rated voltage || <math>U_r</math> || 145 kV
+|-
+| Rated normal current || <math>I_r</math> || 2,000–4,000 A
+|-
+| Rated short-time withstand current || <math>I_k</math> || 31.5–50 kA (1 s or 3 s)
+|-
+| Rated peak withstand current || <math>I_p</math> || <math>2.5 \times I_k</math> (≈ 80–125 kA peak)
+|-
+| Rated impulse withstand voltage (BIL) || <math>U_p</math> || 650 kV (across open gap: +20% for GIS)
+|-
+| Power-frequency withstand voltage || <math>U_d</math> || 275 kV RMS
+|}
+
+The short-time withstand current <math>I_k</math> is the RMS current the disconnector can carry in the closed position for the specified duration (typically 1 or 3 seconds) without thermal or mechanical damage. The thermal equivalent is:
+
+:<math>I^2 t = \text{constant}</math>
+
+where <math>t</math> is the withstand duration. For example, a 40 kA/3 s rating gives <math>I^2 t = (40 \times 10^3)^2 \times 3 = 4.8 \times 10^9</math> A<sup>2</sup>·s.
+
+== Interlocking ==
+Disconnectors must be mechanically and electrically interlocked with the associated [[circuit breaker]] to prevent operation under load. The fundamental interlocking logic is:
+
+* Disconnector may open only if the associated circuit breaker is open
+* Disconnector may close only if the associated circuit breaker is open
+* Earthing switch may close only if the disconnector (on both sides) is open
+* Circuit breaker may close only if disconnectors are in their defined end positions
+
+Implementation is via:
+* Mechanical key interlocking (castell keys) — physical key transfer between devices
+* Electrical interlocking — auxiliary contacts wired into the control circuit
+* Programmable logic in numerical bay control units (IEC 61850)
+
+== Standards ==
+
+* IEC 62271-102 — HV switchgear: AC disconnectors and earthing switches
+* GB 1985 — Chinese standard for HV AC disconnectors and earthing switches
+* IEC 62271-1 — Common specifications for HV switchgear
+* IEEE C37.32 — American standard for HV switches and disconnectors
+
+== See also ==
+{{Portal|Energy}}
+* [[Circuit breaker]]
+* [[Switchgear]]
+* [[Electrical substation]]
+* [[Earthing system]]
+* [[Electric arc]]
+* [[Fuse (electrical)]]
+* [[Busbar]]
+* [[Protective relay]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]
+[[Category:Switchgear]]

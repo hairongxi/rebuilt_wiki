@@ -1,0 +1,151 @@
+{{Short description|Bulk transfer of electrical energy from generating stations to substations}}
+{{Infobox physical quantity
+|| name = Electric power transmission
+|| image = 
+|| caption = High-voltage transmission lines carry bulk electrical power over long distances.
+|| topics = [[Electric power system]], [[Electrical grid]], [[Electric power distribution]], [[Electrical substation]], [[HVDC]]
+}}
+
+'''Electric power transmission''' is the bulk movement of [[electric power|electrical energy]] from a [[power station|generating site]] to an [[electrical substation]] near demand centers. Transmission lines operate at high [[voltage]]s to minimize [[Joule heating|<math>I^2R</math> losses]] and use [[three-phase electric power|three-phase alternating current (AC)]] or [[HVDC|high-voltage direct current (DC)]]. The fundamental principles rest on [[Ohm's law]], [[electromagnetic induction]], and [[Maxwell's equations]].
+
+== Transmission line parameters ==
+
+Every [[transmission line]] is characterized by four distributed parameters per unit length:
+
+:<math>R</math> — series [[electrical resistance|resistance]] (Ω/km)
+:<math>L</math> — series [[inductance]] (H/km)
+:<math>C</math> — shunt [[capacitance]] (F/km)
+:<math>G</math> — shunt conductance (S/km)
+
+The series [[electrical impedance|impedance]] and shunt admittance are:
+
+:<math>z = R + j\omega L \quad \text{(Ω/km)}</math>
+:<math>y = G + j\omega C \quad \text{(S/km)}</math>
+
+For a lossless line (<math>R=0, G=0</math>), the [[characteristic impedance]] ([[surge impedance loading|surge impedance]]) is:
+
+:<math>Z_c = \sqrt{\frac{L}{C}}</math>
+
+and the propagation constant:
+
+:<math>\gamma = j\omega\sqrt{LC} = j\beta</math>
+
+== AC vs DC transmission ==
+
+=== Alternating current (AC) transmission ===
+{{Main|Three-phase electric power}}
+AC is the dominant technology for meshed grids. Advantages include easy voltage transformation via [[power transformer|transformers]] and proven [[circuit breaker]] technology. The transmitted power over a lossless line is:
+
+:<math>P = \frac{V_S V_R}{X} \sin\delta</math>
+
+where <math>V_S</math> and <math>V_R</math> are sending- and receiving-end voltages, <math>X</math> is the line [[electrical reactance|reactance]], and <math>\delta</math> is the [[power angle]].
+
+The reactive power consumed by the line is:
+
+:<math>Q = \frac{V_S V_R}{X}\cos\delta - \frac{V_R^2}{X}</math>
+
+=== High-voltage direct current (HVDC) ===
+{{Main|HVDC}}
+[[HVDC]] is superior for long-distance point-to-point transmission (>600 km overhead, >50 km submarine), interconnecting asynchronous grids, and undersea cables. Power control is precise:
+
+:<math>P = V_{dc} \cdot I_{dc}</math>
+
+China's [[HVDC]] projects include the ±1,100 kV Changji–Guquan link (3,324 km, 12 GW), the world's highest voltage and capacity.
+
+== Surge impedance loading ==
+
+The '''surge impedance loading''' (SIL) is the power level at which the line's inductive and capacitive reactive powers balance:
+
+:<math>\text{SIL} = \frac{V_{LL}^2}{Z_c}</math>
+
+where <math>V_{LL}</math> is the line-to-line voltage. At SIL, the line neither produces nor consumes net reactive power. Typical SIL values:
+
+{| class="wikitable"
+|-
+! Voltage level !! Surge impedance (Ω) !! SIL (MW)
+|-
+| 110 kV || ~375 || ~32
+|-
+| 220 kV || ~375 || ~130
+|-
+| 500 kV || ~280 || ~900
+|-
+| 765 kV || ~260 || ~2,250
+|-
+| 1,000 kV (UHV) || ~250 || ~4,000
+|}
+
+== Corona discharge ==
+
+At high voltages, the [[electric field]] strength at the conductor surface can exceed the dielectric breakdown strength of air (~30 kV/cm), producing [[corona discharge]]. The phenomenon is driven by [[Electric charge|charge]] accumulation and the resulting [[electric field]] gradient around the conductor. Corona causes:
+
+* Power loss (especially in wet weather)
+* Audible noise and radio interference
+* Ozone production
+
+The critical disruptive voltage (Peek's formula):
+
+:<math>E_c = 30 \delta m \left(1 + \frac{0.301}{\sqrt{\delta r}}\right) \quad \text{(kV/cm, peak)}</math>
+
+where <math>\delta</math> is the air density factor, <math>r</math> is the conductor radius in cm, and <math>m</math> is the surface irregularity factor. Bundle conductors (typically 2–8 sub-conductors) are used at 220 kV and above to reduce corona.
+
+== Voltage levels ==
+
+=== China ===
+{| class="wikitable"
+|-
+! Class !! Voltage !! Application
+|-
+| HV || 110 kV, 220 kV || Regional transmission & subtransmission
+|-
+| EHV || 330 kV (Northwest), 500 kV || Main backbone
+|-
+| EHV || 750 kV || Northwest China backbone
+|-
+| UHV AC || 1,000 kV || Ultra-long-distance bulk transmission
+|-
+| UHV DC || ±800 kV, ±1,100 kV || Long-distance HVDC corridors
+|}
+
+=== International ===
+Common transmission voltages include 69 kV, 115 kV, 138 kV, 230 kV, 345 kV, 500 kV, and 765 kV in North America; 110 kV, 220 kV, and 400 kV in Europe.
+
+== Ferranti effect ==
+
+On lightly loaded long lines, the receiving-end voltage can be higher than the sending-end voltage due to capacitive charging current:
+
+:<math>V_R = \frac{V_S}{\cos(\beta\ell)}</math>
+
+where <math>\beta = \omega\sqrt{LC}</math> and <math>\ell</math> is the line length. [[Shunt reactor]]s are installed to compensate for this effect on EHV/UHV lines.
+
+== Compensation ==
+
+Reactive power compensation improves voltage regulation and transmission capacity:
+
+* '''Series compensation''' — [[capacitor]]s in series reduce effective [[electrical reactance|reactance]] <math>X_{\text{eff}} = X_L - X_C</math>, increasing power transfer <math>P \propto 1/X_{\text{eff}}</math>
+* '''Shunt compensation''' — [[inductor|reactors]] absorb excess capacitive reactive power at light load; capacitor banks supply reactive power at heavy load
+* '''STATCOM''' (Static Synchronous Compensator) — fast-acting voltage-source converter for dynamic reactive power support
+* '''SVC''' (Static VAR Compensator) — thyristor-controlled reactors and capacitors
+
+== See also ==
+{{Portal|Energy}}
+* [[Electric power system]]
+* [[Electrical grid]]
+* [[Electric power distribution]]
+* [[Electrical substation]]
+* [[HVDC]]
+* [[Power transformer]]
+* [[Three-phase electric power]]
+* [[Transmission line]]
+* [[Electrical impedance]]
+* [[Ohm's law]]
+* [[Electromagnetic induction]]
+* [[Electric field]]
+* [[Magnetic field]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electric power transmission| ]]
+[[Category:Electrical engineering]]
+[[Category:Electric power systems]]

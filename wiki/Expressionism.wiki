@@ -1,0 +1,21 @@
+{{Short description|20世纪初源于德国的艺术运动，以强烈扭曲的形式表达主观情感}}
+{{Infobox art movement
+| name = 表现主义
+| image =
+| caption =
+| yearsactive = 约1905年—1920年代（影响至今）
+| country = [[德国]]为中心
+| majorfigures = [[Edvard_Munch|蒙克]]、[[恩斯特·路德维希·基希纳]]、[[瓦西里·康定斯基]]（早期）、[[埃贡·席勒]]、[[奥斯卡·柯克西卡]]
+| influences = [[Vincent_van_Gogh|梵高]]、[[Edvard_Munch|蒙克]]、[[Fauvism|野兽派]]、[[非洲艺术]]
+| influenced = [[抽象表现主义]]、[[新表现主义]]
+}}
+'''表现主义'''（Expressionism）是20世纪初在[[德国]]兴起的一场艺术运动（主要团体：[[桥社]]和[[蓝骑士]]），其核心信念为：艺术的目的是表达艺术家的主观情感，而非模仿客观现实。为此艺术家甘愿扭曲现实的形式——拉长躯体、尖叫面孔、暴烈的笔触和冲撞的色彩——一切服从于传达内在状态的需要。
+
+== 参见 ==
+* [[Edvard_Munch|蒙克]]
+* [[Vincent_van_Gogh|梵高]]
+* [[Fauvism|野兽派]]
+
+[[Category:艺术运动]]
+[[Category:20世纪艺术]]
+[[Category:德国艺术]]

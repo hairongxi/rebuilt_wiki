@@ -1,0 +1,156 @@
+{{Short description|Abnormal low-impedance connection between two points of different potential, resulting in excessive current flow}}
+{{Infobox physical phenomenon
+| name = Short circuit
+| image = 
+| caption = A short circuit is an unintended low-impedance path that bypasses the normal load, causing current to rise to many times the rated value.
+| symbols = <math>I_{sc}</math>, <math>I''_k</math> (initial symmetrical short-circuit current), <math>i_p</math> (peak short-circuit current), <math>I_{th}</math> (thermal equivalent short-circuit current)
+| SI_unit = [[ampere]] (A) for current, [[volt-ampere|MVA]] for short-circuit power
+}}
+
+'''Short circuit''' is an abnormal [[electrical connection]] of very low [[electrical impedance|impedance]] between two points of different [[electric potential|potential]] in a [[electrical circuit|circuit]], whether intended or accidental. The result is an excessive [[electric current]] — the ''short-circuit current'' <math>I_{sc}</math> — limited only by the [[Thévenin's theorem|Thévenin impedance]] of the remaining network. In [[electric power system]]s, short-circuit currents can reach tens of kiloamperes, producing severe thermal and mechanical stresses that must be managed by proper [[power system protection|protection]] and [[switchgear]] design.
+
+== Types of short circuits ==
+{{Main|Power system protection}}
+In [[three-phase electric power|three-phase]] systems, short circuits are classified by the number of conductors involved and whether [[ground (electricity)|ground]] is contacted:
+
+{| class="wikitable"
+|-
+! Fault type !! Abbreviation !! Relative frequency !! Phase involvement
+|-
+| Three-phase (symmetrical) || 3P or L-L-L || ~5% || All three phases, with or without ground
+|-
+| Line-to-line || L-L or 2P || ~15% || Two phases, no ground
+|-
+| Line-to-ground || L-G or 1P || ~70% || One phase to ground
+|-
+| Double line-to-ground || L-L-G or 2P-G || ~10% || Two phases to ground
+|}
+
+The three-phase bolted fault (zero fault impedance) produces the highest current magnitude and is used as the basis for [[circuit breaker]] interrupting rating. Line-to-ground faults are the most common but may produce lower current magnitudes, especially in impedance-grounded or isolated-neutral systems.
+
+== Sources of fault current ==
+The total short-circuit current at a given location is the sum of contributions from:
+
+* '''Utility grid''' — represented by its Thévenin equivalent (voltage source behind subtransient impedance); provides the steady-state and decaying AC component
+* '''[[Synchronous generator]]s''' — contribute subtransient (<math>X''_d</math>), transient (<math>X'_d</math>), and synchronous (<math>X_d</math>) fault current depending on time after fault inception
+* '''[[Induction motor]]s''' — act as generators briefly after a fault due to trapped rotor flux, contributing subtransient current for the first 1–3 cycles
+* '''[[Synchronous motor]]s''' and condensers — similar to generators, contributing sustained fault current if excitation is maintained
+
+== Symmetrical and asymmetrical faults ==
+
+=== Symmetrical fault current ===
+For a bolted three-phase fault, the initial symmetrical short-circuit current <math>I''_k</math> (rms) is:
+
+:<math>I''_k = \frac{c U_n}{\sqrt{3}\, Z_k}</math>
+
+where <math>c</math> is the voltage factor from [[IEC 60909]] (<math>c_{\text{max}} = 1.10</math> for LV, <math>1.10</math> for HV), <math>U_n</math> is the nominal system voltage, and <math>Z_k</math> is the short-circuit impedance at the fault location.
+
+=== DC offset and asymmetry ===
+At the instant of fault inception, the current waveform includes a decaying DC component whose magnitude depends on the voltage phase angle at the fault instant. The total asymmetrical current is:
+
+:<math>i(t) = \sqrt{2}\, I''_k\left[\sin(\omega t + \alpha - \phi_k) - \sin(\alpha - \phi_k)\, e^{-t/T}\right]</math>
+
+where <math>\alpha</math> is the voltage phase angle at fault inception, <math>\phi_k = \arctan(X_k/R_k)</math> is the fault impedance angle, and <math>T = L_k/R_k = X_k/(\omega R_k)</math> is the DC time constant.
+
+The '''peak short-circuit current''' <math>i_p</math> (the maximum possible instantaneous value, occurring when <math>\alpha - \phi_k = -\pi/2</math>) is:
+
+:<math>i_p = \kappa \sqrt{2}\, I''_k</math>
+
+where <math>\kappa</math> is the peak factor:
+
+:<math>\kappa = 1.02 + 0.98\, e^{-3R/X}</math>
+
+A typical value for MV/HV systems (<math>X/R \approx 10</math>–<math>30</math>) is <math>\kappa \approx 1.8</math>–<math>2.0</math>, giving <math>i_p \approx 2.5\,\sqrt{2}\,I''_k</math>.
+
+== Short-circuit calculations ==
+
+=== Per-unit system ===
+{{Main|Per-unit system}}
+Short-circuit studies are performed in the [[per-unit system]], where all impedances are normalized to a common MVA base:
+
+:<math>Z_{\text{pu}} = Z_{\text{actual}} \cdot \frac{S_{\text{base}}}{V_{\text{base}}^2}</math>
+
+The short-circuit MVA (fault level) is:
+
+:<math>S_{sc} = \frac{S_{\text{base}}}{Z_{\text{pu, total}}}</math>
+
+and the symmetrical fault current in per-unit is <math>I_{sc,\text{pu}} = 1 / Z_{\text{pu, total}}</math>.
+
+=== Thévenin equivalent method ===
+The network is reduced to a single equivalent voltage source behind a single equivalent impedance as seen from the fault point. This method underpins both manual calculations and computer-based [[power system simulation|short-circuit software]].
+
+=== IEC 60909 method ===
+The international standard [[IEC 60909]] defines a systematic procedure using:
+* An equivalent voltage source <math>cU_n/\sqrt{3}</math> at the fault location
+* Correction factors for generators, power station units, and network transformers
+* Calculation of <math>I''_k</math> (initial symmetrical), <math>i_p</math> (peak), <math>I_b</math> (breaking), and <math>I_{th}</math> (thermal equivalent)
+
+== Generator fault contributions ==
+
+{| class="wikitable"
+|-
+! Reactance !! Symbol !! Time frame !! Typical value (pu) !! Application
+|-
+| Subtransient || <math>X''_d</math> || First 20–50 ms || 0.10–0.25 || Circuit breaker interrupting duty, peak current
+|-
+| Transient || <math>X'_d</math> || 50 ms – 1 s || 0.20–0.40 || Relay coordination, voltage dip studies
+|-
+| Synchronous || <math>X_d</math> || Steady-state (>1 s) || 1.0–2.5 || Sustained fault current, stability studies
+|}
+
+The short-circuit current from a generator decays through these stages:
+
+:<math>I_{sc}(t) = \sqrt{2}\,U\left[\left(\frac{1}{X''_d} - \frac{1}{X'_d}\right)e^{-t/T''_d} + \left(\frac{1}{X'_d} - \frac{1}{X_d}\right)e^{-t/T'_d} + \frac{1}{X_d}\right]</math>
+
+where <math>T''_d</math> and <math>T'_d</math> are the subtransient and transient short-circuit time constants.
+
+== Short-circuit MVA ==
+The short-circuit MVA (or fault level) at a bus is defined as:
+
+:<math>S_{sc} = \sqrt{3}\, U_n\, I''_k</math>
+
+expressed in [[volt-ampere|MVA]]. It characterizes the "stiffness" of the system at that point — higher fault levels indicate a stronger system with lower source impedance. Typical values range from 250 MVA (weak distribution) to 63,000 MVA (strong 400 kV transmission bus).
+
+== Effects of short circuits ==
+
+* '''Thermal effects''' — <math>I^2t</math> heating (Joule integral) can melt conductors, damage insulation, and weld contacts. The thermal equivalent short-circuit current <math>I_{th}</math> is defined over the fault duration.
+* '''Mechanical forces''' — peak current <math>i_p</math> produces electromagnetic forces between conductors proportional to <math>i_p^2</math>. Busbars and [[busbar|busbar supports]] must withstand these forces.
+* '''Voltage dip''' — during the fault, voltage at nearby buses sags severely, potentially causing contactor drop-out and [[induction motor|motor]] stalling.
+* '''Arc flash''' — an explosive release of energy at the fault point, producing intense heat, light, pressure wave, and molten metal; a major personnel safety hazard governed by IEEE 1584 and NFPA 70E.
+
+== Fault current limiting ==
+
+* '''Current-limiting reactors''' — series [[inductor]]s inserted in feeders or bus-tie positions to add impedance and reduce the prospective fault level
+* '''Current-limiting fuses''' — operate in less than half a cycle, limiting <math>i^2t</math> let-through energy
+* '''Current-limiting circuit breakers''' — incorporate fast-acting mechanisms and arc chutes that force a rapid increase in arc voltage, limiting the peak current
+* '''[[Power transformer|Transformer]] impedance''' — deliberate specification of higher <math>u_k</math> (impedance voltage) to limit secondary fault levels
+* '''Is-current-limiting devices''' (Is-limiters) — pyrotechnic or power-electronic devices that insert impedance within microseconds
+
+== Standards ==
+
+* [[IEC 60909]] — Short-circuit currents in three-phase AC systems (calculation method)
+* [[IEEE 551]] — IEEE Recommended Practice for Calculating Short-Circuit Currents in Industrial and Commercial Power Systems (Violet Book)
+* [[IEEE 141]] — IEEE Recommended Practice for Electric Power Distribution for Industrial Plants (Red Book)
+* GB/T 15544 — Chinese standard for short-circuit current calculation (equivalent to IEC 60909)
+* IEC 60076-5 — Power transformers: ability to withstand short circuit
+
+== See also ==
+{{Portal|Energy}}
+* [[Circuit breaker]]
+* [[Power system protection]]
+* [[Earthing system]]
+* [[Electric current]]
+* [[Switchgear]]
+* [[Protective relay]]
+* [[Overcurrent protection]]
+* [[Electrical impedance]]
+* [[Electric power system]]
+* [[Three-phase electric power]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]
+[[Category:Power system protection]]
+[[Category:Electrical safety]]

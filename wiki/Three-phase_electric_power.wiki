@@ -1,0 +1,97 @@
+{{Short description|Common method of alternating current electric power generation, transmission, and distribution}}
+{{Infobox physical quantity
+| name = Three-phase electric power
+| image = 
+| caption = Three-phase AC is the worldwide standard for electrical power transmission, using three conductors carrying alternating currents offset by 120°.
+| symbols = <math>P</math>, <math>V_L</math>, <math>V_\phi</math>, <math>I_L</math>, <math>I_\phi</math>
+| SI_unit = [[watt]] (W) for power, [[volt]] (V) for voltage, [[ampere]] (A) for current
+}}
+
+'''Three-phase electric power''' is a common method of [[alternating current]] (AC) [[electric power]] generation, transmission, and distribution. It is a type of [[polyphase system]] and is the most widely used method by [[electrical grid]]s worldwide to transfer power. A three-phase system uses three conductors, each carrying an alternating current of the same [[frequency]] and voltage amplitude, but with a phase difference of one-third of a cycle (120° or <math>2\pi/3</math> [[radian]]s) between each pair.
+
+The three voltage waveforms can be expressed as:
+
+:<math>v_a(t) = V_0\sin(\omega t)</math>
+:<math>v_b(t) = V_0\sin(\omega t - 2\pi/3)</math>
+:<math>v_c(t) = V_0\sin(\omega t + 2\pi/3)</math>
+
+where <math>V_0</math> is the peak voltage, <math>\omega = 2\pi f</math> is the angular frequency, and <math>f</math> is the system frequency (typically 50 or 60 Hz).
+
+== Historical development ==
+The three-phase system was independently invented by [[Galileo Ferraris]], [[Mikhail Dolivo-Dobrovolsky]], and [[Nikola Tesla]] in the late 1880s. Dolivo-Dobrovolsky developed the first practical three-phase [[electric generator|generator]] and [[induction motor|motor]] in 1889. The first long-distance three-phase transmission line began operation in 1891 between [[Lauffen am Neckar]] and [[Frankfurt]], Germany, spanning 175 km at 15 kV.
+
+== Advantages over single-phase ==
+Three-phase power offers several advantages over [[single-phase electric power|single-phase]]:
+
+* Constant instantaneous power delivery to a balanced load (no pulsation at twice line frequency)
+* More efficient use of conductor material — three wires carry three times the power of one wire-pair while using only 1.5 times the copper
+* Rotating magnetic field is naturally produced, enabling self-starting [[induction motor]]s
+* Lower transmission losses for the same power level
+* Smaller, lighter motors and transformers for a given power rating
+
+== Wye (Y) and Delta (Δ) connections ==
+
+=== Wye (star) connection ===
+In a Y-connected system, one end of each of the three windings is connected to a common neutral point. The line-to-line voltage <math>V_L</math> is related to the phase voltage <math>V_\phi</math> (line-to-neutral) by:
+
+:<math>V_L = \sqrt{3}\,V_\phi</math>
+
+The line current equals the phase current: <math>I_L = I_\phi</math>.
+
+In a four-wire Y system, the [[ground and neutral|neutral]] conductor carries the unbalanced return current. For a perfectly balanced load, the neutral current is zero.
+
+=== Delta connection ===
+In a Δ-connected system, the three windings are connected end-to-end in a closed loop. The line voltage equals the phase voltage: <math>V_L = V_\phi</math>. The line current is related to the phase current by:
+
+:<math>I_L = \sqrt{3}\,I_\phi</math>
+
+Delta connections do not require a neutral wire and are common in industrial motor applications.
+
+== Power in three-phase systems ==
+
+=== Balanced load ===
+For a balanced three-phase load, the total real power <math>P</math> is:
+
+:<math>P = 3V_\phi I_\phi \cos\phi = \sqrt{3}\,V_L I_L \cos\phi</math>
+
+where <math>\cos\phi</math> is the [[power factor]]. The total reactive power is:
+
+:<math>Q = \sqrt{3}\,V_L I_L \sin\phi</math>
+
+and the total apparent power is:
+
+:<math>S = \sqrt{3}\,V_L I_L</math>
+
+The relationship <math>S = \sqrt{P^2 + Q^2}</math> holds for the total three-phase quantities.
+
+=== Unbalanced loads ===
+For unbalanced loads, the [[symmetrical components]] method (developed by [[Charles LeGeyt Fortescue]]) decomposes the unbalanced phasors into positive-sequence, negative-sequence, and zero-sequence components for analysis.
+
+== Phasor diagram ==
+In a balanced three-phase system, the voltage and current phasors are separated by 120°. The line-to-line voltages lead their corresponding line-to-neutral voltages by 30°. This 30° phase shift is accounted for in [[transformer]] connection design (e.g., Dy11, Yd1 vector groups).
+
+== Applications ==
+* [[Electric power transmission]] — virtually all long-distance transmission
+* [[Electric power distribution]] — commercial and residential supply
+* [[Induction motor]]s — three-phase motors are the workhorse of industry
+* [[Transformer]]s — three-phase units or banks of single-phase units
+* [[HVDC converter station]]s — AC/DC conversion
+* [[Electric arc furnace]]s — steelmaking
+* [[Data center]] power distribution
+
+== See also ==
+{{Portal|Physics}}
+* [[Electric power]]
+* [[Power factor]]
+* [[Alternating current]]
+* [[Electrical impedance]]
+* [[Ohm's law]]
+* [[Kirchhoff's circuit laws]]
+* [[Electromagnetic induction]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Three-phase electric power| ]]
+[[Category:Electrical engineering]]
+[[Category:Electric power]]

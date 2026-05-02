@@ -1,4 +1,4 @@
-/* ─── Wikipedia-style CSS for Physics Wiki Browser ─── */
+/* ─── Wikipedia-style CSS for Multi-Discipline Wiki Browser ─── */
 
 :root {
     --bg: #ffffff;
@@ -429,4 +429,95 @@ dd { margin-left: 1.6em; }
 @media print {
     #mw-panel { display: none; }
     #mw-content { margin-left: 0; }
+}
+
+/* ─── Discipline Home ─── */
+
+.disc-home h1 {
+    font-size: 2em;
+    text-align: center;
+    border-bottom: none;
+    margin-bottom: 0.2em;
+}
+.disc-home .subtitle {
+    text-align: center;
+    color: var(--text-secondary);
+    margin-bottom: 2em;
+    font-size: 1rem;
+}
+
+.disc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.2em;
+    margin: 1em 0;
+}
+.disc-card {
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    padding: 1.5em;
+    text-decoration: none;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    transition: box-shadow 0.15s, border-color 0.15s;
+}
+.disc-card:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-color: var(--accent);
+}
+.disc-icon {
+    font-size: 2.5rem;
+}
+.disc-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--link);
+}
+.disc-desc {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    flex: 1;
+}
+.disc-badge {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    background: var(--border-light);
+    padding: 3px 10px;
+    border-radius: 12px;
+    align-self: flex-start;
+}
+
+/* ─── Sidebar Discipline List ─── */
+
+.disc-list {
+    list-style: none;
+}
+.disc-list li {
+    margin: 0.15em 0;
+}
+.disc-list li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 6px;
+    border-radius: 4px;
+    color: var(--link);
+    text-decoration: none;
+}
+.disc-list li a:hover {
+    background: var(--border-light);
+    text-decoration: none;
+}
+.disc-list li a.active {
+    background: #eaf3ff;
+    font-weight: 600;
+}
+.disc-count {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    background: var(--border-light);
+    padding: 1px 6px;
+    border-radius: 8px;
 }

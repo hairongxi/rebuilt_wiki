@@ -5,6 +5,6 @@
     {{ content|safe }}
 </article>
 <div class="page-footer">
-    <p><a href="/wiki/{{ title|replace(' ', '_') }}">Permalink</a></p>
+    <p><a href="/wiki/{{ title|replace(' ', '_') }}{% if disc_id %}?disc={{ disc_id }}{% endif %}">Permalink</a></p>
 </div>
 {% endblock %}

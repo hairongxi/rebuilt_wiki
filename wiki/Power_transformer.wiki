@@ -1,0 +1,220 @@
+{{Short description|Static device that transfers electrical energy between circuits via electromagnetic induction}}
+{{Infobox physical quantity
+| name = Power transformer
+| image = 
+| caption = A power transformer transfers electrical energy between two or more circuits through [[electromagnetic induction]], with no moving parts.
+| symbols = <math>S</math> (apparent power in VA), <math>V_p</math>, <math>V_s</math>, <math>N_p</math>, <math>N_s</math>
+| SI_unit = volt-ampere (VA)
+}}
+
+'''Power transformer''' is a static [[electrical machine|electrical device]] that transfers [[electrical energy]] between two or more circuits through [[electromagnetic induction]]. A varying [[electric current|current]] in the primary winding produces a varying [[magnetic field|magnetic flux]] in the core, which induces a varying [[electromotive force]] (EMF) across the secondary winding. Power transformers are essential components of [[electric power system]]s, enabling efficient [[electric power transmission|transmission]] and [[electric power distribution|distribution]] by stepping voltage up for long-distance transport and stepping it down for end use.
+
+== Operating principle ==
+{{Main|Electromagnetic induction}}
+The transformer operates on [[Faraday's law of induction]]. An alternating voltage <math>V_p</math> applied to the primary winding of <math>N_p</math> turns produces an alternating magnetic flux <math>\Phi</math> in the core. This flux links the secondary winding of <math>N_s</math> turns, inducing a voltage <math>V_s</math>. For an ideal transformer:
+
+:<math>\frac{V_p}{V_s} = \frac{N_p}{N_s} = a</math>
+
+where <math>a</math> is the turns ratio. The current relationship in an ideal transformer conserves [[electric power|power]] (<math>S_p = S_s</math>):
+
+:<math>\frac{I_p}{I_s} = \frac{N_s}{N_p} = \frac{1}{a}</math>
+
+The sinusoidal flux in the core is related to the applied voltage by the transformer EMF equation:
+
+:<math>E = 4.44 f N \Phi_{\text{max}}</math>
+
+where <math>f</math> is the [[frequency]] (Hz), <math>N</math> is the number of turns, and <math>\Phi_{\text{max}}</math> is the peak magnetic flux (Wb). For a given voltage, higher frequency allows a smaller core — a key reason aircraft use 400 Hz systems.
+
+The flux density <math>B_{\text{max}}</math> is limited by core material saturation (typically 1.5–1.7 T for grain-oriented silicon steel):
+
+:<math>\Phi_{\text{max}} = B_{\text{max}} A_c</math>
+
+where <math>A_c</math> is the core cross-sectional area.
+
+== Construction ==
+
+=== Core ===
+The magnetic core is typically constructed from laminated grain-oriented [[silicon steel]] sheets (0.23–0.35 mm thick) to minimize eddy current losses. Core configurations include:
+
+* Core type — windings surround the core limbs; most common for power transformers
+* Shell type — core surrounds the windings; better short-circuit strength
+* Three-phase cores — three-limb or five-limb construction
+
+=== Windings ===
+Windings are made of [[copper]] or [[aluminum]] conductors, insulated with paper, enamel, or Nomex. Winding types include:
+
+* Layer winding — for lower voltages and smaller ratings
+* Disc winding — alternating discs of high and low voltage for mechanical strength
+* Helical winding — for high-current, low-voltage windings
+* Interleaved (transposed) conductors — to reduce eddy current losses in large conductors
+
+=== Insulation ===
+The insulation system must withstand:
+
+* Power-frequency test voltage: typically 2–3 times rated voltage
+* Lightning impulse test voltage: standardized BIL (Basic Insulation Level)
+* Switching impulse test voltage: relevant for EHV/UHV transformers
+
+Oil-impregnated paper is the traditional primary insulation, with pressboard barriers and oil ducts for cooling.
+
+=== Cooling ===
+{{Main|Transformer oil}}
+Transformer cooling is designated by IEC 60076 using four-letter codes:
+
+{| class="wikitable"
+|-
+! Cooling class !! Internal medium !! External medium !! Circulation
+|-
+| ONAN || Mineral oil || Air || Natural
+|-
+| ONAF || Mineral oil || Air || Forced (fans)
+|-
+| OFAF || Mineral oil || Air || Forced oil, forced air
+|-
+| ODAF || Mineral oil || Air || Directed oil flow, forced air
+|-
+| OFWF || Mineral oil || Water || Forced oil, forced water
+|}
+
+The temperature rise limits are typically 65 K (top oil) and 78 K (winding hot-spot) above ambient.
+
+== Equivalent circuit ==
+The real transformer deviates from ideal behavior due to winding [[electrical resistance|resistance]], leakage [[electrical impedance|reactance]], core losses, and magnetizing current. These are modeled by the equivalent circuit parameters:
+
+{| class="wikitable"
+|-
+! Parameter !! Symbol !! Represents !! Physical origin
+|-
+| Primary resistance || <math>R_p</math> || Copper loss in primary || Winding conductor resistance
+|-
+| Secondary resistance || <math>R_s</math> (referred to primary: <math>R_s'</math>) || Copper loss in secondary || Winding conductor resistance
+|-
+| Primary leakage reactance || <math>X_p</math> || Flux that links primary but not secondary || Leakage flux path
+|-
+| Secondary leakage reactance || <math>X_s</math> (referred to primary: <math>X_s'</math>) || Flux that links secondary but not primary || Leakage flux path
+|-
+| Magnetizing reactance || <math>X_m</math> || Magnetizing current || Core permeability (nonlinear)
+|-
+| Core loss resistance || <math>R_c</math> || Hysteresis + eddy current loss || Core material properties
+|}
+
+The total impedance voltage (short-circuit impedance) is critical for transformer specification:
+
+:<math>Z_k\% = \frac{I_{\text{rated}} Z_k}{V_{\text{rated}}} \times 100\%</math>
+
+Typical values range from 4% (small distribution transformers) to 20% (large power transformers with fault current limiting).
+
+== Losses and efficiency ==
+
+=== Copper loss (load loss) ===
+The <math>I^2R</math> loss in windings varies with load current. For a transformer supplying apparent power <math>S</math> at rated voltage:
+
+:<math>P_{\text{cu}} = I_p^2 R_p + I_s^2 R_s</math>
+
+At any load fraction <math>x = S/S_{\text{rated}}</math>, the copper loss is <math>P_{\text{cu}}(x) = x^2 P_{\text{cu,rated}}</math>.
+
+=== Iron loss (no-load loss) ===
+Core losses are present whenever the transformer is energized, independent of load:
+
+* Hysteresis loss: <math>P_h = k_h f B_{\text{max}}^n</math> (Steinmetz equation, <math>n \approx 1.6</math>–2.0)
+* Eddy current loss: <math>P_e = k_e f^2 B_{\text{max}}^2 t^2</math> where <math>t</math> is lamination thickness
+
+Total iron loss: <math>P_{\text{Fe}} = P_h + P_e</math>
+
+=== Efficiency ===
+Transformer efficiency is among the highest of any electrical machine, exceeding 99% for large units:
+
+:<math>\eta = \frac{P_{\text{out}}}{P_{\text{out}} + P_{\text{Fe}} + P_{\text{cu}}} = \frac{x S_{\text{rated}} \cos\phi}{x S_{\text{rated}} \cos\phi + P_{\text{Fe}} + x^2 P_{\text{cu,rated}}}</math>
+
+Maximum efficiency occurs when variable (copper) losses equal fixed (iron) losses:
+
+:<math>x_{\eta\text{max}} = \sqrt{\frac{P_{\text{Fe}}}{P_{\text{cu,rated}}}}</math>
+
+== Three-phase transformers ==
+{{Main|Three-phase electric power}}
+Three-phase power can be transformed by:
+
+* A single three-phase transformer unit — more compact, lower cost, less weight
+* A bank of three single-phase transformers — redundancy, easier transport
+
+=== Vector groups ===
+The phase displacement between primary and secondary line voltages is specified by the vector group (IEC 60076-1). Common connections:
+
+{| class="wikitable"
+|-
+! Vector group !! Primary !! Secondary !! Phase shift !! Application
+|-
+| Yy0 || Star || Star || 0° || Small distribution, no neutral displacement concern
+|-
+| Yd1 || Star || Delta || −30° || Generator step-up, blocks zero-sequence
+|-
+| Yd11 || Star || Delta || +30° || Standard distribution step-down
+|-
+| Dy11 || Delta || Star || +30° || Distribution transformer (LV star for 4-wire)
+|-
+| Dd0 || Delta || Delta || 0° || Industrial, no neutral required
+|}
+
+The phase displacement angle is <math>30^\circ \times n</math> where <math>n</math> is the clock hour (1–11).
+
+The [[Kirchhoff's circuit laws|zero-sequence]] impedance depends on connection — a delta winding provides a circulating path for zero-sequence currents, while a star winding without neutral grounding blocks them.
+
+== Transformer oil and insulation ==
+Mineral oil serves both as [[electrical insulation]] (dielectric strength ≈ 70 kV / 2.5 mm gap) and cooling medium. Key oil parameters:
+
+* Dielectric breakdown voltage (IEC 60156): ≥30 kV (new oil), ≥50 kV (after treatment)
+* Moisture content: <20 ppm (at factory), <35 ppm (in service for EHV)
+* Dissolved gas analysis (DGA, IEC 60599): monitors fault gases — hydrogen (<math>H_2</math>), acetylene (<math>C_2H_2</math>), ethylene, methane, ethane — for incipient fault detection
+
+Alternative insulating fluids include natural esters (vegetable oils) and synthetic esters with higher fire points for indoor and environmentally sensitive installations.
+
+== Tap changers ==
+
+=== On-load tap changer (OLTC) ===
+The OLTC adjusts the turns ratio under load to regulate secondary voltage. It is usually located on the HV winding where current is lower. Regulation range is typically ±10% in 9–17 steps of 1.25%. The OLTC operates by momentarily bridging two taps through a transition resistor or reactor:
+
+:<math>\Delta V_s = V_s \cdot \frac{\Delta N_s}{N_s}</math>
+
+=== Off-circuit (de-energized) tap changer ===
+Used in smaller distribution transformers, providing ±2.5% or ±5% adjustment in 2–3 steps. Operations require the transformer to be de-energized.
+
+== Parallel operation ==
+Transformers can operate in parallel provided they satisfy:
+
+# Same voltage ratio (turns ratio)
+# Same vector group (or compatible — e.g., Yd1 and Yd1, not Yd1 and Yd11)
+# Same per-unit impedance voltage <math>Z_k\%</math> (within ±10%)
+# Same polarity
+# Similar X/R ratio
+
+Load sharing is proportional to the inverse of per-unit impedance:
+
+:<math>\frac{S_1}{S_2} = \frac{Z_{k2}\% / S_{\text{rated2}}}{Z_{k1}\% / S_{\text{rated1}}}</math>
+
+== Standards ==
+Key international and Chinese standards for power transformers:
+
+* IEC 60076 series — Power transformers (all parts)
+* GB/T 1094 series — Chinese equivalent to IEC 60076
+* IEEE C57 series — North American standards
+* IEC 60076-7 — Loading guide for oil-immersed transformers
+* GB 20052 — Minimum allowable energy efficiency (China)
+
+== See also ==
+{{Portal|Energy}}
+* [[Electromagnetic induction]]
+* [[Electrical substation]]
+* [[Three-phase electric power]]
+* [[Electric power transmission]]
+* [[Electric power distribution]]
+* [[Electrical impedance]]
+* [[Ohm's law]]
+* [[Electric_power_system]]
+* [[Transformer oil]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]
+[[Category:Transformers (electrical)]]

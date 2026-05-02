@@ -1,0 +1,150 @@
+{{Short description|Transformer used to isolate measurement and protection devices from high voltage and current}}
+{{Infobox physical quantity
+| name = Instrument transformer
+| image = 
+| caption = Instrument transformers scale down high voltages and currents to safe, measurable levels for meters and protective relays.
+| symbols = <math>N_p, N_s</math> (turns); <math>I_p, I_s</math> (currents); <math>V_p, V_s</math> (voltages)
+| SI_unit = Ratio (dimensionless), burden (VA)
+}}
+
+An '''instrument transformer''' is a [[transformer]] used to isolate measurement and [[protective relay|protection]] devices from high [[voltage]] and high [[electric current|current]] in an [[electric power system]]. It scales the primary quantity down to a standardized secondary value — typically 1 A or 5 A for current, and 100 V or 110 V for voltage — enabling safe and accurate [[metering]] and protection. Instrument transformers are essential components in every [[electrical substation]], working in conjunction with [[circuit breaker]]s, [[power transformer]]s, and [[SCADA]] systems.
+
+There are two main types: the [[current transformer]] (CT) and the [[voltage transformer]] (VT, also called potential transformer or PT).
+
+== Current transformer ==
+{{Main|Current transformer}}
+A '''current transformer''' (CT) produces a secondary current <math>I_s</math> proportional to the primary current <math>I_p</math>. Under ideal conditions, the ampere-turn balance gives:
+
+:<math>I_p N_p = I_s N_s \quad \Rightarrow \quad \frac{I_p}{I_s} = \frac{N_s}{N_p} = \frac{1}{n}</math>
+
+where <math>N_p</math> and <math>N_s</math> are the primary and secondary turns, and <math>n</math> is the turns ratio (typically <math>N_s \gg N_p</math>). The rated secondary current is standardized at 1 A or 5 A.
+
+=== Burden and accuracy ===
+The [[electrical impedance|burden]] is the total [[electrical impedance|impedance]] connected to the secondary terminals, expressed in VA at rated current:
+
+:<math>\text{Burden (VA)} = I_s^2 \cdot Z_{\text{burden}}</math>
+
+A higher burden than rated causes the CT to saturate, increasing ratio and phase-angle errors. Accuracy classes for metering CTs per IEC 61869:
+
+{| class="wikitable"
+|-
+! Class !! Application !! Typical error at rated current
+|-
+| 0.1 || Precision metering || ±0.1%
+|-
+| 0.2 || Revenue metering || ±0.2%
+|-
+| 0.5 || Industrial metering || ±0.5%
+|-
+| 1.0 || Indicating instruments || ±1.0%
+|}
+
+Protection CTs use different classes defining accuracy under fault conditions:
+
+{| class="wikitable"
+|-
+! Class !! Composite error at accuracy limit current
+|-
+| 5P || 5% at rated accuracy limit factor (e.g., 5P20)
+|-
+| 10P || 10% at rated accuracy limit factor (e.g., 10P20)
+|-
+| PX || Defined by knee-point voltage and secondary resistance
+|}
+
+=== Saturation and the open-circuit danger ===
+The CT core flux is driven by the magnetizing current. When the secondary is open-circuited, the entire primary current becomes magnetizing current, driving the core deep into saturation and producing dangerously high peak voltages:
+
+:<math>V_{\text{peak}} \approx I_p \cdot \omega L_m \quad (\text{open secondary})</math>
+
+where <math>L_m</math> is the magnetizing [[inductance]]. This can exceed tens of kilovolts and destroy the insulation. A CT secondary must never be operated open-circuited while the primary is energized.
+
+=== CT construction types ===
+* '''Wound-primary CT''': Primary winding fully insulated for high voltage; used where high accuracy is needed.
+* '''Bar-primary CT''': A straight conductor bar through the core; robust for high fault currents.
+* '''Window (toroidal) CT''': No integral primary; the line conductor passes through the toroidal core. Common for low-voltage and ring-type applications.
+
+== Voltage transformer ==
+{{Main|Voltage transformer}}
+A '''voltage transformer''' (VT or PT) produces a secondary voltage <math>V_s</math> proportional to the primary voltage <math>V_p</math>:
+
+:<math>\frac{V_p}{V_s} = \frac{N_p}{N_s}</math>
+
+Standard secondary voltages are 100 V, 110 V, or <math>100/\sqrt{3}</math> V for phase-to-ground measurement. Accuracy classes per IEC 61869:
+
+{| class="wikitable"
+|-
+! Class !! Voltage error !! Phase displacement
+|-
+| 0.1 || ±0.1% || ±5 minutes
+|-
+| 0.2 || ±0.2% || ±10 minutes
+|-
+| 0.5 || ±0.5% || ±20 minutes
+|-
+| 1.0 || ±1.0% || ±40 minutes
+|-
+| 3P || ±3.0% || — (protection)
+|-
+| 6P || ±6.0% || — (protection)
+|}
+
+=== Capacitor voltage transformer (CVT) ===
+For system voltages above approximately 100 kV, [[electromagnetic induction|electromagnetic]] VTs become expensive and bulky. The '''capacitor voltage transformer''' (CVT) uses a capacitive divider followed by a step-down electromagnetic unit:
+
+:<math>V_{\text{intermediate}} = V_p \cdot \frac{C_1}{C_1 + C_2}</math>
+
+where <math>C_1</math> and <math>C_2</math> form the capacitive divider. The intermediate voltage, typically 10–20 kV, is further stepped down by a conventional transformer. A compensating reactor cancels the capacitive [[electrical reactance|reactance]]:
+
+:<math>\omega L = \frac{1}{\omega(C_1 + C_2)}</math>
+
+CVTs also serve as coupling capacitors for [[power-line carrier]] communication, carrying high-frequency signals superimposed on the power line.
+
+== Applications ==
+
+=== Metering ===
+Instrument transformers feed [[voltmeter]]s, [[ammeter]]s, [[wattmeter]]s, and energy meters for billing, power quality, and operational data. Revenue metering uses class 0.2 CTs and VTs to stay within legally mandated accuracy limits.
+
+=== Protection ===
+[[Protective relay]]s use instrument transformers for fault detection:
+* '''Overcurrent protection''': CT secondary current feeds definite-time or [[inverse-time overcurrent]] relays.
+* '''Differential protection''': CTs on both sides of a [[power transformer]] or bus compare currents; any difference indicates an internal fault. Stability relies on matched CT characteristics.
+* '''Distance protection''': VT and CT inputs compute [[electrical impedance|impedance]] <math>Z = V/I</math> to determine fault distance on [[overhead power line|transmission lines]].
+* '''Directional protection''': Phase relationship between VT voltage and CT current determines fault direction.
+
+The voltage at the relay is:
+
+:<math>V_{\text{relay}} = \frac{V_{\text{system}}}{\text{VT ratio}}</math>
+:<math>I_{\text{relay}} = \frac{I_{\text{system}}}{\text{CT ratio}}</math>
+
+== Standards ==
+Key international and national standards governing instrument transformers:
+* '''IEC 61869-1''' to '''61869-15''': General requirements through specific types (replacing IEC 60044 series)
+* '''IEC 61869-2''': Additional requirements for current transformers
+* '''IEC 61869-3''': Additional requirements for inductive voltage transformers
+* '''IEC 61869-5''': Additional requirements for capacitor voltage transformers
+* '''GB 1207''': Chinese standard for voltage transformers (equivalent to IEC 60044-2)
+* '''GB 1208''': Chinese standard for current transformers (equivalent to IEC 60044-1)
+* '''IEEE C57.13''': North American standard for instrument transformers
+
+== See also ==
+{{Portal|Energy}}
+* [[Current transformer]]
+* [[Voltage transformer]]
+* [[Power transformer]]
+* [[Protective relay]]
+* [[Circuit breaker]]
+* [[Electrical substation]]
+* [[Power system protection]]
+* [[Electric power system]]
+* [[Electrical impedance]]
+* [[Ohm's law]]
+* [[Electromagnetic induction]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Instrument transformers]]
+[[Category:Electrical engineering]]
+[[Category:Electric power]]
+[[Category:Electrical substations]]

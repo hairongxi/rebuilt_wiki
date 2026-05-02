@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{% block title %}Physics Wiki{% endblock %}</title>
+<title>{% block title %}Wiki Browser{% endblock %}</title>
 <link rel="stylesheet" href="/static/style.css">
 <script>
 window.MathJax = { tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']] } };
@@ -14,29 +14,45 @@ window.MathJax = { tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\
 <div id="mw-wrapper">
     <nav id="mw-panel">
         <div class="logo">
-            <a href="/">📚 Physics Wiki</a>
+            <a href="/">📚 Wiki Browser</a>
         </div>
+
+        <div class="sidebar-section">
+            <h3>Disciplines</h3>
+            <ul class="disc-list">
+                {% for d in disciplines %}
+                <li><a href="/?disc={{ d.id }}" class="{% if disc_id == d.id %}active{% endif %}">
+                    {{ d.icon }} {{ d.name }}
+                    <span class="disc-count">{{ d.count }}</span>
+                </a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
         <div class="sidebar-section">
             <h3>Navigation</h3>
             <ul>
-                <li><a href="/">🏠 Main Page</a></li>
-                <li><a href="/index">📑 All Pages ({{ total_pages }})</a></li>
-                <li><a href="/categories">📂 Categories</a></li>
-                <li><a href="/random">🎲 Random Page</a></li>
+                <li><a href="/{% if disc_id %}?disc={{ disc_id }}{% endif %}">🏠 Main Page</a></li>
+                <li><a href="/index{% if disc_id %}?disc={{ disc_id }}{% endif %}">📑 All Pages ({{ total_pages }})</a></li>
+                <li><a href="/categories{% if disc_id %}?disc={{ disc_id }}{% endif %}">📂 Categories</a></li>
+                <li><a href="/random{% if disc_id %}?disc={{ disc_id }}{% endif %}">🎲 Random Page</a></li>
             </ul>
         </div>
+
         <div class="sidebar-section">
             <h3>Search</h3>
             <form action="/search" method="get" class="search-form">
+                {% if disc_id %}<input type="hidden" name="disc" value="{{ disc_id }}">{% endif %}
                 <input type="text" name="q" placeholder="Search wiki..." value="{{ query or '' }}" autocomplete="off">
                 <button type="submit">🔍</button>
             </form>
         </div>
+
         <div class="sidebar-section">
             <h3>Quick Links</h3>
             <ul>
                 {% for link in quick_links %}
-                <li><a href="/wiki/{{ link|replace(' ', '_') }}">{{ link }}</a></li>
+                <li><a href="/wiki/{{ link|replace(' ', '_') }}{% if disc_id %}?disc={{ disc_id }}{% endif %}">{{ link }}</a></li>
                 {% endfor %}
             </ul>
         </div>

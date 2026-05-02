@@ -1,0 +1,138 @@
+{{Short description|Final stage in the delivery of electric power from transmission system to consumers}}
+{{Infobox physical quantity
+|| name = Electric power distribution
+|| image = 
+|| caption = Distribution lines carry electricity at medium and low voltages to residential, commercial, and industrial customers.
+|| topics = [[Electric power system]], [[Electrical grid]], [[Electric power transmission]], [[Electrical substation]], [[Power transformer]]
+}}
+
+'''Electric power distribution''' is the final stage in the delivery of [[electric power|electricity]], carrying it from the [[electric power transmission|transmission system]] to individual consumers. The behavior of [[electric current]] in distribution feeders follows [[Ohm's law]] and [[Kirchhoff's circuit laws]]. [[Electrical substation|Distribution substations]] step down the transmission voltage to medium voltage (MV), and [[distribution transformer]]s further step it down to low voltage (LV) for utilization.
+
+== Voltage levels ==
+
+=== Chinese distribution voltages ===
+{| class="wikitable"
+|-
+! Voltage class !! Nominal voltage !! Application
+|-
+| Medium voltage (MV) || 10 kV || Urban and rural distribution (most common)
+|-
+| Medium voltage (MV) || 20 kV || Newer urban distribution networks
+|-
+| Medium voltage (MV) || 35 kV || Rural and industrial distribution
+|-
+| Low voltage (LV) || 380/220 V || Three-phase four-wire system for end users
+|}
+
+In China, the standard low-voltage system is 380 V line-to-line (three-phase) / 220 V line-to-neutral (single-phase), operating at 50 Hz. Industrial motors commonly use 380 V or 6 kV / 10 kV direct.
+
+=== International ===
+European distribution commonly uses 10 kV or 20 kV MV and 400/230 V LV. North America uses voltages such as 4.16 kV, 12.47 kV, 13.8 kV, and 34.5 kV for primary distribution, and 120/240 V split-phase or 120/208 V three-phase for LV.
+
+== Distribution network configurations ==
+
+=== Radial system ===
+The simplest configuration: a single feeder supplies power from the substation. Low cost but no redundancy — a fault anywhere on the feeder interrupts all downstream loads.
+
+Voltage drop along a radial feeder of length <math>\ell</math> with uniformly distributed load:
+
+:<math>\Delta V \approx \frac{I r \ell}{2}</math>
+
+where <math>r</math> is the resistance per unit length and <math>I</math> is the total load current.
+
+=== Ring main (loop) system ===
+Feeders form a closed loop, with normally-open point(s). A fault can be isolated by opening the adjacent switches, and all loads can be served from the alternate direction. Common in urban Chinese distribution.
+
+=== Mesh (network) system ===
+Multiple feeders interconnect to provide the highest reliability. Used in dense urban centers. Secondary network protectors prevent reverse power flow into faults.
+
+== Distribution transformers ==
+{{Main|Power transformer}}
+Distribution transformers step down medium voltage to low voltage for consumer use. Typical ratings for Chinese distribution:
+
+{| class="wikitable"
+|-
+! Type !! Voltage ratio !! Typical rating (kVA)
+|-
+| Pole-mounted || 10/0.4 kV || 50, 100, 200, 315
+|-
+| Pad-mounted || 10/0.4 kV || 400, 500, 630, 800
+|-
+| Substation type || 35/10 kV or 10/0.4 kV || 1,000–1,600
+|}
+
+Efficiency is critical since distribution transformers are energized 24/7. Modern [[Amorphous metal transformer|amorphous core transformers]] achieve no-load losses as low as 30% of traditional silicon steel designs. The total [[copper loss|copper]] and [[magnetic core|iron]] loss is:
+
+:<math>P_{\text{loss}} = P_{\text{iron}} + I^2 R_{\text{eq}}</math>
+
+where <math>P_{\text{iron}}</math> (no-load loss) is constant and <math>I^2 R_{\text{eq}}</math> (load loss) varies with load current.
+
+== Voltage regulation ==
+
+The voltage at the consumer must be maintained within prescribed limits (typically ±5% of nominal in China). The voltage drop across a distribution line with load <math>P + jQ</math> is:
+
+:<math>\Delta V \approx \frac{PR + QX}{|V|}</math>
+
+Voltage regulation methods include:
+* On-load tap changers (OLTC) at substation transformers
+* [[Voltage regulator]]s on long feeders
+* [[Shunt capacitor]] banks for power factor correction and voltage support
+* [[Static VAR compensator|SVC]] and [[STATCOM]] for dynamic compensation
+
+== Losses in distribution ==
+
+Distribution losses constitute a significant portion of total system losses due to lower voltages and higher currents. Total losses are the sum of:
+
+* '''Technical losses''' — <math>I^2R</math> losses in conductors and transformers, dielectric losses in cables
+* '''Non-technical losses''' — metering inaccuracies, theft, billing errors
+
+The loss ratio for a distribution feeder:
+
+:<math>\%\text{Loss} = \frac{3 \int I^2(x) r \, dx}{P_{\text{delivered}}} \times 100\%</math>
+
+China has invested heavily in reducing distribution losses, targeting average technical losses below 6%.
+
+== Power quality in distribution ==
+{{Main|Power quality|Power factor}}
+Key concerns at the distribution level include:
+
+* '''Voltage sags and swells''' — short-duration deviations caused by motor starting, faults, or load switching
+* '''Harmonics''' — nonlinear loads ([[LED lighting]], [[variable-frequency drive]]s, electronics) inject harmonic currents
+* '''Three-phase imbalance''' — single-phase loads cause voltage unbalance:
+
+:<math>\% \text{Unbalance} = \frac{V_{\text{max deviation}}}{V_{\text{average}}} \times 100\%</math>
+
+* '''Power factor''' — industrial loads with induction motors may have low [[power factor]], corrected with capacitor banks to avoid penalties:
+
+:<math>\cos\phi = \frac{P}{\sqrt{P^2 + Q^2}}</math>
+
+== Distributed generation integration ==
+
+Modern distribution systems increasingly accommodate [[distributed generation]] (DG) — [[photovoltaic system|rooftop solar]], small wind turbines, [[combined heat and power]] (CHP). DG introduces challenges:
+* Bidirectional power flow
+* Voltage rise at injection points
+* Protection coordination complexity
+* [[Islanding]] detection requirements
+
+== See also ==
+{{Portal|Energy}}
+* [[Electric power system]]
+* [[Electrical grid]]
+* [[Electric power transmission]]
+* [[Electrical substation]]
+* [[Power transformer]]
+* [[Power factor]]
+* [[Power quality]]
+* [[Three-phase electric power]]
+* [[Circuit breaker]]
+* [[Switchgear]]
+* [[Ohm's law]]
+* [[Electric current]]
+* [[Electromagnetism]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electric power distribution| ]]
+[[Category:Electrical engineering]]
+[[Category:Electric power systems]]

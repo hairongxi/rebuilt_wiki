@@ -1,0 +1,163 @@
+{{Short description|Integration of protection, control, monitoring, and communication within a substation using digital technology}}
+{{Infobox physical quantity
+| name = Substation automation
+| image = 
+| caption = Substation automation integrates protection, control, monitoring, and communication using digital IEDs and Ethernet networks.
+| symbols = 
+| SI_unit = 
+}}
+
+'''Substation automation''' (SA) is the integration of [[protective relay|protection]], [[control engineering|control]], monitoring, and communication within an [[electrical substation]] using digital technology. It replaces conventional hard-wired relay logic and discrete control panels with microprocessor-based Intelligent Electronic Devices (IEDs) interconnected by [[Ethernet]]-based networks, following the [[IEC 61850]] standard. The goal is improved reliability, interoperability, reduced wiring, and comprehensive diagnostic capabilities.
+
+== Architecture levels ==
+Per [[IEC 61850]], the substation automation system (SAS) is organized into three functional levels:
+
+=== Process level ===
+The lowest level, where primary equipment resides: [[circuit breaker]]s, [[disconnector]]s, [[instrument transformer]]s ([[current transformer|CT]]s and [[voltage transformer|VT]]s), and [[power transformer]]s. In a fully digital substation, '''merging units''' (MUs) digitize CT/VT analog signals at the source and publish '''sampled values (SV)''' onto the process bus:
+
+:<math>v[n] = A \sin(2\pi f \cdot n T_s + \phi)</math>
+
+where <math>T_s = 1/f_s</math> and <math>f_s = 80</math> samples per cycle (4 kHz at 50 Hz) or 256 samples per cycle (12.8 kHz at 50 Hz) for protection-grade applications per IEC 61869-9.
+
+=== Bay level ===
+The bay level contains IEDs that perform protection and control for a specific bay — a [[transmission line]], [[power transformer]], capacitor bank, or bus section. Each bay-level IED:
+* Receives sampled values (digitized or analog) from instrument transformers
+* Executes protection algorithms (overcurrent, differential, distance, etc.)
+* Issues trip commands to circuit breakers via GOOSE messages or binary outputs
+* Communicates to the station level via MMS (Manufacturing Message Specification)
+
+=== Station level ===
+The station-level equipment includes the station computer (HMI), gateway to the [[SCADA]] control center, engineering workstation, and GPS/IRIG-B time synchronization master. It performs:
+* Station-wide interlocking and control
+* Alarm aggregation and human-machine interface
+* Communication with remote control centers via IEC 60870-5-104 or DNP3
+* Disturbance recording and fault analysis
+
+== Intelligent Electronic Devices (IEDs) ==
+An IED is a microprocessor-based device that integrates multiple functions previously requiring separate hardware components. A modern protection IED typically combines:
+
+{| class="wikitable"
+|-
+! Function !! Conventional equivalent
+|-
+| Overcurrent protection (50/51) || Separate OC relay
+|-
+| Distance protection (21) || Separate distance relay
+|-
+| Differential protection (87) || Separate differential relay
+|-
+| Auto-reclosing (79) || Separate recloser relay
+|-
+| Metering (V, I, P, Q, pf) || Separate meters
+|-
+| Fault recording || Separate disturbance recorder
+|-
+| Communication || Separate RTU / protocol converter
+|}
+
+IEDs communicate horizontally (between bay IEDs) via GOOSE messaging and vertically (to station level) via MMS, all over shared Ethernet infrastructure.
+
+== Communication network ==
+
+=== Network topology ===
+The substation LAN is typically an [[Ethernet]] ring or star topology using managed switches. Redundancy is critical for protection-grade reliability:
+
+* '''PRP (Parallel Redundancy Protocol, IEC 62439-3)''': Each IED connects to two independent LANs (A and B). Frames are duplicated; the receiver accepts the first arrival and discards the duplicate.
+* '''HSR (High-availability Seamless Redundancy, IEC 62439-3)''': IEDs are connected in a ring with duplicated frame forwarding in both directions.
+
+Both protocols achieve zero recovery time on a single failure — essential for GOOSE-based protection where trip message delivery must occur within 3–4 ms.
+
+=== Process bus ===
+The process bus carries sampled values (SV) and GOOSE messages at the process level. Key standards:
+
+* '''IEC 61850-9-2''': Sampled values over Ethernet, typically using 61850-9-2LE (Light Edition) implementation guideline providing 80 samples/cycle at 50 Hz.
+* '''IEC 61869-9''': Digital interface for instrument transformers, defining the merging unit and SV format.
+
+Sampled values data rate for a single 80-sample-per-cycle stream:
+
+:<math>R_{\text{SV}} = 80 \times 50 \times \text{frame size} \approx 4-6 \text{ Mbps per stream}</math>
+
+=== GOOSE messaging ===
+Generic Object Oriented Substation Event (GOOSE) messages carry real-time protection and control commands — trip, close, blocking, interlocking. GOOSE is publisher-subscriber (multicast on VLAN), not client-server. A GOOSE frame includes:
+* Dataset of status values and Boolean commands
+* Sequence counter incremented on each state change
+* Retransmission with exponential back-off for reliability
+
+GOOSE replaces hundreds of copper wires for inter-bay signaling, dramatically reducing design, installation, and commissioning effort.
+
+=== Station bus ===
+The station bus carries MMS (IEC 61850-8-1) communication between IEDs and the station computer. MMS provides client-server services:
+* Data read/write — read measurements, write control commands
+* Reporting — buffered (BRCB) and unbuffered (URCB) report control blocks for data change, quality change, and integrity reporting
+* File transfer — disturbance record upload
+* GOOSE for station-wide alarming
+
+== Engineering and configuration ==
+Substation automation engineering uses the Substation Configuration Language (SCL) defined in IEC 61850-6. SCL is [[XML]]-based and provides a standardized, vendor-independent description of the entire substation. Key file types:
+
+{| class="wikitable"
+|-
+! File !! Name !! Content
+|-
+| ICD || IED Capability Description || Template of what a given IED type can do
+|-
+| SSD || System Specification Description || Substation single-line diagram, required functions
+|-
+| SCD || Substation Configuration Description || Complete configured system — all IEDs, communication, data flow
+|-
+| CID || Configured IED Description || The SCD subset for one specific IED (loaded into the device)
+|-
+| IID || Instantiated IED Description || Description of a pre-configured IED as actually deployed
+|}
+
+The engineering workflow proceeds: ICDs + SSD → system configurator → SCD → IED configurator → CID → download to IEDs.
+
+== Conventional vs digital substation ==
+
+{| class="wikitable"
+|-
+! Aspect !! Conventional substation !! Digital substation (IEC 61850)
+|-
+| Wiring || Copper cables, point-to-point || Ethernet (fiber/copper), shared network
+|-
+| Instrument transformers || Analog (1 A / 5 A; 100 V) || Merging units with digital SV (IEC 61869-9)
+|-
+| Protection signaling || Hard-wired contacts (trip, block) || GOOSE messages on process bus
+|-
+| Control || Wired mimic panel or RTU || Station HMI with MMS, gateway to SCADA
+|-
+| Interoperability || Vendor-specific protocols || Standardized data models and services
+|-
+| Commissioning || Extensive point-to-point testing || Simplified with standardized SCL and testing tools
+|-
+| Documentation || Paper schematics, wiring tables || SCL files — machine-readable and human-readable
+|}
+
+== Benefits ==
+* '''Reduced copper wiring''': GOOSE and SV eliminate thousands of copper connections. A typical 220 kV bay reduces from ~500 to ~50 wired connections.
+* '''Interoperability''': IEDs from different manufacturers can interoperate using the standardized IEC 61850 data model.
+* '''Improved diagnostics''': IEDs provide continuous self-supervision; communication network health is monitored in real time.
+* '''Simplified expansion''': Adding a new bay requires only network configuration (SCD update), not physical re-wiring of the marshaling kiosk.
+* '''Enhanced safety''': Digital communication reduces the risk of open CT circuits and eliminates high-voltage wiring in control rooms.
+
+== See also ==
+{{Portal|Energy}}
+* [[IEC 61850]]
+* [[SCADA]]
+* [[Protective relay]]
+* [[Electrical substation]]
+* [[Instrument transformer]]
+* [[Circuit breaker]]
+* [[Power transformer]]
+* [[Electric power system]]
+* [[Electrical grid]]
+* [[Electric power transmission]]
+* [[Earthing system]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Substation automation]]
+[[Category:Electrical engineering]]
+[[Category:Electric power systems]]
+[[Category:Industrial automation]]

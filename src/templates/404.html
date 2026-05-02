@@ -1,7 +1,7 @@
 {% extends "base.html" %}
-{% block title %}Page not found{% endblock %}
+{% block title %}Page Not Found{% endblock %}
 {% block content %}
 <h1>Page not found</h1>
-<p>The page <b>{{ title }}</b> does not exist.</p>
-<p><a href="/search?q={{ title|replace(' ', '+') }}">Search for "{{ title }}"</a></p>
+<p>The page "<b>{{ title }}</b>" does not exist in this wiki.</p>
+<p>Try <a href="/search?q={{ title|replace(' ', '+') }}">searching</a> or browse the <a href="/index">page index</a>.</p>
 {% endblock %}

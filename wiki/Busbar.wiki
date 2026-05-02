@@ -1,0 +1,174 @@
+{{Short description|Metallic strip or bar used for high-current power distribution within switchgear, switchboards, and substations}}
+{{Infobox physical quantity
+| name = Busbar
+| image = 
+| caption = A busbar is a rigid conductor — typically copper or aluminum — that serves as a common electrical junction for distributing power to multiple circuits.
+| symbols = <math>I</math>, <math>A</math>, <math>F</math>
+| SI_unit = [[ampere]] (A) for current-carrying capacity
+}}
+
+'''Busbar''' is a [[metal|metallic]] strip or bar, typically housed inside [[switchgear]], panel boards, and [[electrical substation|substation]]s, used for high-current [[electric power|power]] distribution. Busbars act as the common electrical node that interconnects incoming and outgoing circuits within a power assembly. Unlike [[power cable|cable]]s, busbars are rigid conductors with rectangular, tubular, or channel cross-sections, designed for low [[electrical impedance|impedance]], high mechanical strength, and efficient heat dissipation.
+
+== Materials ==
+
+=== Copper ===
+[[Copper]] is the preferred material for high-current busbars due to its superior [[electrical conductivity]] (<math>\sigma = 58 \times 10^6</math> S/m at 20°C, IACS 100%) and high thermal conductivity (401 W/m·K). The electrical resistance of a copper busbar of length <math>l</math> and cross-section <math>A</math> is:
+
+:<math>R = \rho \frac{l}{A} = \frac{l}{\sigma A}</math>
+
+where <math>\rho = 1.72 \times 10^{-8}</math> Ω·m is the resistivity of copper at 20°C. Temperature correction:
+
+:<math>R_T = R_{20} \left[1 + \alpha_{20}(T - 20)\right]</math>
+
+where <math>\alpha_{20} = 0.00393</math> K<sup>−1</sup> for copper.
+
+Copper busbar advantages: higher ampacity per unit cross-section, lower joint resistance, better corrosion resistance. Disadvantages: higher cost (approximately 3× aluminum by weight) and higher weight.
+
+=== Aluminum ===
+[[Aluminum]] busbars use EC-grade (electrical conductor) aluminum with conductivity <math>\sigma = 35.2 \times 10^6</math> S/m (IACS 61%). Resistivity: <math>\rho = 2.83 \times 10^{-8}</math> Ω·m. Temperature coefficient: <math>\alpha_{20} = 0.00403</math> K<sup>−1</sup>.
+
+Aluminum busbar advantages: lower cost, lighter weight (density 2,700 kg/m³ vs copper 8,960 kg/m³ — about 30% of copper weight for equivalent conductivity). Disadvantages: larger cross-section for same ampacity, higher joint resistance (requires surface preparation and joint compounds), lower mechanical strength.
+
+For equal ampacity, cross-sectional area ratio:
+
+:<math>\frac{A_{\text{Al}}}{A_{\text{Cu}}} = \frac{\rho_{\text{Al}}}{\rho_{\text{Cu}}} \approx 1.64</math>
+
+For equal conductance, weight ratio:
+
+:<math>\frac{m_{\text{Al}}}{m_{\text{Cu}}} = \frac{A_{\text{Al}}}{A_{\text{Cu}}} \cdot \frac{\rho_{\text{density,Al}}}{\rho_{\text{density,Cu}}} \approx 1.64 \times \frac{2700}{8960} \approx 0.49</math>
+
+Thus, an aluminum busbar weighs roughly half as much as a copper busbar of equivalent conductance.
+
+== Ampacity (current-carrying capacity) ==
+The continuous current rating of a busbar is limited by the maximum permissible temperature rise above ambient (typically 60–65 K for bolted joints, 50 K for bolted connections to silver- or tin-plated contacts). The heat balance under steady-state conditions:
+
+:<math>I^2 R = h A_s (T_c - T_a) + \varepsilon \sigma_{\text{SB}} A_s (T_c^4 - T_a^4)</math>
+
+where <math>h</math> is the convection heat transfer coefficient (5–20 W/m²·K for natural convection), <math>A_s</math> is the busbar surface area per unit length, <math>\varepsilon</math> is the surface emissivity (~0.3 for bare metal, ~0.9 for painted), <math>\sigma_{\text{SB}} = 5.67 \times 10^{-8}</math> W/(m²·K<sup>4</sup>) is the Stefan-Boltzmann constant, <math>T_c</math> is the conductor temperature, and <math>T_a</math> is ambient temperature.
+
+Rearranging for ampacity:
+
+:<math>I = \sqrt{\frac{h A_s (T_c - T_a) + \varepsilon \sigma_{\text{SB}} A_s (T_c^4 - T_a^4)}{R}}</math>
+
+Typical ampacities for common rectangular copper busbars in free air (single bar, vertical orientation, 65 K rise, 40°C ambient):
+
+{| class="wikitable"
+|-
+! Size (mm) !! Cross-section (mm²) !! Approximate ampacity (A) AC, 50 Hz
+|-
+| 20 × 5 || 100 || 320
+|-
+| 40 × 5 || 200 || 560
+|-
+| 60 × 10 || 600 || 1,040
+|-
+| 100 × 10 || 1,000 || 1,560
+|-
+| 120 × 10 || 1,200 || 1,820
+|-
+| 200 × 10 || 2,000 || 2,750
+|}
+
+For higher ratings, multiple bars per phase are used (2, 3, or 4 bars in parallel with spacers for cooling).
+
+== Skin effect and proximity effect ==
+At power frequencies (50/60 Hz), the [[skin effect]] in thick busbars increases the effective [[electrical resistance|resistance]]. The skin depth <math>\delta</math> is:
+
+:<math>\delta = \sqrt{\frac{2\rho}{\omega \mu_0 \mu_r}} = \sqrt{\frac{\rho}{\pi f \mu_0 \mu_r}}</math>
+
+For copper at 50 Hz: <math>\delta = \sqrt{\frac{1.72 \times 10^{-8}}{\pi \times 50 \times 4\pi \times 10^{-7} \times 1}} \approx 9.35</math> mm.
+
+For aluminum at 50 Hz: <math>\delta \approx 12.0</math> mm.
+
+For busbars thinner than ~8 mm (single bar), skin effect is negligible at power frequency. For thicker bars (10 mm and above) and for multiple parallel bars per phase, the AC/DC resistance ratio <math>R_{AC}/R_{DC}</math> can reach 1.1–1.5. The proximity effect further increases <math>R_{AC}</math> when bars are close together, particularly at high currents.
+
+== Electrodynamic forces on busbars ==
+During [[short circuit]] conditions, busbars experience immense mechanical forces due to the interaction of [[magnetic field]]s from currents in adjacent conductors. For two parallel conductors carrying currents <math>i_1</math> and <math>i_2</math> separated by distance <math>d</math>, the force per unit length is given by the Biot-Savart-Lorentz force:
+
+:<math>F = \frac{\mu_0 i_1 i_2}{2\pi d}</math>
+
+where <math>\mu_0 = 4\pi \times 10^{-7}</math> H/m is the permeability of free space. Currents in the same direction produce an attractive force; opposite directions produce repulsion.
+
+For a three-phase fault with maximum asymmetry, the peak short-circuit current is:
+
+:<math>i_{\text{peak}} = \kappa \sqrt{2} I_k</math>
+
+where <math>\kappa</math> is the peak factor (typically 1.8 for L/R = 45 ms, corresponding to 50 Hz system X/R ≈ 14), and <math>I_k</math> is the RMS symmetrical short-circuit current.
+
+The maximum electrodynamic force on the center phase conductor (worst case) during a three-phase short circuit is:
+
+:<math>F_{\text{max,3ph}} = \frac{\mu_0}{2\pi d} \times \frac{\sqrt{3}}{2} i_{\text{peak}}^2</math>
+
+For a typical 50 kA RMS, 100 mm phase spacing busbar system:
+
+:<math>i_{\text{peak}} = 1.8 \times \sqrt{2} \times 50,000 \approx 127,000</math> A
+
+:<math>F \approx \frac{4\pi \times 10^{-7}}{2\pi \times 0.1} \times \frac{\sqrt{3}}{2} \times (127,000)^2 \approx 7,000</math> N/m
+
+These forces require busbar supporting insulators and structures to be mechanically designed with adequate spacing and strength.
+
+== Busbar configurations ==
+
+{| class="wikitable"
+|-
+! Configuration !! Number of breakers per circuit !! Reliability !! Cost !! Typical application
+|-
+| Single busbar || 1 per circuit || Low — bus fault takes out all circuits || Low || Small distribution substations, low-voltage switchboards
+|-
+| Single busbar with sectionalizer || 1 per circuit + bus section CB || Medium — half remains during bus fault/maintenance || Medium || Distribution substations up to 110 kV
+|-
+| Double busbar || 2 per circuit (one per bus) || High — transfer between buses; bus maintenance without interruption || High || 110 kV and above; common in Chinese substations
+|-
+| Main-and-transfer || 1 per circuit + bus coupler || Medium — transfer bus for breaker maintenance bypass || Medium-high || HV substations
+|-
+| Breaker-and-a-half (1½-breaker) || 1.5 per circuit (3 CBs per 2 circuits) || Highest — any single CB or busbar can be taken out without circuit interruption || Highest || EHV/UHV substations (≥220 kV premium applications)
+|-
+| Ring bus || 1 per circuit (shared ring) || Medium-high — single element failure is isolated || Medium || Up to 6 circuits; generator connections
+|}
+
+== Insulated phase busbars ==
+For generator connections (typically 10–27 kV, up to ~30,000 A), isolated phase busbars (IPB) are used. Each phase is enclosed in a separate grounded aluminum enclosure. The enclosure acts as a Faraday shield, minimizing external magnetic fields and preventing phase-to-phase faults. The induced current in the enclosure shell is approximately equal and opposite to the phase conductor current:
+
+:<math>I_{\text{enclosure}} \approx -I_{\text{phase}}</math>
+
+This near-perfect shielding reduces the external magnetic field to negligible levels. IPB systems are rated for:
+* Continuous current: up to 36 kA (air-cooled) or 50 kA+ (forced-air cooled)
+* Short-time withstand: 160–250 kA RMS, 1 second
+
+== Busbar protection ==
+Busbar differential protection (87B) detects faults within the busbar zone by applying [[Kirchhoff's circuit laws|Kirchhoff's current law]]: the sum of all currents entering the busbar should be zero under healthy conditions (accounting for CT ratios). For a fault within the zone:
+
+:<math>i_{\text{diff}} = \left| \sum_{j=1}^{n} i_j \right| > I_{\text{set}}</math>
+
+where <math>i_j</math> are the secondary currents from all feeder CTs connected to the bus.
+
+High-impedance differential schemes use a stabilizing resistor <math>R_{\text{stab}}</math> in series with the relay to prevent maloperation during external faults with CT saturation. Low-impedance schemes use numerical relays with CT saturation detection algorithms.
+
+== Installation and jointing ==
+Busbar joints must maintain low and stable contact resistance. Bolted joints are tightened to specified torque:
+
+:<math>R_{\text{joint}} = R_{\text{constriction}} + R_{\text{film}}</math>
+
+Surface preparation: wire brushing to remove oxide films, application of contact grease (petroleum jelly or conductive compound) to prevent re-oxidation, especially for aluminum joints. The current density in bolted joints should not exceed ~0.3 A/mm² for copper and ~0.2 A/mm² for aluminum at the contact surface.
+
+Busbar expansion joints (flexible copper braid laminations) accommodate thermal expansion, preventing mechanical stress on insulators and connections.
+
+== See also ==
+{{Portal|Energy}}
+* [[Switchgear]]
+* [[Electrical substation]]
+* [[Circuit breaker]]
+* [[Disconnector]]
+* [[Electric current]]
+* [[Ohm's law]]
+* [[Electrical resistance]]
+* [[Short circuit]]
+* [[Electric power system]]
+* [[Power cable]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]
+[[Category:Switchgear]]

@@ -1,0 +1,103 @@
+{{Short description|Interconnected network for delivering electricity from producers to consumers}}
+{{Infobox physical quantity
+|| name = Electrical grid
+|| image = 
+|| caption = An electrical grid (or electricity network) interconnects generation, transmission, distribution, and consumption.
+|| topics = [[Electric power system]], [[Electric power transmission]], [[Electric power distribution]], [[Electrical substation]], [[SCADA]]
+}}
+
+An '''electrical grid''' (also called an '''electricity network''' or '''power grid''') is an interconnected network for delivering [[electricity]] from producers to consumers. It consists of [[power station|generating stations]], [[electric power transmission|transmission lines]] that carry [[electric power|power]] from distant sources to demand centers, and [[electric power distribution|distribution lines]] that connect individual customers. The flow of [[electric current]] through the grid is governed by [[Ohm's law]] and [[Kirchhoff's circuit laws]]. [[Electrical substation]]s at each interface transform voltages and provide [[switchgear|switching]] and [[protective relay|protection]] functions.
+
+== Grid topology ==
+
+Grids are organized in a hierarchical topology:
+
+# '''Generation''' — large [[power station]]s connect to the transmission grid at step-up [[electrical substation]]s, typically 10–25 kV generation level stepped up to 110–1,000 kV.
+# '''Transmission grid''' — meshed high-voltage backbone; in China, primarily 500 kV and 750 kV AC, plus 1,000 kV UHV AC corridors.
+# '''Subtransmission''' — typically 110–220 kV (China), 69–138 kV (North America), bridging the transmission and distribution levels.
+# '''Distribution''' — medium voltage (10 kV, 20 kV, 35 kV) down to low voltage (380/220 V).
+# '''Consumer''' — residential, commercial, and industrial loads at utilization voltage.
+
+== Synchronous grid ==
+{{Main|Wide area synchronous grid}}
+A '''synchronous grid''' (or '''wide area synchronous grid''') is a group of [[synchronous generator]]s and loads operating at the same [[frequency]]. Within a synchronous grid, all generators are locked in synchronism via [[electromagnetic induction]]:
+
+:<math>f = \frac{p \cdot n}{120}</math>
+
+where <math>f</math> is the [[utility frequency|system frequency]], <math>p</math> is the number of magnetic poles, and <math>n</math> is the rotational speed in rpm.
+
+Major synchronous grids include:
+* '''North China–Central China–East China synchronous grid''' — the world's largest
+* '''Eastern Interconnection''' (North America)
+* '''Western Interconnection''' (North America)
+* '''Continental Europe synchronous grid''' (ENTSO-E)
+* '''National Grid''' (Great Britain)
+
+== Interconnection ==
+
+Different synchronous grids can be connected via [[HVDC]] (High Voltage Direct Current) links, [[variable-frequency transformer]]s, or back-to-back converter stations. The [[HVDC]] approach decouples frequency and provides controllable power flow:
+
+:<math>P = \frac{V_{dc1} - V_{dc2}}{R_{dc}} \cdot V_{dc}</math>
+
+China's State Grid Corporation operates the world's most extensive [[HVDC]] network, with multiple ±800 kV and ±1,100 kV UHV DC corridors transmitting power over 2,000–3,000 km from western hydro and coal bases to eastern load centers.
+
+== Grid codes ==
+
+Grid codes specify technical requirements for connection to the electrical grid. Key requirements include:
+
+* '''Frequency tolerance''' — ±0.2 Hz for normal operation (50 Hz systems)
+* '''Voltage tolerance''' — typically ±5% to ±10% of nominal
+* '''Fault ride-through''' — generators must remain connected during voltage dips ([[low voltage ride-through]], LVRT)
+* '''Reactive power capability''' — generators must supply/absorb [[reactive power]] within a specified [[power factor]] range
+* '''Harmonic limits''' — compliance with [[IEEE 519]] or [[IEC 61000]] standards
+
+== Smart grid ==
+{{Main|Smart grid}}
+A '''smart grid''' incorporates digital communication technology, advanced metering infrastructure (AMI), and distributed intelligence to improve efficiency, reliability, and sustainability. Key technologies include:
+
+* [[Smart meter]]s with two-way communication
+* [[Phasor measurement unit]]s (PMUs) for wide-area monitoring
+* [[SCADA]] and advanced [[distribution management system]]s (DMS)
+* [[Distributed generation]] integration (rooftop solar, small wind)
+* [[Battery energy storage system]]s (BESS)
+* [[Demand response]] mechanisms
+
+== Grid resilience and reliability ==
+
+Grid reliability is typically measured by indices including:
+
+* '''SAIDI''' (System Average Interruption Duration Index) — average outage minutes per customer per year
+* '''SAIFI''' (System Average Interruption Frequency Index) — average interruptions per customer per year
+
+The <math>N-1</math> criterion is a fundamental planning standard: the system must withstand the loss of any single component (generator, transmission line, transformer) without cascading failure.
+
+== Load balancing ==
+
+Generation must continuously match load because large-scale [[electricity storage]] is limited. The load curve exhibits daily and seasonal variations. The difference between peak and base load is:
+
+:<math>\Delta P_{\text{peak–base}} = P_{\text{max}} - P_{\text{min}}</math>
+
+[[Pumped-storage hydroelectricity]] and increasingly [[battery energy storage system]]s provide load-leveling capability.
+
+== See also ==
+{{Portal|Energy}}
+* [[Electric power system]]
+* [[Electric power transmission]]
+* [[Electric power distribution]]
+* [[Electrical substation]]
+* [[Wide area synchronous grid]]
+* [[Smart grid]]
+* [[HVDC]]
+* [[SCADA]]
+* [[Three-phase electric power]]
+* [[Electromagnetic induction]]
+* [[Ohm's law]]
+* [[Electric current]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical grid| ]]
+[[Category:Electrical engineering]]
+[[Category:Electric power systems]]
+[[Category:Energy infrastructure]]

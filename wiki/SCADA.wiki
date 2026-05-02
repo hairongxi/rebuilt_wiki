@@ -1,0 +1,133 @@
+{{Short description|System for remote monitoring and control of industrial processes including electric power systems}}
+{{Infobox physical quantity
+| name = SCADA
+| image = 
+| caption = SCADA (Supervisory Control and Data Acquisition) provides remote monitoring, control, and data collection for power systems and industrial processes.
+| symbols = 
+| SI_unit = 
+}}
+
+'''SCADA''' (Supervisory Control and Data Acquisition) is a computer-based system for remote [[monitoring]] and [[control engineering|control]] of industrial processes, with widespread use in [[electric power system]]s, [[electrical grid]] operation, oil and gas pipelines, water treatment, and manufacturing. In power systems, SCADA forms the backbone of [[electric power transmission|transmission]] and [[electric power distribution|distribution]] management, enabling operators to supervise thousands of kilometers of grid from centralized control centers.
+
+== System architecture ==
+A SCADA system comprises four functional layers:
+
+=== Remote Terminal Unit (RTU) / PLC layer ===
+The field interface. '''Remote Terminal Units''' (RTUs) and '''Programmable Logic Controllers''' (PLCs) are installed in [[electrical substation]]s and at equipment sites. They perform:
+* Analog data acquisition: [[voltage]], [[electric current|current]], [[electric power|active and reactive power]], frequency, tap positions
+* Digital status acquisition: [[circuit breaker]] position, isolator states, alarms
+* Sequence of events (SOE): time-stamped recording of state changes with 1 ms resolution
+* Control output: trip/close commands to [[circuit breaker]]s, tap-changer commands, set-point adjustments
+
+The analog signal chain from an [[instrument transformer]] through the RTU follows:
+
+:<math>V_{\text{RTU}} = \frac{V_{\text{primary}}}{\text{VT ratio}} \quad ; \quad I_{\text{RTU}} = \frac{I_{\text{primary}}}{\text{CT ratio}}</math>
+
+=== Communication layer ===
+Data transport between RTUs and the master station. Communication protocols in power system SCADA include:
+
+{| class="wikitable"
+|-
+! Protocol !! Standard !! Characteristics
+|-
+| IEC 60870-5-101 || Serial RS-232/RS-485 || Point-to-point, dominant in Europe and China
+|-
+| IEC 60870-5-104 || TCP/IP network || Networked version of IEC 101, increasingly standard
+|-
+| DNP3 || IEEE 1815 || North America, supports unsolicited reporting
+|-
+| Modbus || De facto || Simple, widely used for local device communication
+|-
+| [[IEC 61850]] || Substation LAN || Substation automation, GOOSE, SV (see [[Substation automation]])
+|}
+
+Communication media include fiber optic, power-line carrier, microwave radio, and increasingly [[LTE]]/5G wireless for distribution automation.
+
+=== Master station / Control center ===
+The centralized computer system that processes data, presents the HMI, and enables operator control. Core functions:
+* '''Data processing''': Validation, conversion to engineering units, limit checking
+* '''Alarm management''': Filtering, prioritization, acknowledgment workflow
+* '''Historian''': Long-term data archiving for trending and regulatory compliance
+* '''Human-Machine Interface (HMI)''': Single-line diagrams, tabular displays, geographic maps
+
+=== Human-Machine Interface (HMI) ===
+Operators view the power system on large-screen displays or workstation monitors. Typical HMI features include [[single-line diagram]]s of substations, dynamic coloring (energized/de-energized), real-time analog values, alarm lists, and trending plots. Modern HMI follows situational awareness principles — clear, uncluttered displays with violations highlighted.
+
+== Substation SCADA integration ==
+Within an [[electrical substation]], SCADA interfaces with the [[substation automation]] system, [[protective relay]]s, and [[instrument transformer]]s. The integration architecture is described in [[IEC 61850]]:
+
+:<math>\text{Process level} \xrightarrow{\text{SV, binary I/O}} \text{Bay level} \xrightarrow{\text{MMS, GOOSE}} \text{Station level} \xrightarrow{\text{IEC 60870-5-104}} \text{Control center}</math>
+
+This layered approach separates real-time protection (bay level) from supervisory functions (station level) and wide-area monitoring (control center).
+
+== Control center functions ==
+Beyond basic SCADA, modern control centers implement advanced [[energy management system]] (EMS) functions:
+
+=== State estimation ===
+Computes the most probable system state from redundant, noisy measurements using [[weighted least squares]]:
+
+:<math>\min_{\mathbf{x}} \; (\mathbf{z} - h(\mathbf{x}))^T \mathbf{R}^{-1} (\mathbf{z} - h(\mathbf{x}))</math>
+
+where <math>\mathbf{z}</math> is the measurement vector, <math>\mathbf{x}</math> the state vector (bus voltages and angles), <math>h(\mathbf{x})</math> the measurement function, and <math>\mathbf{R}</math> the measurement error covariance matrix.
+
+=== Automatic Generation Control (AGC) ===
+Adjusts generator set-points to maintain system frequency and tie-line power flows at scheduled values. The area control error:
+
+:<math>\text{ACE} = \Delta P_{\text{tie}} + B \cdot \Delta f</math>
+
+where <math>B</math> is the frequency bias factor (MW/Hz).
+
+=== Economic dispatch and unit commitment ===
+Optimizes generation allocation to minimize fuel cost while respecting [[Ohm's law|network constraints]], generator limits, and reserve requirements.
+
+== Data acquisition ==
+SCADA acquires three categories of data:
+
+=== Analog measurements ===
+Continuous values: bus voltages (kV), line currents (A), active power <math>P</math> (MW), reactive power <math>Q</math> (MVAr), frequency (Hz), transformer tap position. Typically updated every 2–10 seconds for transmission SCADA.
+
+=== Digital status ===
+Discrete state indicators: breaker open/closed, isolator earth/line, protection operated/reset. Represented as single-bit (0/1) or double-bit (00, 01, 10, 11) indications.
+
+=== Sequence of Events (SOE) ===
+Time-stamped state changes with millisecond accuracy. Essential for post-fault disturbance analysis and causal chain reconstruction across the [[electrical grid]].
+
+== Alarm management ==
+SCADA alarm systems notify operators of abnormal conditions:
+* '''Protection operations''' — relay trip signals, auto-reclose sequences
+* '''Limit violations''' — voltage outside ±5%, line loading >100%
+* '''Equipment alarms''' — SF6 gas pressure low, transformer oil temperature high, battery charger failure
+* '''Communication failures''' — RTU unresponsive, channel noise
+
+Effective alarm management prevents operator overload. [[IEC 62351]] addresses cybersecurity for power system SCADA, including authentication, encryption, and intrusion detection for protocols like IEC 60870-5-104 and DNP3.
+
+== Cybersecurity ==
+The increasing network connectivity of SCADA systems introduces [[cybersecurity]] risks. Key standards:
+* '''IEC 62351''': Power system management and associated information exchange — data and communications security
+* '''NERC CIP''': North American critical infrastructure protection standards
+* '''IEEE 1686''': Standard for intelligent electronic devices cyber security capabilities
+
+Defense-in-depth strategies combine firewalls, demilitarized zones (DMZ), role-based access control, secure authentication, and encrypted communication.
+
+== See also ==
+{{Portal|Energy}}
+* [[Electrical substation]]
+* [[Substation automation]]
+* [[IEC 61850]]
+* [[Electric power system]]
+* [[Electrical grid]]
+* [[Electric power transmission]]
+* [[Electric power distribution]]
+* [[Instrument transformer]]
+* [[Protective relay]]
+* [[Circuit breaker]]
+* [[Power transformer]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:SCADA]]
+[[Category:Electrical engineering]]
+[[Category:Electric power systems]]
+[[Category:Control engineering]]
+[[Category:Industrial automation]]

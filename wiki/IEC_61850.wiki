@@ -1,0 +1,221 @@
+{{Short description|International standard for communication networks and systems for power utility automation}}
+{{Infobox technology
+| name = IEC 61850
+| image = 
+| caption = 
+| status = Published
+| organization = [[International Electrotechnical Commission]] (IEC)
+| committee = TC 57 (Power systems management and associated information exchange)
+| year = 2003
+| version = Edition 2 (2011–2013), Edition 2.1 (ongoing)
+| domain = [[Electric power system]], [[Substation automation]], [[SCADA]]
+}}
+
+'''IEC 61850''' is an international standard developed by the [[International Electrotechnical Commission]] (IEC) Technical Committee 57, defining communication networks and systems for power utility automation. Originally designed for [[substation automation]] within [[electrical substation]]s, its scope has expanded to cover [[electric power transmission|power generation and transmission]], [[electric power distribution|distribution automation]], [[distributed energy resources]] (DER), and [[hydroelectric power plant]]s. The standard specifies data models, communication services, and a configuration language that together ensure interoperability among Intelligent Electronic Devices (IEDs) from multiple manufacturers.
+
+In China, IEC 61850 is adopted as the national standard '''DL/T 860''', which closely mirrors the IEC edition.
+
+== Scope and purpose ==
+The fundamental objective of IEC 61850 is interoperability — the ability of IEDs from different vendors to exchange information and use that information to execute their functions correctly. This is achieved through three pillars:
+* '''Standardized data model''': Devices expose their data (measurements, status, settings) in a vendor-independent semantic hierarchy.
+* '''Standardized communication services''': Generic services (read, write, report, control, GOOSE, sampled values) that operate on the standardized data model.
+* '''Standardized configuration language''' (SCL): An [[XML]]-based language describing the substation topology, IED capabilities, and their configured relationships — enabling vendor-independent engineering tools.
+
+== Key parts of IEC 61850 ==
+The standard is organized into the following principal parts:
+
+{| class="wikitable"
+|-
+! Part !! Title !! Content
+|-
+| IEC 61850-1 || Introduction and overview || Scope, terminology, relationship to other standards
+|-
+| IEC 61850-2 || Glossary || Terms and definitions
+|-
+| IEC 61850-3 || General requirements || Environmental, EMC, and reliability requirements
+|-
+| IEC 61850-4 || System and project management || Engineering process, tools, life cycle
+|-
+| IEC 61850-5 || Communication requirements || Performance classes for functions (TT6–TT0), timing
+|-
+| IEC 61850-6 || Substation Configuration Language (SCL) || XML schema for ICD, SSD, SCD, CID files
+|-
+| IEC 61850-7-1 || Basic communication structure — Principles and models || Overall architecture of the data model
+|-
+| IEC 61850-7-2 || Abstract Communication Service Interface (ACSI) || Services: read, write, report, control, GOOSE, SV
+|-
+| IEC 61850-7-3 || Common Data Classes (CDC) || Building blocks for data objects (e.g., MV, CMV, SPS, DPC)
+|-
+| IEC 61850-7-4 || Compatible logical node classes and data classes || Catalog of LN definitions (XCBR, XSWI, PTOC, PDIS, etc.)
+|-
+| IEC 61850-8-1 || Specific Communication Service Mapping (SCSM) — MMS || Mapping ACSI to MMS + GOOSE over Ethernet
+|-
+| IEC 61850-9-2 || SCSM — Sampled Values over ISO/IEC 8802-3 || Multicast SV on process bus
+|-
+| IEC 61850-10 || Conformance testing || Test procedures for verifying compliance
+|}
+
+== Data model ==
+The IEC 61850 data model follows a strict hierarchical structure:
+
+:<math>\text{Physical Device} \rightarrow \text{Logical Device (LD)} \rightarrow \text{Logical Node (LN)} \rightarrow \text{Data Object (DO)} \rightarrow \text{Data Attribute (DA)}</math>
+
+=== Logical nodes ===
+A '''logical node''' (LN) is the smallest functional unit — a named grouping of data objects and services representing a well-defined function. Examples:
+
+{| class="wikitable"
+|-
+! LN Class !! Description !! Typical data
+|-
+| XCBR || Circuit breaker || Position (Pos), block opening (BlkOpn)
+|-
+| XSWI || Disconnector (isolator) || Position (Pos), motor drive status
+|-
+| TCTR || Current transformer || Current magnitude (Amp), quality
+|-
+| TVTR || Voltage transformer || Voltage magnitude (Vol), quality
+|-
+| PTOC || Time-overcurrent protection || Start (Str), operate (Op), characteristic setting
+|-
+| PDIS || Distance protection || Impedance measurement, zone status
+|-
+| PDIF || Differential protection || Differential current, bias current
+|-
+| MMXU || Measurement unit || Three-phase quantities (PhV, A, W, VAr, Hz, PF)
+|}
+
+Each LN name follows the convention: group letter + function letters + instance number (e.g., XCBR1 for circuit breaker number 1).
+
+=== Common Data Classes (CDCs) ===
+Data objects within logical nodes are built from standardized CDCs:
+* '''SPS''' (Single Point Status): Boolean value with quality and timestamp
+* '''DPS''' (Double Point Status): Four states (intermediate, off, on, bad)
+* '''MV''' (Measured Value): Analog value with deadband, range, engineering units
+* '''CMV''' (Complex Measured Value): Vector quantity (magnitude + angle)
+* '''DPC''' (Controllable Double Point): Status with control capability (select-before-operate)
+
+== Communication services ==
+
+=== Client-server: MMS (IEC 61850-8-1) ===
+Manufacturing Message Specification (MMS, ISO 9506) provides the client-server channel for vertical communication between IEDs (servers) and station-level clients (HMI, gateway, SCADA). Key services:
+* '''Read / Write''': Access data objects and settings
+* '''Reporting''': Buffered and unbuffered report control blocks (BRCB/URCB) transmit data changes, quality changes, and periodic integrity reports
+* '''Control''': Select-before-operate (SBO) or direct operate commands for circuit breaker control
+* '''File transfer''': Retrieve disturbance records and event logs
+
+=== Publisher-subscriber: GOOSE ===
+Generic Object Oriented Substation Event (GOOSE) provides fast, reliable horizontal communication directly between IEDs. GOOSE is multicast on a [[VLAN]]-configured Ethernet segment:
+* Trip signals, blocking signals, interlocking exchange
+* Publisher sends a dataset; multiple subscribers receive simultaneously
+* Retransmission with exponential back-off (2 ms, 4 ms, 8 ms, ... up to ~1 s) ensures delivery
+* Frame format: multicast MAC 01-0C-CD-01-00-00 through 01-0C-CD-01-01-FF with VLAN priority tag (typically PCP = 4)
+
+GOOSE performance classes (IEC 61850-5) define transfer times:
+
+{| class="wikitable"
+|-
+! Class !! Transfer time !! Application
+|-
+| TT6 || 3 ms || Protection tripping (fastest)
+|-
+| TT5 || 10 ms || Fast protection functions
+|-
+| TT3 || 20 ms || Slow protection, interlocking
+|-
+| TT1 || 100 ms || Metering, non-critical status
+|}
+
+=== Publisher-subscriber: Sampled Values (SV) ===
+Sampled Values (IEC 61850-9-2, IEC 61869-9) carry digitized instrumentation signals from merging units to protection and metering IEDs over the process bus. A merging unit connected to a [[current transformer|CT]] and [[voltage transformer|VT]] publishes:
+
+:<math>v(t) \rightarrow i[n], v[n]</math>
+
+Sampled values are multicast with a fixed sampling rate. IEC 61850-9-2LE (Light Edition) defines 80 samples per nominal cycle at 50 Hz (4 kHz) as the universal format for protection and metering.
+
+== Substation Configuration Language (SCL) ==
+SCL, defined in IEC 61850-6, is an [[XML]]-based language enabling vendor-independent engineering of the substation automation system. The key file types and their roles:
+
+{| class="wikitable"
+|-
+! File !! Extension !! Description
+|-
+| IED Capability Description || .icd || Describes the pre-configured capabilities of one IED type
+|-
+| System Specification Description || .ssd || Single-line diagram and logical node requirements
+|-
+| Substation Configuration Description || .scd || Complete system configuration (all IEDs, all communication, all data flows)
+|-
+| Configured IED Description || .cid || The IED-specific subset of the SCD (loaded into the device)
+|-
+| Instantiated IED Description || .iid || Description of a pre-configured IED as actually installed
+|}
+
+The SCD file binds all IEDs to the substation topology, defines communication parameters (IP addresses, VLANs, multicast MACs for GOOSE/SV), and specifies data flow (which IED subscribes to which GOOSE/SV stream). This eliminates the need for paper-based wiring tables and manual signal cross-referencing.
+
+== Process bus concept ==
+The process bus is a key innovation of IEC 61850, separating the physical process interface from the bay-level protection and control functions. In a fully implemented process bus:
+
+:<math>\text{Primary plant} \xleftrightarrow{\text{hard-wired}} \text{Merging Unit / Switchgear Controller} \xleftrightarrow{\text{SV + GOOSE}} \text{Protection \& Control IED}</math>
+
+Advantages:
+* The merging unit can be installed close to the primary equipment, minimizing copper CT/VT cables.
+* Protection IED relocation to a temperature-controlled environment.
+* Simplified maintenance: replacing a merging unit does not require re-wiring the entire bay.
+
+== Interoperability benefits ==
+Before IEC 61850, substation automation used a patchwork of proprietary protocols (Modbus, DNP3, IEC 60870-5-103, various vendor-specific protocols). This created:
+* '''Vendor lock-in''': Once a manufacturer's relays were installed, expanding with a different vendor was costly.
+* '''Protocol conversion''': Gateways and protocol converters introduced complexity, latency, and failure points.
+* '''Inconsistent data semantics''': The same measurement was represented differently by different devices.
+
+IEC 61850 addresses all three through standardized data semantics, common services, and a common configuration language. A protection IED from manufacturer A can publish GOOSE trip signals received and acted upon by a bay controller from manufacturer B — without any protocol gateway.
+
+== Beyond the substation ==
+The IEC 61850 framework has been extended beyond the original substation scope:
+
+{| class="wikitable"
+|-
+! Extension !! Scope
+|-
+| IEC 61850-7-410 || Hydroelectric power plants — turbine, generator, dam monitoring
+|-
+| IEC 61850-7-420 || Distributed energy resources (DER) — solar PV, wind, battery storage, EV charging
+|-
+| IEC 61850-90-1 || Communication between substations — wide-area protection and control
+|-
+| IEC 61850-90-5 || Synchrophasor data distribution using IEC 61850 (replaces C37.118 transport)
+|-
+| IEC 61850-90-7 || DER grid integration functions for smart inverters
+|}
+
+== Adoption ==
+IEC 61850 is mandated by many national grid codes for new substations:
+* '''China''': [[State Grid Corporation of China]] and [[China Southern Power Grid]] specify IEC 61850 (DL/T 860) for all new ≥110 kV substations. Thousands of digital substations have been commissioned since 2009.
+* '''Europe''': Widely adopted by TSOs; ENTSO-E network codes reference IEC 61850 for substation integration.
+* '''India''': Central Electricity Authority technical standards for ≥132 kV substations.
+* '''Americas''': Increasing adoption; IEEE has harmonized C37.118.2 with IEC 61850-90-5 for synchrophasors.
+
+== See also ==
+{{Portal|Energy}}
+* [[Substation automation]]
+* [[SCADA]]
+* [[Protective relay]]
+* [[Instrument transformer]]
+* [[Electrical substation]]
+* [[Circuit breaker]]
+* [[Electric power system]]
+* [[Electrical grid]]
+* [[Electric power transmission]]
+* [[Electric power distribution]]
+* [[HVDC]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:IEC 61850]]
+[[Category:IEC standards]]
+[[Category:Electrical engineering]]
+[[Category:Electric power systems]]
+[[Category:Industrial automation]]
+[[Category:Communication protocols]]
+[[Category:Substation automation]]

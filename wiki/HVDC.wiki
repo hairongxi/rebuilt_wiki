@@ -1,0 +1,110 @@
+{{Short description|Bulk electric power transmission using direct current}}
+{{Infobox physical quantity
+|| name = High Voltage Direct Current
+|| image = 
+|| caption = HVDC is used for long-distance bulk power transmission and submarine cable crossings.
+|| symbols = <math>V_{\text{DC}}</math>
+|| SI_unit = [[volt]] (V), typical ratings in hundreds of kilovolts (e.g., ±800 kV)
+}}
+
+'''High Voltage Direct Current''' ('''HVDC''') is a [[electric power transmission|power transmission]] technology that uses [[direct current]] (DC) for the bulk transmission of [[electric power|electrical power]], in contrast with the more common [[alternating current]] (AC) transmission systems. HVDC systems are employed for [[electrical grid]] interconnection, long-distance overhead transmission, [[Power cable|submarine power cable]] crossings, and [[asynchronous grid]] links where two AC networks operate at different frequencies.
+
+HVDC transmission typically operates at voltages from ±250 kV to ±800 kV (and above), with the ±800 kV [[Xiangjiaba–Shanghai HVDC system|Xiangjiaba-Shanghai]] link in China being one of the world's highest-capacity lines at 6,400 MW.
+
+== HVDC vs. AC transmission ==
+{{Main|Electric power transmission}}
+Over long distances, HVDC offers several advantages over [[alternating current|AC]] transmission:
+* '''Lower losses''' — DC has no [[electrical reactance|reactive]] losses and no [[skin effect]], leading to about 30–50% lower line losses for equivalent conductor cross-section
+* '''No reactive power requirement''' — AC lines require [[reactive power compensation]] equipment; DC does not
+* '''Asynchronous interconnection''' — HVDC can connect two [[electrical grid]]s that are not synchronized (different frequencies or phase angles)
+* '''Long-distance submarine cables''' — AC cables beyond ~50 km suffer from high capacitive charging currents; DC has no such limit
+* '''Stability''' — Power flow can be controlled precisely and rapidly, improving [[electric power system|power system]] stability
+
+The break-even distance where HVDC becomes economic is approximately 600–800 km for overhead lines and 50–80 km for [[Power cable|submarine cables]].
+
+== Converter technologies ==
+
+=== Line-Commutated Converters (LCC) ===
+Line-commutated converters (LCC), also known as current-source converters, use [[thyristor]] valves as switching elements. The basic building block is the six-pulse bridge ([[Graetz bridge]]). The DC voltage is given by:
+
+:<math>V_d = \frac{3\sqrt{2}}{\pi} V_{LL} \cos\alpha - \frac{3}{\pi} X_c I_d</math>
+
+where <math>V_{LL}</math> is the AC line-to-line voltage, <math>\alpha</math> is the firing angle, <math>X_c</math> is the commutation reactance, and <math>I_d</math> is the DC current. LCC-HVDC is a mature technology used since the 1950s, reaching ratings above 6,000 MW. It requires a strong AC system for commutation and consumes reactive power (typically 50–60% of the active power).
+
+=== Voltage-Source Converters (VSC) ===
+Voltage-source converters (VSC-HVDC) use [[IGBT]] (insulated-gate bipolar transistor) switches with [[pulse-width modulation]] (PWM). Unlike LCC, VSC can independently control active and reactive power:
+
+:<math>P = \frac{V_s V_c}{X} \sin\delta, \quad Q = \frac{V_s(V_s - V_c \cos\delta)}{X}</math>
+
+where <math>V_s</math> is the AC system voltage, <math>V_c</math> is the converter voltage, <math>\delta</math> is the phase angle difference, and <math>X</math> is the coupling reactance. VSC technology (marketed as HVDC Light by Hitachi Energy, HVDC PLUS by Siemens, etc.) enables "black start" capability, multi-terminal grids, and connection to weak or islanded AC systems.
+
+{| class="wikitable"
+|-
+! Feature !! LCC-HVDC !! VSC-HVDC
+|-
+| Switching device || [[Thyristor]] || [[IGBT]]
+|-
+| Commutation || Line (grid) || Self-commutated
+|-
+| Reactive power || Consumes Q (50–60%) || Controllable (± independently)
+|-
+| AC system requirement || Strong grid (SCR > 2) || Weak/islanded possible
+|-
+| Typical rating || Up to 12,000 MW || Up to 2,000 MW (per converter)
+|-
+| Black start || No || Yes
+|-
+| Multi-terminal || Difficult || Easier
+|}
+
+== System configurations ==
+
+=== Monopolar ===
+A single high-voltage conductor with [[earth return]] or metallic return. Earth return uses the [[Earthing system|ground]] as the return path, requiring careful design of [[earth electrode]]s to avoid corrosion and step-voltage hazards.
+
+=== Bipolar ===
+Two conductors at equal and opposite voltages (±V_d) with respect to ground. The midpoint is grounded. Under normal operation, ground current is nearly zero. If one pole fails, the other can operate at reduced capacity using ground return (50% power transfer).
+
+=== Back-to-back ===
+Both converter stations are located at the same site, with no transmission line. Used to interconnect asynchronous AC grids. Typical ratings: 100–2,000 MW. Many back-to-back links exist in China, [[Europe]], and [[North America]].
+
+=== Multi-terminal ===
+Three or more converter stations interconnected on a common DC circuit. While technically challenging for LCC, VSC technology has enabled practical multi-terminal HVDC grids, such as the Nan'ao and Zhoushan projects in [[China]].
+
+== Major HVDC projects ==
+* '''[[Xiangjiaba–Shanghai HVDC system|Xiangjiaba–Shanghai]]''' (China, 2010) — ±800 kV, 6,400 MW, 1,980 km, world's highest capacity UHVDC at commissioning
+* '''[[Itaipu HVDC transmission system|Itaipu]]''' (Brazil–Paraguay) — ±600 kV, 6,300 MW, two bipoles, carries 50 Hz power to Brazil's 60 Hz grid
+* '''NordLink''' (Norway–Germany, 2020) — ±525 kV VSC-HVDC, 1,400 MW, 623 km (516 km submarine)
+* '''[[Pacific DC Intertie]]''' (USA) — ±500 kV, 3,100 MW, 1,362 km, one of the oldest and largest in North America
+* '''Zhoushan multi-terminal VSC-HVDC''' (China, 2014) — ±200 kV, five terminals, world's first multi-terminal VSC-HVDC
+
+== HVDC converter station ==
+An HVDC converter station converts AC to DC (rectifier) or DC to AC (inverter). Major components include:
+* '''Converter valves''' — [[thyristor]] stacks (LCC) or [[IGBT]] modules (VSC)
+* '''Converter [[transformer]]s''' — specially designed [[Power transformer|power transformers]] for high harmonic content
+* '''AC and DC [[harmonic filter]]s''' — to mitigate characteristic harmonics
+* '''Smoothing reactor''' — series [[inductor]] on the DC side to reduce ripple
+* '''DC [[circuit breaker]]s''' — for [[Overhead power line|transmission line]] protection (especially in VSC multi-terminal systems)
+* '''Control and protection system''' — high-speed digital controllers managing power flow and fault responses
+
+== See also ==
+{{Portal|Engineering}}
+* [[Electric power transmission]]
+* [[Electrical grid]]
+* [[Electric power system]]
+* [[Power cable]]
+* [[Overhead power line]]
+* [[Earthing system]]
+* [[Circuit breaker]]
+* [[Power transformer]]
+* [[Electrical substation]]
+* [[Thyristor]]
+* [[IGBT]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:High-voltage direct current| ]]
+[[Category:Electrical engineering]]
+[[Category:Electric power transmission]]
+[[Category:Electrical grid]]

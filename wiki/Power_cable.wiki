@@ -1,0 +1,145 @@
+{{Short description|Insulated electrical conductor used for underground or submarine power transmission}}
+{{Infobox physical quantity
+|| name = Power cable
+|| image = 
+|| caption = A high-voltage power cable with XLPE insulation, used for underground and submarine transmission.
+|| symbols = 
+|| SI_unit = Operating voltage in [[volt]]s (V), rated up to 500 kV AC or ±525 kV DC
+}}
+
+A '''power cable''' is an insulated [[electrical conductor]], typically used for the [[electric power transmission|transmission]] and [[electric power distribution|distribution]] of [[electric power]] underground, underwater, or within buildings. Unlike [[Overhead power line|overhead power lines]], which rely on air for insulation and mechanical support, power cables use solid dielectric materials or pressurized fluids for electrical insulation.
+
+Power cables are essential where overhead lines are impractical: dense urban areas, [[submarine]] crossings, airport approaches, and environmentally sensitive zones. The longest submarine power cable, the North Sea Link (Norway–UK), is 720 km long at ±525 kV DC. Chinese cable manufacturing has grown rapidly, with manufacturers like ZTT and Hengtong producing cables up to 500 kV AC and ±535 kV DC.
+
+== Cable construction ==
+
+=== Conductor ===
+The conductor is typically [[copper]] or [[aluminum]]:
+* '''Copper''' — superior conductivity (<math>\sigma = 5.96 \times 10^7</math> S/m), more compact, preferred for submarine cables
+* '''Aluminum''' — lighter and cheaper per ampacity, common in medium-voltage distribution
+For high-voltage cables, the conductor is often segmented (Milliken construction) to reduce [[skin effect]] and proximity effect losses. Conductor cross-sections range from 16 mm² (low voltage) to over 3,000 mm² for HVDC submarine cables.
+
+=== Conductor screen ===
+A semi-conducting layer (extruded [[carbon]]-loaded [[polyethylene]]) applied over the conductor to smooth the electric field at the conductor–insulation interface and prevent partial discharge.
+
+=== Insulation ===
+The primary dielectric layer. Two main technologies dominate:
+
+==== XLPE (Cross-Linked Polyethylene) ====
+The standard for modern cables up to 500 kV AC. [[Polyethylene]] is cross-linked using peroxides or silane grafting, transforming it from a thermoplastic to a thermoset material with superior thermal and electrical properties. Typical dielectric strength: 20–30 kV/mm. Maximum continuous operating temperature: 90°C (normal), 130°C (emergency), 250°C (short-circuit). XLPE cables have largely replaced fluid-filled cables due to lower maintenance and environmental concerns.
+
+The capacitance per unit length for a single-core cable is:
+
+:<math>C' = \frac{2\pi\varepsilon_0\varepsilon_r}{\ln(D/d)}</math>
+
+where <math>\varepsilon_r</math> is the relative permittivity of the insulation (≈2.3 for XLPE), <math>D</math> is the insulation outer diameter, and <math>d</math> is the conductor diameter (or screen diameter).
+
+==== EPR (Ethylene Propylene Rubber) ====
+An elastomeric insulation with higher flexibility than XLPE. Common in medium-voltage cables and flexible applications (offshore wind farm inter-array cables). Dielectric constant ~2.8–3.2, slightly higher dielectric losses than XLPE.
+
+=== Insulation screen ===
+A second semi-conducting layer over the insulation, again to control the electric field at the outer boundary.
+
+=== Metallic sheath / moisture barrier ===
+A layer of [[lead]], [[aluminum]], or [[copper]] tape applied over the insulation screen, serving as:
+* Radial moisture barrier — water ingress causes [[water treeing]] in XLPE, leading to insulation failure
+* Short-circuit current return path
+* Capacitive current path
+
+=== Armor ===
+For submarine cables, steel wire armor provides mechanical protection against anchors, trawling, and installation stresses. For underground cables, galvanized steel tape or wire armor may be used for mechanical protection.
+
+=== Outer jacket ===
+Extruded [[polyethylene]] (PE) or [[PVC]] outer sheath for mechanical, chemical, and UV protection. For submarine cables, a polypropylene yarn outer serving with bitumen compound provides additional protection.
+
+== Cable ratings (ampacity) ==
+The current-carrying capacity (ampacity) of a power cable is limited by the maximum permissible conductor temperature. The thermal circuit is governed by the heat equation.
+
+Per [[IEC 60287]], the steady-state current rating <math>I</math> for buried cables is:
+
+:<math>I = \sqrt{\frac{\Delta\theta - W_d[0.5T_1 + T_3 + T_4]}{R T_1 + (1 + \lambda_1)R T_2 + (1 + \lambda_1 + \lambda_2)R(T_3 + T_4)}}</math>
+
+where:
+* <math>\Delta\theta</math> — permissible temperature rise above ambient
+* <math>R</math> — AC conductor resistance per unit length (including skin/proximity effects)
+* <math>W_d</math> — dielectric losses per unit length
+* <math>T_1, T_2, T_3, T_4</math> — thermal resistances of insulation, bedding, outer sheath, and soil
+* <math>\lambda_1, \lambda_2</math> — sheath and armor loss factors
+
+Ampacity is affected by:
+* '''Laying depth''' — deeper burial increases thermal resistance
+* '''Soil thermal resistivity''' — typically 1.0 K·m/W for moist soil; can reach 2.5 K·m/W for dry sand
+* '''Cable grouping''' — mutual heating reduces ratings (derating factors apply)
+* '''Ambient temperature''' — higher ambient reduces allowable temperature rise
+
+== Cable laying methods ==
+* '''Direct burial''' — cable placed directly in a trench with sand bedding and protective covers; simplest and most common for medium voltage
+* '''Duct bank''' — cables pulled through [[PVC]] or [[HDPE]] conduits encased in concrete; allows future cable replacement; common in urban distribution
+* '''Trenchless (horizontal directional drilling)''' — for road, river, and railway crossings without excavation
+* '''Cable tunnel''' — walk-through tunnels for multiple high-voltage circuits; used in megacities (e.g., London, Shanghai, Singapore)
+* '''Submarine laying''' — specialized cable-laying vessels (e.g., ''Leonardo da Vinci'', '' Nexans Aurora'') with turntables and plows for simultaneous laying and burial
+
+== Cable joints and terminations ==
+Cable joints and terminations are critical components where the cable's layered structure is rebuilt to maintain insulation integrity.
+
+* '''Joints''' — connect two cable sections; must reproduce the conductor, insulation, and screen layers
+* '''Outdoor terminations''' — transition from insulated cable to bare [[Overhead power line|overhead line]] conductors; incorporate [[insulator]]s with weather sheds
+* '''GIS terminations''' — plug directly into gas-insulated switchgear (GIS) at [[electrical substation|substations]] using SF6-to-solid insulation interfaces
+* '''Offshore terminations''' — connect submarine cables to offshore platforms or wind turbines via hang-off and J-tube arrangements
+
+== Differences from overhead lines ==
+{| class="wikitable"
+|-
+! Aspect !! [[Overhead power line|Overhead line]] !! Power cable
+|-
+| Insulation medium || Air (self-restoring) || Solid dielectric (XLPE/EPR)
+|-
+| Capacitance || Low (~10 nF/km) || High (~200–300 nF/km at 132 kV)
+|-
+| Charging current || Negligible || Significant; limits AC cable length to ~50–80 km
+|-
+| Thermal time constant || Minutes || Hours
+|-
+| Fault location || Visual inspection || Specialized TDR/impulse methods
+|-
+| Installation cost (ratio) || ~1 || ~5–15× higher
+|-
+| Right-of-way width || 30–100 m || ~2–5 m
+|}
+
+The high capacitance of AC power cables requires [[shunt reactor]] compensation at both ends for lengths exceeding ~30 km. This limitation is avoided by using [[HVDC]] cable transmission.
+
+== Dielectric losses ==
+For AC cables, the dielectric loss per unit length is:
+
+:<math>W_d = \omega C' V_0^2 \tan\delta</math>
+
+where <math>\omega = 2\pi f</math>, <math>V_0</math> is the phase-to-ground voltage, and <math>\tan\delta</math> is the dielectric loss tangent (~0.001 for XLPE). While small at distribution voltages (~0.2 kV), dielectric losses become significant at transmission voltages and can exceed conductor [[Joule heating|<math>I^2R</math> losses]] at very high voltages for lightly loaded cables.
+
+== Submarine power cables ==
+Submarine cables face additional challenges:
+* '''Hydrostatic pressure''' — at 2,000 m depth, pressure exceeds 200 bar; cable design must prevent radial water penetration into the insulation
+* '''Armor protection''' — double steel wire armor with bitumen compound
+* '''Installation stresses''' — dynamic tension during laying; cables must withstand the axial forces of catenary laying
+* '''Marine hazards''' — anchor strikes, fishing trawls, shipwrecks; requiring burial to 1–3 m depth
+
+The cross-Channel interconnector (IFA 2000) and the North Sea Link exemplify modern submarine HVDC cable systems.
+
+== See also ==
+{{Portal|Engineering}}
+* [[Overhead power line]]
+* [[HVDC]]
+* [[Electric power transmission]]
+* [[Electric power distribution]]
+* [[Electrical substation]]
+* [[Earthing system]]
+* [[Circuit breaker]]
+* [[Power transformer]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Power cables| ]]
+[[Category:Electrical engineering]]
+[[Category:Electric power transmission]]
+[[Category:Electrical grid]]

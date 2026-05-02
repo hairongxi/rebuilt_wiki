@@ -1,0 +1,22 @@
+{{Short description|达利最著名的超现实主义画作，以融化的钟表著称}}
+{{Infobox artwork
+| name = 记忆的永恒
+| image =
+| caption =
+| artist = [[Salvador_Dalí|萨尔瓦多·达利]]
+| year = 1931年
+| type = 画布[[Oil_painting|油画]]
+| height_metric = 24
+| width_metric = 33
+| museum = [[现代艺术博物馆]]
+| city = [[纽约]]
+| country = [[美国]]
+}}
+《'''记忆的永恒'''》（La persistencia de la memoria）是[[西班牙]][[超现实主义]]画家[[Salvador_Dalí|萨尔瓦多·达利]]于1931年创作的小幅油画，是超现实主义最著名的图像。画中数只怀表如同熔蜡般软搭在枯树枝、平台和一个白色巨物的边缘上，背景是荒凉的[[加泰罗尼亚海岸]]。达利称灵感来自他看着一块[[卡门贝尔奶酪]]在太阳下融化的情景——但弗洛伊德派的解读认为它象征了时间在潜意识中溶解：记忆、恐惧和欲望超越了理性时间的线性。
+
+== 参见 ==
+* [[Salvador_Dalí|达利]]
+* [[Surrealism|超现实主义]]
+
+[[Category:达利绘画作品]]
+[[Category:20世纪画作]]

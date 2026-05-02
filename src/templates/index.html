@@ -1,14 +1,12 @@
 {% extends "base.html" %}
-{% block title %}All Pages — Physics Wiki{% endblock %}
+{% block title %}Index{% endblock %}
 {% block content %}
-<h1>All Pages</h1>
-<p>{{ total }} articles in the wiki.</p>
-
-{% for letter, titles in groups %}
+<h1>All Pages ({{ total }})</h1>
+{% for letter, pages in groups %}
 <h2 id="{{ letter }}">{{ letter }}</h2>
 <ul class="page-list">
-    {% for t in titles %}
-    <li><a href="/wiki/{{ t|replace(' ', '_') }}">{{ t }}</a></li>
+    {% for p in pages %}
+    <li><a href="/wiki/{{ p|replace(' ', '_') }}{% if disc_id %}?disc={{ disc_id }}{% endif %}">{{ p }}</a></li>
     {% endfor %}
 </ul>
 {% endfor %}

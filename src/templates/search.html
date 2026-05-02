@@ -1,8 +1,9 @@
 {% extends "base.html" %}
-{% block title %}Search: {{ query }}{% endblock %}
+{% block title %}Search{% if query %}: {{ query }}{% endif %}{% endblock %}
 {% block content %}
 <h1>Search</h1>
 <form action="/search" method="get" class="search-box">
+    {% if disc_id %}<input type="hidden" name="disc" value="{{ disc_id }}">{% endif %}
     <input type="text" name="q" value="{{ query }}" placeholder="Search wiki..." autofocus>
     <button type="submit">Search</button>
 </form>
@@ -13,14 +14,14 @@
     <ul class="search-results">
         {% for r in results %}
         <li class="search-result">
-            <a href="/wiki/{{ r.title|replace(' ', '_') }}">{{ r.title }}</a>
+            <a href="/wiki/{{ r.title|replace(' ', '_') }}{% if disc_id %}?disc={{ disc_id }}{% endif %}">{{ r.title }}</a>
             <p class="snippet">{{ r.snippet|safe }}</p>
         </li>
         {% endfor %}
     </ul>
     {% else %}
     <p>No results found for "<b>{{ query }}</b>".</p>
-    <p>Try different keywords or browse the <a href="/index">page index</a>.</p>
+    <p>Try different keywords or browse the <a href="/index{% if disc_id %}?disc={{ disc_id }}{% endif %}">page index</a>.</p>
     {% endif %}
 {% endif %}
 {% endblock %}

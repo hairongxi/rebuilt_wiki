@@ -1,0 +1,27 @@
+{{Short description|文森特·梵高最著名的画作，描绘了旋转星空下静谧的村庄}}
+{{Infobox artwork
+| name = 星空
+| image =
+| caption =
+| artist = [[Vincent_van_Gogh|文森特·梵高]]
+| year = 1889年6月
+| type = 画布[[Oil_painting|油画]]
+| height_metric = 73.7
+| width_metric = 92.1
+| museum = [[现代艺术博物馆]]
+| city = [[纽约]]
+| country = [[美国]]
+}}
+《'''星空'''》（The Starry Night，荷兰语：De sterrennacht）是[[荷兰]]后印象派画家[[Vincent_van_Gogh|文森特·梵高]]于1889年6月在[[圣雷米]]（Saint-Rémy-de-Provence）的精神病院中创作的一幅油画。它是梵高最受喜爱、也是全世界辨识度最高的画作之一。
+
+== 画面 ==
+夜空占据了画面主导：天空中有十一颗巨大的、边缘模糊的发光星体和一弯新月——它们处于极其紧密的旋涡性运动之中，仿佛整个宇宙在呼吸。天空的旋动笔触与下方宁静村庄的直线、平涂色块形成对比。左侧一根深黑色的[[柏树]]直上云霄连接天地——向上燃烧的暗焰。
+
+这幅画不是梵高所看到的星空——当时他在医院房间内只能看到完全不同的窗景——而是梵高内心所见的星空：自然被情感重塑为精神景观。
+
+== 参见 ==
+* [[Vincent_van_Gogh|文森特·梵高]]
+* [[Post-Impressionism|后印象派]]
+
+[[Category:梵高绘画作品]]
+[[Category:19世纪画作]]

@@ -1,0 +1,105 @@
+{{Short description|Opposition that a circuit presents to alternating current, combining resistance and reactance}}
+{{Infobox physical quantity
+| name = Electrical impedance
+| image = 
+| caption = Impedance extends the concept of [[electrical resistance]] to [[alternating current|AC]] circuits, accounting for both magnitude and phase.
+| symbols = <math>\mathbf{Z}</math>, <math>Z</math>
+| SI_unit = [[ohm]] (Ω)
+| dimension = <math>ML^2T^{-3}I^{-2}</math>
+}}
+
+'''Electrical impedance''' is the measure of the opposition that a [[electrical circuit|circuit]] presents to a current when a [[voltage]] is applied. In [[alternating current]] (AC) circuits, impedance extends the concept of [[electrical resistance]] to account for the effects of [[capacitance]] and [[inductance]]. Unlike resistance, impedance is a [[complex number]] possessing both [[Magnitude (mathematics)|magnitude]] and [[phase (waves)|phase]]:
+
+:<math>\mathbf{Z} = |Z|e^{j\phi} = R + jX</math>
+
+where <math>R</math> is the resistance (real part), <math>X</math> is the [[reactance (electronics)|reactance]] (imaginary part), and <math>j = \sqrt{-1}</math> is the [[imaginary unit]] (commonly denoted <math>i</math> in mathematics; <math>j</math> is used in electrical engineering to avoid confusion with [[electric current|current]]).
+
+The magnitude of impedance is:
+
+:<math>|Z| = \sqrt{R^2 + X^2}</math>
+
+and the phase angle (the angle by which voltage leads current) is:
+
+:<math>\phi = \arctan\left(\frac{X}{R}\right)</math>
+
+== Ohm's law for AC circuits ==
+{{Main|Ohm's law}}
+For AC circuits, [[Ohm's law]] generalizes to the complex form:
+
+:<math>\mathbf{V} = \mathbf{I}\mathbf{Z}</math>
+
+where <math>\mathbf{V}</math> and <math>\mathbf{I}</math> are [[phasor]]s representing the sinusoidal voltage and current. The magnitude form <math>V_0 = I_0|Z|</math> relates the amplitudes, while the phase angle <math>\phi</math> specifies the time shift between waveforms.
+
+== Impedance of basic circuit elements ==
+
+{| class="wikitable"
+|-
+! Element !! Impedance !! Phase angle
+|-
+| [[Resistor]] (<math>R</math>)
+| <math>\mathbf{Z}_R = R</math>
+| 0° (in phase)
+|-
+| [[Inductor]] (<math>L</math>)
+| <math>\mathbf{Z}_L = j\omega L</math>
+| +90° (current lags voltage)
+|-
+| [[Capacitor]] (<math>C</math>)
+| <math>\mathbf{Z}_C = \frac{1}{j\omega C} = -\frac{j}{\omega C}</math>
+| −90° (current leads voltage)
+|}
+
+where <math>\omega = 2\pi f</math> is the [[angular frequency]] and <math>f</math> is the [[frequency]] in [[hertz]].
+
+For an inductor, the reactance is <math>X_L = \omega L</math> (positive, inductive). For a capacitor, <math>X_C = -\frac{1}{\omega C}</math> (negative, capacitive).
+
+== Series and parallel combinations ==
+
+=== Series impedance ===
+For elements connected in series, impedances add directly:
+
+:<math>\mathbf{Z}_{\text{eq}} = \mathbf{Z}_1 + \mathbf{Z}_2 + \cdots + \mathbf{Z}_n</math>
+
+=== Parallel impedance ===
+For elements connected in parallel, the reciprocal (admittance) adds:
+
+:<math>\frac{1}{\mathbf{Z}_{\text{eq}}} = \frac{1}{\mathbf{Z}_1} + \frac{1}{\mathbf{Z}_2} + \cdots + \frac{1}{\mathbf{Z}_n}</math>
+
+This is compactly expressed using [[admittance]] <math>\mathbf{Y} = 1/\mathbf{Z}</math> (SI unit: [[siemens (unit)|siemens]], S):
+
+:<math>\mathbf{Y}_{\text{eq}} = \mathbf{Y}_1 + \mathbf{Y}_2 + \cdots + \mathbf{Y}_n</math>
+
+== Complex power relationship ==
+The [[electric power|complex power]] delivered to an impedance <math>\mathbf{Z}</math> is:
+
+:<math>\mathbf{S} = \mathbf{V}\mathbf{I}^* = I_{\text{rms}}^2\mathbf{Z} = \frac{V_{\text{rms}}^2}{\mathbf{Z}^*}</math>
+
+where <math>\mathbf{I}^*</math> is the complex conjugate of the current. The real part is the [[AC power|active power]] <math>P = I_{\text{rms}}^2 R</math>, and the imaginary part is the [[AC power|reactive power]] <math>Q = I_{\text{rms}}^2 X</math>.
+
+== Impedance matching ==
+{{Main|Impedance matching}}
+For maximum power transfer from a source with internal impedance <math>\mathbf{Z}_S</math> to a load <math>\mathbf{Z}_L</math>, the load impedance should equal the [[complex conjugate]] of the source impedance:
+
+:<math>\mathbf{Z}_L = \mathbf{Z}_S^*</math>
+
+This is the '''maximum power transfer theorem''', fundamental to [[RF engineering]], [[audio electronics]], and [[transmission line]] design.
+
+== Measurement ==
+Impedance can be measured using an [[LCR meter]], an [[impedance analyzer]], or by the [[bridge circuit|bridge method]]. [[Network analyzer (electrical)|Network analyzers]] measure impedance at [[radio frequency|radio]] and [[microwave]] frequencies.
+
+== See also ==
+{{Portal|Physics}}
+* [[Ohm's law]]
+* [[Electrical resistance]]
+* [[Admittance]]
+* [[Reactance (electronics)]]
+* [[Phasor]]
+* [[Electric power]]
+* [[Power factor]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical impedance| ]]
+[[Category:Electrical engineering]]
+[[Category:Physical quantities]]

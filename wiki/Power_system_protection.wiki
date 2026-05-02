@@ -1,0 +1,130 @@
+{{Short description|Branch of electrical engineering dealing with protection of power systems from faults through isolation of faulted parts}}
+{{Infobox physical quantity
+| name = Power system protection
+| image = 
+| caption = Power system protection ensures faults are detected and isolated rapidly to safeguard equipment and maintain system stability.
+| symbols = <math>I_f</math> (fault current), <math>t_{op}</math> (operating time), <math>Z_f</math> (fault impedance)
+| SI_unit = [[ampere]] (A), [[second]] (s), [[ohm]] (Ω)
+}}
+
+'''Power system protection''' is the branch of [[electrical engineering]] that deals with protecting [[electric power system]]s from [[electrical fault|faults]] by isolating faulted components from the rest of the network. The primary objective is to safeguard personnel, protect equipment, and maintain [[power system stability]]. It achieves this through a coordinated scheme of [[instrument transformer]]s, [[protective relay]]s, and [[circuit breaker]]s that detect abnormal conditions and disconnect only the minimum necessary portion of the system.
+
+== Purpose ==
+
+Power system protection serves three fundamental purposes:
+
+* '''Safety''' — Protection of human life from [[electric shock]], arc flash, and equipment explosion. Rapid fault clearance reduces the duration of hazardous conditions.
+* '''Equipment protection''' — Prevention of thermal and mechanical damage to generators, [[power transformer|transformers]], [[overhead power line|transmission lines]], [[power cable|cables]], and [[busbar]]s caused by [[short-circuit]] currents. The let-through energy is proportional to <math>I^2 t</math>.
+* '''System stability''' — Maintenance of [[electrical grid|grid]] synchronism and voltage stability. Prolonged faults depress voltages across wide areas and can trigger cascading outages. Critical clearing times for transient stability are often below 100 ms on EHV systems.
+
+== Protection philosophy ==
+
+Effective protection systems are designed around five cardinal attributes:
+
+# '''Selectivity''' — Only the faulted element is disconnected. Healthy circuits remain in service. This is achieved through time grading, current grading, and unit protection schemes.
+# '''Speed''' — Faults are cleared as rapidly as possible. For transmission systems operating at 220 kV and above in China, total fault clearing time (relay + breaker) targets 80–120 ms.
+# '''Sensitivity''' — The protection must detect the minimum credible fault current. For overcurrent relays this is typically set at 115–130% of maximum load current; for differential relays sensitivity may reach 5–10% of rated current.
+# '''Reliability''' — The protection scheme must operate dependably when required (dependability) and refrain from operating when not required (security). These two aspects are often in tension.
+# '''Dependability vs. security''' — Dependability is assurance of correct operation for in-zone faults; security is assurance against maloperation for out-of-zone faults. EHV transmission protection typically prioritizes dependability, while busbar protection may prioritize security.
+
+== Protection zones ==
+
+A power system is partitioned into overlapping protection zones. No part of the system remains unprotected, and zone boundaries are defined by [[current transformer]] (CT) locations:
+
+{| class="wikitable"
+|-
+! Zone !! Equipment protected !! Typical protection
+|-
+| Generator zone || [[Synchronous generator|Generator]] stator and windings || Differential (87G), stator earth fault, loss of excitation
+|-
+| Transformer zone || [[Power transformer]] and bushings || Differential (87T), Buchholz, overcurrent backup
+|-
+| Busbar zone || [[Busbar|Busbars]] and connections || High-impedance or low-impedance differential (87B)
+|-
+| Transmission line zone || [[Overhead power line|Overhead lines]] and [[power cable|underground cables]] || Distance (21), line differential (87L), directional overcurrent
+|-
+| Distribution feeder zone || Distribution feeders and laterals || Overcurrent (50/51), reclosers, fuses
+|-
+| Motor zone || Induction and synchronous motors || Thermal overload, locked rotor, differential
+|}
+
+Overlapping zones are achieved by placing CTs on both sides of [[circuit breaker]]s so that the breaker itself falls within two adjacent zones, ensuring no blind spot exists.
+
+== Fault types ==
+
+Faults in three-phase systems are classified by the conductors involved:
+
+# '''Single line-to-ground (L-G)''' — The most common fault type (70–80% of all faults). Fault current depends on [[earthing system]] configuration: solidly earthed, resistance-earthed, or isolated neutral.
+# '''Line-to-line (L-L)''' — Two phases shorted together. No zero-sequence current flow. Magnitude is <math>\sqrt{3}/2</math> times the three-phase fault current.
+# '''Double line-to-ground (L-L-G)''' — Two phases shorted to ground simultaneously. Involves both positive and zero sequence networks.
+# '''Three-phase (3φ)''' — All three phases shorted, with or without ground. Least common (5%) but most severe. Symmetrical fault, analyzed using only the positive-sequence network.
+# '''Open circuit''' — Broken conductor or open pole of a circuit breaker. Causes negative- and zero-sequence currents without a phase current path.
+
+== Fault current calculation ==
+
+Symmetrical three-phase fault current is determined from [[Thévenin's theorem|Thévenin equivalent]] at the fault point. The per-unit fault current magnitude is:
+
+:<math>I_f = \frac{V_{prefault}}{Z_{th}} = \frac{1.0}{|Z_{th}|} \ \text{p.u.}</math>
+
+where <math>V_{prefault}</math> is the pre-fault voltage (typically 1.0 p.u.) and <math>Z_{th}</math> is the Thévenin impedance seen from the fault location. For unbalanced faults, [[symmetrical components]] are used. The sequence networks are interconnected according to fault type:
+
+* L-G fault: all three sequence networks in series
+* L-L fault: positive and negative networks in parallel
+* L-L-G fault: all three networks in parallel
+* 3φ fault: positive sequence network only
+
+The IEC 60909 standard provides a systematic method for calculating maximum and minimum short-circuit currents for protection coordination studies.
+
+== Protection coordination ==
+
+{{Main|Overcurrent protection}}
+Coordination ensures that the protection device closest to the fault operates first, minimizing the scope of outage. Three basic methods are used:
+
+=== Time grading ===
+Relays are set with progressively longer time delays moving toward the source. The coordination time interval (CTI) between successive relays must account for:
+
+:<math>CTI \geq t_{CB} + t_{overshoot} + t_{margin}</math>
+
+where <math>t_{CB}</math> is the circuit breaker interrupting time, <math>t_{overshoot}</math> is the relay overshoot time, and <math>t_{margin}</math> is a safety margin. Typical CTI values are 0.25–0.40 s for electromechanical relays and 0.15–0.25 s for numerical relays.
+
+=== Current grading ===
+The pickup setting is increased for relays further from the source, exploiting the reduction in fault current magnitude with electrical distance. Effective only where there is significant impedance between relay locations.
+
+=== Combination grading ===
+Modern protection schemes combine time, current, and [[distance protection|distance (impedance)]] grading for optimal selectivity. Numerical relays implement multiple setting groups adaptable to network topology changes.
+
+== Primary and backup protection ==
+
+Every protection zone has primary (main) protection and backup protection:
+
+* '''Primary protection''' — Operates instantaneously or with minimum time delay for faults within its assigned zone. Examples: line differential (87L), Zone 1 distance (21Z1).
+* '''Local backup''' — A second protection scheme at the same substation, using different principles (e.g., distance backup for differential primary) or a redundant relay set.
+* '''Remote backup''' — The next upstream relay provides backup for a downstream relay failure. Zone 3 distance and time-overcurrent (51) functions commonly serve this role.
+
+== Instrument transformers and trip circuit ==
+
+{{Main|Instrument transformer}}
+Protection relays receive scaled replicas of primary voltages and currents from instrument transformers:
+
+* '''[[Current transformer|Current transformers]] (CTs)''' — Step primary current down to 1 A or 5 A secondary. Accuracy classes for protection: 5P, 10P (IEC); C100–C800 (IEEE). The CT must not saturate at maximum fault current to ensure faithful reproduction.
+* '''[[Voltage transformer|Voltage transformers]] (VTs)''' — Step primary voltage down to 100–120 V secondary. Accuracy classes: 3P, 6P.
+
+The trip circuit connects the relay output contacts to the circuit breaker trip coil, typically at 110 V DC or 220 V DC station battery supply. Trip circuit supervision continuously monitors continuity.
+
+== See also ==
+{{Portal|Energy}}
+* [[Protective relay]]
+* [[Overcurrent protection]]
+* [[Differential protection]]
+* [[Distance protection]]
+* [[Circuit breaker]]
+* [[Instrument transformer]]
+* [[Electrical substation]]
+* [[Short circuit]]
+* [[Symmetrical components]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]

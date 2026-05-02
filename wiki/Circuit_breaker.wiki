@@ -1,0 +1,164 @@
+{{Short description|Switching device capable of making, carrying, and breaking currents under normal and fault conditions}}
+{{Infobox physical quantity
+| name = Circuit breaker
+| image = 
+| caption = A circuit breaker automatically interrupts fault currents, protecting electrical equipment from damage caused by [[short circuit]]s and overloads.
+| symbols = <math>U_r</math>, <math>I_r</math>, <math>I_{sc}</math>, <math>I_{sc}</math> (breaking capacity)
+| SI_unit = [[volt]] (V) for rated voltage, [[ampere]] (A) for rated current, [[volt-ampere|MVA]] or kA for breaking capacity
+}}
+
+'''Circuit breaker''' is a mechanical [[switch|switching device]] capable of making, carrying, and breaking [[electric current|currents]] under normal circuit conditions, and also making, carrying for a specified time, and breaking currents under specified abnormal conditions such as those of a [[short circuit]]. It is a critical component of [[switchgear]] assemblies in [[electrical substation]]s and [[electric power system|power systems]] worldwide, providing both operational switching and [[protective relay|protective]] functions.
+
+== Operating principle ==
+When the circuit breaker contacts separate under fault conditions, an [[electric arc|arc]] is drawn between them. The arc is a conducting plasma column that must be extinguished to interrupt the current. The fundamental condition for successful interruption at a current zero is:
+
+:<math>\frac{dV_{\text{dielectric}}}{dt} > \frac{dV_{\text{TRV}}}{dt}</math>
+
+where the dielectric recovery strength across the contact gap must exceed the transient recovery voltage (TRV) appearing across the gap after arc extinction.
+
+The arc interruption process involves:
+
+# Contact separation — initiating the arc
+# Arc elongation and cooling — deionization of the arc plasma
+# Current zero crossing — opportunity for interruption (in AC systems)
+# Dielectric recovery — the gap must withstand the rising TRV
+
+For DC circuit breakers, which lack natural current zeros, forced commutation circuits or power electronic injection create artificial zero crossings.
+
+== Arc quenching media ==
+
+{| class="wikitable"
+|-
+! Medium !! Voltage range !! Advantages !! Disadvantages
+|-
+| Air at atmospheric pressure (ACB) || Up to 1 kV || Simple, low cost, no special medium || Large physical size, limited breaking capacity
+|-
+| Oil (minimum oil / bulk oil, OCB) || 3.6–36 kV (legacy) || Good dielectric, cooling || Fire risk, maintenance intensive, environmental
+|-
+| [[SF6|SF<sub>6</sub> gas]] || 3.6–1,100 kV || Excellent dielectric and arc-quenching, compact || High global warming potential (GWP = 23,500)
+|-
+| Vacuum || 3.6–40.5 kV || Virtually maintenance-free, long life, environmentally clean || Limited to medium voltage; voltage escalation concern
+|-
+| [[Carbon dioxide|CO<sub>2</sub>]] / alternative gases || 12–145 kV (emerging) || Low GWP || Larger size than SF<sub>6</sub>, still under development
+|}
+
+=== SF<sub>6</sub> interruption ===
+SF<sub>6</sub> is electronegative — it readily captures free electrons, rapidly increasing the dielectric strength of the arc path. The gas pressure is typically 4–7 bar (absolute) in the interrupter. SF<sub>6</sub> circuit breakers use either:
+
+* Puffer principle — a piston compresses SF<sub>6</sub> during the opening stroke, blasting gas through the arc
+* Self-blast (auto-puffer) — uses arc energy to heat and pressurize a separate chamber, reducing operating mechanism energy
+* Double-motion — both contacts move to increase contact separation speed
+
+=== Vacuum interruption ===
+In a vacuum interrupter (typical pressure < 10<sup>−4</sup> Pa), the arc is sustained by metal vapor from the contacts. At current zero, metal vapor condensation is extremely rapid, and the vacuum gap recovers its full dielectric strength within microseconds. Arc voltage in vacuum is low (20–50 V), so arc energy is minimal. Contact materials are typically copper-chromium (CuCr) alloys for optimal combination of anti-welding, arc erosion resistance, and gas content.
+
+== Types of circuit breakers ==
+
+=== Miniature circuit breaker (MCB) ===
+Rated up to 125 A, 230/400 V. Used in residential and commercial final distribution boards. Tripping characteristics:
+* B curve: 3–5 × <math>I_n</math> magnetic trip — general-purpose
+* C curve: 5–10 × <math>I_n</math> — motor circuits, lighting with inrush
+* D curve: 10–20 × <math>I_n</math> — high-inrush transformers, X-ray machines
+
+=== Molded-case circuit breaker (MCCB) ===
+Rated 16–2,500 A, up to 1,000 V. Higher breaking capacity than MCB. Adjustable thermal and magnetic trip settings. Used in industrial distribution.
+
+=== Air circuit breaker (ACB) ===
+Rated 630–6,300 A, up to 1,000 V. Draw-out construction. Arc chutes with arc-splitting plates. Electronically controlled trip units with protection functions (LSIG: long-time, short-time, instantaneous, ground-fault).
+
+=== Vacuum circuit breaker (VCB) ===
+The dominant medium-voltage technology (3.6–40.5 kV). Compact, virtually maintenance-free. Typical breaking capacity: 25–40 kA. Service life: 10,000–30,000 mechanical operations, 30–100 full short-circuit interruptions.
+
+=== SF<sub>6</sub> circuit breaker ===
+The dominant high-voltage technology (72.5–1,100 kV). Breaking capacity up to 63 kA. Dead-tank or live-tank construction. GIS integration common.
+
+== Key ratings ==
+
+{| class="wikitable"
+|-
+! Rating !! Symbol !! Description !! Typical values for MV (12 kV)
+|-
+| Rated voltage || <math>U_r</math> || Maximum continuous operating voltage || 12 kV
+|-
+| Rated current || <math>I_r</math> || Continuous current without exceeding temperature rise limits || 630–3,150 A
+|-
+| Rated short-circuit breaking current || <math>I_{sc}</math> || RMS value of current the breaker can interrupt at <math>U_r</math> || 16–40 kA
+|-
+| Rated short-circuit making current || <math>I_{ma}</math> || Peak current the breaker can close against || <math>2.5 \times I_{sc}</math> (≈ 1.8√2 <math>I_{sc}</math>)
+|-
+| Rated short-time withstand current || <math>I_k</math> || Current the closed breaker can carry for 1–3 s || Equal to <math>I_{sc}</math>
+|-
+| First-pole-to-clear factor || <math>k_{pp}</math> || Voltage across the first pole that clears || 1.3 (non-effectively earthed), 1.5 (effectively earthed)
+|}
+
+The symmetrical breaking capacity in MVA is:
+
+:<math>S_{\text{break}} = \sqrt{3} \, U_r \, I_{sc}</math>
+
+For a 12 kV, 40 kA breaker: <math>S_{\text{break}} = \sqrt{3} \times 12 \times 40 \approx 831</math> MVA.
+
+The transient recovery voltage (TRV) is the voltage appearing across the contacts immediately after arc extinction. For a simple single-frequency circuit:
+
+:<math>v(t) = U_c \left(1 - e^{-\alpha t} \cos(\omega_0 t)\right)</math>
+
+where <math>U_c</math> is the source voltage at current zero, <math>\omega_0 = 1/\sqrt{LC}</math> is the natural frequency of the circuit, and <math>\alpha = R/(2L)</math> is the damping factor.
+
+== Operating mechanisms ==
+
+* Spring-operated — a pre-charged spring set is released to open or close the contacts; motor recharges after operation. Most common for MV and many HV breakers
+* Hydraulic — hydraulic pressure stored in nitrogen accumulators drives the contacts; used for large HV/EHV breakers requiring high operating force
+* Pneumatic — compressed air drives the contacts; obsolete for new installations; legacy in some air-blast breakers
+* Magnetic actuator — permanent magnets hold the contacts open or closed; electronic control; emerging for MV breakers
+
+The operating sequence for auto-reclosure duty (IEC 62271-100):
+
+:<math>\text{O} - t_1 - \text{CO} - t_2 - \text{CO}</math>
+
+where O = open, C = close, <math>t_1</math> is the dead time (~300 ms for high-speed reclosure), and <math>t_2</math> (typically 3 min) allows mechanism recharge.
+
+== Pole configurations ==
+
+* Three-pole operated — a single mechanism operates all three phases simultaneously; standard for MV
+* Single-pole operated — each phase has an independent mechanism; enables single-phase auto-reclosing on HV transmission lines
+* Two-pole + one-pole combinations — used in some 1½-breaker arrangements
+
+== Testing ==
+
+=== Type tests (design verification) ===
+* Dielectric tests — power-frequency and lightning impulse withstand
+* Short-circuit making and breaking tests — full asymmetrical current interruptions
+* Mechanical endurance — typically 10,000 operations (M2 class per IEC)
+* Temperature rise tests — at rated continuous current
+* Environmental tests — low/high temperature, seismic qualification
+
+=== Routine tests (factory) ===
+* Dielectric withstand on main circuit and auxiliary circuits
+* Contact resistance measurement (<math>R_c</math> typically < 50 μΩ)
+* Mechanical operation — timing, speed, synchronization
+* Tightness test (for SF<sub>6</sub> — leak rate < 0.5% per year)
+
+== Standards ==
+
+* IEC 62271-100 — HV switchgear: AC circuit breakers
+* GB 1984 — Chinese standard for HV AC circuit breakers
+* IEC 60947-2 — LV circuit breakers (MCB, MCCB, ACB)
+* GB/T 14048.2 — Chinese equivalent for LV circuit breakers
+* IEEE C37 series — American standards for circuit breakers
+
+== See also ==
+{{Portal|Energy}}
+* [[Switchgear]]
+* [[Disconnector]]
+* [[Electrical substation]]
+* [[Electric arc]]
+* [[Short circuit]]
+* [[Protective relay]]
+* [[Electric power system]]
+* [[SF6]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]
+[[Category:Circuit breakers]]

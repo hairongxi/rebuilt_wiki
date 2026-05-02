@@ -1,0 +1,133 @@
+{{Short description|Protection scheme where a relay operates when current exceeds a predetermined pickup value}}
+{{Infobox physical quantity
+| name = Overcurrent protection
+| image = 
+| caption = Overcurrent protection detects fault currents exceeding normal load levels and initiates tripping after a time delay determined by the current magnitude.
+| symbols = <math>I_s</math> (pickup/setting current), <math>I</math> (measured current), <math>t</math> (operating time), <math>\mathrm{TMS}</math> (time multiplier setting)
+| SI_unit = [[ampere]] (A), [[second]] (s)
+}}
+
+'''Overcurrent protection''' is a fundamental [[power system protection]] scheme in which a [[protective relay]] operates when the [[electric current|current]] in a circuit exceeds a predetermined pickup value. It is the most widely used form of protection, particularly on radial [[electric power distribution|distribution]] systems, as an economical and reliable method for detecting [[short circuit|phase and ground faults]].
+
+== Principle ==
+
+The operating principle is straightforward: the relay continuously measures the line current via a [[current transformer]] (CT) and compares it against the pickup setting <math>I_s</math>:
+
+:<math>\text{Pickup condition: } |I| > I_s</math>
+
+Once the current exceeds the pickup threshold, the relay initiates timing according to its time-current characteristic. When the timer expires, a trip signal is sent to the associated [[circuit breaker]]. The relay resets when the current drops below a dropout threshold (typically 95–98% of pickup for numerical relays).
+
+== Time-current characteristics ==
+
+Overcurrent relays are classified by their time-current characteristic curves:
+
+=== Definite time ===
+The relay operates after a fixed time delay regardless of the fault current magnitude (provided current exceeds pickup):
+
+:<math>t_{op} = T \quad \text{for all } I > I_s</math>
+
+Simple to coordinate but may not provide optimal speed for close-in high-magnitude faults. Used in coordination schemes where inverse-time discrimination is difficult.
+
+=== Inverse definite minimum time (IDMT) ===
+The operating time decreases as the fault current increases, providing faster tripping for severe nearby faults while allowing coordination with downstream devices. The general IDMT characteristic follows the IEC 60255-151 / IEEE C37.112 standard equation:
+
+:<math>t = \mathrm{TMS} \times \frac{k}{\left(\frac{I}{I_s}\right)^\alpha - 1}</math>
+
+where:
+* <math>t</math> — operating time (seconds)
+* <math>\mathrm{TMS}</math> — time multiplier setting (0.05–1.0 typical)
+* <math>I</math> — measured current (A, or multiple of pickup)
+* <math>I_s</math> — pickup/setting current (A)
+* <math>k</math>, <math>\alpha</math> — constants defining the curve shape
+
+Standard IEC curve constants:
+
+{| class="wikitable"
+|-
+! Curve !! <math>k</math> !! <math>\alpha</math> !! Application
+|-
+| Standard Inverse (SI) || 0.14 || 0.02 || General-purpose overcurrent and earth-fault protection
+|-
+| Very Inverse (VI) || 13.5 || 1.0 || Coordination with fuses and thermal characteristics of cables
+|-
+| Extremely Inverse (EI) || 80.0 || 2.0 || High inrush loads, coordination with transformer magnetizing inrush
+|-
+| Long Time Inverse (LTI) || 120.0 || 1.0 || Backup ground fault protection with long delays
+|}
+
+=== Instantaneous (ANSI 50) ===
+The relay operates with no intentional time delay (typically < 20–40 ms including detection time) when current exceeds a separate instantaneous pickup threshold. This provides fast clearing of severe close-in faults.
+
+== Coordination with time-current curves ==
+
+Protection coordination for overcurrent relays is performed graphically using log-log plots (TCC diagrams). The time-current curves of all protective devices on a feeder are overlaid:
+
+{| class="wikitable"
+|-
+! Step !! Action
+|-
+| 1 || Plot all relay time-current curves on the coordination graph
+|-
+| 2 || Plot the damage curves of protected equipment (transformers, cables, motors)
+|-
+| 3 || Verify that all relay curves lie below the equipment damage curves
+|-
+| 4 || Verify coordination margin between successive relays (typically 0.25–0.40 s CTI)
+|-
+| 5 || Adjust pickup <math>I_s</math> and TMS settings for optimal selectivity and speed
+|}
+
+Minimum coordination time interval (CTI) between successive inverse-time relays accounts for breaker interrupting time, relay overshoot, and a safety margin:
+
+:<math>\mathrm{CTI} = t_{CB} + t_{overshoot} + t_{safety}</math>
+
+== Directional overcurrent (ANSI 67) ==
+
+In meshed networks and parallel feeders, fault current can flow in either direction. Directional overcurrent relays add a direction element that compares current phase angle against a voltage reference (polarizing quantity). The directional unit enables the overcurrent element only when current flows in the tripping direction. The operating condition is:
+
+:<math>I > I_s \quad \text{AND} \quad \phi \in [\phi_{MTA} - 90^\circ, \phi_{MTA} + 90^\circ]</math>
+
+where <math>\phi</math> is the phase angle between current and polarizing voltage, and <math>\phi_{MTA}</math> is the maximum torque angle (typically 30°–60° for phase faults, 0°–45° for ground faults).
+
+== Applications ==
+
+Overcurrent protection is applied in diverse scenarios:
+
+* '''Radial distribution feeders''' — Phase (50/51) and ground (50N/51N) overcurrent as primary protection. Coordination with downstream fuses and reclosers.
+* '''Transformer backup''' — Overcurrent on the high-voltage side provides backup for transformer differential (87T) and through-fault protection.
+* '''Motor protection''' — Thermal overload (49), instantaneous overcurrent (50) for short-circuit, and time-overcurrent (51) for locked-rotor protection.
+* '''Generator backup''' — Voltage-controlled or voltage-restrained overcurrent (51V) with pickup that increases at lower voltages to avoid tripping on permissible overloads.
+* '''Capacitor bank protection''' — Unbalance overcurrent detection.
+
+== Settings calculation ==
+
+Typical settings procedure:
+
+# '''Phase pickup <math>I_{s,ph}</math>:''' 115–130% of maximum load current, considering emergency loading.
+# '''Ground pickup <math>I_{s,gnd}</math>:''' 20–40% of rated CT primary, ensuring sensitivity to high-resistance ground faults.
+# '''Instantaneous pickup:''' 125–150% of maximum through-fault current at the relay location, or set to avoid operation for faults beyond the next downstream bus.
+# '''TMS:''' Selected to achieve the desired coordination time interval with downstream protection at maximum fault current.
+
+== Limitations ==
+
+Overcurrent protection has inherent limitations:
+
+* '''Varying fault levels''' — System generation and topology changes alter fault current magnitudes, requiring periodic coordination review.
+* '''Coordination in complex networks''' — In meshed transmission systems, fault current contributions from multiple sources make simple time-current coordination impractical; [[distance protection]] or line [[differential protection]] is preferred.
+* '''High-resistance faults''' — Ground faults with fault resistance exceeding a few tens of ohms may produce currents below pickup thresholds, requiring sensitive earth-fault (SEF) or restricted earth-fault (REF) protection.
+
+== See also ==
+{{Portal|Energy}}
+* [[Power system protection]]
+* [[Protective relay]]
+* [[Differential protection]]
+* [[Distance protection]]
+* [[Circuit breaker]]
+* [[Electric power distribution]]
+* [[Current transformer]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]

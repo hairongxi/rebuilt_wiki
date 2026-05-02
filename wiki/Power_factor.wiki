@@ -1,0 +1,94 @@
+{{Short description|Ratio of real power to apparent power in an AC electrical system}}
+{{Infobox physical quantity
+| name = Power factor
+| image = 
+| caption = The power factor is the cosine of the phase angle between voltage and current; it measures how effectively electrical power is converted into useful work.
+| symbols = <math>\text{PF}</math>, <math>\cos\phi</math>, <math>\lambda</math>
+| SI_unit = [[dimensionless]] (ratio)
+| dimension = 1
+}}
+
+'''Power factor''' (PF) is defined as the ratio of [[electric power|real power]] <math>P</math> absorbed by a load to the [[electric power|apparent power]] <math>S</math> flowing in the circuit:
+
+:<math>\text{PF} = \frac{P}{S} = \cos\phi</math>
+
+where <math>\phi</math> is the phase angle between the sinusoidal [[voltage]] and [[electric current|current]]. For purely sinusoidal waveforms, the power factor equals <math>\cos\phi</math>, but in the presence of [[harmonic distortion]], the more general definition using [[distortion power factor]] must be applied.
+
+A power factor of 1.0 (unity) means all supplied power is converted to useful work. Values less than 1.0 indicate that some power is stored and returned to the source each cycle ([[reactive power]]), increasing the current required to deliver a given amount of real power.
+
+== Leading and lagging power factor ==
+The sign of the phase angle <math>\phi</math> determines whether the power factor is described as ''lagging'' or ''leading'':
+
+{| class="wikitable"
+|-
+! Load type !! Phase relationship !! Power factor !! Typical sources
+|-
+| Inductive || Current lags voltage (<math>\phi > 0</math>) || Lagging || [[Induction motor]]s, [[transformer]]s, [[fluorescent lamp|fluorescent lighting]] ballasts
+|-
+| Capacitive || Current leads voltage (<math>\phi < 0</math>) || Leading || [[Capacitor bank]]s, long underground [[transmission line|cables]], over-excited [[synchronous motor]]s
+|-
+| Resistive || In phase (<math>\phi = 0</math>) || Unity || [[Incandescent light bulb]]s, [[electric heating]] elements
+|}
+
+Most industrial loads are inductive, resulting in a lagging power factor.
+
+== Causes of low power factor ==
+Low power factor (typically below 0.85–0.90) arises primarily from:
+
+* '''Induction motors''' operating below full load — magnetizing current remains nearly constant while useful output drops
+* '''[[Transformer]]s''' — exciting current is inherently inductive
+* '''Arc furnaces''' and welding equipment
+* '''[[Fluorescent lamp|Fluorescent]] and [[high-intensity discharge lamp|HID]] lighting''' without correction
+* '''Harmonic currents''' from [[rectifier]]s, [[variable-frequency drive]]s, and [[switched-mode power supply|switched-mode power supplies]]
+
+== Consequences of poor power factor ==
+A low power factor has several detrimental effects on the [[electrical grid]] and end-user equipment:
+
+* Increased current for the same real power, leading to higher <math>I^2R</math> losses ([[Joule heating]]) in conductors
+* Larger [[volt-ampere]] rating required for transformers, [[circuit breaker]]s, and [[switchgear]]
+* Greater [[voltage drop]] along distribution lines
+* Reduced system capacity — existing infrastructure reaches its thermal limit at lower real power throughput
+* Electric utilities often impose '''power factor penalties''' on industrial customers, incentivizing correction
+
+== Power factor correction ==
+{{Main|Power factor correction}}
+Power factor correction improves the power factor of a load or installation to near unity, typically by adding reactive components that counteract the existing reactive load.
+
+=== Capacitor banks ===
+The most common method for lagging (inductive) loads. [[Capacitor]]s supply reactive power locally, reducing the reactive current drawn from the source. The required capacitance for a desired improvement from <math>\cos\phi_1</math> to <math>\cos\phi_2</math> is:
+
+:<math>C = \frac{P(\tan\phi_1 - \tan\phi_2)}{2\pi f V^2}</math>
+
+where <math>V</math> is the voltage across the capacitor.
+
+Capacitor banks may be fixed or switched (automatic) and can be installed at the main [[distribution board]], at motor terminals, or at the utility [[electrical substation|substation]].
+
+=== Synchronous condensers ===
+Over-excited [[synchronous motor]]s (synchronous condensers) can supply adjustable reactive power. They are used in large [[electrical substation|substations]] and for [[HVDC]] converter stations.
+
+=== Active power factor correction ===
+Modern [[power electronics]] using [[boost converter]]s with active control can achieve near-unity power factor and low harmonic distortion. These are common in [[computer power supply|computer power supplies]], [[LED lighting]], and [[electric vehicle]] chargers.
+
+== Power factor in non-sinusoidal systems ==
+When voltage or current contains [[harmonic]]s, the simple <math>\cos\phi</math> definition is insufficient. The true power factor becomes:
+
+:<math>\text{PF} = \frac{P}{S} = \text{DPF} \times \text{DF}</math>
+
+where <math>\text{DPF} = \cos\phi</math> is the displacement power factor (fundamental frequency only) and DF is the distortion factor, given by <math>\text{DF} = \frac{I_{1,\text{rms}}}{I_{\text{rms}}}</math> where <math>I_{1,\text{rms}}</math> is the RMS current of the fundamental component.
+
+== See also ==
+{{Portal|Physics}}
+* [[Electric power]]
+* [[Electrical impedance]]
+* [[Three-phase electric power]]
+* [[Ohm's law]]
+* [[Reactance (electronics)]]
+* [[Kirchhoff's circuit laws]]
+* [[Electromagnetic induction]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Power factor| ]]
+[[Category:Electrical engineering]]
+[[Category:Electric power]]

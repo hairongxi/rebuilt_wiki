@@ -1,0 +1,143 @@
+{{Short description|Part of an electrical generation, transmission, and distribution system that transforms voltage}}
+{{Infobox physical quantity
+|| name = Electrical substation
+|| image = 
+|| caption = An electrical substation transforms voltage levels and provides switching, protection, and control functions.
+|| topics = [[Electric power system]], [[Electric power transmission]], [[Electric power distribution]], [[Electrical grid]], [[Power transformer]]
+}}
+
+An '''electrical substation''' is a part of an [[electric power system|electrical generation, transmission, and distribution system]] where [[voltage]] is transformed from high to low or low to high using [[power transformer]]s, which operate on the principle of [[electromagnetic induction]]. Beyond voltage transformation, substations provide [[switchgear|switching]], [[protective relay|protection]], [[SCADA|monitoring and control]], and [[power factor correction|reactive power compensation]].
+
+== Types of substations ==
+
+=== Step-up substation ===
+Located at [[power station]]s, step-up substations transform generator voltage (typically 10–25 kV) to transmission voltage (110 kV–1,000 kV). The generator step-up (GSU) [[power transformer|transformer]] rating matches the generator's MVA:
+
+:<math>S_{\text{GSU}} = \frac{P_{\text{gen}}}{\cos\phi}</math>
+
+where <math>P_{\text{gen}}</math> is the generator's active power output and <math>\cos\phi</math> is its [[power factor]].
+
+=== Step-down substation ===
+Transmission-to-subtransmission or subtransmission-to-distribution voltage reduction. Typically 220/110 kV, 500/220 kV, or 110/10 kV in Chinese systems.
+
+=== Distribution substation ===
+The final transformation stage, reducing medium voltage (10 kV, 20 kV, 35 kV) to low voltage (380/220 V). May be outdoor (pole-mounted or pad-mounted) or indoor (in building basements for urban areas).
+
+=== Switching substation ===
+Performs switching and protection functions without voltage transformation. Used to sectionalize transmission lines and improve reliability.
+
+=== Converter substation ===
+Houses [[HVDC]] converter valves (thyristor-based [[line-commutated converter|LCC]] or [[IGBT]]-based [[voltage-source converter|VSC]]) to convert between AC and DC.
+
+=== Railway traction substation ===
+Converts the utility three-phase supply to single-phase 25 kV AC (or 1.5/3 kV DC) for railway [[overhead line]] electrification in China.
+
+== Key components ==
+
+=== Power transformers ===
+{{Main|Power transformer}}
+The heart of any substation. Large power transformers are rated in MVA and insulated with [[transformer oil|mineral oil]] for cooling and insulation. The voltage ratio is determined by the [[turns ratio]]:
+
+:<math>\frac{V_p}{V_s} = \frac{N_p}{N_s}</math>
+
+On-load tap changers (OLTC) adjust the ratio under load, typically providing ±10% regulation in steps of 1.25%.
+
+=== Busbars ===
+[[Busbar]]s are the common electrical nodes that interconnect incoming and outgoing circuits. They are typically aluminum or copper conductors rated for the full substation current. The current-carrying capacity is limited by temperature rise:
+
+:<math>I_{\text{rated}} = \sqrt{\frac{hA(T_{\text{max}} - T_{\text{amb}})}{R}}</math>
+
+where <math>h</math> is the heat transfer coefficient, <math>A</math> is the surface area, and <math>R</math> is the resistance.
+
+=== Switchgear ===
+{{Main|Switchgear}}
+[[Switchgear]] encompasses [[circuit breaker]]s, [[disconnector|disconnect switches]], [[instrument transformer]]s ([[current transformer|CT]]s and [[voltage transformer|VT]]s), and [[surge arrester]]s. Circuit breakers interrupt fault currents that can reach 40–63 kA. Common technologies:
+
+{| class="wikitable"
+|-
+! Type !! Voltage range !! Interrupting medium
+|-
+| Air-insulated (AIS) || Up to 1,000 kV || Air at atmospheric pressure
+|-
+| Gas-insulated (GIS) || Up to 1,000 kV || [[SF6|SF<sub>6</sub>]] gas
+|-
+| Vacuum || Up to 40.5 kV || Vacuum interrupter
+|}
+
+=== Protection systems ===
+{{Main|Protective relay}}
+[[Protective relay]]s detect abnormal conditions — overcurrent, differential, distance (impedance), over/under voltage, over/under frequency — and command [[circuit breaker]] tripping. Modern numerical relays implement multiple protection functions and communicate via [[IEC 61850]] protocol.
+
+=== Reactive power equipment ===
+Substations often include [[shunt reactor]]s, [[shunt capacitor]] banks, [[static VAR compensator]]s (SVC), or [[STATCOM]]s to maintain voltage within limits. The reactive power delivered by a three-phase capacitor bank:
+
+:<math>Q_c = \omega C V_{LL}^2</math>
+
+where <math>C</math> is the per-phase capacitance and <math>V_{LL}</math> is the line-to-line voltage.
+
+== Busbar configurations ==
+
+The arrangement of busbars and switching devices determines substation reliability and flexibility.
+
+=== Single busbar ===
+All circuits connect to one bus. Simple and low cost, but a bus fault or maintenance takes out the entire substation. Used for small distribution substations.
+
+=== Single busbar with sectionalizer ===
+A [[circuit breaker]] divides the bus, allowing half the substation to remain in service during maintenance or faults on one section.
+
+=== Double busbar ===
+Two independent buses with each circuit switchable to either bus. High flexibility; common for 110 kV and above in Chinese substations.
+
+=== Breaker-and-a-half scheme ===
+Two buses with three breakers per two circuits. Any breaker can be taken out of service without interrupting any circuit. Standard for EHV/UHV substations:
+
+:<math>\text{Total breakers} = \frac{3}{2}n_{\text{circuits}}</math>
+
+=== Ring bus ===
+All breakers form a closed ring. Economical for up to six circuits; a single fault is cleared without load interruption.
+
+== Substation layouts ==
+
+=== Air-insulated substation (AIS) ===
+Equipment is insulated by air with sufficient clearance distances. Requires large land area but lower capital cost. Typical clearances:
+* 110 kV: ~1.1 m phase-to-phase, ~1.0 m phase-to-ground
+* 220 kV: ~2.1 m phase-to-phase, ~1.8 m phase-to-ground
+* 500 kV: ~4.3 m phase-to-phase, ~3.6 m phase-to-ground
+
+=== Gas-insulated substation (GIS) ===
+All live parts are enclosed in grounded metal enclosures filled with [[SF6|SF<sub>6</sub>]] gas at ~4–6 bar. Requires only ~10–20% of the land area of an equivalent AIS. Dominant choice for urban and indoor substations. A 500 kV GIS bay fits in roughly 3 × 8 m floor space.
+
+=== Hybrid (MTS) ===
+Mixed-technology substations combine AIS busbars with GIS bays, balancing cost and space requirements.
+
+== Earthing and safety ==
+{{Main|Earthing system}}
+The substation [[earthing system|grounding grid]] ensures touch and step voltages remain within safe limits during faults:
+
+:<math>V_{\text{touch}} < \frac{0.116}{\sqrt{t_s}} \quad \text{(for 50 kg body weight, IEEE 80)}</math>
+
+The grounding grid resistance should be less than 1 Ω for large substations and typically 0.5 Ω for EHV/UHV installations.
+
+== See also ==
+{{Portal|Energy}}
+* [[Electric power system]]
+* [[Electric power transmission]]
+* [[Electric power distribution]]
+* [[Electrical grid]]
+* [[Power transformer]]
+* [[Switchgear]]
+* [[Circuit breaker]]
+* [[Protective relay]]
+* [[SCADA]]
+* [[HVDC]]
+* [[Electromagnetic induction]]
+* [[Ohm's law]]
+* [[Magnetic field]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical substations| ]]
+[[Category:Electrical engineering]]
+[[Category:Electric power systems]]
+[[Category:Power engineering]]

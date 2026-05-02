@@ -1,0 +1,25 @@
+{{Short description|克劳德·莫奈的画作，印象派因此得名}}
+{{Infobox artwork
+| name = 印象·日出
+| image =
+| caption =
+| artist = [[Claude_Monet|克劳德·莫奈]]
+| year = 1872年
+| type = 画布[[Oil_painting|油画]]
+| height_metric = 48
+| width_metric = 63
+| museum = [[马摩丹-莫奈美术馆]]
+| city = [[巴黎]]
+| country = [[法国]]
+}}
+《'''印象·日出'''》（Impression, soleil levant）是[[法国]]画家[[Claude_Monet|克劳德·莫奈]]1872年在[[勒阿弗尔]]港创作的油画。1874年在第一次印象派画展上展出时，批评家路易·勒鲁瓦以"Impressionism"这个带有讽刺意味的称呼评价该画，由此使"[[印象派]]"这一术语得名。1990年它被从马摩丹美术馆窃走五年后追回。
+
+== 描述 ==
+晨雾中勒阿弗尔港口的朦胧景色：深蓝-紫灰的水面和空中，一轮橙红色的太阳刚刚升起，在水面投下碎断的红光倒影。前景三只小船被简化为深色的剪影。莫奈在此捕捉的不是"港口"而是"黎明之瞬"——空气、薄雾、水的反射和光的振动。
+
+== 参见 ==
+* [[Claude_Monet|莫奈]]
+* [[Impressionism|印象派]]
+
+[[Category:莫奈绘画作品]]
+[[Category:19世纪画作]]

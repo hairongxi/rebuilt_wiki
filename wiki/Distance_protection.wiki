@@ -1,0 +1,149 @@
+{{Short description|Protection scheme measuring impedance between relay location and fault point to determine fault distance}}
+{{Infobox physical quantity
+| name = Distance protection
+| image = 
+| caption = Distance protection determines fault location by measuring the apparent impedance from the relay to the fault point, enabling zoned protection without communication.
+| symbols = <math>\mathbf{Z}</math> (measured impedance), <math>R</math> (resistance), <math>X</math> (reactance), <math>Z_{line}</math> (line impedance)
+| SI_unit = [[ohm]] (Ω)
+}}
+
+'''Distance protection''' (ANSI/IEEE device number 21) is a [[power system protection]] scheme that determines the location of a [[short circuit|fault]] by measuring the apparent [[electrical impedance|impedance]] between the relay location and the fault point. Because the impedance of an [[electric power transmission|transmission line]] is approximately proportional to its physical length, the relay can discriminate between faults on the protected line and faults beyond. Distance protection is the dominant primary protection for transmission lines operating at 110 kV and above, and forms the backbone of [[electrical grid|grid]] protection in China's EHV and UHV networks.
+
+== Principle ==
+
+The operating principle is based on [[Ohm's law]] applied to the transmission line during fault conditions. The relay computes the apparent impedance to the fault:
+
+:<math>\mathbf{Z} = \frac{\mathbf{V}}{I}</math>
+
+where <math>\mathbf{V}</math> and <math>\mathbf{I}</math> are the fundamental-frequency voltage and current phasors measured at the relay location. For a bolted (zero-resistance) metallic fault at distance <math>d</math> along a line of per-unit-length impedance <math>z_1</math>:
+
+:<math>\mathbf{Z} = d \cdot z_1</math>
+
+Thus the measured impedance magnitude is proportional to the fault distance, giving distance protection its name. In practice, fault resistance and infeed from remote sources introduce errors that must be compensated.
+
+Different fault types require different voltage and current inputs. For a phase A-to-ground fault, the relay uses:
+
+:<math>\mathbf{Z}_{AG} = \frac{\mathbf{V}_A}{\mathbf{I}_A + k_0 \mathbf{I}_0}</math>
+
+where <math>k_0</math> is the zero-sequence compensation factor:
+
+:<math>k_0 = \frac{Z_{0L} - Z_{1L}}{Z_{1L}}</math>
+
+For phase-to-phase faults (e.g., A-B):
+
+:<math>\mathbf{Z}_{AB} = \frac{\mathbf{V}_A - \mathbf{V}_B}{\mathbf{I}_A - \mathbf{I}_B}</math>
+
+== Impedance zones ==
+
+Distance protection divides the line and its surroundings into multiple zones, each with a different reach setting and time delay:
+
+{| class="wikitable"
+|-
+! Zone !! Reach (% of <math>Z_{line}</math>) !! Time delay !! Purpose
+|-
+| Zone 1 || 80–85% || Instantaneous (0 ms intentional) || Underreaching: protects the line without overreach risk. The 15–20% margin accounts for CT/VT errors, line parameter uncertainty, and transient overreach.
+|-
+| Zone 2 || 120–150% or 100% + 50% of shortest adjacent line || 0.3–0.5 s || Overreaching: provides primary protection for the remaining portion of the line not covered by Zone 1 and backup for adjacent line.
+|-
+| Zone 3 || 120–180% or 100% + 100% of longest adjacent line || 0.8–1.5 s || Remote backup for adjacent lines and equipment. Also serves as starter element for communication schemes.
+|-
+| Zone 4 (Reverse) || 10–25% in reverse || Instantaneous or short delay || Provides directional integrity and backup for busbar protection.
+|}
+
+The stepped time-distance characteristic gives fast tripping for the majority of line faults (Zone 1 covers 80–85% of the line, instantaneous) while providing backup with progressive time delays.
+
+== R-X diagram and operating characteristics ==
+
+Distance relay characteristics are visualized on the <math>R</math>-<math>X</math> (resistance-reactance) impedance plane. The characteristic defines the region of the impedance plane for which the relay will operate:
+
+=== Mho (admittance) characteristic ===
+A circle passing through the origin, with diameter equal to the reach setting <math>Z_r</math> and tilted by the maximum torque angle <math>\theta</math>. The trip condition is:
+
+:<math>|Z - \tfrac{1}{2}Z_r| < \tfrac{1}{2}|Z_r|</math>
+
+or equivalently:
+
+:<math>Z_r \cdot |I| \cdot \cos(\theta - \phi) > |V|</math>
+
+where <math>\phi = \arg(Z)</math> is the measured impedance angle and <math>\theta</math> is the relay characteristic angle (typically set to the line impedance angle, 65°–85° for overhead lines). The mho circle is inherently directional (passes through origin), making it suitable for phase-fault protection.
+
+=== Quadrilateral characteristic ===
+Provides independent control of resistive and reactive reach. The trip region is bounded by four lines:
+
+# '''Reactance line:''' <math>X < X_{set}</math> (fault reactance less than reach setting)
+# '''Resistive right blinder:''' <math>R - R_{set} < \frac{1}{\tan\theta}(X_{set} - X)</math>
+# '''Resistive left blinder:''' <math>R > -R_{Lset}</math> (or directional line through origin)
+# '''Directional line:''' <math>R > \tan\phi_{dir} \cdot X</math> (ensures forward fault only)
+
+The quadrilateral characteristic offers better coverage of high-resistance ground faults than the mho circle, making it the preferred choice for ground-fault protection. The independent resistive reach can be extended to cover arc resistance:
+
+:<math>R_{arc} \approx \frac{28700 \cdot L}{I_f^{1.4}}</math>
+
+where <math>L</math> is the arc length in meters and <math>I_f</math> is the fault current in amperes (Warrington formula).
+
+=== Reactance characteristic ===
+A horizontal line: <math>X < X_{set}</math>. Immune to fault resistance but non-directional; requires a separate directional element.
+
+== Fault resistance compensation ==
+
+Fault resistance <math>R_f</math> adds to the line impedance and shifts the measured impedance along the <math>R</math>-axis. Two components contribute:
+
+* '''Arc resistance''' — Resistance of the fault arc plasma. Decreases with increasing fault current. Typical values: 1–5 Ω for transmission-level faults.
+* '''Ground resistance''' — Resistance of tower footing or return path to ground. Can reach tens of ohms for high-resistivity soil.
+
+For ground faults on lines with remote-end infeed, the remote source contribution causes the relay to measure an apparent impedance larger than the actual line impedance plus fault resistance — leading to underreach. Quadrilateral characteristics mitigate this by allowing extended resistive coverage.
+
+== Power swing blocking ==
+
+[[Power system stability|Power swings]] — oscillations in generator rotor angles following a disturbance — cause the measured impedance to trace a trajectory on the R-X plane that may enter the distance relay operating zones. To prevent spurious tripping during stable swings:
+
+* '''Concentric characteristic''' — A power swing blocking (PSB) element monitors the rate of impedance change. Power swing trajectories move slower than fault transitions.
+* '''Impedance trajectory timing''' — If the impedance stays in an outer zone for a set time before entering the inner zone, tripping is blocked.
+* '''Out-of-step (OOS) tripping''' — Differentiated from stable swings; OOS conditions (pole slip) are detected and may initiate controlled system separation at predetermined locations.
+
+== Communication-assisted schemes ==
+
+To achieve simultaneous high-speed tripping at both line ends (essential for transient stability), distance relays employ teleprotection schemes using communication channels ([[power-line carrier]], fiber-optic, microwave):
+
+{| class="wikitable"
+|-
+! Scheme !! Principle !! Channel requirement !! Speed
+|-
+| POTT (Permissive Overreaching Transfer Trip) || Zone 2 at local end sends permissive signal when it detects forward fault; tripping when Zone 2 AND remote permissive signal received || Duplex (bi-directional) || Sub-cycle
+|-
+| PUTT (Permissive Underreaching Transfer Trip) || Zone 1 trip at one end keys permissive signal to remote end; avoids need for Zone 2 at receiving end || Duplex || Sub-cycle
+|-
+| DCB (Directional Comparison Blocking) || Reverse-looking element keys block signal; tripping when forward element operates AND no block signal received || Simplex (uni-directional) || Sub-cycle
+|-
+| DUTT (Direct Underreaching Transfer Trip) || Zone 1 trip directly transferred to remote end || Duplex || Sub-cycle
+|-
+| Weak Infeed || Allows tripping at strong-feed end even if weak end cannot detect fault || Duplex || Sub-cycle
+|}
+
+POTT and DCB are the most widely deployed schemes in China's transmission networks.
+
+== Application to transmission lines ==
+
+Distance protection is universally applied to transmission lines at 110 kV and above. Key considerations:
+
+* '''Series-compensated lines''' — [[Capacitor]]s in series with the line cause voltage inversion and sub-synchronous oscillation challenges. Special algorithms compensate for series capacitor effects.
+* '''Multi-terminal lines''' — Teed (three-terminal) lines require modified zone reaches accounting for apparent impedance from all tap points.
+* '''Parallel lines''' — Mutual coupling between circuits on the same tower affects zero-sequence impedance measurement. Zero-sequence mutual compensation is applied.
+
+== See also ==
+{{Portal|Energy}}
+* [[Power system protection]]
+* [[Protective relay]]
+* [[Overcurrent protection]]
+* [[Differential protection]]
+* [[Electrical impedance]]
+* [[Electric power transmission]]
+* [[Electrical substation]]
+* [[Circuit breaker]]
+* [[Ohm's law]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]

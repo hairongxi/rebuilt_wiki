@@ -1,0 +1,22 @@
+{{Short description|20世纪初法国的前卫艺术运动，以狂野的非自然主义色彩著称}}
+{{Infobox art movement
+| name = 野兽派
+| image =
+| caption =
+| yearsactive = 约1904年—1908年
+| country = [[法国]]
+| majorfigures = [[Henri_Matisse|亨利·马蒂斯]]、[[安德烈·德兰]]、[[莫里斯·德·弗拉芒克]]
+| influences = [[Vincent_van_Gogh|梵高]]、[[Paul_Gauguin|高更]]、[[Georges_Seurat|修拉]]
+| influenced = [[Expressionism|表现主义]]、[[Abstract_art|抽象艺术]]
+}}
+'''野兽派'''（Fauvism）是1904–1908年间在[[法国]]兴起的一场短暂但影响深远的前卫艺术运动。"Fauve"（野兽）一词来自1905年秋季沙龙上批评家[[路易·沃塞尔]]的一句评语——他看到马蒂斯等人狂野用色的作品被放置在一尊多纳泰罗式古典雕塑之间时说："多纳泰罗与野兽为伍"（Donatello chez les fauves）。
+
+野兽派的核心理念是：'''色彩应当从描述性功能中彻底解放'''——一棵树无需是绿色的；一张脸可以是品红和绿条纹的。色彩不再是事物的属性，而是画家的主观表达。
+
+== 参见 ==
+* [[Henri_Matisse|马蒂斯]]
+* [[Expressionism|表现主义]]
+
+[[Category:艺术运动]]
+[[Category:20世纪艺术]]
+[[Category:现代艺术]]

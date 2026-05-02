@@ -1,0 +1,178 @@
+{{Short description|Sinusoidal components of a periodic waveform having frequencies that are integer multiples of the fundamental frequency}}
+{{Infobox physical quantity
+| name = Harmonics (power system)
+| image = 
+| caption = Harmonics are sinusoidal voltages or currents with frequencies that are integer multiples of the fundamental power frequency, caused by non-linear loads.
+| symbols = <math>h</math> (harmonic order), <math>V_h</math>, <math>I_h</math> (harmonic magnitudes), <math>\text{THD}_V</math>, <math>\text{THD}_I</math> (total harmonic distortion)
+| SI_unit = [[dimensionless]] (percent % or per-unit pu)
+}}
+
+'''Harmonics''' in [[electric power system]]s are sinusoidal [[voltage]]s or [[electric current|current]]s whose [[frequency|frequencies]] are integer multiples of the fundamental power frequency (50 or 60 Hz). They arise from non-linear loads and distort the ideal sinusoidal waveform, causing a range of adverse effects on equipment and system operation. The study and mitigation of harmonics is a central topic in [[power quality]] engineering.
+
+While the term "harmonic" is general to any periodic waveform, in power systems it specifically refers to the Fourier components beyond the fundamental. A component at the fundamental frequency is the ''first harmonic'' (<math>h = 1</math>). The second harmonic (<math>h = 2</math>) is at 100/120 Hz, the third (<math>h = 3</math>) at 150/180 Hz, and so on.
+
+== Fourier series decomposition ==
+{{Main|Fourier series}}
+Any periodic waveform <math>f(t)</math> with period <math>T = 1/f_1</math> can be expressed as a sum of sinusoidal components:
+
+:<math>f(t) = a_0 + \sum_{h=1}^{\infty} \left[a_h \cos(h\omega_1 t) + b_h \sin(h\omega_1 t)\right]</math>
+
+or equivalently in magnitude-phase form:
+
+:<math>f(t) = a_0 + \sum_{h=1}^{\infty} c_h \sin(h\omega_1 t + \phi_h)</math>
+
+where <math>\omega_1 = 2\pi f_1</math> is the fundamental [[angular frequency]], <math>c_h = \sqrt{a_h^2 + b_h^2}</math> is the magnitude of harmonic <math>h</math>, and <math>\phi_h = \arctan(a_h/b_h)</math> is its phase angle.
+
+The Fourier coefficients are computed as:
+
+:<math>a_h = \frac{2}{T}\int_0^T f(t)\cos(h\omega_1 t)\,dt</math>
+:<math>b_h = \frac{2}{T}\int_0^T f(t)\sin(h\omega_1 t)\,dt</math>
+
+Due to half-wave symmetry in most power system waveforms (positive and negative half-cycles are mirror images), even harmonics (<math>h = 2, 4, 6, \ldots</math>) are typically absent unless the load has asymmetric conduction.
+
+== Harmonic orders and characteristic harmonics ==
+
+Harmonics are classified by their order and sequence:
+
+{| class="wikitable"
+|-
+! Order <math>h</math> !! Frequency (50 Hz base) !! Sequence !! Typical source
+|-
+| 1 (fundamental) || 50 Hz || Positive || All loads
+|-
+| 2 || 100 Hz || Negative || Half-wave rectifiers, asymmetry
+|-
+| 3 || 150 Hz || Zero || Single-phase rectifiers, electronic ballasts
+|-
+| 5 || 250 Hz || Negative || 6-pulse [[rectifier]]s, [[variable-frequency drive]]s (VFDs)
+|-
+| 7 || 350 Hz || Positive || 6-pulse rectifiers, VFDs
+|-
+| 9 || 450 Hz || Zero || 6-pulse rectifiers
+|-
+| 11 || 550 Hz || Negative || 6-pulse / 12-pulse rectifiers
+|-
+| 13 || 650 Hz || Positive || 6-pulse / 12-pulse rectifiers
+|}
+
+=== Characteristic harmonics of converters ===
+For an ideal <math>p</math>-pulse converter under balanced conditions, the characteristic harmonic orders are:
+
+:<math>h = kp \pm 1, \quad k = 1, 2, 3, \ldots</math>
+
+Thus a 6-pulse rectifier produces harmonics of orders 5, 7, 11, 13, 17, 19, 23, 25, … (all <math>6k \pm 1</math>). A 12-pulse converter cancels the 5th and 7th harmonics, leaving 11, 13, 23, 25, … A 24-pulse converter further eliminates the 11th and 13th.
+
+== Harmonic sources ==
+
+Common sources of harmonic currents in modern power systems include:
+
+* '''[[Variable-frequency drive]]s (VFDs)''' — 6-pulse diode or thyristor front-end; dominant industrial harmonic source
+* '''Uninterruptible power supplies (UPS)''' — rectifier input, especially older 6-pulse designs
+* '''[[Rectifier]]s''' — electroplating, electrochemical processes, battery chargers
+* '''Arc furnaces''' — produce a wide and erratic harmonic spectrum including interharmonics
+* '''LED and compact fluorescent lighting''' — [[switched-mode power supply|SMPS]] front-end produces 3rd, 5th, 7th harmonics
+* '''Electronic ballasts''' for fluorescent lighting
+* '''Saturated [[transformer]]s''' — generate odd harmonics, especially 3rd, during over-excitation
+* '''[[HVDC]] converter stations''' — large 12-pulse thyristor converters
+* '''Photovoltaic inverters''' — switching harmonics at high frequencies (above 2 kHz, ''supraharmonics'')
+
+== Total Harmonic Distortion ==
+
+=== THD — voltage and current ===
+The '''Total Harmonic Distortion''' (THD) quantifies the total harmonic content as a percentage of the fundamental:
+
+For voltage:
+
+:<math>\text{THD}_V = \frac{\sqrt{\sum_{h=2}^{\infty} V_h^2}}{V_1} \times 100\%</math>
+
+For current:
+
+:<math>\text{THD}_I = \frac{\sqrt{\sum_{h=2}^{\infty} I_h^2}}{I_1} \times 100\%</math>
+
+In systems with high harmonic current injection, <math>\text{THD}_I</math> can exceed 100% for single-phase electronic loads.
+
+=== Total Demand Distortion (TDD) ===
+Where THD uses the fundamental current, '''Total Demand Distortion''' (TDD) uses the maximum demand load current <math>I_L</math> as the reference, as defined in [[IEEE 519]]:
+
+:<math>\text{TDD} = \frac{\sqrt{\sum_{h=2}^{\infty} I_h^2}}{I_L} \times 100\%</math>
+
+TDD is used because THD alone can be misleading when the load is at light levels — a high THD at low load may represent a small absolute harmonic current.
+
+=== Individual harmonic distortion ===
+The magnitude of a single harmonic <math>h</math> is also expressed relative to the fundamental:
+
+:<math>I_h(\%) = \frac{I_h}{I_1} \times 100\%</math>
+
+== Harmonic spectrum and triplens ==
+
+Harmonics of order 3, 6, 9, 12, … (<math>h = 3k</math>, multiples of three) are called '''triplen harmonics'''. The odd triplens (<math>h = 3, 9, 15, \ldots</math>) are of '''zero sequence''' — their currents in the three phases are in phase, so they sum arithmetically in the [[ground and neutral|neutral]] conductor rather than canceling:
+
+:<math>I_{\text{neutral}} = 3 \times I_{\text{triplen, phase}}</math>
+
+This can cause neutral conductor overloading even when phase currents are balanced, a problem especially acute in office buildings with high densities of single-phase electronic loads. The neutral current can reach 1.73 times the phase current under worst-case conditions.
+
+== Effects of harmonics ==
+
+* '''Transformer overheating''' — additional <math>I^2R</math> losses, increased eddy-current and stray losses in the core. The '''K-factor''' rating quantifies a transformer's ability to handle harmonic currents: <math>K = \sum_{h=1}^{\infty} h^2 I_h^2(\text{pu})</math>. Standard K-factors are K-4, K-13, K-20.
+* '''Neutral conductor overloading''' — triplen harmonics sum in the neutral as described above
+* '''Capacitor bank resonance''' — [[capacitor]]s for [[power factor|power factor correction]] can form parallel or series resonance with system inductance at a harmonic frequency, causing severe overvoltage or overcurrent
+* '''Motor torque pulsations''' — negative-sequence harmonics (5th, 11th, …) produce counter-rotating fields that cause pulsating torque and increased heating
+* '''Metering errors''' — induction-disc [[watt-hour meter]]s may under-register or over-register in the presence of harmonics
+* '''Communication interference''' — harmonic currents induce noise in nearby telephone and data cables via electromagnetic coupling
+* '''Nuisance tripping''' — residual current devices (RCDs) and protection relays may respond to harmonic currents
+
+== Resonance ==
+{{Main|Electrical resonance}}
+
+=== Series resonance ===
+When the inductive reactance <math>X_L = 2\pi f h L</math> and capacitive reactance <math>X_C = 1/(2\pi f h C)</math> of a circuit are equal at some harmonic order <math>h_r</math>:
+
+:<math>h_r = \frac{1}{2\pi f \sqrt{LC}} = \sqrt{\frac{X_C}{X_L}}\bigg|_{h=1}</math>
+
+At resonance, the impedance is minimum and a small harmonic voltage can drive a large harmonic current.
+
+=== Parallel resonance ===
+The resonance frequency for a parallel LC combination is the same:
+
+:<math>h_r = \frac{1}{2\pi f \sqrt{LC}}</math>
+
+At parallel resonance, the impedance is maximum — a small harmonic current from the source can produce a very large harmonic voltage. Power factor correction capacitors are the most common cause of parallel resonance with the system inductance.
+
+== Mitigation techniques ==
+
+* '''Passive harmonic filters''' — series-tuned LC branches (notch filters) at characteristic frequencies (e.g., 250 Hz for 5th harmonic in 50 Hz systems). Provide a low-impedance shunt path for harmonic currents.
+* '''Active harmonic filters (AHF)''' — power-electronic devices that inject equal-but-opposite harmonic currents to cancel harmonics at the point of common coupling (PCC). Can adapt to changing harmonic spectra.
+* '''Higher-pulse converters''' — 12-pulse, 24-pulse, or 48-pulse configurations using phase-shifting [[power transformer|transformers]] to cancel characteristic harmonics.
+* '''Phase-shifting transformers''' — zigzag or delta-wye transformers with different vector groups to create phase displacement between rectifier groups.
+* '''Series (line) reactors''' — 3–5% impedance reactors at VFD inputs to reduce harmonic current and protect the drive.
+* '''Broadband (detuned) filters''' — inductors added to capacitor banks to shift the resonance point below the lowest significant harmonic (typically to < 5th).
+* '''Active front-end (AFE) drives''' — replaces the diode rectifier with an active [[insulated-gate bipolar transistor|IGBT]] converter, producing near-sinusoidal input current with THD < 5%.
+
+== Standards ==
+
+* '''IEEE 519''' — IEEE Recommended Practice and Requirements for Harmonic Control in Electric Power Systems. Defines voltage and current distortion limits at the PCC. Current distortion limits depend on <math>I_{sc}/I_L</math> ratio.
+* '''IEC 61000-3-2''' — Limits for harmonic current emissions (equipment ≤ 16 A per phase). Class A (balanced 3-phase), B (portable tools), C (lighting), D (TV, PC with special waveform).
+* '''IEC 61000-3-4''' — Harmonic emission limits for equipment rated > 16 A (stage 1 and stage 2 connection procedures).
+* '''IEC 61000-3-6''' — Assessment of emission limits for distorting loads in MV and HV power systems (planning levels, emission allocation).
+* '''GB/T 14549''' — Chinese national standard for power quality: harmonics in public supply networks.
+* '''EN 50160''' — Voltage characteristics of electricity supplied by public distribution networks (includes harmonic voltage limits).
+
+== See also ==
+{{Portal|Energy}}
+* [[Power factor]]
+* [[Electrical impedance]]
+* [[Electric power system]]
+* [[Power transformer]]
+* [[Circuit breaker]]
+* [[Overcurrent protection]]
+* [[Three-phase electric power]]
+* [[Switchgear]]
+* [[Electric motor]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]
+[[Category:Power quality]]
+[[Category:Signal processing]]

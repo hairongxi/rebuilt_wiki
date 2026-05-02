@@ -1,0 +1,27 @@
+{{Short description|1880-1900年代兴起的多元艺术运动，超越了印象派对纯粹感官的局限}}
+{{Infobox art movement
+| name = 后印象派
+| image =
+| caption =
+| yearsactive = 约1886年—约1905年
+| country = [[法国]]为主
+| majorfigures = [[Vincent_van_Gogh|梵高]]、[[Paul_Gauguin|高更]]、[[Paul_Cézanne|塞尚]]、[[Georges_Seurat|修拉]]、[[Henri_de_Toulouse-Lautrec|劳特雷克]]
+| influences = [[Impressionism|印象派]]、[[日本浮世绘]]、[[象征主义]]
+| influenced = [[Fauvism|野兽派]]、[[Cubism|立体主义]]、[[Expressionism|表现主义]]、整个[[现代艺术]]
+}}
+'''后印象派'''（Post-Impressionism）是英国批评家[[罗杰·弗莱]]（Roger Fry）在1910年发明的术语，用以指代约1886年至1905年间一群拒绝或超越印象派局限的前卫艺术家。印象派致力于忠实地记录眼睛所接收的光与色；而后印象派艺术家各自寻求'''超越感官表面的更深层次的结构、情感或象征意义'''。
+
+== 四大方向 ==
+* '''塞尚'''——回归形式的几何性结构："用圆柱体、球体、圆锥体来表现自然"——立体主义的前驱
+* '''修拉'''——点彩技法将光分解为科学的色点
+* '''梵高'''——将色彩和笔触转化为情感的爆炸符号——表现主义的源泉
+* '''高更'''——放弃欧洲"文明"，以平面的、象征性的色彩寻找原始真理
+
+== 参见 ==
+* [[Impressionism|印象派]]
+* [[Vincent_van_Gogh|梵高]]
+* [[Paul_Cézanne|塞尚]]
+
+[[Category:艺术运动]]
+[[Category:现代艺术]]
+[[Category:19世纪]]

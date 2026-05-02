@@ -1,0 +1,108 @@
+{{Short description|Rate at which electrical energy is transferred by an electric circuit}}
+{{Infobox physical quantity
+| name = Electric power
+| image = 
+| caption = Electric power is the product of [[voltage]] and [[electric current|current]], and may be expressed in real, reactive, and apparent forms in AC circuits.
+| symbols = <math>P</math> (real), <math>Q</math> (reactive), <math>S</math> (apparent)
+| SI_unit = <math>P</math>: [[watt]] (W), <math>Q</math>: volt-ampere reactive (var), <math>S</math>: volt-ampere (VA)
+| dimension = <math>ML^2T^{-3}</math>
+}}
+
+'''Electric power''' is the rate, per unit [[time]], at which [[electrical energy]] is transferred by an [[electrical circuit|electric circuit]]. In the simplest case of a [[direct current]] (DC) circuit, the power <math>P</math> delivered to a component is the product of the [[voltage]] <math>V</math> across it and the [[electric current|current]] <math>I</math> through it:
+
+:<math>P = VI</math>
+
+Using [[Ohm's law]], this can also be expressed as:
+
+:<math>P = I^2R = \frac{V^2}{R}</math>
+
+where <math>R</math> is the [[electrical resistance]] in [[ohm]]s. The SI unit of power is the [[watt]] (W), equivalent to one [[joule]] per [[second]].
+
+== Power in AC circuits ==
+In [[alternating current]] (AC) circuits, where voltage and current vary sinusoidally, the instantaneous power <math>p(t) = v(t)i(t)</math> fluctuates at twice the line frequency. For a sinusoidal voltage <math>v(t) = V_0\sin(\omega t)</math> and current <math>i(t) = I_0\sin(\omega t - \phi)</math>, the instantaneous power is:
+
+:<math>p(t) = V_{\text{rms}}I_{\text{rms}}\cos\phi - V_{\text{rms}}I_{\text{rms}}\cos(2\omega t - \phi)</math>
+
+where <math>V_{\text{rms}} = V_0/\sqrt{2}</math> and <math>I_{\text{rms}} = I_0/\sqrt{2}</math> are the [[root mean square]] values.
+
+== Real, reactive, and apparent power ==
+
+=== Real power (active power) ===
+'''Real power''' <math>P</math> (unit: [[watt]], W) is the average power that performs useful work — it is the portion that is converted to heat, light, or mechanical motion:
+
+:<math>P = V_{\text{rms}}I_{\text{rms}}\cos\phi</math>
+
+where <math>\cos\phi</math> is the [[power factor]]. Real power is what electric utilities bill customers for.
+
+=== Reactive power ===
+'''Reactive power''' <math>Q</math> (unit: volt-ampere reactive, var) represents energy that oscillates between the source and the reactive components (inductors and capacitors) without being consumed:
+
+:<math>Q = V_{\text{rms}}I_{\text{rms}}\sin\phi</math>
+
+Reactive power is necessary for establishing [[magnetic field]]s in motors and transformers (inductive) and [[electric field]]s in capacitors.
+
+=== Apparent power ===
+'''Apparent power''' <math>S</math> (unit: volt-ampere, VA) is the product of RMS voltage and RMS current, ignoring the phase angle:
+
+:<math>S = V_{\text{rms}}I_{\text{rms}}</math>
+
+It is related to real and reactive power by:
+
+:<math>S = \sqrt{P^2 + Q^2}</math>
+
+== The power triangle ==
+The relationship among <math>P</math>, <math>Q</math>, and <math>S</math> forms the '''power triangle''' — a right triangle with:
+
+{| class="wikitable"
+|-
+! Quantity !! Symbol !! Unit !! Position in triangle
+|-
+| Real power || <math>P</math> || W || Adjacent side
+|-
+| Reactive power || <math>Q</math> || var || Opposite side
+|-
+| Apparent power || <math>S</math> || VA || Hypotenuse
+|-
+| [[Power factor]] || <math>\cos\phi</math> || — || <math>P/S</math>
+|}
+
+The angle <math>\phi</math> is the phase angle between voltage and current.
+
+== Complex power ==
+Using [[phasor]] notation, complex power <math>\mathbf{S}</math> is defined as:
+
+:<math>\mathbf{S} = \mathbf{V}\mathbf{I}^* = P + jQ</math>
+
+where <math>\mathbf{I}^*</math> is the complex conjugate of the current phasor. This formalism unifies the description of power in AC circuits and is central to [[power system]] analysis.
+
+== Three-phase power ==
+{{Main|Three-phase electric power}}
+In [[three-phase electric power|three-phase systems]], the total real power delivered to a balanced load is:
+
+:<math>P = \sqrt{3}\,V_L I_L \cos\phi</math>
+
+where <math>V_L</math> is the line-to-line voltage and <math>I_L</math> is the line current.
+
+== Power in DC circuits ==
+For pure DC, voltage and current are constant, so <math>\phi = 0</math> and <math>\cos\phi = 1</math>. All power is real:
+
+:<math>P = VI = I^2R</math>
+
+The energy dissipated over time <math>t</math> is <math>E = Pt = VIt</math>, measured in [[joule]]s (or [[kilowatt-hour]] for utility billing: 1 kWh = 3.6 MJ).
+
+== See also ==
+{{Portal|Physics}}
+* [[Electrical impedance]]
+* [[Power factor]]
+* [[Three-phase electric power]]
+* [[Ohm's law]]
+* [[Joule heating]]
+* [[Electric current]]
+* [[Voltage]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electric power| ]]
+[[Category:Electrical engineering]]
+[[Category:Physical quantities]]

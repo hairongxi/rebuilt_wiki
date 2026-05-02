@@ -1,0 +1,131 @@
+{{Short description|Device that detects abnormal conditions in electrical circuits and initiates corrective action via circuit breaker tripping}}
+{{Infobox physical quantity
+| name = Protective relay
+| image = 
+| caption = A protective relay compares measured electrical quantities against set thresholds to detect faults and issue trip commands.
+| symbols = <math>I_{pickup}</math> (pickup current), <math>t_{op}</math> (operating time), <math>Z_{reach}</math> (reach impedance)
+| SI_unit = [[ampere]] (A), [[second]] (s), [[ohm]] (Ω)
+}}
+
+A '''protective relay''' is an [[intelligent electronic device]] designed to detect abnormal or fault conditions in [[electric power system|electrical power circuits]] and initiate corrective action — typically [[circuit breaker]] tripping — to isolate the faulted equipment. It is the decision-making element of any [[power system protection]] scheme, continuously monitoring [[voltage]] and [[electric current|current]] via [[instrument transformer]]s and comparing measured quantities against predetermined thresholds.
+
+== Operating principle ==
+
+The core principle of a protective relay is comparison of a measured electrical quantity against a reference threshold:
+
+:<math>\text{Trip condition: } |M| > M_{threshold} \quad \text{or} \quad \frac{M_1}{M_2} \notin \text{zone}</math>
+
+where <math>M</math> is the measured quantity (current magnitude, impedance, voltage, frequency, phase angle, or a derived quantity). Modern numerical relays process sampled waveforms to estimate [[phasor]]s and compute derived quantities such as [[electrical impedance|impedance]], [[electric power|power]] flow direction, and [[symmetrical components]].
+
+The basic protection chain is:
+
+<center>'''Instrument Transformer → Relay → Trip Circuit → Circuit Breaker'''</center>
+
+Relays provide additional functions including event recording, fault location, disturbance recording ([[COMTRADE]] format), and [[SCADA]] communication.
+
+== Evolution of relay technology ==
+
+Protective relays have evolved through four generations:
+
+# '''Electromechanical relays''' (1920s–1970s) — Operating on electromagnetic attraction or induction disc principles. Reliable but required periodic calibration, had high burden on CTs, and offered fixed characteristics.
+# '''Static (electronic) relays''' (1960s–1990s) —transistor and operational amplifier circuits. Faster reset times and lower CT burden, but susceptible to electromagnetic interference and component drift.
+# '''Digital relays''' (1980s–2000s) — Microprocessor-based with analog-to-digital conversion (ADC) and digital signal processing. Introduced self-monitoring and multiple setting groups.
+# '''Numerical relays (IEDs)''' (1990s–present) — Full digital implementation with multiple protection functions in one device, [[IEC 61850]] communication, programmable logic, and advanced algorithms.
+
+== Types by protection function ==
+
+Protective relays are classified by the ANSI/IEEE standard device function numbers:
+
+{| class="wikitable"
+|-
+! ANSI No. !! Function !! Application
+|-
+| 21 || [[Distance protection|Distance relay]] || Transmission line primary protection; measures impedance to fault
+|-
+| 25 || Synchro-check || Verifies voltage, frequency, and phase angle match before breaker closing
+|-
+| 27 || Undervoltage relay || Load shedding, motor protection, bus transfer schemes
+|-
+| 32 || Directional power relay || Reverse power protection for generators; anti-motoring
+|-
+| 50 || Instantaneous overcurrent || Phase and ground fault detection with no intentional time delay
+|-
+| 51 || Time-overcurrent || [[Overcurrent protection]] with inverse-time characteristic
+|-
+| 59 || Overvoltage relay || Protection against sustained overvoltage conditions
+|-
+| 67 || Directional overcurrent || Overcurrent with current direction supervision
+|-
+| 81 || Frequency relay || Under/overfrequency load shedding and generation tripping
+|-
+| 87 || [[Differential protection|Differential relay]] || Unit protection for transformers, generators, busbars, and lines
+|-
+| 50BF/62BF || Breaker failure || Detects failure of circuit breaker to interrupt fault current
+|}
+
+== Numerical relay architecture ==
+
+A modern numerical relay processes signals through a well-defined pipeline:
+
+# '''Analog input module''' — Accepts 1 A / 5 A currents and 100–120 V voltages from instrument transformers. Anti-aliasing low-pass filtering.
+# '''ADC''' — Samples at rates of 12–64 samples per cycle (600–3,200 Hz at 50 Hz). Resolution typically 16 bits.
+# '''DSP (Digital Signal Processor)''' — Performs [[Fourier transform|Discrete Fourier Transform (DFT)]] to estimate phasor magnitude and angle from sampled data.
+# '''Protection logic''' — Compares estimated quantities against settings; implements timers, counters, and logic gates.
+# '''Output module''' — Energizes trip coils, closes alarm contacts, and drives local/remote indicators.
+
+== Protection algorithms ==
+
+=== Fourier-based phasor estimation ===
+The fundamental-frequency phasor is extracted via the DFT:
+
+:<math>\mathbf{I} = \frac{\sqrt{2}}{N} \sum_{k=0}^{N-1} i[k] \, e^{-j \frac{2\pi k}{N}}</math>
+
+where <math>N</math> is the number of samples per cycle and <math>i[k]</math> is the sampled current waveform. The magnitude <math>|\mathbf{I}|</math> and phase angle <math>\angle\mathbf{I}</math> are then used by protection functions.
+
+=== Symmetrical components ===
+Unbalanced conditions are analyzed via the [[Fortescue transform]]:
+
+:<math>\begin{bmatrix} \mathbf{I}_0 \\ \mathbf{I}_1 \\ \mathbf{I}_2 \end{bmatrix} = \frac{1}{3} \begin{bmatrix} 1 & 1 & 1 \\ 1 & a & a^2 \\ 1 & a^2 & a \end{bmatrix} \begin{bmatrix} \mathbf{I}_A \\ \mathbf{I}_B \\ \mathbf{I}_C \end{bmatrix}</math>
+
+where <math>a = e^{j120^\circ} = -\frac{1}{2} + j\frac{\sqrt{3}}{2}</math>. Zero-sequence current detection is essential for earth-fault protection.
+
+== Settings and coordination ==
+
+Relay settings are derived from power system studies:
+
+* '''Short-circuit study''' — Determines maximum and minimum fault currents to set pickup thresholds and ensure sensitivity.
+* '''Load flow study''' — Establishes maximum load currents to avoid spurious tripping.
+* '''Coordination study''' — Time-current characteristic curves are overlaid on log-log plots (time on vertical axis, current on horizontal) to verify grading margins between successive relays.
+
+== Communication capabilities ==
+
+Modern numerical relays employ [[IEC 61850]] for substation automation:
+
+* '''GOOSE (Generic Object Oriented Substation Event)''' — Peer-to-peer messaging for high-speed protection schemes (inter-tripping, breaker failure initiation, busbar blocking). Latency < 4 ms per IEC 61850-5 Class P2/P3.
+* '''MMS (Manufacturing Message Specification)''' — Client-server communication for SCADA data exchange, setting changes, and disturbance record retrieval.
+* '''Sampled Values (SV)''' — Streaming of digitized CT/VT measurements for process bus architectures (IEC 61850-9-2).
+
+== Testing ==
+
+Relay testing verifies correct operation:
+
+* '''Secondary injection''' — Programmable test sets inject simulated currents and voltages into relay terminals. Steady-state and transient tests validate pickup, timing, and characteristic curves.
+* '''End-to-end testing''' — GPS-synchronized test sets inject at both ends of a protected line to validate communication-assisted schemes (POTT, DCB, line differential).
+* '''Dynamic (playback) testing''' — COMTRADE files from [[electromagnetic transient program|EMTP]] simulations are played back through the relay to assess performance under realistic fault transients.
+
+== See also ==
+{{Portal|Energy}}
+* [[Power system protection]]
+* [[Overcurrent protection]]
+* [[Differential protection]]
+* [[Distance protection]]
+* [[Circuit breaker]]
+* [[Instrument transformer]]
+* [[IEC 61850]]
+* [[SCADA]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]

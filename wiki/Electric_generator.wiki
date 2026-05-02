@@ -1,0 +1,165 @@
+{{Short description|Device that converts mechanical energy into electrical energy via electromagnetic induction}}
+{{Infobox physical quantity
+| name = Electric generator
+| image = 
+| caption = An electric generator converts [[mechanical energy]] into [[electrical energy]] using [[electromagnetic induction]], producing [[alternating current]] or [[direct current]] depending on design.
+| symbols = <math>P</math> (real power in W), <math>S</math> (apparent power in VA), <math>V</math> (terminal voltage in V), <math>f</math> (frequency in Hz)
+| SI_unit = volt-ampere (VA) for apparent power, watt (W) for real power
+}}
+
+'''Electric generator''' is a device that converts [[mechanical energy]] (from a prime mover such as a [[steam turbine]], [[gas turbine]], [[water turbine]], or [[wind turbine]]) into [[electrical energy]] through the principle of [[electromagnetic induction]]. Generators provide nearly all the [[electric power]] consumed worldwide and form the generation component of every [[electric power system]].
+
+== Operating principle ==
+{{Main|Electromagnetic induction}}
+All electric generators operate on [[Faraday's law of induction]], discovered by [[Michael Faraday]] in 1831. When a conductor moves through a [[magnetic field]], or a changing magnetic field links a stationary conductor, an [[electromotive force]] (EMF) is induced:
+
+:<math>\mathcal{E} = -N\frac{d\Phi}{dt}</math>
+
+where <math>\mathcal{E}</math> is the induced EMF (V), <math>N</math> is the number of turns, and <math>d\Phi/dt</math> is the rate of change of magnetic flux (Wb/s). The negative sign indicates [[Lenz's law]] — the induced current opposes the change in flux.
+
+In a rotating generator, a [[rotating magnetic field]] is established by either rotating the magnetic poles past stationary armature conductors (conventional AC synchronous generator) or by feeding the armature with current and having the field stationary. The frequency of the generated voltage is determined by the mechanical speed and number of poles:
+
+:<math>f = \frac{n \cdot p}{120}</math>
+
+where <math>n</math> is the rotational speed (rpm) and <math>p</math> is the number of magnetic poles.
+
+The generated EMF per phase in a synchronous machine is:
+
+:<math>E = 4.44 \, f \, N_{ph} \, k_w \, \Phi_{\text{max}}</math>
+
+where <math>N_{ph}</math> is the series turns per phase, <math>k_w</math> is the winding factor, and <math>\Phi_{\text{max}}</math> is the flux per pole (Wb).
+
+== Types of generators ==
+
+=== AC generators (alternators) ===
+The vast majority of power system generators are AC [[synchronous generator]]s producing [[three-phase electric power]] at 50 Hz or 60 Hz. In a synchronous generator, the rotor is driven at a precise speed so that the magnetic field rotates in synchronism with the stator field. Two subtypes exist:
+
+* '''Rotating-field type''' — DC excitation is applied to the rotor, which carries the field winding, while the three-phase armature winding is stationary on the stator. This is the standard for large power station generators because it avoids slip rings for the high-power armature circuit.
+* '''Rotating-armature type''' — the armature is on the rotor and the field is stationary. Used only in small alternators where the armature current is modest.
+
+=== Induction generators ===
+An [[induction motor|induction generator]] is an [[asynchronous machine]] operated above synchronous speed so that the [[slip (electrical)|slip]] <math>s < 0</math>. It draws reactive power from the grid for excitation and is therefore not capable of stand-alone operation without a capacitor bank. Widely used in [[wind turbine]] applications where variable speed capability is advantageous.
+
+=== DC generators ===
+A '''dynamo''' is a DC generator that uses a [[commutator (electric)|commutator]] to rectify the AC induced in the rotating armature. Historically the first electrical generators capable of delivering power for industry, they have been largely superseded by solid-state rectifiers fed from AC alternators. The generated EMF in a DC machine is:
+
+:<math>E_a = \frac{p \, Z \, n \, \Phi}{60 \, a}</math>
+
+where <math>Z</math> is the total number of armature conductors and <math>a</math> is the number of parallel paths.
+
+== Synchronous generator construction ==
+
+=== Stator (armature) ===
+The stator core is built from laminated [[silicon steel]] sheets (0.35–0.5 mm thick) to minimize [[eddy current]] losses. The three-phase distributed winding is housed in slots and connected in [[three-phase electric power|star (Y)]] — with the neutral usually grounded through a [[earthing system|grounding transformer or resistor]] — or occasionally in delta (Δ) for lower-voltage machines.
+
+=== Rotor (field) ===
+Two rotor constructions are used depending on speed:
+
+{| class="wikitable"
+|-
+! Type !! Construction !! Speed range !! Application
+|-
+| Salient pole || Projecting poles with concentrated field coils || Low speed (≤1,500 rpm) || [[Hydroelectricity|Hydro]] generators (tens to hundreds of rpm)
+|-
+| Cylindrical (turbo) || Slotted cylindrical steel forging with distributed field winding || High speed (3,000/3,600 rpm) || [[Thermal power station|Thermal]] and [[nuclear power plant|nuclear]] turbine generators
+|}
+
+Salient-pole machines typically have damper (amortisseur) windings — copper bars embedded in the pole faces and shorted at both ends — to damp oscillations and provide starting torque when the machine is used as a motor for pump-storage schemes.
+
+== Excitation systems ==
+Excitation supplies DC current to the rotor field winding to establish the magnetic flux. Modern systems include:
+
+* '''Brushless excitation''' — a shaft-mounted AC exciter (permanent-magnet pilot exciter + main exciter) with rotating [[rectifier]]s, eliminating brushes and slip rings. The AVR (automatic voltage regulator) controls the exciter field current.
+* '''Static excitation''' — thyristor-controlled rectifiers fed from either the generator terminals or an auxiliary source, supplying the rotor through slip rings. Faster response but requires brushes.
+* '''DC excitation''' — a separate DC generator (exciter) directly coupled to the shaft; now largely obsolete except in legacy installations.
+
+The AVR regulates terminal voltage by adjusting excitation current:
+
+:<math>V_t = \sqrt{(E - X_d I_d)^2 + (X_q I_q)^2}</math>
+
+where <math>E</math> is the internal EMF behind synchronous reactance, <math>X_d</math> and <math>X_q</math> are direct- and quadrature-axis synchronous reactances, and <math>I_d</math>, <math>I_q</math> are the corresponding current components.
+
+== Generator ratings and capability curve ==
+Large generators are rated by:
+
+{| class="wikitable"
+|-
+! Parameter !! Symbol !! Unit !! Typical range (large units)
+|-
+| Apparent power || <math>S</math> || MVA || 50–1,200 MVA
+|-
+| Real power || <math>P</math> || MW || 40–1,000+ MW
+|-
+| Terminal voltage || <math>V_t</math> || kV || 10.5–27 kV
+|-
+| Power factor || <math>\cos\phi</math> || — || 0.80–0.95 (lagging)
+|-
+| Frequency || <math>f</math> || Hz || 50 or 60
+|}
+
+The '''generator capability curve''' (P–Q diagram) defines the safe operating region in the complex power plane. It is bounded by:
+
+# Stator current limit (MVA rating) — a semicircle: <math>P^2 + Q^2 \le S_{\text{rated}}^2</math>
+# Rotor (field) current limit — a circle centered on the reactive axis
+# Steady-state stability limit — the theoretical pull-out point
+# Minimum excitation (underexcitation) limit — to prevent loss of synchronism and stator end-iron overheating
+
+== Synchronization to the grid ==
+{{Main|Synchronization (alternating current)}}
+Before a generator can be connected to the [[electrical grid]], the following conditions must be satisfied at the instant of breaker closing:
+
+# Voltage magnitude match: <math>V_{\text{gen}} \approx V_{\text{grid}}</math>
+# Frequency match: <math>f_{\text{gen}} \approx f_{\text{grid}}</math>
+# Phase sequence identical (checked once at commissioning)
+# Phase-angle coincidence: <math>\Delta\phi \approx 0</math>
+
+Synchronization is performed automatically by a synchro-check relay (ANSI 25) or manually using a synchroscope and voltmeters. Improper synchronization can cause severe mechanical shock, winding damage, and system disturbances.
+
+== Generator protection overview ==
+Large generators require comprehensive [[power system protection|protection]] schemes covering:
+
+* [[Differential protection]] (ANSI 87G) — for stator winding phase-to-phase and phase-to-ground faults
+* Stator earth-fault protection (ANSI 64G/59N) — 95% or 100% coverage
+* Loss-of-field protection (ANSI 40) — detects under-excitation conditions
+* Reverse power (ANSI 32) — prevents motoring of the generator
+* Overcurrent and overload (ANSI 51/49)
+* Over/undervoltage and over/underfrequency (ANSI 27/59, 81)
+* Negative-sequence protection (ANSI 46) — for unbalanced loading
+
+== Applications ==
+Electric generators are deployed in diverse power generation contexts:
+
+* '''Thermal (fossil-fuel) plants''' — synchronous turbo-generators, typically 200–1,000 MW, 2-pole or 4-pole, steam turbine driven
+* '''Nuclear plants''' — large 4-pole synchronous generators, 600–1,600 MW, driven by steam turbines at 1,500/1,800 rpm
+* '''Hydroelectric plants''' — salient-pole synchronous generators, vertical or horizontal shaft, low speed (60–750 rpm), many poles
+* '''Wind turbine generators (WTGs)''' — doubly-fed induction generators (DFIGs) or permanent-magnet synchronous generators (PMSG), variable speed, with power electronic converters
+* '''Gas turbine generators''' — 2-pole cylindrical rotor, 10–400 MW, simple or combined cycle
+* '''Diesel generator sets''' — standby or off-grid, typically 5 kVA–20 MVA
+
+== Standards ==
+Key international standards for electric generators include:
+
+* '''IEC 60034''' series — Rotating electrical machines (all parts)
+* '''GB 755''' — Rotating electrical machines — Rating and performance (Chinese national standard)
+* '''IEEE Std C50.13''' — Cylindrical-rotor 50 Hz and 60 Hz synchronous generators
+* '''IEEE Std C50.12''' — Salient-pole 50 Hz and 60 Hz synchronous generators
+* '''NEMA MG 1''' — Motors and generators
+
+== See also ==
+{{Portal|Energy}}
+* [[Electromagnetic induction]]
+* [[Faraday's law of induction]]
+* [[Synchronous generator]]
+* [[Electric motor]]
+* [[Three-phase electric power]]
+* [[Electric power system]]
+* [[Electric power]]
+* [[Power factor]]
+* [[Induction motor]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]
+[[Category:Electrical generators]]

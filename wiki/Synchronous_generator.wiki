@@ -1,0 +1,163 @@
+{{Short description|AC generator whose rotor rotates at synchronous speed, producing electric power at grid frequency}}
+{{Infobox physical quantity
+| name = Synchronous generator
+| image = 
+| caption = A synchronous generator converts mechanical power to three-phase AC electrical power, with its rotor magnetically locked to the rotating stator field.
+| symbols = <math>P</math> (active power in W), <math>Q</math> (reactive power in var), <math>\delta</math> (load angle), <math>E_f</math> (excitation EMF), <math>X_s</math> (synchronous reactance)
+| SI_unit = [[watt]] (W) for active power, [[volt-ampere]] (VA) for apparent power, [[volt-ampere reactive|var]] for reactive power
+}}
+
+'''Synchronous generator''', also known as an '''alternator''', is an [[electric generator|AC generator]] in which the [[rotor (electric)|rotor]] rotates at a speed precisely synchronized with the [[rotating magnetic field]] produced by [[three-phase electric power|three-phase]] [[electric current|currents]] in the [[stator]] windings. The synchronous speed <math>n_s</math> is determined by the supply [[frequency]] <math>f</math> and the number of magnetic poles <math>P</math>:
+
+:<math>n_s = \frac{120\,f}{P}</math>
+
+where <math>n_s</math> is in revolutions per minute (rpm), <math>f</math> is in [[hertz]] (Hz), and <math>P</math> is the number of poles (must be even). For a 2-pole machine at 50 Hz, <math>n_s = 3000</math> rpm; at 60 Hz, <math>n_s = 3600</math> rpm. Four-pole machines run at 1500/1800 rpm respectively.
+
+Synchronous generators are the primary source of [[electric power]] in utility grids, converting mechanical energy from [[steam turbine]]s, [[gas turbine]]s, [[water turbine]]s, and [[wind turbine]]s into electrical energy.
+
+== Operating principle ==
+{{Main|Electromagnetic induction}}
+The operating principle is based on [[Faraday's law of induction]]. A DC [[excitation (electrical)|excitation]] current <math>I_f</math> flowing in the rotor field winding produces a steady magnetic flux <math>\Phi_f</math>. When the rotor is driven by a [[prime mover]], this flux sweeps past the three-phase stator windings, inducing a sinusoidal [[electromotive force]] (EMF) in each phase winding:
+
+:<math>E_f = 4.44\, f\, N\, \Phi_f\, k_w</math>
+
+where <math>N</math> is the number of series turns per phase, <math>\Phi_f</math> is the flux per pole (in [[weber (unit)|webers]]), and <math>k_w</math> is the winding factor (typically 0.85–0.95, accounting for distribution and pitch factors).
+
+The three induced EMFs are displaced by 120 electrical degrees, producing a balanced [[three-phase electric power|three-phase]] output:
+
+:<math>e_a(t) = E_m \sin(\omega t)</math>
+:<math>e_b(t) = E_m \sin(\omega t - 120^\circ)</math>
+:<math>e_c(t) = E_m \sin(\omega t + 120^\circ)</math>
+
+== Construction ==
+
+=== Cylindrical-rotor (turbo-generator) ===
+Used for high-speed applications (2-pole: 3000/3600 rpm; 4-pole: 1500/1800 rpm). The rotor is a solid forged steel cylinder with slots machined for the field winding. Typically driven by [[steam turbine]]s or [[gas turbine]]s in thermal power plants. Diameter is limited by centrifugal stress (typically ≤ 1.2 m for 3000 rpm). Rotor cooling may use hydrogen at 2–6 bar for machines above 100 MVA.
+
+=== Salient-pole generator ===
+Used for low-speed applications (typically 75–750 rpm) driven by [[water turbine|hydro turbines]]. The rotor has projecting (salient) poles with concentrated field windings. The large diameter (up to 15 m or more) accommodates many poles (12–100+). Air-gap flux distribution is non-sinusoidal, introducing saliency effects modeled by [[two-axis theory|d-q axis theory]] with direct-axis reactance <math>X_d</math> and quadrature-axis reactance <math>X_q</math>.
+
+{| class="wikitable"
+|-
+! Feature !! Cylindrical rotor !! Salient pole
+|-
+| Speed || 1500–3600 rpm || 50–750 rpm
+|-
+| Prime mover || Steam, gas turbine || Hydro turbine
+|-
+| Rotor diameter || ≤ 1.2 m || Up to 15 m+
+|-
+| Number of poles || 2 or 4 || 12–100+
+|-
+| Air gap || Uniform || Non-uniform
+|-
+| <math>X_d / X_q</math> ratio || ≈ 1.0–1.1 || 1.1–2.0
+|-
+| Cooling || H<sub>2</sub> or air || Air or direct water
+|}
+
+== Excitation systems ==
+
+* '''Brushless excitation''' — a pilot exciter (PMG) feeds a main AC exciter on the same shaft; the exciter output is rectified by [[rotating diodes]] mounted on the rotor, eliminating [[brush (electric)|brushes]] and [[slip ring]]s. Dominant in modern large generators.
+* '''Static excitation''' — DC current is supplied to the rotor field winding through slip rings and brushes from a [[rectifier|thyristor rectifier]] fed from the generator terminals or an auxiliary source. Fast response; allows [[power system stabilizer|PSS]] injection.
+* '''DC exciter (legacy)''' — a separate DC generator on the shaft; largely obsolete in new installations.
+
+== Phasor diagram and equivalent circuit ==
+
+For a cylindrical-rotor machine (neglecting saturation and armature resistance), the per-phase [[phasor]] equation is:
+
+:<math>\bar{E}_f = \bar{V}_t + j\bar{I}_a X_s</math>
+
+where <math>\bar{E}_f</math> is the excitation EMF (internal voltage), <math>\bar{V}_t</math> is the terminal voltage, <math>\bar{I}_a</math> is the armature current, and <math>X_s</math> is the synchronous reactance (sum of armature leakage reactance and armature reaction reactance).
+
+The load angle <math>\delta</math> is the electrical angle by which <math>\bar{E}_f</math> leads <math>\bar{V}_t</math>. It is a critical parameter for stability.
+
+== Power-angle characteristic ==
+
+For a cylindrical-rotor machine connected to an [[infinite bus]] (constant voltage <math>V_t</math>), the three-phase active power is:
+
+:<math>P = \frac{3\,E_f V_t}{X_s} \sin\delta</math>
+
+The maximum (steady-state stability limit) occurs at <math>\delta = 90^\circ</math>:
+
+:<math>P_{\text{max}} = \frac{3\,E_f V_t}{X_s}</math>
+
+For salient-pole machines, an additional reluctance torque term appears due to <math>X_d \neq X_q</math>:
+
+:<math>P = \frac{3\,E_f V_t}{X_d}\sin\delta + \frac{3\,V_t^2}{2}\left(\frac{1}{X_q} - \frac{1}{X_d}\right)\sin 2\delta</math>
+
+The reactive power is:
+
+:<math>Q = \frac{3\,E_f V_t}{X_s}\cos\delta - \frac{3\,V_t^2}{X_s}</math>
+
+== Synchronous reactance and short-circuit ratio ==
+
+The '''synchronous reactance''' <math>X_s</math> (or <math>X_d</math> in salient-pole machines) is a key parameter. The '''short-circuit ratio''' (SCR) is defined as:
+
+:<math>\text{SCR} = \frac{I_{f,\text{OC at rated voltage}}}{I_{f,\text{SC at rated current}}} = \frac{1}{X_d \text{ (saturated, pu)}}</math>
+
+A higher SCR (lower <math>X_d</math>) means a "stiffer" machine with better voltage regulation and higher stability margins, but a physically larger and more expensive design. Typical SCR values: 0.45–0.7 for turbo-generators, 0.9–1.2 for hydro-generators.
+
+== Parallel operation ==
+{{Main|Synchronization (alternating current)}}
+Connecting a synchronous generator to an energized [[electrical grid|grid]] requires synchronization — matching the following conditions before closing the [[circuit breaker]]:
+
+# '''Voltage magnitude''' — generator terminal voltage must equal bus voltage
+# '''Frequency''' — generator frequency must match system frequency (within ~0.1–0.2 Hz)
+# '''Phase sequence''' — must be identical (L1, L2, L3)
+# '''Phase angle''' — voltage waveforms must be in phase coincidence (< 5°–10° difference)
+
+Modern [[power plant]]s use automatic synchronizers. Manual synchronization with synchroscope and synchronizing lamps is still used in smaller installations.
+
+== Capability curve ==
+The generator capability (D-curve) defines the allowable operating region in the P-Q plane, bounded by:
+
+* '''Rotor (field) heating limit''' — maximum field current, a circle centered on the Q-axis
+* '''Stator (armature) heating limit''' — maximum armature current <math>I_a</math>, a circle centered at the origin
+* '''Steady-state stability limit''' — theoretical limit at <math>\delta = 90^\circ</math>, typically de-rated with a 10–15° margin
+* '''Under-excitation limit''' — minimum excitation to maintain stability and avoid stator end-iron overheating
+* '''Prime mover limit''' — maximum mechanical power from the turbine
+
+== Generator models ==
+
+{| class="wikitable"
+|-
+! Model !! Reactances !! Time constants !! Application
+|-
+| Classical || <math>X'_d</math> || — || First-swing transient stability
+|-
+| Transient || <math>X_d, X'_d, X_q</math> || <math>T'_{do}</math> || Multi-swing stability, relay testing
+|-
+| Subtransient || <math>X''_d, X''_q</math> added || <math>T''_{do}</math> added || Short-circuit studies, EMTP-type simulations
+|}
+
+The subtransient model is essential for [[short circuit|short-circuit]] calculations, especially for determining the initial symmetrical current <math>I''_k</math> and peak current <math>i_p</math>.
+
+== Applications ==
+
+* '''Thermal power plants''' — 2-pole or 4-pole cylindrical-rotor turbo-generators, rated 50–1,800 MVA, at 3000/3600 rpm or 1500/1800 rpm
+* '''Hydroelectric plants''' — salient-pole generators, rated 1–800 MVA, at 75–750 rpm (e.g., [[Three Gorges Dam]]: 700 MW, 75 rpm, 80 poles)
+* '''Gas turbine generators''' — often 2-pole cylindrical rotor, 10–400 MVA, fast-start capability
+* '''Wind turbine generators''' — direct-drive [[permanent magnet synchronous generator]] (PMSG) eliminates gearbox; full-power converter decouples machine frequency from grid frequency
+* '''Synchronous condensers''' — generators operated without a prime mover, used for [[power factor|reactive power compensation]] and inertia support
+
+== See also ==
+{{Portal|Energy}}
+* [[Electric generator]]
+* [[Electric motor]]
+* [[Three-phase electric power]]
+* [[Power system protection]]
+* [[Power factor]]
+* [[Electromagnetic induction]]
+* [[Electric power system]]
+* [[Electrical substation]]
+* [[Short circuit]]
+* [[Switchgear]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]
+[[Category:Electrical generators]]
+[[Category:Electric motors]]

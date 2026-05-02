@@ -1,0 +1,236 @@
+{{Short description|AC motor in which rotor current is produced by electromagnetic induction and rotor speed is less than synchronous speed}}
+{{Infobox physical quantity
+| name = Induction motor
+| image = 
+| caption = The induction (asynchronous) motor is the most widely used industrial motor, where a rotating stator field induces rotor currents that produce torque — all without electrical connections to the rotor.
+| symbols = <math>s</math> (slip), <math>n_s</math> (synchronous speed in rpm), <math>n_r</math> (rotor speed in rpm), <math>T</math> (torque in N·m), <math>f_r</math> (rotor frequency in Hz)
+| SI_unit = dimensionless (slip), rpm (speed), newton-metre (N·m, torque), hertz (Hz, rotor frequency)
+}}
+
+'''Induction motor''' (also called '''asynchronous motor''') is an [[alternating current|AC]] [[electric motor]] in which the [[electric current]] in the rotor needed to produce [[torque]] is obtained by [[electromagnetic induction]] from the [[magnetic field]] of the stator winding, rather than by direct electrical connection through a [[commutator (electric)|commutator]] or [[slip ring]]s. The rotor rotates at a speed less than the [[synchronous speed]], and the fractional difference is defined as slip. Induction motors account for approximately 70% of all industrial electrical load worldwide.
+
+== Operating principle ==
+When a balanced [[three-phase electric power|three-phase]] supply is connected to the stator winding, a [[rotating magnetic field]] is produced. The synchronous speed of this field is determined by the [[utility frequency|supply frequency]] and the number of magnetic poles:
+
+:<math>n_s = \frac{120 f}{P}</math>
+
+where <math>f</math> is the supply frequency (Hz) and <math>P</math> is the number of poles (an even integer). For a 50 Hz, 4-pole machine, <math>n_s = 1{,}500</math> rpm; for 60 Hz, <math>n_s = 1{,}800</math> rpm.
+
+The rotating stator field sweeps past the rotor conductors at relative speed <math>n_s - n_r</math>, inducing an EMF and consequently currents in the rotor by [[Faraday's law of induction]]. The induced rotor currents interact with the stator field to produce a torque according to the [[Lorentz force]]:
+
+:<math>\mathbf{F} = I_\text{rotor} \, \mathbf{l} \times \mathbf{B}_\text{stator}</math>
+
+The direction of torque is such that the rotor chases the rotating field. However, if the rotor were to reach synchronous speed (<math>n_r = n_s</math>), there would be no relative motion, no induced EMF, no rotor current, and consequently zero torque. Thus the rotor must always slip behind the stator field for continuous torque production.
+
+== Construction ==
+
+=== Stator ===
+The stator of an induction motor is identical in principle to that of a three-phase [[electric generator|synchronous generator]] or [[power transformer|transformer]]. It comprises:
+
+* A laminated [[silicon steel]] core with slots to house the windings and minimize eddy current losses
+* A three-phase distributed winding, typically connected in delta (Δ) for low-voltage motors or star (Y) for medium-voltage machines
+* The winding is designed to produce a near-sinusoidal air-gap flux distribution, minimizing harmonic content
+
+=== Squirrel-cage rotor ===
+The '''squirrel-cage rotor''' is the most common type, consisting of:
+
+# '''Rotor bars''' — aluminium or copper conductors embedded in the rotor slots. Aluminium is die-cast for small to medium motors; copper bars are fabricated for large and high-efficiency machines.
+# '''End rings''' — short-circuit rings at both ends that electrically connect all bars.
+# '''Skewing''' — the rotor slots are often skewed (typically by one stator slot pitch) to reduce [[harmonic]] torques, acoustic noise, and cogging.
+
+The equivalent circuit rotor resistance and leakage reactance are dominated by the bar and end-ring geometry. Deep-bar and double-cage rotors are used to improve starting characteristics.
+
+=== Wound-rotor (slip-ring) ===
+The wound-rotor has a three-phase distributed winding, connected in star, with the three terminals brought out via [[slip ring]]s and brushes. External resistors can be inserted in the rotor circuit to:
+
+* Increase starting torque while limiting starting current
+* Provide limited speed control (below synchronous)
+* Improve [[power factor]] during starting
+
+After starting, the brushes may be lifted and the rings short-circuited (slip-ring shorting gear) for normal running with minimum losses.
+
+== Slip and rotor frequency ==
+Slip <math>s</math> is the fundamental state variable of an induction motor:
+
+:<math>s = \frac{n_s - n_r}{n_s}</math>
+
+At standstill: <math>s = 1</math>. At synchronous speed: <math>s = 0</math>. At normal full load: <math>s \approx 0.01{-}0.06</math> (1–6%).
+
+The frequency of the induced rotor EMF and current is the slip frequency:
+
+:<math>f_r = s \cdot f</math>
+
+At standstill, rotor frequency equals the line frequency; at 5% slip on a 50 Hz supply, <math>f_r = 2.5</math> Hz. The low rotor frequency during normal running minimizes rotor iron losses, so the rotor core is not laminated in small machines.
+
+The induced rotor EMF at standstill (<math>E_{20}</math>) is related to the running EMF by:
+
+:<math>E_2 = s \cdot E_{20}</math>
+
+== Equivalent circuit ==
+The per-phase steady-state equivalent circuit of a polyphase induction motor resembles that of a [[transformer]], with a variable load resistance representing the mechanical output:
+
+{| class="wikitable"
+|-
+! Component !! Symbol !! Physical meaning
+|-
+| Stator resistance || <math>R_1</math> || Copper loss in stator winding
+|-
+| Stator leakage reactance || <math>X_1</math> || Leakage flux not crossing the air gap
+|-
+| Magnetizing reactance || <math>X_m</math> || Mutual flux across the air gap
+|-
+| Core-loss resistance || <math>R_c</math> || Hysteresis and eddy current losses in the core
+|-
+| Rotor resistance (referred) || <math>R_2'</math> || Rotor copper loss
+|-
+| Rotor leakage reactance (referred) || <math>X_2'</math> || Rotor leakage flux
+|-
+| Load variable resistance || <math>R_2' (1-s)/s</math> || Represents mechanical power developed
+|}
+
+The total impedance seen from the stator terminals is:
+
+:<math>\mathbf{Z} = R_1 + jX_1 + \frac{jX_m \left(\frac{R_2'}{s} + jX_2'\right)}{jX_m + \frac{R_2'}{s} + jX_2'}</math>
+
+The current flowing in the rotor branch (<math>R_2'/s + jX_2'</math>) is what produces torque. As slip increases (load increases), the effective rotor resistance <math>R_2'/s</math> decreases, drawing more current and developing more torque.
+
+== Torque-speed characteristic ==
+A complete torque-speed curve exhibits four key points:
+
+{| class="wikitable"
+|-
+! Point !! Slip !! Significance
+|-
+| Starting torque <math>T_{st}</math> || <math>s = 1</math> || Torque at standstill; determines ability to start connected load
+|-
+| Pull-up torque <math>T_{pu}</math> || Intermediate (<math>s \approx 0.5{-}0.7</math>) || Minimum torque during acceleration; must exceed load torque to reach operating speed
+|-
+| Breakdown (pull-out) torque <math>T_{\text{max}}</math> || <math>s = s_{\text{max}}</math> || Maximum torque the motor can produce; operation beyond this point causes stall
+|-
+| Full-load torque <math>T_{fl}</math> || <math>s \approx 0.01{-}0.06</math> || Steady-state operating point at rated load
+|}
+
+The developed torque as a function of slip (from the approximate equivalent circuit, neglecting magnetizing branch) is:
+
+:<math>T = \frac{3}{\omega_s} \cdot \frac{V_1^2}{\left(R_1 + \frac{R_2'}{s}\right)^2 + (X_1 + X_2')^2} \cdot \frac{R_2'}{s}</math>
+
+From this, the breakdown slip and maximum torque are:
+
+:<math>s_{\text{max}} = \frac{R_2'}{\sqrt{R_1^2 + (X_1 + X_2')^2}}</math>
+
+:<math>T_{\text{max}} = \frac{3}{2\omega_s} \cdot \frac{V_1^2}{R_1 + \sqrt{R_1^2 + (X_1 + X_2')^2}}</math>
+
+A compact and widely used expression is the '''Kloss formula''', relating torque at any slip to the maximum torque:
+
+:<math>\frac{T}{T_{\text{max}}} = \frac{2}{\dfrac{s}{s_{\text{max}}} + \dfrac{s_{\text{max}}}{s}}</math>
+
+Key observations:
+* <math>T \propto V_1^2</math> — a 10% voltage sag causes a ~19% torque reduction, making induction motors sensitive to voltage dips.
+* <math>T_{\text{max}}</math> is independent of <math>R_2'</math> — rotor resistance affects only the slip at which maximum torque occurs, not its magnitude.
+* Increasing <math>R_2'</math> shifts <math>s_{\text{max}}</math> to higher values, improving starting torque at the expense of lower running efficiency.
+
+== Speed control ==
+Induction motors are inherently near-constant-speed machines, but several control strategies exist:
+
+=== Pole changing ===
+By reconnecting stator winding groups (consequent-pole or Dahlander winding), the number of poles can be changed in a 2:1 ratio, yielding two synchronous speeds (e.g., 1,500/750 rpm for 4/8 poles at 50 Hz). Limited to discrete-step speed control.
+
+=== V/f (volts-per-hertz) control ===
+The most common variable-speed method. To maintain constant flux (<math>\Phi \propto V/f</math>) and avoid saturation, the supply voltage is varied in proportion to frequency:
+
+:<math>\frac{V}{f} = \text{constant}</math>
+
+At low frequencies, a voltage boost compensates for stator resistance drop. This open-loop method is used in general-purpose [[variable-frequency drive]]s (VFDs).
+
+=== Rotor resistance control ===
+Applicable only to wound-rotor motors. External rotor resistance shifts the torque-speed curve, providing speed control below synchronous speed. Inefficient at high slip because slip power <math>s P_g</math> (where <math>P_g</math> is the air-gap power) is dissipated as heat in the external resistors.
+
+=== Slip-energy recovery ===
+An alternative for wound-rotor drives: the slip power is rectified and returned to the supply via an inverter (Kramer or Scherbius system), dramatically improving efficiency. Modern implementations use back-to-back converters (doubly-fed configuration).
+
+== Starting methods ==
+Because the starting current of an induction motor is 5–8 times the full-load current at full voltage, reduced-voltage starting is often required:
+
+{| class="wikitable"
+|-
+! Method !! Starting current (× DOL) !! Starting torque (× DOL) !! Typical maximum size
+|-
+| DOL (Direct-On-Line) || 1.0 || 1.0 || Unlimited (grid-permitting)
+|-
+| Star-delta (Y/Δ) || 0.33 || 0.33 || ~100 kW
+|-
+| Autotransformer || 0.40–0.64–0.80 || 0.40–0.64–0.80 || Large motors
+|-
+| Soft starter || Adjustable ramp || Adjustable || Up to several MW
+|-
+| VFD start || ≤1.0–1.1 || Up to 1.5 (with vector control) || Any size
+|}
+
+== Motor selection: NEMA and IEC design classes ==
+The torque-speed characteristic is tailored for different load requirements:
+
+{| class="wikitable"
+|-
+! NEMA Design !! IEC Equivalent !! Starting torque !! Starting current !! Breakdown torque !! Slip !! Typical use
+|-
+| A || N || Normal || Normal || High || Low (≤5%) || Fans, pumps, where starting not critical
+|-
+| B || N || Normal || Low || High || Low (≤5%) || General-purpose — most common
+|-
+| C || H || High || Low || Normal || Low || Compressors, conveyors with high starting torque
+|-
+| D || — || Very high || Low || — || High (5–13%) || Punch presses, hoists, high-inertia flywheel loads
+|}
+
+NEMA Design A and B motors are the most common in North America; IEC Design N motors are the international equivalent. Design D rotors have higher-resistance bars to shift <math>s_{\text{max}}</math> above 1, guaranteeing high starting torque.
+
+== Single-phase induction motors ==
+Single-phase windings produce a pulsating (not rotating) field, equivalent to two counter-rotating fields. At standstill these produce equal and opposite torques, so the motor is not self-starting. Common starting methods are:
+
+* '''Split-phase''' — an auxiliary starting winding (higher resistance) displaced in space by 90° creates a temporary rotating field. A centrifugal switch disconnects it at ~75% speed.
+* '''Capacitor-start''' — a capacitor in series with the starting winding provides larger phase displacement and higher starting torque.
+* '''Capacitor-start capacitor-run''' — two capacitors optimize both starting and running characteristics.
+* '''Shaded-pole''' — a shorted copper turn (shading coil) on part of each pole creates a weak rotating field; used in small fans and low-power applications.
+
+== Applications ==
+Induction motors dominate industrial motive power, with major applications including:
+
+* '''Pumps''' — centrifugal, submersible, and positive-displacement; water and wastewater, irrigation, oil pipelines
+* '''Fans and blowers''' — HVAC systems, cooling towers, boiler induced- and forced-draft
+* '''Compressors''' — air compressors, refrigeration and chiller compressors, gas compression
+* '''Conveyors and elevators''' — belt, screw, and bucket conveyors; passenger and freight elevators
+* '''Crushers and mills''' — cement, mining, and aggregate processing
+* '''Machine tools''' — lathes, drills, milling machines, grinding wheels
+* '''Household appliances''' — washing machines, dishwashers, refrigerators, air conditioners
+
+Globally, induction motors account for roughly 70% of industrial electricity consumption and are the single largest category of electrical load on [[electric power system|power systems]].
+
+== Standards ==
+* '''IEC 60034-1''' — Rating and performance
+* '''IEC 60034-2-1''' — Standard methods for determining losses and efficiency from tests
+* '''IEC 60034-30-1''' — Efficiency classes (IE1–IE4)
+* '''NEMA MG 1''' — Motors and generators
+* '''IEEE Std 112''' — Test procedure for polyphase induction motors and generators
+* '''GB 18613''' — Minimum allowable values of energy efficiency and grades for motors (China)
+* '''GB/T 1032''' — Test procedures for three-phase induction motors (China)
+
+== See also ==
+{{Portal|Energy}}
+* [[Electric motor]]
+* [[Three-phase electric power]]
+* [[Power factor]]
+* [[Electric power]]
+* [[Magnetic field]]
+* [[Electromagnetic induction]]
+* [[Faraday's law of induction]]
+* [[Variable-frequency drive]]
+* [[Electric generator]]
+* [[Synchronous motor]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]
+[[Category:Electric motors]]
+[[Category:Induction motors]]

@@ -1,0 +1,25 @@
+{{Short description|19世纪晚期起源于法国的艺术运动，以松散笔触和光线捕捉著称}}
+{{Infobox art movement
+| name = 印象派
+| image =
+| caption =
+| yearsactive = 约1860年代—1880年代（晚期延续至20世纪初）
+| country = [[法国]]（[[巴黎]]）
+| majorfigures = [[Claude_Monet|克劳德·莫奈]]、[[Pierre-Auguste_Renoir|皮埃尔-奥古斯特·雷诺阿]]、[[Edgar_Degas|埃德加·德加]]、[[Berthe_Morisot|贝尔特·莫里索]]、[[Camille_Pissarro|卡米耶·毕沙罗]]、[[Alfred_Sisley|阿尔弗雷德·西斯莱]]
+| influences = [[Eugène_Delacroix|德拉克罗瓦]]、[[JMW_Turner|透纳]]、[[Édouard_Manet|马奈]]、[[Gustave_Courbet|库尔贝]]、日本[[浮世绘]]
+| influenced = [[Post-Impressionism|后印象派]]、[[现代艺术]]全般
+}}
+'''印象派'''（Impressionism）是约1860年代至1880年代在[[法国]][[巴黎]]兴起的一场革命性艺术运动。该运动从根本上改变了此后西方绘画的走向——印象派画家抛弃了传统的"描绘事物本身"的做法，而致力于捕捉'''光在特定瞬间落在物体上的视觉印象'''。他们以快速的、可见的笔触，明亮的纯色并在户外（plein air）直接观察与绘制，彻底动摇了[[学院派]]在法国艺术界的统治。
+
+== 起源 ==
+1860年代，一群被官方巴黎沙龙反复拒绝的前卫年轻画家——[[莫奈]]、[[Pierre-Auguste_Renoir|雷诺阿]]、[[巴齐耶]]、[[西斯莱]]——结成画家群体，共同探索新方法以表现视觉真实。1874年他们在摄影师[[纳达尔]]的前工作室举办了第一次独立联展。批评家[[路易·勒鲁瓦]]以莫奈的作品《[[Impression_Sunrise|印象·日出]]》创作了带有讽刺性的标题——"印象派展览"——于是，被用作贬义的"印象派"被画家群体采纳为自我命名的标签。
+
+== 参见 ==
+* [[Claude_Monet|莫奈]]
+* [[Impression_Sunrise|印象·日出]]
+* [[Post-Impressionism|后印象派]]
+* [[Salon_(Paris)|巴黎沙龙]]
+
+[[Category:艺术运动]]
+[[Category:法国绘画]]
+[[Category:19世纪]]

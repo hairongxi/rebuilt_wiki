@@ -1,0 +1,192 @@
+{{Short description|Device that converts electrical energy into mechanical energy, producing torque and rotation}}
+{{Infobox physical quantity
+| name = Electric motor
+| image = 
+| caption = An electric motor converts [[electrical energy]] into [[mechanical energy]] through the interaction of [[magnetic field]]s and current-carrying conductors, producing [[torque]] and [[rotation]].
+| symbols = <math>P</math> (mechanical output power in W), <math>T</math> (torque in N·m), <math>\omega</math> (angular speed in rad/s), <math>\eta</math> (efficiency)
+| SI_unit = watt (W) for power, newton-metre (N·m) for torque
+}}
+
+'''Electric motor''' is a device that converts [[electrical energy]] into [[mechanical energy]] — rotational [[torque]] and speed — through the electromagnetic interaction of [[magnetic field]]s and [[electric current|current]]-carrying conductors. Electric motors are the prime movers of industry, driving [[pump]]s, [[fan (machine)|fans]], [[compressor]]s, [[conveyor system|conveyors]], machine tools, and household appliances. They consume roughly 45% of global electricity, far exceeding any other end-use category.
+
+== Operating principle ==
+The fundamental principle of all electric motors is the [[Lorentz force]] acting on a current-carrying conductor in a magnetic field. For a conductor of length <math>l</math> carrying current <math>I</math> in a magnetic flux density <math>B</math>:
+
+:<math>\mathbf{F} = I \, \mathbf{l} \times \mathbf{B}</math>
+
+The magnitude of the force is <math>F = B I l \sin\theta</math>, where <math>\theta</math> is the angle between the conductor and the field. This force produces torque:
+
+:<math>T = F \cdot r = B I l r \sin\theta</math>
+
+where <math>r</math> is the radius from the axis of rotation to the conductor.
+
+In rotating machines, the interaction is more conveniently expressed through the interaction of stator and rotor magnetic fields. The electromagnetic torque developed is proportional to the product of the two field magnitudes and the sine of the angle between them:
+
+:<math>T = k \, \Phi_s \, \Phi_r \, \sin\delta</math>
+
+where <math>\Phi_s</math> and <math>\Phi_r</math> are the stator and rotor fluxes, and <math>\delta</math> is the torque (load) angle.
+
+The mechanical power output is:
+
+:<math>P = T \cdot \omega = T \cdot \frac{2\pi n}{60}</math>
+
+where <math>\omega</math> is the angular velocity (rad/s) and <math>n</math> is the speed (rpm).
+
+== Types overview ==
+
+{| class="wikitable"
+|-
+! Category !! Type !! Speed characteristic !! Typical applications
+|-
+|rowspan="4"| DC motor || Series || Variable, high starting torque || Traction, cranes, starters
+|-
+| Shunt || Nearly constant speed || Machine tools, fans
+|-
+| Compound || Intermediate characteristic || Elevators, presses
+|-
+| Permanent magnet (PMDC) || Linear speed-torque || Small appliances, automotive
+|-
+|rowspan="3"| AC motor || [[Induction motor|Induction (asynchronous)]] || Slightly below synchronous || Pumps, fans, compressors, conveyors (70% of industrial load)
+|-
+| [[Synchronous motor|Synchronous]] || Exactly synchronous || Constant-speed drives, power factor correction
+|-
+| Universal || High speed, series characteristic || Portable tools, vacuum cleaners
+|}
+
+== Induction motor ==
+{{Main|Induction motor}}
+The '''induction motor''' (also called asynchronous motor) is the workhorse of industry. Power is supplied to the stator, which produces a [[rotating magnetic field]]. This field induces currents in the rotor conductors, and the interaction of rotor current and stator field produces torque. The rotor speed <math>n_r</math> is always less than the synchronous speed <math>n_s</math>; the fractional difference is called [[slip (electrical)|slip]]:
+
+:<math>s = \frac{n_s - n_r}{n_s}</math>
+
+The synchronous speed is determined by the supply frequency and number of poles:
+
+:<math>n_s = \frac{120 f}{P}</math>
+
+where <math>f</math> is the supply frequency (Hz) and <math>P</math> is the number of poles. At standstill (<math>s = 1</math>), the induced rotor EMF and current are at line frequency; at synchronous speed (<math>s = 0</math>), no rotor current flows and no torque is produced.
+
+The developed torque in an induction motor can be expressed as:
+
+:<math>T = \frac{3}{\omega_s} \cdot \frac{V_1^2}{\left(R_1 + \frac{R_2'}{s}\right)^2 + (X_1 + X_2')^2} \cdot \frac{R_2'}{s}</math>
+
+where <math>V_1</math> is the stator phase voltage, <math>R_1</math> and <math>X_1</math> are the stator resistance and leakage reactance, <math>R_2'</math> and <math>X_2'</math> are the rotor resistance and reactance referred to the stator, and <math>\omega_s</math> is the synchronous angular speed.
+
+=== Wound-rotor and squirrel-cage ===
+* '''Squirrel-cage rotor''' — most common type; aluminium or copper bars shorted at both ends by end rings. Robust, simple, and low cost.
+* '''Wound-rotor''' (slip-ring) — three-phase winding connected to slip rings for external resistance insertion. Provides high starting torque with limited current and variable speed capability.
+
+== Synchronous motor ==
+{{Main|Synchronous motor}}
+A '''synchronous motor''' rotates at exactly the synchronous speed, independent of load (up to the pull-out torque limit). Speed is determined solely by:
+
+:<math>n = n_s = \frac{120 f}{P}</math>
+
+Unique to the synchronous motor is its ability to control [[power factor]]. By adjusting the field (excitation) current, the motor can operate at:
+
+* '''Unity power factor''' — minimum stator current for a given load
+* '''Leading power factor''' (over-excited) — behaves like a [[capacitor]], supplying reactive power to the grid
+* '''Lagging power factor''' (under-excited) — absorbs reactive power
+
+This attribute makes over-excited synchronous motors valuable as [[synchronous condenser]]s for [[power factor correction]] in industrial plants and substations.
+
+Synchronous motors require special starting means because they produce zero average starting torque at standstill. Common methods include damper-winding (amortisseur) induction starting and variable-frequency drive starting.
+
+== DC motor ==
+In a DC motor, the [[commutator (electric)|commutator]] and brushes serve as a mechanical inverter, maintaining the correct spatial relationship between armature current and field flux. The speed equation for a DC motor is:
+
+:<math>n = \frac{V_a - I_a R_a}{k \Phi}</math>
+
+where <math>V_a</math> is the armature voltage, <math>I_a</math> is the armature current, <math>R_a</math> is the armature resistance, and <math>\Phi</math> is the field flux.
+
+The back EMF <math>E_b = k \Phi n</math> opposes the applied voltage, and the armature current is:
+
+:<math>I_a = \frac{V_a - E_b}{R_a}</math>
+
+DC motor types are distinguished by the field winding connection:
+
+* '''Series motor''' — field in series with armature; high starting torque, speed varies widely with load. <math>T \propto I_a^2</math> up to saturation.
+* '''Shunt motor''' — field in parallel; nearly constant speed from no load to full load.
+* '''Compound motor''' — combines series and shunt fields for a compromise characteristic.
+* '''PMDC motor''' — permanent-magnet field; linear torque-speed curve.
+
+== Motor starting methods ==
+Starting an AC motor directly on full voltage (DOL — Direct-On-Line) can draw 5–8 times the rated current. Reduced-voltage starting methods include:
+
+{| class="wikitable"
+|-
+! Method !! Starting current !! Starting torque !! Typical usage
+|-
+| DOL || 100% (5–8 × FLC) || 100% || Small motors, stiff supplies
+|-
+| Star-delta (Y/Δ) || 33% of DOL || 33% of DOL || Motors with delta-connected stator, up to ~100 kW
+|-
+| Autotransformer || Adjustable (40%, 65%, 80% taps) || Proportional to voltage^2 || Medium and large motors
+|-
+| Soft starter || Controlled ramp || Adjustable || General purpose, smooth acceleration
+|-
+| VFD (variable-frequency drive) || ≤110% FLC || Full rated torque (vector control) || Variable speed applications
+|}
+
+== Motor protection ==
+Motor protection addresses the key failure modes:
+
+* '''Overload (thermal)''' — ANSI 49; long-time inverse characteristic matching the motor thermal damage curve
+* '''Single-phasing''' — loss of one phase causes excessive negative-sequence current and rapid overheating
+* '''Locked rotor / stall''' — ANSI 51LR; instantaneous or definite-time trip on high current at standstill
+* '''Short circuit''' — ANSI 50; instantaneous overcurrent
+* '''Earth fault''' — ANSI 50G/51G; core-balance CT or residual connection
+* '''Undervoltage''' — ANSI 27; prevents stalling and excessive draw on voltage recovery
+
+== Efficiency classes ==
+The [[International Electrotechnical Commission]] defines efficiency classes in [[IEC 60034]]-30:
+
+{| class="wikitable"
+|-
+! Class !! IEC code !! Approximate efficiency improvement
+|-
+| Standard efficiency || IE1 || Baseline
+|-
+| High efficiency || IE2 || ~2–5% lower losses vs IE1
+|-
+| Premium efficiency || IE3 || ~10–15% lower losses vs IE2
+|-
+| Super premium efficiency || IE4 || ~15–20% lower losses vs IE3
+|}
+
+The Chinese standard '''GB 18613''' mandates minimum efficiency levels for motors sold in China, currently requiring IE3 for motors 0.75–375 kW.
+
+== Applications ==
+Electric motors span an enormous power range from sub-watt (hard disk drives, medical devices) to over 100 MW (LNG compressor drives). Major industrial sectors include:
+
+* '''Pumps''' — centrifugal, positive-displacement; water supply, oil & gas, chemical processing
+* '''Fans and blowers''' — HVAC, cooling towers, boiler draft, mine ventilation
+* '''Compressors''' — reciprocating, screw, centrifugal; refrigeration, air separation, gas pipelines
+* '''Conveyors and material handling''' — mining, ports, manufacturing
+* '''Machine tools''' — lathes, mills, grinders, CNC
+* '''Traction''' — locomotives, trams, electric vehicles
+* '''Household appliances''' — washing machines, refrigerators, air conditioners
+
+== Standards ==
+* '''IEC 60034''' series — Rotating electrical machines (all parts; dimensions, ratings, testing, efficiency)
+* '''GB 18613''' — Minimum allowable values of energy efficiency and energy efficiency grades for motors (China)
+* '''NEMA MG 1''' — Motors and generators (North America)
+* '''IEEE Std 112''' — Standard test procedure for polyphase induction motors and generators
+
+== See also ==
+{{Portal|Energy}}
+* [[Induction motor]]
+* [[Magnetic field]]
+* [[Three-phase electric power]]
+* [[Electric power]]
+* [[Power factor]]
+* [[Electric generator]]
+* [[Electromagnetic induction]]
+* [[Variable-frequency drive]]
+* [[Power system protection]]
+
+== References ==
+{{Reflist|30em}}
+
+[[Category:Electrical engineering]]
+[[Category:Electric power]]
+[[Category:Electric motors]]

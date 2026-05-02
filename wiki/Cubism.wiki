@@ -1,0 +1,25 @@
+{{Short description|20世纪最具革命性的艺术运动，毕加索和布拉克共同创立，彻底颠覆了自文艺复兴以来的单点透视体系}}
+{{Infobox art movement
+| name = 立体主义
+| image =
+| caption =
+| yearsactive = 约1907年—约1919年
+| country = [[法国]]（[[巴黎]]）
+| majorfigures = [[Pablo_Picasso|巴勃罗·毕加索]]、[[Georges_Braque|乔治·布拉克]]、[[Juan_Gris|胡安·格里斯]]
+| influences = [[Paul_Cézanne|塞尚]]、[[非洲雕塑]]、[[伊比利亚雕塑]]
+| influenced = [[Futurism|未来主义]]、[[Constructivism|构成主义]]、[[Abstract_art|抽象艺术]]、[[De_Stijl|风格派]]、20世纪设计
+}}
+'''立体主义'''（Cubism）是1907年至1919年间由[[Pablo_Picasso|巴勃罗·毕加索]]和[[Georges_Braque|乔治·布拉克]]在[[巴黎]]共同创立的一场艺术革命。它被公认是自[[文艺复兴]]以来西方艺术中最具根本性的断裂：立体主义废除了自[[Filippo_Brunelleschi|布鲁内莱斯基]]以来一直作为绘画基础的单点[[透视法]]，代之以将物体"碎裂"为多个几何平面后在二维画面上同时呈现多个视角的全新语言。
+
+== 阶段 ==
+* '''分析立体主义'''（1909–1912年）：将形式分解为网格状、几乎单色（灰、褐、赭色）的几何碎片
+* '''综合立体主义'''（1912–1919年）：引入[[拼贴]]、图案和明亮色彩
+
+== 参见 ==
+* [[Pablo_Picasso|毕加索]]
+* [[Georges_Braque|布拉克]]
+* [[Les_Demoiselles_d'Avignon|亚维农少女]]
+
+[[Category:艺术运动]]
+[[Category:20世纪艺术]]
+[[Category:现代艺术]]

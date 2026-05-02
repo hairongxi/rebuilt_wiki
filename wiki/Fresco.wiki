@@ -1,0 +1,15 @@
+{{Short description|在湿灰泥上施色彩的壁画技法，意大利文艺复兴壁画的基础}}
+{{Infobox technique
+| name = 湿壁画
+| native_name = Fresco (buon fresco)
+| origin = [[古希腊]]（[[米诺斯文明]]已有先例），在[[古罗马]]和[[意大利文艺复兴]]期间高度发展
+| key_artists = [[Giotto|乔托]]、[[马萨乔]]、[[Michelangelo|米开朗基罗]]、[[Raphael|拉斐尔]]
+}}
+'''湿壁画'''（意大利语：'''fresco'''=新鲜；更准确称'''buon fresco'''即"真湿壁画"）是指将颜料（以石灰水或纯水调和）施加于刚刚施加的、仍然湿润的石灰灰泥（intonaco）层之上的绘画技法。灰泥干燥时，其内含的石灰发生碳化反应——Ca(OH)₂ + CO₂ → CaCO₃ + H₂O——将颜料"锁"入自身，使画面成为墙壁不可分离的部分。这一化学键使得湿壁画经得起时间考验——[[庞贝]]和[[文艺复兴]]湿壁画幸存千年。然而它要求画家以极快速度在灰泥干透前工作，无法反复涂抹修改。
+
+== 参见 ==
+* [[Oil_painting|油画]]
+* [[Sistine_Chapel_ceiling|西斯廷天顶画]]
+
+[[Category:绘画技法]]
+[[Category:壁画]]

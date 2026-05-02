@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Wiki Browser — Home{% endblock %}
+{% block content %}
+<div class="disc-home">
+    <h1>📚 Multi-Discipline Wiki Browser</h1>
+    <p class="subtitle">{{ total_pages }} articles across {{ disciplines|length }} disciplines.</p>
+
+    <div class="disc-grid">
+        {% for d in disciplines %}
+        <a href="/?disc={{ d.id }}" class="disc-card">
+            <span class="disc-icon">{{ d.icon }}</span>
+            <span class="disc-name">{{ d.name }}</span>
+            <span class="disc-desc">{{ d.description }}</span>
+            <span class="disc-badge">{{ d.count }} pages</span>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
