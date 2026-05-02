@@ -13,8 +13,8 @@ from flask import Flask, render_template, request, redirect, url_for, abort
 
 app = Flask(__name__)
 
-WIKI_DIR = "../wiki"  # Path.home() / 
-INDEX_DIR = "../wiki-index"  # Path.home() / 
+WIKI_DIR = Path("../wiki")  # Path.home() / 
+INDEX_DIR = Path("../wiki-index")  # Path.home() / 
 
 # ─── Discipline Manager ─────────────────────────────────────────
 
